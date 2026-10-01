@@ -1,0 +1,30 @@
+sequenceDiagram
+    actor User as 业务用户
+    participant Explorer as Object Explorer
+    participant View as Object View
+    participant Module as Workshop tab 或 panel
+    participant Ontology as Ontology / Action
+    User->>Explorer: 搜索、筛选、图表、关联 pivot
+    Explorer-->>User: 对象集合与当前选择
+    alt 点击 Title 打开完整详情
+        Explorer->>View: 在 Object Explorer 新 tab 打开对象
+    else 其他列或 checkbox 选择
+        Explorer->>View: 右侧 Selection Preview
+    end
+    alt Configured Object View
+        View->>Module: 提供当前对象上下文
+        Module->>Ontology: 按配置读取属性、链接与业务数据
+        Ontology-->>Module: 用户有权访问的数据
+        Module-->>User: 详情与可用交互
+        User->>Module: 提交配置的业务 Action
+        Module->>Ontology: 参数、权限与提交条件检查
+        Ontology-->>Module: 提交结果
+        Module-->>User: 结果反馈与所配置的刷新
+    else Standard Object View
+        View->>Ontology: 按标准视图规则读取对象及关联
+        View-->>User: 标准对象详情与可用入口
+    end
+    opt Configured tab 配置了专门工作流链接
+        Module-->>User: 带对象上下文的导航或应用链接
+    end
+    Note over Explorer,Ontology: 概念组合流程；页面具体配置与刷新范围需单独验证

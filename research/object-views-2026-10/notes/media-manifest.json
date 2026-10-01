@@ -1,0 +1,411 @@
+{
+  "retrieval_date": "2026-10-01",
+  "assets": [
+    {
+      "id": "M01",
+      "file": "assets/media-standard-full-panel.png",
+      "original_url": "https://www.palantir.com/docs/resources/foundry/object-views/standard-full-and-panel-object-view.png",
+      "source_page": "https://www.palantir.com/docs/foundry/object-views/overview",
+      "source_kind": "官方文档界面原图",
+      "title": "Standard full/panel 对照",
+      "downloaded_at_utc": "2026-10-01T09:10:35+00:00",
+      "command_exit_code": 0,
+      "bytes": 2436849,
+      "sha256": "686aeb53f95a342f5f19a387c3fcbb00f75850ad4c28ee1667fd3f0add351805",
+      "width": 5594,
+      "height": 1502,
+      "mime_type": "image/png",
+      "format": "PNG",
+      "frames": 1,
+      "alterations": "None; original downloaded bytes",
+      "visual_qa": {
+        "status": "passed",
+        "method": "human visual inspection of original image or decoded GIF sample contact sheet",
+        "observations": "标准full与panel两幅官方组合截图；同一带图像媒体的示例对象；官方红框标configured切换入口。"
+      },
+      "copyright_notice": "Palantir official documentation; source attribution retained; research excerpt, not an open-license grant"
+    },
+    {
+      "id": "M02",
+      "file": "assets/media-configured-full-patient.png",
+      "original_url": "https://www.palantir.com/docs/resources/foundry/object-views/overview-full-object-view.png",
+      "source_page": "https://www.palantir.com/docs/foundry/object-views/overview",
+      "source_kind": "官方文档界面原图",
+      "title": "Configured Patient full Object View",
+      "downloaded_at_utc": "2026-10-01T09:08:17+00:00",
+      "command_exit_code": 0,
+      "bytes": 666909,
+      "sha256": "a5ba02e6e3df08b945ff9a6d103fdb693d2b0a20abe07f675577e2bd38584f3d",
+      "width": 1876,
+      "height": 1396,
+      "mime_type": "image/png",
+      "format": "PNG",
+      "frames": 1,
+      "alterations": "None; original downloaded bytes",
+      "visual_qa": {
+        "status": "passed",
+        "method": "human visual inspection of original image or decoded GIF sample contact sheet",
+        "observations": "Patient完整详情含Overview/Visits/Diagnoses/Procedures/Prescriptions导航及属性、趋势、关联业务信息。"
+      },
+      "copyright_notice": "Palantir official documentation; source attribution retained; research excerpt, not an open-license grant"
+    },
+    {
+      "id": "M03",
+      "file": "assets/media-linked-objects.png",
+      "original_url": "https://www.palantir.com/docs/resources/foundry/object-views/linked-objects-component.png",
+      "source_page": "https://www.palantir.com/docs/foundry/object-views/standard-object-views/",
+      "source_kind": "官方文档界面原图",
+      "title": "Standard Linked objects 组件",
+      "downloaded_at_utc": "2026-10-01T09:08:09+00:00",
+      "command_exit_code": 0,
+      "bytes": 287859,
+      "sha256": "90914823bdecb892018fd337588fe3ebc4ec05e22bf8e1436e35953c39836921",
+      "width": 2672,
+      "height": 1272,
+      "mime_type": "image/png",
+      "format": "PNG",
+      "frames": 1,
+      "alterations": "None; original downloaded bytes",
+      "visual_qa": {
+        "status": "passed",
+        "method": "human visual inspection of original image or decoded GIF sample contact sheet",
+        "observations": "Linked objects列表含关系类别与数量、关联结果表、Open in入口及探索路径。"
+      },
+      "copyright_notice": "Palantir official documentation; source attribution retained; research excerpt, not an open-license grant"
+    },
+    {
+      "id": "M04",
+      "file": "assets/media-ontology-manager-edit.png",
+      "original_url": "https://www.palantir.com/docs/resources/foundry/object-views/ontology-manager-object-view-edit.png",
+      "source_page": "https://www.palantir.com/docs/foundry/object-views/config-overview",
+      "source_kind": "官方文档界面原图",
+      "title": "Ontology Manager 预览与 Edit 入口",
+      "downloaded_at_utc": "2026-10-01T09:08:10+00:00",
+      "command_exit_code": 0,
+      "bytes": 381388,
+      "sha256": "f2eaa066613e109f639bd4faa63f1b0948485f9566f657c567162f242b58a8ad",
+      "width": 2960,
+      "height": 1742,
+      "mime_type": "image/png",
+      "format": "PNG",
+      "frames": 1,
+      "alterations": "None; original downloaded bytes",
+      "visual_qa": {
+        "status": "passed",
+        "method": "human visual inspection of original image or decoded GIF sample contact sheet",
+        "observations": "Ontology Manager Airport类型Object views页；John F. Kennedy International为预览对象；Full/Panel与Edit full view入口。"
+      },
+      "copyright_notice": "Palantir official documentation; source attribution retained; research excerpt, not an open-license grant"
+    },
+    {
+      "id": "M05",
+      "file": "assets/media-editor-header.png",
+      "original_url": "https://www.palantir.com/docs/resources/foundry/object-views/object-view-header-diagram.png",
+      "source_page": "https://www.palantir.com/docs/foundry/object-views/config-object-views/",
+      "source_kind": "官方文档标注界面图",
+      "title": "Object View 编辑器 header 标注图",
+      "downloaded_at_utc": "2026-10-01T09:08:11+00:00",
+      "command_exit_code": 0,
+      "bytes": 97579,
+      "sha256": "8bbc8338e051f9530fe86f9e3f2ef5a23ce1e24768f54dc932dede84e9d06fa6",
+      "width": 2766,
+      "height": 650,
+      "mime_type": "image/png",
+      "format": "PNG",
+      "frames": 1,
+      "alterations": "None; original downloaded bytes",
+      "visual_qa": {
+        "status": "passed",
+        "method": "human visual inspection of original image or decoded GIF sample contact sheet",
+        "observations": "官方annotated编辑器header区分Object View版本与Workshop模块版本，并显示预览、form factor和发布入口。"
+      },
+      "copyright_notice": "Palantir official documentation; source attribution retained; research excerpt, not an open-license grant"
+    },
+    {
+      "id": "M06",
+      "file": "assets/media-manage-tabs.gif",
+      "original_url": "https://www.palantir.com/docs/resources/foundry/object-views/manage-tabs.gif",
+      "source_page": "https://www.palantir.com/docs/foundry/object-views/config-object-views/",
+      "source_kind": "官方文档界面动图",
+      "title": "Manage tabs 对话框",
+      "downloaded_at_utc": "2026-10-01T09:15:01+00:00",
+      "command_exit_code": 0,
+      "resume_attempts": [
+        {
+          "at_utc": "2026-10-01T09:14:55+00:00",
+          "exit_code": 28,
+          "bytes_received_so_far": 7139696,
+          "error": "curl: (28) Operation timed out after 55001 milliseconds with 2232156 out of 3794975 bytes received"
+        },
+        {
+          "at_utc": "2026-10-01T09:15:01+00:00",
+          "exit_code": 0,
+          "bytes_received_so_far": 8702515,
+          "error": null
+        }
+      ],
+      "bytes": 8702515,
+      "sha256": "886e697c207bd3af18edab4c9108f0d2838f1c949c61335cfcfbb3ab1c038f70",
+      "width": 1400,
+      "height": 717,
+      "mime_type": "image/gif",
+      "format": "GIF",
+      "frames": 479,
+      "alterations": "None; original downloaded bytes",
+      "animation_duration_ms": 26260,
+      "visual_qa": {
+        "status": "passed",
+        "method": "human visual inspection of original image or decoded GIF sample contact sheet",
+        "observations": "479帧官方GIF；抽查0/119/239/359/478可观察Manage tabs添加/重排、visibility配置及最终页签变化。",
+        "sampled_frame_indices": [
+          0,
+          119,
+          239,
+          359,
+          478
+        ]
+      },
+      "copyright_notice": "Palantir official documentation; source attribution retained; research excerpt, not an open-license grant"
+    },
+    {
+      "id": "M07",
+      "file": "assets/media-panel-instance-set.png",
+      "original_url": "https://www.palantir.com/docs/resources/foundry/object-views/panel-object-view-type-switching.png",
+      "source_page": "https://www.palantir.com/docs/foundry/object-views/config-panel-views",
+      "source_kind": "官方文档界面原图",
+      "title": "Panel 对象实例与对象集切换",
+      "downloaded_at_utc": "2026-10-01T09:14:31+00:00",
+      "command_exit_code": 0,
+      "resume_attempts": [
+        {
+          "at_utc": "2026-10-01T09:14:31+00:00",
+          "exit_code": 0,
+          "bytes_received_so_far": 3874163,
+          "error": null
+        }
+      ],
+      "bytes": 3874163,
+      "sha256": "b455a8a5f33d076dde2b87659a8147e75772d8457efe4bd3ec44fa6cdcfc17ae",
+      "width": 5963,
+      "height": 1678,
+      "mime_type": "image/png",
+      "format": "PNG",
+      "frames": 1,
+      "alterations": "None; original downloaded bytes",
+      "visual_qa": {
+        "status": "passed",
+        "method": "human visual inspection of original image or decoded GIF sample contact sheet",
+        "observations": "官方组合截图对照object instance和object set panel编辑上下文。"
+      },
+      "copyright_notice": "Palantir official documentation; source attribution retained; research excerpt, not an open-license grant"
+    },
+    {
+      "id": "M09",
+      "file": "assets/media-set-panel-hosts.png",
+      "original_url": "https://www.palantir.com/docs/resources/foundry/object-views/panel-object-set-view-in-gaia-maps-vertex.png?width=800",
+      "source_page": "https://www.palantir.com/docs/foundry/object-views/use-panel-views-in-platform",
+      "source_kind": "官方文档界面组合图",
+      "title": "Gaia/Maps/Vertex 对象集 panel 宿主",
+      "downloaded_at_utc": "2026-10-01T09:10:50+00:00",
+      "command_exit_code": 0,
+      "bytes": 2663545,
+      "sha256": "207a5faf2124303b5768f9b82624a1eabfe4bf891a7d2f0e2a763dcee5df25ff",
+      "width": 8070,
+      "height": 1434,
+      "mime_type": "image/png",
+      "format": "PNG",
+      "frames": 1,
+      "alterations": "None; original downloaded bytes",
+      "visual_qa": {
+        "status": "passed",
+        "method": "human visual inspection of original image or decoded GIF sample contact sheet",
+        "observations": "官方超宽组合图：Gaia、Maps、Vertex对象集选择与右侧panel。"
+      },
+      "copyright_notice": "Palantir official documentation; source attribution retained; research excerpt, not an open-license grant"
+    },
+    {
+      "id": "M10",
+      "file": "assets/media-panel-in-workshop.gif",
+      "original_url": "https://www.palantir.com/docs/resources/foundry/object-views/panel-object-view-in-workshop.gif",
+      "source_page": "https://www.palantir.com/docs/foundry/object-views/use-panel-views-in-platform",
+      "source_kind": "官方文档界面动图",
+      "title": "Workshop 内的 Panel Object View",
+      "downloaded_at_utc": "2026-10-01T09:14:57+00:00",
+      "command_exit_code": 0,
+      "resume_attempts": [
+        {
+          "at_utc": "2026-10-01T09:14:55+00:00",
+          "exit_code": 28,
+          "bytes_received_so_far": 6522254,
+          "error": "curl: (28) Operation timed out after 55001 milliseconds with 3385078 out of 3449919 bytes received"
+        },
+        {
+          "at_utc": "2026-10-01T09:14:57+00:00",
+          "exit_code": 0,
+          "bytes_received_so_far": 6587095,
+          "error": null
+        }
+      ],
+      "bytes": 6587095,
+      "sha256": "5eb7542055570d4ea3c22d09c0a975cf3ee02dc80702e1376f030f5695bc8131",
+      "width": 1400,
+      "height": 823,
+      "mime_type": "image/gif",
+      "format": "GIF",
+      "frames": 62,
+      "alterations": "None; original downloaded bytes",
+      "animation_duration_ms": 6760,
+      "visual_qa": {
+        "status": "passed",
+        "method": "human visual inspection of original image or decoded GIF sample contact sheet",
+        "observations": "62帧官方GIF；抽查0/15/31/46/61；Contract Dashboard右侧Object Preview panel；blur与Panel Object View widget标注为官方原图效果。",
+        "sampled_frame_indices": [
+          0,
+          15,
+          31,
+          46,
+          61
+        ]
+      },
+      "copyright_notice": "Palantir official documentation; source attribution retained; research excerpt, not an open-license grant"
+    },
+    {
+      "id": "M11",
+      "file": "assets/media-explorer-home.png",
+      "original_url": "https://www.palantir.com/docs/resources/foundry/object-explorer/home_general.png",
+      "source_page": "https://www.palantir.com/docs/foundry/object-explorer/getting-started",
+      "source_kind": "官方文档标注界面图",
+      "title": "Object Explorer 首页",
+      "downloaded_at_utc": "2026-10-01T09:08:59+00:00",
+      "command_exit_code": 0,
+      "bytes": 124949,
+      "sha256": "c94896d7f73dc03bb282513b8bd9a72548fc5a0c3ab92b7ab5d47716bfee4891",
+      "width": 1689,
+      "height": 1067,
+      "mime_type": "image/png",
+      "format": "PNG",
+      "frames": 1,
+      "alterations": "None; original downloaded bytes",
+      "visual_qa": {
+        "status": "passed",
+        "method": "human visual inspection of original image or decoded GIF sample contact sheet",
+        "observations": "官方A-G标注的Explorer首页，搜索、类型组、已存探索、对象类型卡片。"
+      },
+      "copyright_notice": "Palantir official documentation; source attribution retained; research excerpt, not an open-license grant"
+    },
+    {
+      "id": "M12",
+      "file": "assets/media-explorer-results-preview.png",
+      "original_url": "https://www.palantir.com/docs/resources/foundry/object-explorer/results_results_preview.png",
+      "source_page": "https://www.palantir.com/docs/foundry/object-explorer/view-results",
+      "source_kind": "官方文档界面原图",
+      "title": "Explorer 结果表与对象预览",
+      "downloaded_at_utc": "2026-10-01T09:09:04+00:00",
+      "command_exit_code": 0,
+      "bytes": 450945,
+      "sha256": "4d3fe1e776aa6406ba0da53360a02a2fa2bafe50db9b02054788236350d884e7",
+      "width": 3736,
+      "height": 2038,
+      "mime_type": "image/png",
+      "format": "PNG",
+      "frames": 1,
+      "alterations": "None; original downloaded bytes",
+      "visual_qa": {
+        "status": "passed",
+        "method": "human visual inspection of original image or decoded GIF sample contact sheet",
+        "observations": "Explorer结果表选择一条Flight，右侧Selection Preview含Overview/Properties/Delay Information及Actions入口。"
+      },
+      "copyright_notice": "Palantir official documentation; source attribution retained; research excerpt, not an open-license grant"
+    }
+  ],
+  "derived_assets": [
+    {
+      "id": "M06-S",
+      "file": "assets/media-manage-tabs-frame359.png",
+      "source_asset": "assets/media-manage-tabs.gif",
+      "source_kind": "官方文档GIF真实帧派生静图",
+      "original_url": "https://www.palantir.com/docs/resources/foundry/object-views/manage-tabs.gif",
+      "source_page": "https://www.palantir.com/docs/foundry/object-views/config-object-views/",
+      "downloaded_at_utc": "2026-10-01T09:15:01+00:00",
+      "derived_at_utc": "2026-10-01T09:19:00+00:00",
+      "gif_frame_index": 359,
+      "gif_timestamp_ms": 20530,
+      "width": 1400,
+      "height": 717,
+      "bytes": 333273,
+      "sha256": "3a10f48b1391bad48e64683dc08ea2702967c18085a09f6f724726266ef38522",
+      "mime_type": "image/png",
+      "format": "PNG",
+      "frames": 1,
+      "alterations": "Decoded one exact official GIF frame to PNG; no crop, UI modification, added label, or compositing",
+      "visual_qa": {
+        "status": "passed",
+        "method": "same decoded frame inspected in visual contact sheet",
+        "observations": "479帧官方GIF；抽查0/119/239/359/478可观察Manage tabs添加/重排、visibility配置及最终页签变化。"
+      },
+      "copyright_notice": "Palantir official documentation; source attribution retained; research excerpt, not an open-license grant"
+    },
+    {
+      "id": "M10-S",
+      "file": "assets/media-panel-in-workshop-frame31.png",
+      "source_asset": "assets/media-panel-in-workshop.gif",
+      "source_kind": "官方文档GIF真实帧派生静图",
+      "original_url": "https://www.palantir.com/docs/resources/foundry/object-views/panel-object-view-in-workshop.gif",
+      "source_page": "https://www.palantir.com/docs/foundry/object-views/use-panel-views-in-platform",
+      "downloaded_at_utc": "2026-10-01T09:14:57+00:00",
+      "derived_at_utc": "2026-10-01T09:19:01+00:00",
+      "gif_frame_index": 31,
+      "gif_timestamp_ms": 1660,
+      "width": 1400,
+      "height": 823,
+      "bytes": 327553,
+      "sha256": "fe5c6a7a7effab0702bfb5df2bdfa4ab4408899b39c50c877b209aeec7d7aad6",
+      "mime_type": "image/png",
+      "format": "PNG",
+      "frames": 1,
+      "alterations": "Decoded one exact official GIF frame to PNG; no crop, UI modification, added label, or compositing",
+      "visual_qa": {
+        "status": "passed",
+        "method": "same decoded frame inspected in visual contact sheet",
+        "observations": "62帧官方GIF；抽查0/15/31/46/61；Contract Dashboard右侧Object Preview panel；blur与Panel Object View widget标注为官方原图效果。"
+      },
+      "copyright_notice": "Palantir official documentation; source attribution retained; research excerpt, not an open-license grant"
+    }
+  ],
+  "summary": {
+    "complete_official_original_assets": 11,
+    "animated_official_original_assets": 2,
+    "derived_official_gif_frames": 2,
+    "bytes_originals": 26273796,
+    "all_complete_decode_and_hash_verified": true,
+    "no_video_content_frames": true
+  },
+  "access_attempts": [
+    {
+      "source_page": "https://www.palantir.com/docs/foundry/object-views/config-full-views",
+      "method": "public documentation retrieval",
+      "result": "404 page body; canonical source navigation points to config-object-views/"
+    },
+    {
+      "original_url": "https://www.palantir.com/docs/resources/foundry/object-views/panel-object-view-configuration.gif",
+      "source_page": "https://www.palantir.com/docs/foundry/object-views/config-panel-views",
+      "method": "normal public curl download",
+      "result": "download interrupted at 1296578 of 29434303 bytes after 45 s; partial file removed from asset directory; not archived; no visual claim"
+    },
+    {
+      "source_page": "https://www.youtube.com/watch?v=YuT96FVeDuc",
+      "method": "normal browser public watch page and standard transcript export",
+      "result": "title/channel/upload-date/description/chapters available; playback error and final readyState=0/videoWidth=0; transcript unavailable; no content frame or recording"
+    },
+    {
+      "source_page": "https://www.youtube.com/watch?v=YuT96FVeDuc",
+      "method": "yt-dlp --skip-download --no-playlist --dump-single-json; installed version 2026.03.03",
+      "result": "network No route to host; no source video/metadata downloaded; no bypass"
+    },
+    {
+      "source_page": "https://www.youtube.com/watch?v=Cgn52Qqgxeg",
+      "method": "public web retrieval",
+      "result": "Online fetch throttled; only candidate title/community timestamp kept; no viewing or channel/date confirmation"
+    }
+  ]
+}

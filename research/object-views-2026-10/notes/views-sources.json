@@ -1,0 +1,196 @@
+{
+  "retrieved_at": "2026-10-01",
+  "scope": "公开 Palantir 官方文档与公告；未登录租户、未执行配置或发布操作",
+  "sources": [
+    {
+      "id": "G01",
+      "url": "https://www.palantir.com/docs/foundry/object-views/overview/",
+      "title": "Object Views",
+      "date_or_version": "检索日当前在线文档；页面无产品构建号",
+      "published_at": null,
+      "sections": ["Standard and configured Object Views", "Object View form factors"],
+      "claims": ["Standard/Configured 两类及默认选择", "二者均有 Full/Panel 形态"],
+      "access": {"status": "public-readable", "method": "公开网页正文", "limits": "未观察租户运行"}
+    },
+    {
+      "id": "G02",
+      "url": "https://www.palantir.com/docs/foundry/object-views/standard-object-views/",
+      "title": "Standard Object Views",
+      "date_or_version": "检索日当前在线文档",
+      "published_at": null,
+      "sections": ["Prominent property displays", "Linked objects component", "Panel standard Object View display behavior"],
+      "claims": ["visibility/base type 驱动默认展示", "media/time series/geospatial 增强展示", "关联分组、原位预览与新 tab/侧栏入口"],
+      "access": {"status": "public-readable", "method": "公开网页正文", "limits": "媒体种类以文档支持范围为准"}
+    },
+    {
+      "id": "G03",
+      "url": "https://www.palantir.com/docs/foundry/object-views/config-overview/",
+      "title": "Configured Object View overview",
+      "date_or_version": "检索日当前在线文档；包含 default configured 与 toggle 的文档张力",
+      "published_at": null,
+      "sections": ["Default configurations", "Permissions", "Edit configured Object Views"],
+      "claims": ["初始 configured 动态同步与编辑后接管", "依对象类型权限模型授权", "managed module 同权与 standalone 例外", "Ontology Manager 等编辑入口", "Workshop 尚无 toggle 的陈述与 G18 差异"],
+      "access": {"status": "public-readable", "method": "公开网页正文", "limits": "默认物化/迁移实现未说明；与 G18 并列"}
+    },
+    {
+      "id": "G04",
+      "url": "https://www.palantir.com/docs/foundry/object-views/manage-versions/",
+      "title": "Object View versioning",
+      "date_or_version": "检索日当前在线文档",
+      "published_at": null,
+      "sections": ["Save new versions", "Access prior versions"],
+      "claims": ["OV 与模块独立版本", "自动发布默认开启", "保存/发布协调 tabs 与当前 module", "模块周期性 autosave 与发布前浏览不可见", "历史作者/日期/描述及发布标识"],
+      "access": {"status": "public-readable", "method": "公开网页正文", "limits": "未公开 autosave 周期、并发或原子发布协议"}
+    },
+    {
+      "id": "G05",
+      "url": "https://www.palantir.com/docs/foundry/object-views/config-object-views/",
+      "title": "Configured full Object View",
+      "date_or_version": "检索日当前在线文档",
+      "published_at": null,
+      "sections": ["Edit configured full Object Views", "Edit Object View tabs", "Use the Object View editor"],
+      "claims": ["每 tab 对应 Workshop module", "结构与内容分开", "删除 tab 同时删除其 module", "单 tab 浏览态隐藏标题", "当前编辑器仍链接 legacy configuration"],
+      "access": {"status": "public-readable", "method": "公开网页正文", "limits": "编辑器 UI 未在租户亲测"}
+    },
+    {
+      "id": "G06",
+      "url": "https://www.palantir.com/docs/foundry/object-views/config-panel-views/",
+      "title": "Configured panel Object View",
+      "date_or_version": "检索日当前在线文档",
+      "published_at": null,
+      "sections": ["Object instance panels", "Object set panels", "Edit configured panel Object Views"],
+      "claims": ["instance/set panels 分开", "默认 set Charts/List 内容与数量", "分辨率预设只是构建预览近似"],
+      "access": {"status": "public-readable", "method": "公开网页正文", "limits": "运行尺寸由宿主与设备决定"}
+    },
+    {
+      "id": "G07",
+      "url": "https://www.palantir.com/docs/foundry/object-views/config-legacy-object-views/",
+      "title": "Configure legacy Object Views",
+      "date_or_version": "检索日仍可访问；官方导航归入 Legacy Object Views",
+      "published_at": null,
+      "sections": ["Configure tabs", "Configure widgets", "Widget-specific settings", "Widget format settings", "Reuse widget configurations"],
+      "claims": ["legacy editor 入口", "widget-based section 与对象/关联/聚合数据配置", "布局及 YAML 配置复用"],
+      "access": {"status": "public-readable", "method": "公开网页正文", "limits": "不是所有当前 Workshop tab 的配置模式"}
+    },
+    {
+      "id": "G08",
+      "url": "https://www.palantir.com/docs/foundry/object-views/config-tabs/",
+      "title": "Configure tabs",
+      "date_or_version": "检索日仍可访问；官方导航位于 Legacy，但兼容说明涵盖 Workshop tabs",
+      "published_at": null,
+      "sections": ["Manage Tabs", "Configure tab settings"],
+      "claims": ["managed 不可复用、existing module 可跨 OV", "不可再新增 legacy builder tab", "属性/link visibility 条件", "legacy columns 与 cross-section filter-set ID"],
+      "access": {"status": "public-readable", "method": "公开网页正文", "limits": "旧 UI 与当前 editor 不宜逐控件等同"}
+    },
+    {
+      "id": "G09",
+      "url": "https://www.palantir.com/docs/foundry/object-views/config-profiles/",
+      "title": "Configure profiles",
+      "date_or_version": "检索日仍可访问；官方导航归入 Legacy Object Views",
+      "published_at": null,
+      "sections": ["Configure a profile", "Assign a profile to an Object View", "Set a default profile for a user"],
+      "claims": ["group Hubble attributes 定义 profile", "tab-level 分配与 discoverability", "单一 profile membership 的默认规则", "每 OV 最多十 profiles"],
+      "access": {"status": "public-readable", "method": "公开网页正文", "limits": "未证明 profiles 可替代数据授权"}
+    },
+    {
+      "id": "G10",
+      "url": "https://www.palantir.com/docs/foundry/object-views/config-app-sidebar/",
+      "title": "Configure the applications sidebar",
+      "date_or_version": "检索日仍可访问；官方导航归入 Legacy Object Views",
+      "published_at": null,
+      "sections": ["Set up the applications sidebar", "Add/change an application in the sidebar"],
+      "claims": ["非空且发布后可见", "对象上下文参数到 module interface", "链接卡新 tab", "看见卡不等于有嵌入应用权限"],
+      "access": {"status": "public-readable", "method": "公开网页正文", "limits": "不宣称所有当前 OV 统一采用 legacy sidebar"}
+    },
+    {
+      "id": "G11",
+      "url": "https://www.palantir.com/docs/foundry/object-views/branching-object-views/",
+      "title": "Branching object views",
+      "date_or_version": "检索日当前在线文档；inherited resource protection 仍标 under development",
+      "published_at": null,
+      "sections": ["Adding, removing, and modifying resources", "Cross-application compatibility", "Merge requirements", "Rebasing and conflict resolution", "Known limitations"],
+      "claims": ["module 内容与 tabs 结构分资源", "rebase 与 publish checks", "legacy tab 禁 branch", "datasource merge 全部 Editor 比 main 任意 Editor 严格", "approval policy 继承不等于阻断 main 编辑"],
+      "access": {"status": "public-readable", "method": "公开网页正文及公开 HTML 核对", "limits": "未来 protection 未当成当前已交付能力"}
+    },
+    {
+      "id": "G12",
+      "url": "https://www.palantir.com/docs/foundry/object-views/marketplace-object-views/",
+      "title": "Add Object Views to a Marketplace product",
+      "date_or_version": "检索日当前在线文档",
+      "published_at": null,
+      "sections": ["Supported features", "Add Object Views to products"],
+      "claims": ["DevOps/Marketplace 按 tabs 打包", "只支持 Workshop builder；legacy 需重建"],
+      "access": {"status": "public-readable", "method": "公开网页正文", "limits": "未说明所有 panels/依赖/消费者定制冲突处理"}
+    },
+    {
+      "id": "G14",
+      "url": "https://www.palantir.com/docs/foundry/announcements/2026-02/",
+      "title": "Core Object Views are now generally available",
+      "date_or_version": "2026-02-19 官方 GA 公告；原词 Core / custom",
+      "published_at": "2026-02-19",
+      "sections": ["Core Object Views are now generally available"],
+      "claims": ["Core 自动默认详情 GA across enrollments", "prominent 专用展示及关联组件", "Core/custom 并存与 Full/Panel"],
+      "access": {"status": "public-readable", "method": "公开网页正文", "limits": "不是 Object Views 产品首次发布日；无正式改名日期"}
+    },
+    {
+      "id": "G15",
+      "url": "https://www.palantir.com/docs/foundry/object-link-types/property-metadata/",
+      "title": "Metadata reference — Properties",
+      "date_or_version": "检索日当前在线文档",
+      "published_at": null,
+      "sections": ["Metadata reference"],
+      "claims": ["title key/base type/formatting/render hints/visibility 是不同元数据", "visibility 默认 normal"],
+      "access": {"status": "public-readable", "method": "公开网页正文", "limits": "展示隐藏不等于安全隔离证明"}
+    },
+    {
+      "id": "G16",
+      "url": "https://www.palantir.com/docs/foundry/object-link-types/metadata-render-hints/",
+      "title": "Render hints",
+      "date_or_version": "检索日可访问；性能说明明确以 OSv1 / Phonograph 为对象",
+      "published_at": null,
+      "sections": ["Render hints", "Name / Description / Adds raw index? / Requires reindex?"],
+      "claims": ["应用展示提示 examples", "额外索引与 reindex 的 OSv1 限定"],
+      "access": {"status": "public-readable", "method": "公开网页正文", "limits": "不外推到 OSv2 索引实现"}
+    },
+    {
+      "id": "G17",
+      "url": "https://www.palantir.com/docs/foundry/workshop/widgets-media-preview/",
+      "title": "Media Preview",
+      "date_or_version": "检索日当前在线文档",
+      "published_at": null,
+      "sections": ["Configuration Options", "Limitations", "Specialized media preview widgets"],
+      "claims": ["URL/attachment/media reference 三类输入", "外部 URL 的 CSP", "单对象属性来源", "PDF 内嵌附件不支持与专用 widgets"],
+      "access": {"status": "public-readable", "method": "公开网页正文", "limits": "配置组合未在租户执行"}
+    },
+    {
+      "id": "G18",
+      "url": "https://www.palantir.com/docs/foundry/workshop/widgets-object-view/",
+      "title": "Object View — Workshop core display widget",
+      "date_or_version": "检索日当前在线文档；专门 widget 页",
+      "published_at": null,
+      "sections": ["Core configuration options", "Object View Mode"],
+      "claims": ["Standard/Configured mode 与 optional toggle", "与 G03 所述 Workshop 尚无 toggle 不一致"],
+      "access": {"status": "public-readable", "method": "公开网页正文", "limits": "实际租户 rollout/交互仍待核验"}
+    },
+    {
+      "id": "G19",
+      "url": "https://www.palantir.com/docs/foundry/announcements/2024-04/",
+      "title": "New object view tabs are now built solely in Workshop",
+      "date_or_version": "2024-04-02 官方公告；历史默认 Workshop-backed 详情",
+      "published_at": "2024-04-02",
+      "sections": ["New object view tabs are now built solely in Workshop"],
+      "claims": ["停止新增 legacy tabs，已有仍支持", "新类型默认单 tab properties/links 由 Workshop backing", "可嵌入已有 Workshop module"],
+      "access": {"status": "public-readable", "method": "公开官方 HTML 正文", "limits": "不是 2026 Standard rollout 后资源迁移证据"}
+    },
+    {
+      "id": "G20",
+      "url": "https://www.palantir.com/docs/foundry/announcements/2026-01/",
+      "title": "Develop and test object views safely with Foundry Branching",
+      "date_or_version": "2026-01-29 官方公告；审批尚未集成的历史状态",
+      "published_at": "2026-01-29",
+      "sections": ["Develop and test object views safely with Foundry Branching"],
+      "claims": ["OV 支持分支结构/内容/预览/rebase", "当时 branch 变更自动批准", "审批及主线保护当时属 roadmap，当前状态见 G11"],
+      "access": {"status": "public-readable", "method": "公开官方 HTML 正文", "limits": "历史限制不当成检索日当前状态"}
+    }
+  ]
+}

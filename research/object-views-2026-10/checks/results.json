@@ -1,0 +1,584 @@
+{
+  "schema_version": 1,
+  "checked_at_utc": "2026-10-01T09:49:23+00:00",
+  "topic": "research/object-views-2026-10",
+  "baseline_commit": "70feed00b61f7572190b94741bfba9958a573486",
+  "scope": "Local deliverable integrity only; no network, tenant, or product-runtime tests",
+  "checks": [
+    {
+      "group": "markdown",
+      "check": "fenced blocks close",
+      "status": "passed",
+      "markdown_files": 12,
+      "failures": []
+    },
+    {
+      "group": "markdown",
+      "check": "local links and Markdown fragments resolve",
+      "status": "passed",
+      "local_links": 127,
+      "failures": []
+    },
+    {
+      "group": "sources",
+      "check": "JSON parses",
+      "status": "passed",
+      "file": "research/object-views-2026-10/checks/sources.json"
+    },
+    {
+      "group": "sources",
+      "check": "source records have public URLs and unique IDs",
+      "status": "passed",
+      "sources": 106,
+      "duplicate_ids": [],
+      "failures": []
+    },
+    {
+      "group": "sources",
+      "check": "original media URLs are manifest-listed and source pages registered",
+      "status": "passed",
+      "manifest": "research/object-views-2026-10/notes/media-manifest.json",
+      "original_assets": 11,
+      "original_urls": 11,
+      "unregistered_source_pages": [],
+      "failures": []
+    },
+    {
+      "group": "sources",
+      "check": "body and appendix external links have source coverage",
+      "status": "passed",
+      "markdown_files": [
+        "research/object-views-2026-10/README.md",
+        "research/object-views-2026-10/notes/explorer-flow.md",
+        "research/object-views-2026-10/notes/views-governance.md",
+        "research/object-views-2026-10/notes/workshop-boundaries.md",
+        "research/object-views-2026-10/notes/secondary-reading.md",
+        "research/object-views-2026-10/notes/media-evidence.md"
+      ],
+      "external_references": 271,
+      "unique_external_pages": 81,
+      "original_media_urls_referenced": 0,
+      "failures": []
+    },
+    {
+      "group": "media",
+      "check": "JSON parses",
+      "status": "passed",
+      "file": "research/object-views-2026-10/notes/media-manifest.json"
+    },
+    {
+      "group": "media",
+      "check": "asset matches bytes/hash/dimensions",
+      "status": "passed",
+      "file": "research/object-views-2026-10/assets/media-standard-full-panel.png",
+      "actual": {
+        "bytes": 2436849,
+        "sha256": "686aeb53f95a342f5f19a387c3fcbb00f75850ad4c28ee1667fd3f0add351805",
+        "width": 5594,
+        "height": 1502,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "group": "media",
+      "check": "asset matches bytes/hash/dimensions",
+      "status": "passed",
+      "file": "research/object-views-2026-10/assets/media-configured-full-patient.png",
+      "actual": {
+        "bytes": 666909,
+        "sha256": "a5ba02e6e3df08b945ff9a6d103fdb693d2b0a20abe07f675577e2bd38584f3d",
+        "width": 1876,
+        "height": 1396,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "group": "media",
+      "check": "asset matches bytes/hash/dimensions",
+      "status": "passed",
+      "file": "research/object-views-2026-10/assets/media-linked-objects.png",
+      "actual": {
+        "bytes": 287859,
+        "sha256": "90914823bdecb892018fd337588fe3ebc4ec05e22bf8e1436e35953c39836921",
+        "width": 2672,
+        "height": 1272,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "group": "media",
+      "check": "asset matches bytes/hash/dimensions",
+      "status": "passed",
+      "file": "research/object-views-2026-10/assets/media-ontology-manager-edit.png",
+      "actual": {
+        "bytes": 381388,
+        "sha256": "f2eaa066613e109f639bd4faa63f1b0948485f9566f657c567162f242b58a8ad",
+        "width": 2960,
+        "height": 1742,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "group": "media",
+      "check": "asset matches bytes/hash/dimensions",
+      "status": "passed",
+      "file": "research/object-views-2026-10/assets/media-editor-header.png",
+      "actual": {
+        "bytes": 97579,
+        "sha256": "8bbc8338e051f9530fe86f9e3f2ef5a23ce1e24768f54dc932dede84e9d06fa6",
+        "width": 2766,
+        "height": 650,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "group": "media",
+      "check": "asset matches bytes/hash/dimensions",
+      "status": "passed",
+      "file": "research/object-views-2026-10/assets/media-manage-tabs.gif",
+      "actual": {
+        "bytes": 8702515,
+        "sha256": "886e697c207bd3af18edab4c9108f0d2838f1c949c61335cfcfbb3ab1c038f70",
+        "width": 1400,
+        "height": 717,
+        "format": "GIF",
+        "frames": 479,
+        "animation_duration_ms": 26260
+      }
+    },
+    {
+      "group": "media",
+      "check": "asset matches bytes/hash/dimensions",
+      "status": "passed",
+      "file": "research/object-views-2026-10/assets/media-panel-instance-set.png",
+      "actual": {
+        "bytes": 3874163,
+        "sha256": "b455a8a5f33d076dde2b87659a8147e75772d8457efe4bd3ec44fa6cdcfc17ae",
+        "width": 5963,
+        "height": 1678,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "group": "media",
+      "check": "asset matches bytes/hash/dimensions",
+      "status": "passed",
+      "file": "research/object-views-2026-10/assets/media-set-panel-hosts.png",
+      "actual": {
+        "bytes": 2663545,
+        "sha256": "207a5faf2124303b5768f9b82624a1eabfe4bf891a7d2f0e2a763dcee5df25ff",
+        "width": 8070,
+        "height": 1434,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "group": "media",
+      "check": "asset matches bytes/hash/dimensions",
+      "status": "passed",
+      "file": "research/object-views-2026-10/assets/media-panel-in-workshop.gif",
+      "actual": {
+        "bytes": 6587095,
+        "sha256": "5eb7542055570d4ea3c22d09c0a975cf3ee02dc80702e1376f030f5695bc8131",
+        "width": 1400,
+        "height": 823,
+        "format": "GIF",
+        "frames": 62,
+        "animation_duration_ms": 6760
+      }
+    },
+    {
+      "group": "media",
+      "check": "asset matches bytes/hash/dimensions",
+      "status": "passed",
+      "file": "research/object-views-2026-10/assets/media-explorer-home.png",
+      "actual": {
+        "bytes": 124949,
+        "sha256": "c94896d7f73dc03bb282513b8bd9a72548fc5a0c3ab92b7ab5d47716bfee4891",
+        "width": 1689,
+        "height": 1067,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "group": "media",
+      "check": "asset matches bytes/hash/dimensions",
+      "status": "passed",
+      "file": "research/object-views-2026-10/assets/media-explorer-results-preview.png",
+      "actual": {
+        "bytes": 450945,
+        "sha256": "4d3fe1e776aa6406ba0da53360a02a2fa2bafe50db9b02054788236350d884e7",
+        "width": 3736,
+        "height": 2038,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "group": "media",
+      "check": "asset matches bytes/hash/dimensions",
+      "status": "passed",
+      "file": "research/object-views-2026-10/assets/media-manage-tabs-frame359.png",
+      "actual": {
+        "bytes": 333273,
+        "sha256": "3a10f48b1391bad48e64683dc08ea2702967c18085a09f6f724726266ef38522",
+        "width": 1400,
+        "height": 717,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "group": "media",
+      "check": "asset matches bytes/hash/dimensions",
+      "status": "passed",
+      "file": "research/object-views-2026-10/assets/media-panel-in-workshop-frame31.png",
+      "actual": {
+        "bytes": 327553,
+        "sha256": "fe5c6a7a7effab0702bfb5df2bdfa4ab4408899b39c50c877b209aeec7d7aad6",
+        "width": 1400,
+        "height": 823,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "group": "media",
+      "check": "manifest records validate",
+      "status": "passed",
+      "records": 13,
+      "failures": []
+    },
+    {
+      "group": "media",
+      "check": "all stored media images are declared",
+      "status": "passed",
+      "undeclared": []
+    },
+    {
+      "group": "diagrams",
+      "check": "diagram source/render exists",
+      "status": "passed",
+      "file": "research/object-views-2026-10/diagrams/01-object-entry.mmd"
+    },
+    {
+      "group": "diagrams",
+      "check": "diagram source/render exists",
+      "status": "passed",
+      "file": "research/object-views-2026-10/diagrams/01-object-entry.png"
+    },
+    {
+      "group": "diagrams",
+      "check": "PNG decodes with positive dimensions",
+      "status": "passed",
+      "file": "research/object-views-2026-10/diagrams/01-object-entry.png",
+      "actual": {
+        "width": 1384,
+        "height": 821,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "group": "diagrams",
+      "check": "diagram source/render exists",
+      "status": "passed",
+      "file": "research/object-views-2026-10/diagrams/01-object-entry.svg"
+    },
+    {
+      "group": "diagrams",
+      "check": "SVG has no script/foreignObject/external resource",
+      "status": "passed",
+      "file": "research/object-views-2026-10/diagrams/01-object-entry.svg",
+      "failures": []
+    },
+    {
+      "group": "diagrams",
+      "check": "diagram source/render exists",
+      "status": "passed",
+      "file": "research/object-views-2026-10/diagrams/02-explore-detail-act.mmd"
+    },
+    {
+      "group": "diagrams",
+      "check": "diagram source/render exists",
+      "status": "passed",
+      "file": "research/object-views-2026-10/diagrams/02-explore-detail-act.png"
+    },
+    {
+      "group": "diagrams",
+      "check": "PNG decodes with positive dimensions",
+      "status": "passed",
+      "file": "research/object-views-2026-10/diagrams/02-explore-detail-act.png",
+      "actual": {
+        "width": 1092,
+        "height": 1364,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "group": "diagrams",
+      "check": "diagram source/render exists",
+      "status": "passed",
+      "file": "research/object-views-2026-10/diagrams/02-explore-detail-act.svg"
+    },
+    {
+      "group": "diagrams",
+      "check": "SVG has no script/foreignObject/external resource",
+      "status": "passed",
+      "file": "research/object-views-2026-10/diagrams/02-explore-detail-act.svg",
+      "failures": []
+    },
+    {
+      "group": "diagrams",
+      "check": "diagram source/render exists",
+      "status": "passed",
+      "file": "research/object-views-2026-10/diagrams/03-save-publish.mmd"
+    },
+    {
+      "group": "diagrams",
+      "check": "diagram source/render exists",
+      "status": "passed",
+      "file": "research/object-views-2026-10/diagrams/03-save-publish.png"
+    },
+    {
+      "group": "diagrams",
+      "check": "PNG decodes with positive dimensions",
+      "status": "passed",
+      "file": "research/object-views-2026-10/diagrams/03-save-publish.png",
+      "actual": {
+        "width": 755,
+        "height": 965,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "group": "diagrams",
+      "check": "diagram source/render exists",
+      "status": "passed",
+      "file": "research/object-views-2026-10/diagrams/03-save-publish.svg"
+    },
+    {
+      "group": "diagrams",
+      "check": "SVG has no script/foreignObject/external resource",
+      "status": "passed",
+      "file": "research/object-views-2026-10/diagrams/03-save-publish.svg",
+      "failures": []
+    },
+    {
+      "group": "diagrams",
+      "check": "JSON parses",
+      "status": "passed",
+      "file": "research/object-views-2026-10/diagrams/manifest.json"
+    },
+    {
+      "group": "diagrams",
+      "check": "asset matches bytes/hash/dimensions",
+      "status": "passed",
+      "file": "research/object-views-2026-10/diagrams/01-object-entry.mmd",
+      "actual": {
+        "bytes": 1374,
+        "sha256": "8b0ff7521cb54879c36f5930be0b18078a794a4fb95d0c55e25247e9beda4204"
+      }
+    },
+    {
+      "group": "diagrams",
+      "check": "asset matches bytes/hash/dimensions",
+      "status": "passed",
+      "file": "research/object-views-2026-10/diagrams/01-object-entry.png",
+      "actual": {
+        "bytes": 117618,
+        "sha256": "1e8973c6abeb17dd2d4ce7aa0c930cc63d4898b14aabdae3f626654538e060e6",
+        "width": 1384,
+        "height": 821,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "group": "diagrams",
+      "check": "asset matches bytes/hash/dimensions",
+      "status": "passed",
+      "file": "research/object-views-2026-10/diagrams/01-object-entry.svg",
+      "actual": {
+        "bytes": 36432,
+        "sha256": "9d1dccb9fdf85c543cac3ab2cf8ec47f55e8081abeea9ec4b3e03a66ab2c0ab3"
+      }
+    },
+    {
+      "group": "diagrams",
+      "check": "asset matches bytes/hash/dimensions",
+      "status": "passed",
+      "file": "research/object-views-2026-10/diagrams/02-explore-detail-act.mmd",
+      "actual": {
+        "bytes": 1401,
+        "sha256": "fc2d0a25c45013d1b2f47c41970bfbfb9c4030d5d078d12519f103159fa038a7"
+      }
+    },
+    {
+      "group": "diagrams",
+      "check": "asset matches bytes/hash/dimensions",
+      "status": "passed",
+      "file": "research/object-views-2026-10/diagrams/02-explore-detail-act.png",
+      "actual": {
+        "bytes": 140608,
+        "sha256": "a2b3f741c1cc92c4a4c4bb564fb26d980d6b8cb89e0e7c4ee56cdcef751444f5",
+        "width": 1092,
+        "height": 1364,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "group": "diagrams",
+      "check": "asset matches bytes/hash/dimensions",
+      "status": "passed",
+      "file": "research/object-views-2026-10/diagrams/02-explore-detail-act.svg",
+      "actual": {
+        "bytes": 37717,
+        "sha256": "50f50ee8029f1d07cab37d981a192063fe965bb3dff256d4100eeb30dc648e0f"
+      }
+    },
+    {
+      "group": "diagrams",
+      "check": "asset matches bytes/hash/dimensions",
+      "status": "passed",
+      "file": "research/object-views-2026-10/diagrams/03-save-publish.mmd",
+      "actual": {
+        "bytes": 1122,
+        "sha256": "61a862542ca40b9533613ab3aa10022cc1387c4f2d09bec3679a41dd0abeb49e"
+      }
+    },
+    {
+      "group": "diagrams",
+      "check": "asset matches bytes/hash/dimensions",
+      "status": "passed",
+      "file": "research/object-views-2026-10/diagrams/03-save-publish.png",
+      "actual": {
+        "bytes": 91942,
+        "sha256": "5321a65a34f0f2b94ed434b5d774528e58f91bde0659402e8e135c01228f509e",
+        "width": 755,
+        "height": 965,
+        "format": "PNG",
+        "frames": 1
+      }
+    },
+    {
+      "group": "diagrams",
+      "check": "asset matches bytes/hash/dimensions",
+      "status": "passed",
+      "file": "research/object-views-2026-10/diagrams/03-save-publish.svg",
+      "actual": {
+        "bytes": 33824,
+        "sha256": "2df3309e7057fb3b51044e474b37c9d79dfb0c33bbcd0516818cf02ce86cf173"
+      }
+    },
+    {
+      "group": "diagrams",
+      "check": "manifest records validate",
+      "status": "passed",
+      "records": 9,
+      "failures": []
+    },
+    {
+      "group": "diagrams",
+      "check": "all diagram sources/renders are declared",
+      "status": "passed",
+      "undeclared": []
+    },
+    {
+      "group": "privacy",
+      "check": "no personal absolute paths in text deliverables",
+      "status": "passed",
+      "text_files": 27,
+      "failures": []
+    },
+    {
+      "group": "privacy",
+      "check": "no sensitive credential patterns in text deliverables",
+      "status": "passed",
+      "failures": []
+    },
+    {
+      "group": "indexes",
+      "check": "main-baseline indexes available",
+      "status": "passed",
+      "reason": null
+    },
+    {
+      "group": "indexes",
+      "check": "preserves all baseline topics plus Workshop Runtime/Object Views",
+      "status": "passed",
+      "file": "README.md",
+      "required_topics": [
+        "ai-fde-2026-10",
+        "custom-widgets-2026-10",
+        "object-views-2026-10",
+        "osdk-react-components-2026-09",
+        "osdk-typescript-2026-09",
+        "pilot-2026-09",
+        "superrepo-2026-08",
+        "workshop-runtime-2026-10"
+      ],
+      "current_topics": [
+        "ai-fde-2026-10",
+        "custom-widgets-2026-10",
+        "object-views-2026-10",
+        "osdk-react-components-2026-09",
+        "osdk-typescript-2026-09",
+        "pilot-2026-09",
+        "superrepo-2026-08",
+        "workshop-runtime-2026-10"
+      ],
+      "missing_topics": []
+    },
+    {
+      "group": "indexes",
+      "check": "preserves all baseline topics plus Workshop Runtime/Object Views",
+      "status": "passed",
+      "file": "research/README.md",
+      "required_topics": [
+        "ai-fde-2026-10",
+        "custom-widgets-2026-10",
+        "object-views-2026-10",
+        "osdk-react-components-2026-09",
+        "osdk-typescript-2026-09",
+        "pilot-2026-09",
+        "superrepo-2026-08",
+        "workshop-runtime-2026-10"
+      ],
+      "current_topics": [
+        "ai-fde-2026-10",
+        "custom-widgets-2026-10",
+        "object-views-2026-10",
+        "osdk-react-components-2026-09",
+        "osdk-typescript-2026-09",
+        "pilot-2026-09",
+        "superrepo-2026-08",
+        "workshop-runtime-2026-10"
+      ],
+      "missing_topics": []
+    }
+  ],
+  "limitations": [
+    "Public source access is documented by research evidence, not rechecked by this script.",
+    "SVG/PNG existence and safety do not independently prove visual quality or product behavior.",
+    "Pattern-based privacy checks cannot guarantee discovery of every possible secret."
+  ],
+  "summary": {
+    "status": "passed",
+    "checks": 54,
+    "passed": 54,
+    "failed": 0,
+    "exit_status": 0
+  }
+}

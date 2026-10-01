@@ -1,0 +1,4848 @@
+{
+  "checked_at_utc": "2026-10-01T09:43:35+00:00",
+  "scope": "Topic README and five research notes; direct Markdown URLs; queries preserved; fragments recorded, not requested",
+  "policy": {
+    "authentication": "none",
+    "cookies": "none",
+    "head_first": true,
+    "workers": 4,
+    "per_request_timeout_seconds": 12.0,
+    "get_sample_limit_bytes": 131072,
+    "transport_retries": 0,
+    "get_policy": "one GET per page key after successful HEAD or HEAD 405/501; no GET after access denial or transport failure",
+    "interpretation": "HTTP success and a bounded HTML sample do not establish claim correctness, full-page reading, or video viewing; prior source observations are separate"
+  },
+  "input_snapshot": [
+    {
+      "file": "README.md",
+      "sha256": "7d4e88b921c6710fa6533d9131097e11c6762f334952e84967fcce9af30b356c"
+    },
+    {
+      "file": "notes/explorer-flow.md",
+      "sha256": "2733963f6d0eebde91c941557a0c9ec98a40b718e5b72cdde2453767c6a7ae9f"
+    },
+    {
+      "file": "notes/media-evidence.md",
+      "sha256": "674f0abc203b557734b2307cdd4f25cbdac9c271209bd87d35458c555408dd47"
+    },
+    {
+      "file": "notes/secondary-reading.md",
+      "sha256": "c571470933eaf5000f5f736db8abfd480bf1ccf229a013284e4ca18c5521bcc5"
+    },
+    {
+      "file": "notes/views-governance.md",
+      "sha256": "fa5039c11287bcde2c3be859c1ef69e6db6e4015ba41e820e2e15db7dacb7e07"
+    },
+    {
+      "file": "notes/workshop-boundaries.md",
+      "sha256": "3f8383e4906ced12ad16b80e7a160d1825dd8b17f109664d24b2838478ea81bc"
+    }
+  ],
+  "summary": {
+    "unique_pages": 81,
+    "references": 271,
+    "excluded_media_references": 0,
+    "verdict_counts": {
+      "http_access_limited": 1,
+      "http_success_html_sample": 78,
+      "transport_error": 2
+    },
+    "host_verdict_counts": {
+      "blog.csdn.net": {
+        "http_success_html_sample": 1
+      },
+      "community.palantir.com": {
+        "http_success_html_sample": 11
+      },
+      "github.com": {
+        "http_success_html_sample": 2
+      },
+      "learn.palantir.com": {
+        "http_access_limited": 1
+      },
+      "www.palantir.com": {
+        "http_success_html_sample": 63
+      },
+      "www.youtube.com": {
+        "transport_error": 2
+      },
+      "zenn.dev": {
+        "http_success_html_sample": 1
+      }
+    },
+    "fragment_references": 32,
+    "page_head_checks": 81,
+    "page_get_checks": 78
+  },
+  "excluded_references": [],
+  "pages": [
+    {
+      "page_key": "https://blog.csdn.net/u014177256/article/details/159086063",
+      "request_url": "https://blog.csdn.net/u014177256/article/details/159086063",
+      "references": [
+        {
+          "file": "notes/secondary-reading.md",
+          "line": 13,
+          "url": "https://blog.csdn.net/u014177256/article/details/159086063",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://blog.csdn.net/u014177256/article/details/159086063",
+        "status": 200,
+        "final_url": "https://blog.csdn.net/u014177256/article/details/159086063",
+        "content_type": "text/html;charset=utf-8",
+        "content_length": null,
+        "elapsed_seconds": 1.431
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://blog.csdn.net/u014177256/article/details/159086063",
+        "status": 200,
+        "final_url": "https://blog.csdn.net/u014177256/article/details/159086063",
+        "content_type": "text/html;charset=utf-8",
+        "content_length": null,
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "d331d8706c2d1ff6bc6c419119a439c00d2b7f8ac7e1ad05c09fa3095e0412af",
+        "page_title": "Palantir Ontology：从数据平台到企业操作系统的范式革命-CSDN博客",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 1.673
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://community.palantir.com/t/add-all-object-properties-to-workshop-widget-even-after-name-change/2665",
+      "request_url": "https://community.palantir.com/t/add-all-object-properties-to-workshop-widget-even-after-name-change/2665",
+      "references": [
+        {
+          "file": "notes/media-evidence.md",
+          "line": 99,
+          "url": "https://community.palantir.com/t/add-all-object-properties-to-workshop-widget-even-after-name-change/2665",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/media-sources.json",
+          "source_id": "MC04",
+          "access_observation": "public discussion body read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://community.palantir.com/t/add-all-object-properties-to-workshop-widget-even-after-name-change/2665",
+        "status": 200,
+        "final_url": "https://community.palantir.com/t/add-all-object-properties-to-workshop-widget-even-after-name-change/2665",
+        "content_type": "text/html",
+        "content_length": "0",
+        "elapsed_seconds": 0.785
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://community.palantir.com/t/add-all-object-properties-to-workshop-widget-even-after-name-change/2665",
+        "status": 200,
+        "final_url": "https://community.palantir.com/t/add-all-object-properties-to-workshop-widget-even-after-name-change/2665",
+        "content_type": "text/html; charset=utf-8",
+        "content_length": "25282",
+        "bytes_sampled": 25282,
+        "sample_limit": 131072,
+        "body_complete": true,
+        "sample_sha256": "9dac10f29731d69dccd135895330965ed9f8eb7f36990b1349cef3f903bfe03c",
+        "page_title": "Add All Object Properties to Workshop Widget - Even After Name Change - Ask the Community - Palantir Developer Community",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 1.495
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://community.palantir.com/t/can-t-save-new-object-view-anymore/4802",
+      "request_url": "https://community.palantir.com/t/can-t-save-new-object-view-anymore/4802",
+      "references": [
+        {
+          "file": "notes/media-evidence.md",
+          "line": 101,
+          "url": "https://community.palantir.com/t/can-t-save-new-object-view-anymore/4802",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/media-sources.json",
+          "source_id": "MC06",
+          "access_observation": "public discussion body read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://community.palantir.com/t/can-t-save-new-object-view-anymore/4802",
+        "status": 200,
+        "final_url": "https://community.palantir.com/t/can-t-save-new-object-view-anymore/4802",
+        "content_type": "text/html",
+        "content_length": "0",
+        "elapsed_seconds": 0.8
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://community.palantir.com/t/can-t-save-new-object-view-anymore/4802",
+        "status": 200,
+        "final_url": "https://community.palantir.com/t/can-t-save-new-object-view-anymore/4802",
+        "content_type": "text/html; charset=utf-8",
+        "content_length": "34190",
+        "bytes_sampled": 34190,
+        "sample_limit": 131072,
+        "body_complete": true,
+        "sample_sha256": "d8d1a0a84988c1aa5f28269488e5d6a164d23e4d5b4d55c429cddff40cd7b2ed",
+        "page_title": "Can’t save new object view anymore - Ask the Community - Palantir Developer Community",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 1.251
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://community.palantir.com/t/clickable-object-rid/2228",
+      "request_url": "https://community.palantir.com/t/clickable-object-rid/2228",
+      "references": [
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 104,
+          "url": "https://community.palantir.com/t/clickable-object-rid/2228",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/explorer-sources.json",
+          "source_id": "OE-22",
+          "access_observation": "public-body-read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://community.palantir.com/t/clickable-object-rid/2228",
+        "status": 200,
+        "final_url": "https://community.palantir.com/t/clickable-object-rid/2228",
+        "content_type": "text/html",
+        "content_length": "0",
+        "elapsed_seconds": 1.172
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://community.palantir.com/t/clickable-object-rid/2228",
+        "status": 200,
+        "final_url": "https://community.palantir.com/t/clickable-object-rid/2228",
+        "content_type": "text/html; charset=utf-8",
+        "content_length": "30311",
+        "bytes_sampled": 30311,
+        "sample_limit": 131072,
+        "body_complete": true,
+        "sample_sha256": "3c5af9b40cf9394f4127f83b27046aabcb3194ddb299ee7ffe2820b0f8bfb357",
+        "page_title": "Clickable object RID - Ask the Community - Palantir Developer Community",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 1.396
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://community.palantir.com/t/navigate-to-different-object-view-tab-with-button/1111",
+      "request_url": "https://community.palantir.com/t/navigate-to-different-object-view-tab-with-button/1111",
+      "references": [
+        {
+          "file": "notes/media-evidence.md",
+          "line": 98,
+          "url": "https://community.palantir.com/t/navigate-to-different-object-view-tab-with-button/1111",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/media-sources.json",
+          "source_id": "MC03",
+          "access_observation": "public discussion body read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://community.palantir.com/t/navigate-to-different-object-view-tab-with-button/1111",
+        "status": 200,
+        "final_url": "https://community.palantir.com/t/navigate-to-different-object-view-tab-with-button/1111",
+        "content_type": "text/html",
+        "content_length": "0",
+        "elapsed_seconds": 1.726
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://community.palantir.com/t/navigate-to-different-object-view-tab-with-button/1111",
+        "status": 200,
+        "final_url": "https://community.palantir.com/t/navigate-to-different-object-view-tab-with-button/1111",
+        "content_type": "text/html; charset=utf-8",
+        "content_length": "19226",
+        "bytes_sampled": 19226,
+        "sample_limit": 131072,
+        "body_complete": true,
+        "sample_sha256": "1120f47c95227ef7700f23f6b366d0badaa6a6cdd14384864d179141d4442621",
+        "page_title": "Navigate to different object view tab with button - Ask the Community - Palantir Developer Community",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 1.146
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://community.palantir.com/t/object-view-for-sets-of-objects/3749",
+      "request_url": "https://community.palantir.com/t/object-view-for-sets-of-objects/3749",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 204,
+          "url": "https://community.palantir.com/t/object-view-for-sets-of-objects/3749",
+          "fragment": null
+        },
+        {
+          "file": "notes/media-evidence.md",
+          "line": 96,
+          "url": "https://community.palantir.com/t/object-view-for-sets-of-objects/3749",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/media-sources.json",
+          "source_id": "MC01",
+          "access_observation": "public discussion body read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://community.palantir.com/t/object-view-for-sets-of-objects/3749",
+        "status": 200,
+        "final_url": "https://community.palantir.com/t/object-view-for-sets-of-objects/3749",
+        "content_type": "text/html",
+        "content_length": "0",
+        "elapsed_seconds": 0.847
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://community.palantir.com/t/object-view-for-sets-of-objects/3749",
+        "status": 200,
+        "final_url": "https://community.palantir.com/t/object-view-for-sets-of-objects/3749",
+        "content_type": "text/html; charset=utf-8",
+        "content_length": "42921",
+        "bytes_sampled": 42921,
+        "sample_limit": 131072,
+        "body_complete": true,
+        "sample_sha256": "2f9e4126db3668d96a28f897be37aae9d920d6b2f2abd65c4d85a7a7093eb148",
+        "page_title": "Object View for sets of objects - Product Feedback - Palantir Developer Community",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 1.513
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://community.palantir.com/t/object-views-custom-external-id-support-for-interface-variables-of-that-object-type-when-embedding-workshop-modules/1073",
+      "request_url": "https://community.palantir.com/t/object-views-custom-external-id-support-for-interface-variables-of-that-object-type-when-embedding-workshop-modules/1073",
+      "references": [
+        {
+          "file": "notes/media-evidence.md",
+          "line": 97,
+          "url": "https://community.palantir.com/t/object-views-custom-external-id-support-for-interface-variables-of-that-object-type-when-embedding-workshop-modules/1073",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/media-sources.json",
+          "source_id": "MC02",
+          "access_observation": "public body and two screenshot links read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://community.palantir.com/t/object-views-custom-external-id-support-for-interface-variables-of-that-object-type-when-embedding-workshop-modules/1073",
+        "status": 200,
+        "final_url": "https://community.palantir.com/t/object-views-custom-external-id-support-for-interface-variables-of-that-object-type-when-embedding-workshop-modules/1073",
+        "content_type": "text/html",
+        "content_length": "0",
+        "elapsed_seconds": 0.759
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://community.palantir.com/t/object-views-custom-external-id-support-for-interface-variables-of-that-object-type-when-embedding-workshop-modules/1073",
+        "status": 200,
+        "final_url": "https://community.palantir.com/t/object-views-custom-external-id-support-for-interface-variables-of-that-object-type-when-embedding-workshop-modules/1073",
+        "content_type": "text/html; charset=utf-8",
+        "content_length": "22258",
+        "bytes_sampled": 22258,
+        "sample_limit": 131072,
+        "body_complete": true,
+        "sample_sha256": "651e9a1885a8f218779b5801bd12a8f92e0fb55078936dd39a2cd7a223531386",
+        "page_title": "Object Views: Custom external ID support for interface variables of that Object type when embedding Workshop modules. - Product Feedback - Palantir Developer Community",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 1.113
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://community.palantir.com/t/question-regarding-drag-and-drop-workflow-from-object-explorer-to-workshop/6721",
+      "request_url": "https://community.palantir.com/t/question-regarding-drag-and-drop-workflow-from-object-explorer-to-workshop/6721",
+      "references": [
+        {
+          "file": "notes/media-evidence.md",
+          "line": 88,
+          "url": "https://community.palantir.com/t/question-regarding-drag-and-drop-workflow-from-object-explorer-to-workshop/6721",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/media-sources.json",
+          "source_id": "MC11",
+          "access_observation": "public discussion body read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://community.palantir.com/t/question-regarding-drag-and-drop-workflow-from-object-explorer-to-workshop/6721",
+        "status": 200,
+        "final_url": "https://community.palantir.com/t/question-regarding-drag-and-drop-workflow-from-object-explorer-to-workshop/6721",
+        "content_type": "text/html",
+        "content_length": "0",
+        "elapsed_seconds": 0.898
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://community.palantir.com/t/question-regarding-drag-and-drop-workflow-from-object-explorer-to-workshop/6721",
+        "status": 200,
+        "final_url": "https://community.palantir.com/t/question-regarding-drag-and-drop-workflow-from-object-explorer-to-workshop/6721",
+        "content_type": "text/html; charset=utf-8",
+        "content_length": "20850",
+        "bytes_sampled": 20850,
+        "sample_limit": 131072,
+        "body_complete": true,
+        "sample_sha256": "51f69360d7e86d15c5632b6585bfbc69ed1e3a2e522c3b0c45ca69b074c51520",
+        "page_title": "Question regarding drag-and-drop workflow from Object Explorer to Workshop - Ask the Community - Palantir Developer Community",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 1.828
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://community.palantir.com/t/records-in-search-object-discover-access-only/4875",
+      "request_url": "https://community.palantir.com/t/records-in-search-object-discover-access-only/4875",
+      "references": [
+        {
+          "file": "notes/media-evidence.md",
+          "line": 104,
+          "url": "https://community.palantir.com/t/records-in-search-object-discover-access-only/4875",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/media-sources.json",
+          "source_id": "MC09",
+          "access_observation": "public discussion body read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://community.palantir.com/t/records-in-search-object-discover-access-only/4875",
+        "status": 200,
+        "final_url": "https://community.palantir.com/t/records-in-search-object-discover-access-only/4875",
+        "content_type": "text/html",
+        "content_length": "0",
+        "elapsed_seconds": 1.123
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://community.palantir.com/t/records-in-search-object-discover-access-only/4875",
+        "status": 200,
+        "final_url": "https://community.palantir.com/t/records-in-search-object-discover-access-only/4875",
+        "content_type": "text/html; charset=utf-8",
+        "content_length": "21226",
+        "bytes_sampled": 21226,
+        "sample_limit": 131072,
+        "body_complete": true,
+        "sample_sha256": "5899becb15b78c75a30bece788df274998d8ff1c3e07c80c4cdcf4efb85f725d",
+        "page_title": "Records in search || Object - discover access only : - Ask the Community - Palantir Developer Community",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 0.978
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://community.palantir.com/t/saved-list-versus-saved-exploration/2020",
+      "request_url": "https://community.palantir.com/t/saved-list-versus-saved-exploration/2020",
+      "references": [
+        {
+          "file": "notes/media-evidence.md",
+          "line": 103,
+          "url": "https://community.palantir.com/t/saved-list-versus-saved-exploration/2020",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/media-sources.json",
+          "source_id": "MC08",
+          "access_observation": "public discussion body read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://community.palantir.com/t/saved-list-versus-saved-exploration/2020",
+        "status": 200,
+        "final_url": "https://community.palantir.com/t/saved-list-versus-saved-exploration/2020",
+        "content_type": "text/html",
+        "content_length": "0",
+        "elapsed_seconds": 0.781
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://community.palantir.com/t/saved-list-versus-saved-exploration/2020",
+        "status": 200,
+        "final_url": "https://community.palantir.com/t/saved-list-versus-saved-exploration/2020",
+        "content_type": "text/html; charset=utf-8",
+        "content_length": "21748",
+        "bytes_sampled": 21748,
+        "sample_limit": 131072,
+        "body_complete": true,
+        "sample_sha256": "8a14948d0df8d0b55afb4514724d1b75d7d7bf510269880345c44db840b03a5d",
+        "page_title": "Saved List versus Saved Exploration - Ask the Community - Palantir Developer Community",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 1.257
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://community.palantir.com/t/turn-off-actions-from-object-explorer/144",
+      "request_url": "https://community.palantir.com/t/turn-off-actions-from-object-explorer/144",
+      "references": [
+        {
+          "file": "notes/media-evidence.md",
+          "line": 102,
+          "url": "https://community.palantir.com/t/turn-off-actions-from-object-explorer/144",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/media-sources.json",
+          "source_id": "MC07",
+          "access_observation": "public discussion body read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://community.palantir.com/t/turn-off-actions-from-object-explorer/144",
+        "status": 200,
+        "final_url": "https://community.palantir.com/t/turn-off-actions-from-object-explorer/144",
+        "content_type": "text/html",
+        "content_length": "0",
+        "elapsed_seconds": 0.861
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://community.palantir.com/t/turn-off-actions-from-object-explorer/144",
+        "status": 200,
+        "final_url": "https://community.palantir.com/t/turn-off-actions-from-object-explorer/144",
+        "content_type": "text/html; charset=utf-8",
+        "content_length": "23567",
+        "bytes_sampled": 23567,
+        "sample_limit": 131072,
+        "body_complete": true,
+        "sample_sha256": "47fac4ebe3fa4c02466bcaf4b6e9ad3b23d696b0367f4555686d9bf9cd89d898",
+        "page_title": "Turn off actions from Object Explorer - Ask the Community - Palantir Developer Community",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 1.13
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://community.palantir.com/t/variable-folders/3017",
+      "request_url": "https://community.palantir.com/t/variable-folders/3017",
+      "references": [
+        {
+          "file": "notes/media-evidence.md",
+          "line": 100,
+          "url": "https://community.palantir.com/t/variable-folders/3017",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/media-sources.json",
+          "source_id": "MC05",
+          "access_observation": "public discussion body read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://community.palantir.com/t/variable-folders/3017",
+        "status": 200,
+        "final_url": "https://community.palantir.com/t/variable-folders/3017",
+        "content_type": "text/html",
+        "content_length": "0",
+        "elapsed_seconds": 0.809
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://community.palantir.com/t/variable-folders/3017",
+        "status": 200,
+        "final_url": "https://community.palantir.com/t/variable-folders/3017",
+        "content_type": "text/html; charset=utf-8",
+        "content_length": "22318",
+        "bytes_sampled": 22318,
+        "sample_limit": 131072,
+        "body_complete": true,
+        "sample_sha256": "d7ec59d96d3638ca0ae801535879ad37440901ca81a177e353139374eaf296a2",
+        "page_title": "Variable Folders - Product Feedback - Palantir Developer Community",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 1.387
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/examples/example-tutorial-todo-app-sdk-2.x/src/Home.tsx",
+      "request_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/examples/example-tutorial-todo-app-sdk-2.x/src/Home.tsx",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 210,
+          "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/examples/example-tutorial-todo-app-sdk-2.x/src/Home.tsx",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/examples/example-tutorial-todo-app-sdk-2.x/src/Home.tsx",
+        "status": 200,
+        "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/examples/example-tutorial-todo-app-sdk-2.x/src/Home.tsx",
+        "content_type": "text/html; charset=utf-8",
+        "content_length": null,
+        "elapsed_seconds": 1.043
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/examples/example-tutorial-todo-app-sdk-2.x/src/Home.tsx",
+        "status": 200,
+        "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/examples/example-tutorial-todo-app-sdk-2.x/src/Home.tsx",
+        "content_type": "text/html; charset=utf-8",
+        "content_length": null,
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "ccbc9b8c388cc6bbe8ccffa7c1a5e6219a55dbf98b00ba9b711814402724a09e",
+        "page_title": "osdk-ts/examples/example-tutorial-todo-app-sdk-2.x/src/Home.tsx at fb8ec172d540ef7819382ff036aa2a692614af75 · palantir/osdk-ts · GitHub",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 0.593
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/examples/example-tutorial-todo-app-sdk-2.x/src/TaskListItem.tsx",
+      "request_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/examples/example-tutorial-todo-app-sdk-2.x/src/TaskListItem.tsx",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 210,
+          "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/examples/example-tutorial-todo-app-sdk-2.x/src/TaskListItem.tsx",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/examples/example-tutorial-todo-app-sdk-2.x/src/TaskListItem.tsx",
+        "status": 200,
+        "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/examples/example-tutorial-todo-app-sdk-2.x/src/TaskListItem.tsx",
+        "content_type": "text/html; charset=utf-8",
+        "content_length": null,
+        "elapsed_seconds": 1.134
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/examples/example-tutorial-todo-app-sdk-2.x/src/TaskListItem.tsx",
+        "status": 200,
+        "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/examples/example-tutorial-todo-app-sdk-2.x/src/TaskListItem.tsx",
+        "content_type": "text/html; charset=utf-8",
+        "content_length": null,
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "eb08e3c1f1755f22ba1dd068c0764a64b3decfff60840d0416232f0b421e1adb",
+        "page_title": "osdk-ts/examples/example-tutorial-todo-app-sdk-2.x/src/TaskListItem.tsx at fb8ec172d540ef7819382ff036aa2a692614af75 · palantir/osdk-ts · GitHub",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 0.593
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://learn.palantir.com/page/training-track-data-analyst",
+      "request_url": "https://learn.palantir.com/page/training-track-data-analyst",
+      "references": [
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 103,
+          "url": "https://learn.palantir.com/page/training-track-data-analyst",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/explorer-sources.json",
+          "source_id": "OE-24",
+          "access_observation": "search-metadata-only; direct-open-internal-error",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://learn.palantir.com/page/training-track-data-analyst",
+        "status": 403,
+        "final_url": "https://learn.palantir.com/page/training-track-data-analyst",
+        "content_type": "text/html",
+        "content_length": "919",
+        "elapsed_seconds": 0.973
+      },
+      "get": null,
+      "verdict": "http_access_limited"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/action-types/permissions",
+      "request_url": "https://www.palantir.com/docs/foundry/action-types/permissions/",
+      "references": [
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 88,
+          "url": "https://www.palantir.com/docs/foundry/action-types/permissions/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/explorer-sources.json",
+          "source_id": "OE-14",
+          "access_observation": "public-body-read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/action-types/permissions/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/action-types/permissions",
+        "content_type": "text/html",
+        "content_length": "447200",
+        "elapsed_seconds": 3.203
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/action-types/permissions/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/action-types/permissions",
+        "content_type": "text/html",
+        "content_length": "447200",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "b11eb3feaad6c23262b8d9e9420959e66befb3dc65d015b215820d5b491e07de",
+        "page_title": "Action types • Permissions • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 3.245
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/action-types/read-write-authorizations",
+      "request_url": "https://www.palantir.com/docs/foundry/action-types/read-write-authorizations/",
+      "references": [
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 88,
+          "url": "https://www.palantir.com/docs/foundry/action-types/read-write-authorizations/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/explorer-sources.json",
+          "source_id": "OE-15",
+          "access_observation": "public-body-read-beta-notice",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/action-types/read-write-authorizations/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/action-types/read-write-authorizations",
+        "content_type": "text/html",
+        "content_length": "451027",
+        "elapsed_seconds": 3.209
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/action-types/read-write-authorizations/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/action-types/read-write-authorizations",
+        "content_type": "text/html",
+        "content_length": "451027",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "5e1676b3a24b8490a5edc2ffad173154298797af04ed426aeacc371bb7bb1602",
+        "page_title": "Action types • Read and write authorizations • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 2.459
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/action-types/use-actions",
+      "request_url": "https://www.palantir.com/docs/foundry/action-types/use-actions/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 153,
+          "url": "https://www.palantir.com/docs/foundry/action-types/use-actions/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 44,
+          "url": "https://www.palantir.com/docs/foundry/action-types/use-actions/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 48,
+          "url": "https://www.palantir.com/docs/foundry/action-types/use-actions/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/explorer-sources.json",
+          "source_id": "OE-13",
+          "access_observation": "public-body-read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/action-types/use-actions/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/action-types/use-actions",
+        "content_type": "text/html",
+        "content_length": "441316",
+        "elapsed_seconds": 4.664
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/action-types/use-actions/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/action-types/use-actions",
+        "content_type": "text/html",
+        "content_length": "441316",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "2c06712a576d01b193244d973dc2420ff6c8d9e65b3e1c228208a2794a5e36c3",
+        "page_title": "Action types • Use actions in the platform • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 2.538
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/announcements/2024-04",
+      "request_url": "https://www.palantir.com/docs/foundry/announcements/2024-04/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 65,
+          "url": "https://www.palantir.com/docs/foundry/announcements/2024-04/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 28,
+          "url": "https://www.palantir.com/docs/foundry/announcements/2024-04/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 36,
+          "url": "https://www.palantir.com/docs/foundry/announcements/2024-04/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/views-sources.json",
+          "source_id": "G19",
+          "access_observation": {
+            "status": "public-readable",
+            "method": "公开官方 HTML 正文",
+            "limits": "不是 2026 Standard rollout 后资源迁移证据"
+          },
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/announcements/2024-04/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/announcements/2024-04",
+        "content_type": "text/html",
+        "content_length": "463511",
+        "elapsed_seconds": 1.907
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/announcements/2024-04/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/announcements/2024-04",
+        "content_type": "text/html",
+        "content_length": "463511",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "54f8f7bc15c8a61218e36a88e0e8c689dbd91e9730967a71d62c2d856f94a4eb",
+        "page_title": "2024 • April 2024 • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 2.914
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/announcements/2026-01",
+      "request_url": "https://www.palantir.com/docs/foundry/announcements/2026-01/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 66,
+          "url": "https://www.palantir.com/docs/foundry/announcements/2026-01/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 37,
+          "url": "https://www.palantir.com/docs/foundry/announcements/2026-01/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/views-sources.json",
+          "source_id": "G20",
+          "access_observation": {
+            "status": "public-readable",
+            "method": "公开官方 HTML 正文",
+            "limits": "历史限制不当成检索日当前状态"
+          },
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/announcements/2026-01/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/announcements/2026-01",
+        "content_type": "text/html",
+        "content_length": "397285",
+        "elapsed_seconds": 1.847
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/announcements/2026-01/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/announcements/2026-01",
+        "content_type": "text/html",
+        "content_length": "397285",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "517dff559cf9a8d65856482c19ce9325cc14bd186450587fb764f40ad6fa72cf",
+        "page_title": "January 2026 • Announcements • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 2.613
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/announcements/2026-02",
+      "request_url": "https://www.palantir.com/docs/foundry/announcements/2026-02/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 55,
+          "url": "https://www.palantir.com/docs/foundry/announcements/2026-02/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 67,
+          "url": "https://www.palantir.com/docs/foundry/announcements/2026-02/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 18,
+          "url": "https://www.palantir.com/docs/foundry/announcements/2026-02/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 24,
+          "url": "https://www.palantir.com/docs/foundry/announcements/2026-02/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 38,
+          "url": "https://www.palantir.com/docs/foundry/announcements/2026-02/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/views-sources.json",
+          "source_id": "G14",
+          "access_observation": {
+            "status": "public-readable",
+            "method": "公开网页正文",
+            "limits": "不是 Object Views 产品首次发布日；无正式改名日期"
+          },
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/announcements/2026-02/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/announcements/2026-02",
+        "content_type": "text/html",
+        "content_length": "458669",
+        "elapsed_seconds": 8.216
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/announcements/2026-02/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/announcements/2026-02",
+        "content_type": "text/html",
+        "content_length": "458669",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "9be2ccba1210e471520d243fc7583958aa4e0b288e2ccd171a79493dfe1106ad",
+        "page_title": "February 2026 • Announcements • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 2.645
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/announcements/2026-09",
+      "request_url": "https://www.palantir.com/docs/foundry/announcements/2026-09/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 68,
+          "url": "https://www.palantir.com/docs/foundry/announcements/2026-09/#explore-ontology-data-in-carbon-with-insight-analysis",
+          "fragment": "explore-ontology-data-in-carbon-with-insight-analysis"
+        },
+        {
+          "file": "README.md",
+          "line": 196,
+          "url": "https://www.palantir.com/docs/foundry/announcements/2026-09/#explore-ontology-data-in-carbon-with-insight-analysis",
+          "fragment": "explore-ontology-data-in-carbon-with-insight-analysis"
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 76,
+          "url": "https://www.palantir.com/docs/foundry/announcements/2026-09/#explore-ontology-data-in-carbon-with-insight-analysis",
+          "fragment": "explore-ontology-data-in-carbon-with-insight-analysis"
+        }
+      ],
+      "prior_web_or_registry_evidence": [],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/announcements/2026-09/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/announcements/2026-09",
+        "content_type": "text/html",
+        "content_length": "485304",
+        "elapsed_seconds": 3.283
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/announcements/2026-09/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/announcements/2026-09",
+        "content_type": "text/html",
+        "content_length": "485304",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "c0826756a351d2a0f401a6d9b32365d75533ee298565e14b0108dad4e64aab0b",
+        "page_title": "September 2026 • Announcements • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 2.394
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/api/ontologies-v2-resources/ontology-object-sets/load-object-set",
+      "request_url": "https://www.palantir.com/docs/foundry/api/ontologies-v2-resources/ontology-object-sets/load-object-set/",
+      "references": [
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 16,
+          "url": "https://www.palantir.com/docs/foundry/api/ontologies-v2-resources/ontology-object-sets/load-object-set/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 80,
+          "url": "https://www.palantir.com/docs/foundry/api/ontologies-v2-resources/ontology-object-sets/load-object-set/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/explorer-sources.json",
+          "source_id": "OE-20",
+          "access_observation": "public-body-read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/api/ontologies-v2-resources/ontology-object-sets/load-object-set/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/api/ontologies-v2-resources/ontology-object-sets/load-object-set",
+        "content_type": "text/html",
+        "content_length": "855781",
+        "elapsed_seconds": 3.737
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/api/ontologies-v2-resources/ontology-object-sets/load-object-set/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/api/ontologies-v2-resources/ontology-object-sets/load-object-set",
+        "content_type": "text/html",
+        "content_length": "855781",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "08a15fe5cc94c04a0e517eb67ec81b265416d828c8b12f76f445ff28c953765a",
+        "page_title": "Load Object Set • API Reference • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 3.266
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/api/v2/ontologies-v2-resources/ontology-object-sets/create-temporary-object-set",
+      "request_url": "https://www.palantir.com/docs/foundry/api/v2/ontologies-v2-resources/ontology-object-sets/create-temporary-object-set/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 174,
+          "url": "https://www.palantir.com/docs/foundry/api/v2/ontologies-v2-resources/ontology-object-sets/create-temporary-object-set/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 21,
+          "url": "https://www.palantir.com/docs/foundry/api/v2/ontologies-v2-resources/ontology-object-sets/create-temporary-object-set/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 80,
+          "url": "https://www.palantir.com/docs/foundry/api/v2/ontologies-v2-resources/ontology-object-sets/create-temporary-object-set/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/explorer-sources.json",
+          "source_id": "OE-21",
+          "access_observation": "public-body-read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/api/v2/ontologies-v2-resources/ontology-object-sets/create-temporary-object-set/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/api/v2/ontologies-v2-resources/ontology-object-sets/create-temporary-object-set",
+        "content_type": "text/html",
+        "content_length": "779653",
+        "elapsed_seconds": 3.806
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/api/v2/ontologies-v2-resources/ontology-object-sets/create-temporary-object-set/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/api/v2/ontologies-v2-resources/ontology-object-sets/create-temporary-object-set",
+        "content_type": "text/html",
+        "content_length": "779653",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "9e35c9c0ec731735615a950594f10ef14dd50ef47c477bca46fcde33112ca46b",
+        "page_title": "Create Temporary Object Set • API Reference • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 2.603
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/api/v2/ontologies-v2-resources/ontology-object-sets/ontology-object-set-basics",
+      "request_url": "https://www.palantir.com/docs/foundry/api/v2/ontologies-v2-resources/ontology-object-sets/ontology-object-set-basics/",
+      "references": [
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 16,
+          "url": "https://www.palantir.com/docs/foundry/api/v2/ontologies-v2-resources/ontology-object-sets/ontology-object-set-basics/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/explorer-sources.json",
+          "source_id": "OE-19",
+          "access_observation": "public-body-read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/api/v2/ontologies-v2-resources/ontology-object-sets/ontology-object-set-basics/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/404",
+        "content_type": "text/html",
+        "content_length": "264433",
+        "elapsed_seconds": 6.548
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/api/v2/ontologies-v2-resources/ontology-object-sets/ontology-object-set-basics/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/api/v2/ontologies-v2-resources/ontology-object-sets/ontology-object-set-basics",
+        "content_type": "text/html",
+        "content_length": "429897",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "69bb32143061cd5df1fe28d1f43cd98e4cb58d98fb5df40d3387bd7a385e0f10",
+        "page_title": "Ontology Object Set basics • API Reference • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 4.387
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/carbon/modules-discovery",
+      "request_url": "https://www.palantir.com/docs/foundry/carbon/modules-discovery/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 194,
+          "url": "https://www.palantir.com/docs/foundry/carbon/modules-discovery/",
+          "fragment": null
+        },
+        {
+          "file": "notes/media-evidence.md",
+          "line": 106,
+          "url": "https://www.palantir.com/docs/foundry/carbon/modules-discovery",
+          "fragment": null
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 72,
+          "url": "https://www.palantir.com/docs/foundry/carbon/modules-discovery/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/media-sources.json",
+          "source_id": "MD09",
+          "access_observation": "public documentation body read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/carbon/modules-discovery/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/carbon/modules-discovery",
+        "content_type": "text/html",
+        "content_length": "400352",
+        "elapsed_seconds": 3.442
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/carbon/modules-discovery/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/carbon/modules-discovery",
+        "content_type": "text/html",
+        "content_length": "400352",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "799d0195a6ba0e513a54799cc649f022d836ea2719dc6a4a3b4b23fa41639e3f",
+        "page_title": "Carbon • Modules • Configure module discovery • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 2.537
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/carbon/modules-navigation",
+      "request_url": "https://www.palantir.com/docs/foundry/carbon/modules-navigation/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 192,
+          "url": "https://www.palantir.com/docs/foundry/carbon/modules-navigation/",
+          "fragment": null
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 70,
+          "url": "https://www.palantir.com/docs/foundry/carbon/modules-navigation/",
+          "fragment": null
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 72,
+          "url": "https://www.palantir.com/docs/foundry/carbon/modules-navigation/#workshop",
+          "fragment": "workshop"
+        }
+      ],
+      "prior_web_or_registry_evidence": [],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/carbon/modules-navigation/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/carbon/modules-navigation",
+        "content_type": "text/html",
+        "content_length": "511212",
+        "elapsed_seconds": 3.277
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/carbon/modules-navigation/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/carbon/modules-navigation",
+        "content_type": "text/html",
+        "content_length": "511212",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "73c42d9b5b175f10f36bf0df15910c6329ab914cdf0bc4eb5f473fc64fa960f0",
+        "page_title": "Carbon • Modules • Configure navigation between modules • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 3.976
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/carbon/modules-overview",
+      "request_url": "https://www.palantir.com/docs/foundry/carbon/modules-overview/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 47,
+          "url": "https://www.palantir.com/docs/foundry/carbon/modules-overview/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 192,
+          "url": "https://www.palantir.com/docs/foundry/carbon/modules-overview/",
+          "fragment": null
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 70,
+          "url": "https://www.palantir.com/docs/foundry/carbon/modules-overview/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/carbon/modules-overview/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/carbon/modules-overview",
+        "content_type": "text/html",
+        "content_length": "381596",
+        "elapsed_seconds": 3.163
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/carbon/modules-overview/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/carbon/modules-overview",
+        "content_type": "text/html",
+        "content_length": "381596",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "6a4f7dfd12e8fd8708cd554df484c6b587a5cf1b6aab1d04e414e05b619d73a8",
+        "page_title": "Carbon • Modules • Overview • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 3.858
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/carbon/permissions-configure",
+      "request_url": "https://www.palantir.com/docs/foundry/carbon/permissions-configure/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 194,
+          "url": "https://www.palantir.com/docs/foundry/carbon/permissions-configure/",
+          "fragment": null
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 74,
+          "url": "https://www.palantir.com/docs/foundry/carbon/permissions-configure/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/carbon/permissions-configure/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/carbon/permissions-configure",
+        "content_type": "text/html",
+        "content_length": "391766",
+        "elapsed_seconds": 3.451
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/carbon/permissions-configure/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/carbon/permissions-configure",
+        "content_type": "text/html",
+        "content_length": "391766",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "f4d099eb20b693c3b3b8d6c69967a5ee2feb0e185a314085f0700add4239d2cb",
+        "page_title": "Carbon • Permissions and access • Configure permissions • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 2.579
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/carbon/restrict-workspace-nav",
+      "request_url": "https://www.palantir.com/docs/foundry/carbon/restrict-workspace-nav/",
+      "references": [
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 74,
+          "url": "https://www.palantir.com/docs/foundry/carbon/restrict-workspace-nav/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/carbon/restrict-workspace-nav/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/carbon/restrict-workspace-nav",
+        "content_type": "text/html",
+        "content_length": "395380",
+        "elapsed_seconds": 3.157
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/carbon/restrict-workspace-nav/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/carbon/restrict-workspace-nav",
+        "content_type": "text/html",
+        "content_length": "395380",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "d4c1b9bc25a72a4fea7939440947f462cc5d4097d563601392c2f768a32ec4ab",
+        "page_title": "Carbon • Workspaces • Restrict navigation out of a workspace • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 2.324
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/carbon/workspaces-history",
+      "request_url": "https://www.palantir.com/docs/foundry/carbon/workspaces-history/",
+      "references": [
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 74,
+          "url": "https://www.palantir.com/docs/foundry/carbon/workspaces-history/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/carbon/workspaces-history/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/carbon/workspaces-history",
+        "content_type": "text/html",
+        "content_length": "388033",
+        "elapsed_seconds": 3.729
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/carbon/workspaces-history/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/carbon/workspaces-history",
+        "content_type": "text/html",
+        "content_length": "388033",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "a9cf205713e10a8bfb5356bfa6b6d854b3e4d442fa9c22f678e34c5538c2d637",
+        "page_title": "Carbon • Workspaces • View version history • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 2.665
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/carbon/workspaces-overview",
+      "request_url": "https://www.palantir.com/docs/foundry/carbon/workspaces-overview/",
+      "references": [
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 70,
+          "url": "https://www.palantir.com/docs/foundry/carbon/workspaces-overview/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/carbon/workspaces-overview/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/carbon/workspaces-overview",
+        "content_type": "text/html",
+        "content_length": "388558",
+        "elapsed_seconds": 3.337
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/carbon/workspaces-overview/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/carbon/workspaces-overview",
+        "content_type": "text/html",
+        "content_length": "388558",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "bc88a5f25af914b0e301b0ceccb017ea3ba4fb42dc665b47d6cfb1c5b6e1f5ac",
+        "page_title": "Carbon • Workspaces • Overview • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 3.617
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-explorer/apply-actions",
+      "request_url": "https://www.palantir.com/docs/foundry/object-explorer/apply-actions/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 153,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/apply-actions/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 36,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/apply-actions/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 46,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/apply-actions/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/explorer-sources.json",
+          "source_id": "OE-10",
+          "access_observation": "public-body-read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-explorer/apply-actions/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-explorer/apply-actions",
+        "content_type": "text/html",
+        "content_length": "432885",
+        "elapsed_seconds": 3.288
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-explorer/apply-actions/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-explorer/apply-actions",
+        "content_type": "text/html",
+        "content_length": "432885",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "b0ffa8a27332a3f8435d8e62364940376877ed1ded6dc8009454aff8a2f77d41",
+        "page_title": "Object Explorer • Analyze and compare • Apply Actions • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 2.993
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-explorer/compare-object-sets",
+      "request_url": "https://www.palantir.com/docs/foundry/object-explorer/compare-object-sets/",
+      "references": [
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 20,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/compare-object-sets/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 60,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/compare-object-sets/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/explorer-sources.json",
+          "source_id": "OE-07",
+          "access_observation": "public-body-read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-explorer/compare-object-sets/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-explorer/compare-object-sets",
+        "content_type": "text/html",
+        "content_length": "443202",
+        "elapsed_seconds": 5.0
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-explorer/compare-object-sets/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-explorer/compare-object-sets",
+        "content_type": "text/html",
+        "content_length": "443202",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "54adf2e5bc25fda61109487a53ed26c46166ecf426acea2a090886bc70d78fdc",
+        "page_title": "Object Explorer • Analyze and compare • Compare object sets • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 2.811
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-explorer/configure",
+      "request_url": "https://www.palantir.com/docs/foundry/object-explorer/configure/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 153,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/configure/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 174,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/configure/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 50,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/configure/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 94,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/configure/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/explorer-sources.json",
+          "source_id": "OE-12",
+          "access_observation": "public-body-read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-explorer/configure/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-explorer/configure",
+        "content_type": "text/html",
+        "content_length": "459568",
+        "elapsed_seconds": 3.254
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-explorer/configure/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-explorer/configure",
+        "content_type": "text/html",
+        "content_length": "459568",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "1c9d3fcc3d9515edcc86d176f63798b53a0bd1460a7bc5675b3c7f26a00171b7",
+        "page_title": "Object Explorer • Configure Object Explorer • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 2.469
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-explorer/explore-charts",
+      "request_url": "https://www.palantir.com/docs/foundry/object-explorer/explore-charts/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 57,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/explore-charts/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 170,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/explore-charts/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 7,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/explore-charts/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 19,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/explore-charts/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 31,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/explore-charts/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 35,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/explore-charts/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 56,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/explore-charts/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 58,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/explore-charts/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/explorer-sources.json",
+          "source_id": "OE-04",
+          "access_observation": "public-body-read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-explorer/explore-charts/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-explorer/explore-charts",
+        "content_type": "text/html",
+        "content_length": "472376",
+        "elapsed_seconds": 3.5
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-explorer/explore-charts/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-explorer/explore-charts",
+        "content_type": "text/html",
+        "content_length": "472376",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "2e6b01a69d68ead7d80388afcd479fccdfe60787f73b499437f61b96f3ce8ed4",
+        "page_title": "Object Explorer • Analyze and compare • Explore with charts • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 4.108
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-explorer/filter-results",
+      "request_url": "https://www.palantir.com/docs/foundry/object-explorer/filter-results/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 151,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/filter-results/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 30,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/filter-results/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/explorer-sources.json",
+          "source_id": "OE-03",
+          "access_observation": "public-body-read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-explorer/filter-results/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-explorer/filter-results",
+        "content_type": "text/html",
+        "content_length": "447496",
+        "elapsed_seconds": 3.233
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-explorer/filter-results/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-explorer/filter-results",
+        "content_type": "text/html",
+        "content_length": "447496",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "c64122042fe6358a6fbd69a56d7c44a551697f61ab02c1dc90a93854ea133958",
+        "page_title": "Object Explorer • Analyze and compare • Filter results • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 3.214
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-explorer/generate-urls",
+      "request_url": "https://www.palantir.com/docs/foundry/object-explorer/generate-urls/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 174,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/generate-urls/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 66,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/generate-urls/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/explorer-sources.json",
+          "source_id": "OE-11",
+          "access_observation": "public-body-read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-explorer/generate-urls/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-explorer/generate-urls",
+        "content_type": "text/html",
+        "content_length": "447494",
+        "elapsed_seconds": 3.557
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-explorer/generate-urls/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-explorer/generate-urls",
+        "content_type": "text/html",
+        "content_length": "447494",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "63622d8c1dd0a5d1b2945fca4082214264e31f5788eed183ccd867acc20bf254",
+        "page_title": "Object Explorer • Generate Object Explorer URLs • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 3.715
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-explorer/getting-started",
+      "request_url": "https://www.palantir.com/docs/foundry/object-explorer/getting-started/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 151,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/getting-started/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 29,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/getting-started/",
+          "fragment": null
+        },
+        {
+          "file": "notes/media-evidence.md",
+          "line": 63,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/getting-started",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/explorer-sources.json",
+          "source_id": "OE-02",
+          "access_observation": "public-body-read",
+          "accessed_on": "2026-10-01"
+        },
+        {
+          "registry": "notes/media-sources.json",
+          "source_id": "MD07",
+          "access_observation": "public body and original image links read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-explorer/getting-started/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-explorer/getting-started",
+        "content_type": "text/html",
+        "content_length": "447192",
+        "elapsed_seconds": 2.906
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-explorer/getting-started/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-explorer/getting-started",
+        "content_type": "text/html",
+        "content_length": "447192",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "467bc7948c166fc4537d3fa82046e267df0fe3dcf1d5ce26778f1c465c819b7b",
+        "page_title": "Object Explorer • Getting started • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 8.839
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-explorer/overview",
+      "request_url": "https://www.palantir.com/docs/foundry/object-explorer/overview/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 8,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/overview/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 7,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/overview/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 17,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/overview/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 36,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/overview/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/explorer-sources.json",
+          "source_id": "OE-01",
+          "access_observation": "public-body-read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-explorer/overview/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-explorer/overview",
+        "content_type": "text/html",
+        "content_length": "430094",
+        "elapsed_seconds": 4.491
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-explorer/overview/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-explorer/overview",
+        "content_type": "text/html",
+        "content_length": "430094",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "041fa8652074cb9cfd28604de491d599a9310e22772f3f604b13e2c26fdb8482",
+        "page_title": "Object Explorer • Overview • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 2.663
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-explorer/pivot-linked",
+      "request_url": "https://www.palantir.com/docs/foundry/object-explorer/pivot-linked/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 151,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/pivot-linked/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 32,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/pivot-linked/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/explorer-sources.json",
+          "source_id": "OE-06",
+          "access_observation": "public-body-read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-explorer/pivot-linked/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-explorer/pivot-linked",
+        "content_type": "text/html",
+        "content_length": "430955",
+        "elapsed_seconds": 4.993
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-explorer/pivot-linked/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-explorer/pivot-linked",
+        "content_type": "text/html",
+        "content_length": "430955",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "753adb8496d31a549ff8869816c60491a2895e39de6724ce6b6b4cd004212f3c",
+        "page_title": "Object Explorer • Analyze and compare • Pivot to explore linked objects • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 3.263
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-explorer/save-explorations",
+      "request_url": "https://www.palantir.com/docs/foundry/object-explorer/save-explorations/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 16,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/save-explorations/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 170,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/save-explorations/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 7,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/save-explorations/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 17,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/save-explorations/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 58,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/save-explorations/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 84,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/save-explorations/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/explorer-sources.json",
+          "source_id": "OE-08",
+          "access_observation": "public-body-read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-explorer/save-explorations/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-explorer/save-explorations",
+        "content_type": "text/html",
+        "content_length": "434934",
+        "elapsed_seconds": 3.719
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-explorer/save-explorations/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-explorer/save-explorations",
+        "content_type": "text/html",
+        "content_length": "434934",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "95ccb457c2a0bcaa1f3186350025805bec1439a270aff9513e20866f766f6ff6",
+        "page_title": "Object Explorer • Analyze and compare • Save explorations • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 4.906
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-explorer/save-lists",
+      "request_url": "https://www.palantir.com/docs/foundry/object-explorer/save-lists/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 170,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/save-lists/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 7,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/save-lists/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 18,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/save-lists/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 58,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/save-lists/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 84,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/save-lists/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/explorer-sources.json",
+          "source_id": "OE-09",
+          "access_observation": "public-body-read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-explorer/save-lists/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-explorer/save-lists",
+        "content_type": "text/html",
+        "content_length": "434822",
+        "elapsed_seconds": 3.457
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-explorer/save-lists/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-explorer/save-lists",
+        "content_type": "text/html",
+        "content_length": "434822",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "ef05e54574ca91804a27d4753c6967f93395af650eff98c1572257ce43f05e63",
+        "page_title": "Object Explorer • Analyze and compare • Save lists • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 4.119
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-explorer/view-results",
+      "request_url": "https://www.palantir.com/docs/foundry/object-explorer/view-results/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 47,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/view-results/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 145,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/view-results/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 151,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/view-results/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 33,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/view-results/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 34,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/view-results/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 38,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/view-results/",
+          "fragment": null
+        },
+        {
+          "file": "notes/media-evidence.md",
+          "line": 67,
+          "url": "https://www.palantir.com/docs/foundry/object-explorer/view-results",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/explorer-sources.json",
+          "source_id": "OE-05",
+          "access_observation": "public-body-read",
+          "accessed_on": "2026-10-01"
+        },
+        {
+          "registry": "notes/media-sources.json",
+          "source_id": "MD08",
+          "access_observation": "public body and original image links read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-explorer/view-results/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-explorer/view-results",
+        "content_type": "text/html",
+        "content_length": "450595",
+        "elapsed_seconds": 2.659
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-explorer/view-results/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-explorer/view-results",
+        "content_type": "text/html",
+        "content_length": "450595",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "a3be89412cd34b1a5b0a1b356c0f414c894e9b378ea04dc0fbd1fc006b81e427",
+        "page_title": "Object Explorer • Analyze and compare • View results • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 3.226
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-link-types/metadata-render-hints",
+      "request_url": "https://www.palantir.com/docs/foundry/object-link-types/metadata-render-hints/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 78,
+          "url": "https://www.palantir.com/docs/foundry/object-link-types/metadata-render-hints/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 47,
+          "url": "https://www.palantir.com/docs/foundry/object-link-types/metadata-render-hints/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/views-sources.json",
+          "source_id": "G16",
+          "access_observation": {
+            "status": "public-readable",
+            "method": "公开网页正文",
+            "limits": "不外推到 OSv2 索引实现"
+          },
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-link-types/metadata-render-hints/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-link-types/metadata-render-hints",
+        "content_type": "text/html",
+        "content_length": "439649",
+        "elapsed_seconds": 3.696
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-link-types/metadata-render-hints/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-link-types/metadata-render-hints",
+        "content_type": "text/html",
+        "content_length": "439649",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "a44d7abd542965877088712c1f2adb91a927431f3f5a767cbe5d2cfa271270f3",
+        "page_title": "Object and link types • Metadata • Render hints • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 3.076
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-link-types/property-metadata",
+      "request_url": "https://www.palantir.com/docs/foundry/object-link-types/property-metadata/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 78,
+          "url": "https://www.palantir.com/docs/foundry/object-link-types/property-metadata/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 47,
+          "url": "https://www.palantir.com/docs/foundry/object-link-types/property-metadata/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/views-sources.json",
+          "source_id": "G15",
+          "access_observation": {
+            "status": "public-readable",
+            "method": "公开网页正文",
+            "limits": "展示隐藏不等于安全隔离证明"
+          },
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-link-types/property-metadata/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-link-types/property-metadata",
+        "content_type": "text/html",
+        "content_length": "440766",
+        "elapsed_seconds": 3.452
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-link-types/property-metadata/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-link-types/property-metadata",
+        "content_type": "text/html",
+        "content_length": "440766",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "a2c16fb6c80d58e3cb9bc5168f21fea95a9397c644ec8dc90b91308979502c65",
+        "page_title": "Object and link types • Properties • Metadata reference • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 4.663
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-permissioning/managing-object-security",
+      "request_url": "https://www.palantir.com/docs/foundry/object-permissioning/managing-object-security/",
+      "references": [
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 86,
+          "url": "https://www.palantir.com/docs/foundry/object-permissioning/managing-object-security/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/explorer-sources.json",
+          "source_id": "OE-18",
+          "access_observation": "public-body-read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-permissioning/managing-object-security/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-permissioning/managing-object-security",
+        "content_type": "text/html",
+        "content_length": "461165",
+        "elapsed_seconds": 3.766
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-permissioning/managing-object-security/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-permissioning/managing-object-security",
+        "content_type": "text/html",
+        "content_length": "461165",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "7c1b087a93b91f3053b64d3c2c9a48a174967fa9e93c3c2ceb517bd6a12bd57c",
+        "page_title": "Object permissioning • Managing object security • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 4.453
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-permissioning/ontology-permissions",
+      "request_url": "https://www.palantir.com/docs/foundry/object-permissioning/ontology-permissions/",
+      "references": [
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 86,
+          "url": "https://www.palantir.com/docs/foundry/object-permissioning/ontology-permissions/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/explorer-sources.json",
+          "source_id": "OE-17",
+          "access_observation": "public-body-read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-permissioning/ontology-permissions/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-permissioning/ontology-permissions",
+        "content_type": "text/html",
+        "content_length": "456728",
+        "elapsed_seconds": 3.202
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-permissioning/ontology-permissions/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-permissioning/ontology-permissions",
+        "content_type": "text/html",
+        "content_length": "456728",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "4606a845af85d22296d67e007cd77b58d5ee22bc1c6345412e77b676223931b9",
+        "page_title": "Object permissioning • Ontology permissions • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 2.523
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-permissioning/overview",
+      "request_url": "https://www.palantir.com/docs/foundry/object-permissioning/overview/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 47,
+          "url": "https://www.palantir.com/docs/foundry/object-permissioning/overview/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 15,
+          "url": "https://www.palantir.com/docs/foundry/object-permissioning/overview/",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 86,
+          "url": "https://www.palantir.com/docs/foundry/object-permissioning/overview/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/explorer-sources.json",
+          "source_id": "OE-16",
+          "access_observation": "public-body-read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-permissioning/overview/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-permissioning/overview",
+        "content_type": "text/html",
+        "content_length": "433211",
+        "elapsed_seconds": 3.261
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-permissioning/overview/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-permissioning/overview",
+        "content_type": "text/html",
+        "content_length": "433211",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "898b7145a8ee90ddccb7908721619784d6e7635fc32f4c701b130076c82dfa8c",
+        "page_title": "Object permissioning • Overview • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 3.926
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-views/branching-object-views",
+      "request_url": "https://www.palantir.com/docs/foundry/object-views/branching-object-views/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 16,
+          "url": "https://www.palantir.com/docs/foundry/object-views/branching-object-views/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 186,
+          "url": "https://www.palantir.com/docs/foundry/object-views/branching-object-views/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 188,
+          "url": "https://www.palantir.com/docs/foundry/object-views/branching-object-views/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 11,
+          "url": "https://www.palantir.com/docs/foundry/object-views/branching-object-views/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 39,
+          "url": "https://www.palantir.com/docs/foundry/object-views/branching-object-views/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 67,
+          "url": "https://www.palantir.com/docs/foundry/object-views/branching-object-views/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 95,
+          "url": "https://www.palantir.com/docs/foundry/object-views/branching-object-views/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 97,
+          "url": "https://www.palantir.com/docs/foundry/object-views/branching-object-views/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 101,
+          "url": "https://www.palantir.com/docs/foundry/object-views/branching-object-views/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 102,
+          "url": "https://www.palantir.com/docs/foundry/object-views/branching-object-views/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/views-sources.json",
+          "source_id": "G11",
+          "access_observation": {
+            "status": "public-readable",
+            "method": "公开网页正文及公开 HTML 核对",
+            "limits": "未来 protection 未当成当前已交付能力"
+          },
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/branching-object-views/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/branching-object-views",
+        "content_type": "text/html",
+        "content_length": "459736",
+        "elapsed_seconds": 2.097
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/branching-object-views/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/branching-object-views",
+        "content_type": "text/html",
+        "content_length": "459736",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "347861e59e1561ab922083e800feab785e5fd30f7c45c02b3ef6aa8e58702151",
+        "page_title": "Object Views • Branching object views • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 3.126
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-views/config-app-sidebar",
+      "request_url": "https://www.palantir.com/docs/foundry/object-views/config-app-sidebar/",
+      "references": [
+        {
+          "file": "notes/views-governance.md",
+          "line": 75,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-app-sidebar/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/views-sources.json",
+          "source_id": "G10",
+          "access_observation": {
+            "status": "public-readable",
+            "method": "公开网页正文",
+            "limits": "不宣称所有当前 OV 统一采用 legacy sidebar"
+          },
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/config-app-sidebar/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/config-app-sidebar",
+        "content_type": "text/html",
+        "content_length": "444010",
+        "elapsed_seconds": 1.822
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/config-app-sidebar/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/config-app-sidebar",
+        "content_type": "text/html",
+        "content_length": "444010",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "1530b68a5e252b9787d31ea2b8f4a3330ffb7e63d6a2555768de58e3808fea9e",
+        "page_title": "Object Views • Legacy Object Views • Configure the applications sidebar • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 2.543
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-views/config-legacy-object-views",
+      "request_url": "https://www.palantir.com/docs/foundry/object-views/config-legacy-object-views/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 61,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-legacy-object-views/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 22,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-legacy-object-views/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 67,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-legacy-object-views/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 69,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-legacy-object-views/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/views-sources.json",
+          "source_id": "G07",
+          "access_observation": {
+            "status": "public-readable",
+            "method": "公开网页正文",
+            "limits": "不是所有当前 Workshop tab 的配置模式"
+          },
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/config-legacy-object-views/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/config-legacy-object-views",
+        "content_type": "text/html",
+        "content_length": "442620",
+        "elapsed_seconds": 1.89
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/config-legacy-object-views/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/config-legacy-object-views",
+        "content_type": "text/html",
+        "content_length": "442620",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "1ed9f8da10045c7c9a837289aa1447b34f32e5b48cf287426ca3f946df60266e",
+        "page_title": "Object Views • Legacy Object Views • Configure legacy Object Views • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 3.639
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-views/config-object-views",
+      "request_url": "https://www.palantir.com/docs/foundry/object-views/config-object-views/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 92,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-object-views/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 94,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-object-views/",
+          "fragment": null
+        },
+        {
+          "file": "notes/media-evidence.md",
+          "line": 35,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-object-views/",
+          "fragment": null
+        },
+        {
+          "file": "notes/media-evidence.md",
+          "line": 41,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-object-views/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 55,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-object-views/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 59,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-object-views/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 71,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-object-views/",
+          "fragment": null
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 9,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-object-views/#edit-object-view-tabs",
+          "fragment": "edit-object-view-tabs"
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/media-sources.json",
+          "source_id": "MD03",
+          "access_observation": "public body and original image links read",
+          "accessed_on": "2026-10-01"
+        },
+        {
+          "registry": "notes/views-sources.json",
+          "source_id": "G05",
+          "access_observation": {
+            "status": "public-readable",
+            "method": "公开网页正文",
+            "limits": "编辑器 UI 未在租户亲测"
+          },
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/config-object-views/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/config-object-views",
+        "content_type": "text/html",
+        "content_length": "438293",
+        "elapsed_seconds": 1.826
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/config-object-views/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/config-object-views",
+        "content_type": "text/html",
+        "content_length": "438293",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "4d1c83402c80903c31950ab0f37b475feed642cc9a4ca5186f8126b2f0cfe9ac",
+        "page_title": "Object Views • Full Object Views • Configure full Object Views • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 4.465
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-views/config-overview",
+      "request_url": "https://www.palantir.com/docs/foundry/object-views/config-overview/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 36,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-overview/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 47,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-overview/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 57,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-overview/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 59,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-overview/#default-configurations",
+          "fragment": "default-configurations"
+        },
+        {
+          "file": "README.md",
+          "line": 86,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-overview/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 88,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-overview/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 110,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-overview/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 121,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-overview/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 123,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-overview/#permissions",
+          "fragment": "permissions"
+        },
+        {
+          "file": "README.md",
+          "line": 186,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-overview/#permissions",
+          "fragment": "permissions"
+        },
+        {
+          "file": "notes/media-evidence.md",
+          "line": 29,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-overview",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 9,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-overview/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 19,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-overview/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 21,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-overview/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 26,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-overview/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 30,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-overview/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 53,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-overview/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 65,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-overview/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 93,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-overview/",
+          "fragment": null
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 5,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-overview/",
+          "fragment": null
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 54,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-overview/#permissions",
+          "fragment": "permissions"
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 80,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-overview/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/media-sources.json",
+          "source_id": "MD02",
+          "access_observation": "public body and original image links read",
+          "accessed_on": "2026-10-01"
+        },
+        {
+          "registry": "notes/views-sources.json",
+          "source_id": "G03",
+          "access_observation": {
+            "status": "public-readable",
+            "method": "公开网页正文",
+            "limits": "默认物化/迁移实现未说明；与 G18 并列"
+          },
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/config-overview/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/config-overview",
+        "content_type": "text/html",
+        "content_length": "441604",
+        "elapsed_seconds": 2.849
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/config-overview/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/config-overview",
+        "content_type": "text/html",
+        "content_length": "441604",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "00e546a958380f89d7ce8bcf3c2113c71d5f49a5843a9b884ed197c1d20bb59f",
+        "page_title": "Object Views • Configured Object View overview • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 2.418
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-views/config-panel-views",
+      "request_url": "https://www.palantir.com/docs/foundry/object-views/config-panel-views/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 13,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-panel-views/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 96,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-panel-views/",
+          "fragment": null
+        },
+        {
+          "file": "notes/media-evidence.md",
+          "line": 45,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-panel-views",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 57,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-panel-views/",
+          "fragment": null
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 9,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-panel-views/#edit-configured-panel-object-views",
+          "fragment": "edit-configured-panel-object-views"
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/media-sources.json",
+          "source_id": "MD04",
+          "access_observation": "public body and original image links read",
+          "accessed_on": "2026-10-01"
+        },
+        {
+          "registry": "notes/views-sources.json",
+          "source_id": "G06",
+          "access_observation": {
+            "status": "public-readable",
+            "method": "公开网页正文",
+            "limits": "运行尺寸由宿主与设备决定"
+          },
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/config-panel-views/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/config-panel-views",
+        "content_type": "text/html",
+        "content_length": "439468",
+        "elapsed_seconds": 2.864
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/config-panel-views/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/config-panel-views",
+        "content_type": "text/html",
+        "content_length": "439468",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "35b9a863dc7ed4bd35d99c73dd7d7320b4cd1d3f3b69631b942c0765d314c1b3",
+        "page_title": "Object Views • Panel Object Views • Configure panel Object Views • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 2.745
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-views/config-profiles",
+      "request_url": "https://www.palantir.com/docs/foundry/object-views/config-profiles/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 57,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-profiles/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 73,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-profiles/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/views-sources.json",
+          "source_id": "G09",
+          "access_observation": {
+            "status": "public-readable",
+            "method": "公开网页正文",
+            "limits": "未证明 profiles 可替代数据授权"
+          },
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/config-profiles/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/config-profiles",
+        "content_type": "text/html",
+        "content_length": "438898",
+        "elapsed_seconds": 1.857
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/config-profiles/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/config-profiles",
+        "content_type": "text/html",
+        "content_length": "438898",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "054cd981a1febb1186f5e72f6a4ffad3b198724e7f7d1e1e4274e0cc2ec24402",
+        "page_title": "Object Views • Legacy Object Views • Configure profiles • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 2.676
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-views/config-tabs",
+      "request_url": "https://www.palantir.com/docs/foundry/object-views/config-tabs/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 61,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-tabs/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 94,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-tabs/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 123,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-tabs/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 127,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-tabs/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 9,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-tabs/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 22,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-tabs/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 65,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-tabs/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 66,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-tabs/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 67,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-tabs/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 69,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-tabs/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 71,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-tabs/",
+          "fragment": null
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 54,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-tabs/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/views-sources.json",
+          "source_id": "G08",
+          "access_observation": {
+            "status": "public-readable",
+            "method": "公开网页正文",
+            "limits": "旧 UI 与当前 editor 不宜逐控件等同"
+          },
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/config-tabs/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/config-tabs",
+        "content_type": "text/html",
+        "content_length": "446962",
+        "elapsed_seconds": 1.883
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/config-tabs/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/config-tabs",
+        "content_type": "text/html",
+        "content_length": "446962",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "c870c3c75160309a68f3e8adc585d2d30b88d2f337164c870f79dea9d6b49b9f",
+        "page_title": "Object Views • Legacy Object Views • Configure tabs • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 3.192
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-views/generate-urls",
+      "request_url": "https://www.palantir.com/docs/foundry/object-views/generate-urls/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 139,
+          "url": "https://www.palantir.com/docs/foundry/object-views/generate-urls/",
+          "fragment": null
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 20,
+          "url": "https://www.palantir.com/docs/foundry/object-views/generate-urls/",
+          "fragment": null
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 38,
+          "url": "https://www.palantir.com/docs/foundry/object-views/generate-urls/#generate-object-links",
+          "fragment": "generate-object-links"
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 46,
+          "url": "https://www.palantir.com/docs/foundry/object-views/generate-urls/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/generate-urls/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/generate-urls",
+        "content_type": "text/html",
+        "content_length": "431468",
+        "elapsed_seconds": 3.439
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/generate-urls/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/generate-urls",
+        "content_type": "text/html",
+        "content_length": "431468",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "d619b3bada57072ccf871aa6872a05c32afeae2a867e548bebbd07c6460bf316",
+        "page_title": "Object Views • Generate Object View URLs • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 2.591
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-views/manage-versions",
+      "request_url": "https://www.palantir.com/docs/foundry/object-views/manage-versions/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 15,
+          "url": "https://www.palantir.com/docs/foundry/object-views/manage-versions/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 170,
+          "url": "https://www.palantir.com/docs/foundry/object-views/manage-versions/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 182,
+          "url": "https://www.palantir.com/docs/foundry/object-views/manage-versions/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 11,
+          "url": "https://www.palantir.com/docs/foundry/object-views/manage-versions/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 87,
+          "url": "https://www.palantir.com/docs/foundry/object-views/manage-versions/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 89,
+          "url": "https://www.palantir.com/docs/foundry/object-views/manage-versions/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/views-sources.json",
+          "source_id": "G04",
+          "access_observation": {
+            "status": "public-readable",
+            "method": "公开网页正文",
+            "limits": "未公开 autosave 周期、并发或原子发布协议"
+          },
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/manage-versions/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/manage-versions",
+        "content_type": "text/html",
+        "content_length": "436104",
+        "elapsed_seconds": 2.46
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/manage-versions/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/manage-versions",
+        "content_type": "text/html",
+        "content_length": "436104",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "e5decce197869b64f94d1f9ffe15e9d74fc47973f1facffc46227fc52400b980",
+        "page_title": "Object Views • Manage configured Object View versions • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 2.48
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-views/marketplace-object-views",
+      "request_url": "https://www.palantir.com/docs/foundry/object-views/marketplace-object-views/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 188,
+          "url": "https://www.palantir.com/docs/foundry/object-views/marketplace-object-views/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 67,
+          "url": "https://www.palantir.com/docs/foundry/object-views/marketplace-object-views/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 108,
+          "url": "https://www.palantir.com/docs/foundry/object-views/marketplace-object-views/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/views-sources.json",
+          "source_id": "G12",
+          "access_observation": {
+            "status": "public-readable",
+            "method": "公开网页正文",
+            "limits": "未说明所有 panels/依赖/消费者定制冲突处理"
+          },
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/marketplace-object-views/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/marketplace-object-views",
+        "content_type": "text/html",
+        "content_length": "433010",
+        "elapsed_seconds": 1.839
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/marketplace-object-views/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/marketplace-object-views",
+        "content_type": "text/html",
+        "content_length": "433010",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "22e05dbeee5427539b7e7102bc39ab4441f743286dd6531438034cf89cde6e20",
+        "page_title": "Object Views • Add Object Views to a Marketplace product • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 2.335
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-views/overview",
+      "request_url": "https://www.palantir.com/docs/foundry/object-views/overview/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 8,
+          "url": "https://www.palantir.com/docs/foundry/object-views/overview/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 12,
+          "url": "https://www.palantir.com/docs/foundry/object-views/overview/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 53,
+          "url": "https://www.palantir.com/docs/foundry/object-views/overview/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 55,
+          "url": "https://www.palantir.com/docs/foundry/object-views/overview/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 100,
+          "url": "https://www.palantir.com/docs/foundry/object-views/overview/",
+          "fragment": null
+        },
+        {
+          "file": "notes/media-evidence.md",
+          "line": 11,
+          "url": "https://www.palantir.com/docs/foundry/object-views/overview",
+          "fragment": null
+        },
+        {
+          "file": "notes/media-evidence.md",
+          "line": 17,
+          "url": "https://www.palantir.com/docs/foundry/object-views/overview",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 7,
+          "url": "https://www.palantir.com/docs/foundry/object-views/overview/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 9,
+          "url": "https://www.palantir.com/docs/foundry/object-views/overview/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 17,
+          "url": "https://www.palantir.com/docs/foundry/object-views/overview/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 20,
+          "url": "https://www.palantir.com/docs/foundry/object-views/overview/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 24,
+          "url": "https://www.palantir.com/docs/foundry/object-views/overview/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 39,
+          "url": "https://www.palantir.com/docs/foundry/object-views/overview/",
+          "fragment": null
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 5,
+          "url": "https://www.palantir.com/docs/foundry/object-views/overview/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/media-sources.json",
+          "source_id": "MD01",
+          "access_observation": "public body and original image links read",
+          "accessed_on": "2026-10-01"
+        },
+        {
+          "registry": "notes/views-sources.json",
+          "source_id": "G01",
+          "access_observation": {
+            "status": "public-readable",
+            "method": "公开网页正文",
+            "limits": "未观察租户运行"
+          },
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/overview/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/overview",
+        "content_type": "text/html",
+        "content_length": "439376",
+        "elapsed_seconds": 3.033
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/overview/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/overview",
+        "content_type": "text/html",
+        "content_length": "439376",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "953984ce76b0058f11274af4e4714136eb33554d9f6294fc465309c1f2d08bdc",
+        "page_title": "Object Views • Overview • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 3.881
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-views/standard-object-views",
+      "request_url": "https://www.palantir.com/docs/foundry/object-views/standard-object-views/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 74,
+          "url": "https://www.palantir.com/docs/foundry/object-views/standard-object-views/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 76,
+          "url": "https://www.palantir.com/docs/foundry/object-views/standard-object-views/",
+          "fragment": null
+        },
+        {
+          "file": "notes/media-evidence.md",
+          "line": 23,
+          "url": "https://www.palantir.com/docs/foundry/object-views/standard-object-views/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 43,
+          "url": "https://www.palantir.com/docs/foundry/object-views/standard-object-views/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 45,
+          "url": "https://www.palantir.com/docs/foundry/object-views/standard-object-views/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/media-sources.json",
+          "source_id": "MD06",
+          "access_observation": "public body and original image links read",
+          "accessed_on": "2026-10-01"
+        },
+        {
+          "registry": "notes/views-sources.json",
+          "source_id": "G02",
+          "access_observation": {
+            "status": "public-readable",
+            "method": "公开网页正文",
+            "limits": "媒体种类以文档支持范围为准"
+          },
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/standard-object-views/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/standard-object-views",
+        "content_type": "text/html",
+        "content_length": "439981",
+        "elapsed_seconds": 3.743
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/standard-object-views/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/standard-object-views",
+        "content_type": "text/html",
+        "content_length": "439981",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "feb3795ba2f80d3a9b08990eb65020ab52c0beee550f67f4fdd113a15efa4721",
+        "page_title": "Object Views • Standard Object Views • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 3.528
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-views/use-full-views-in-platform",
+      "request_url": "https://www.palantir.com/docs/foundry/object-views/use-full-views-in-platform/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 119,
+          "url": "https://www.palantir.com/docs/foundry/object-views/use-full-views-in-platform/",
+          "fragment": null
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 11,
+          "url": "https://www.palantir.com/docs/foundry/object-views/use-full-views-in-platform/#platform-applications",
+          "fragment": "platform-applications"
+        }
+      ],
+      "prior_web_or_registry_evidence": [],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/use-full-views-in-platform/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/use-full-views-in-platform",
+        "content_type": "text/html",
+        "content_length": "436115",
+        "elapsed_seconds": 2.883
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/use-full-views-in-platform/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/use-full-views-in-platform",
+        "content_type": "text/html",
+        "content_length": "436115",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "0e24150a7f88b8bb4331ebe2c2d677081d93fa14e4110ab7dbe3b145b6a502cb",
+        "page_title": "Object Views • Full Object Views • Use full Object Views in the platform • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 5.025
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/object-views/use-panel-views-in-platform",
+      "request_url": "https://www.palantir.com/docs/foundry/object-views/use-panel-views-in-platform/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 108,
+          "url": "https://www.palantir.com/docs/foundry/object-views/use-panel-views-in-platform/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 119,
+          "url": "https://www.palantir.com/docs/foundry/object-views/use-panel-views-in-platform/",
+          "fragment": null
+        },
+        {
+          "file": "notes/media-evidence.md",
+          "line": 51,
+          "url": "https://www.palantir.com/docs/foundry/object-views/use-panel-views-in-platform",
+          "fragment": null
+        },
+        {
+          "file": "notes/media-evidence.md",
+          "line": 57,
+          "url": "https://www.palantir.com/docs/foundry/object-views/use-panel-views-in-platform",
+          "fragment": null
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 11,
+          "url": "https://www.palantir.com/docs/foundry/object-views/use-panel-views-in-platform/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/media-sources.json",
+          "source_id": "MD05",
+          "access_observation": "public body and original image links read",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/use-panel-views-in-platform/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/use-panel-views-in-platform",
+        "content_type": "text/html",
+        "content_length": "437643",
+        "elapsed_seconds": 3.166
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/object-views/use-panel-views-in-platform/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/object-views/use-panel-views-in-platform",
+        "content_type": "text/html",
+        "content_length": "437643",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "e0f5853733e8bfcbc1ffe9efb283819365b232e48534db031307b3bf78e58124",
+        "page_title": "Object Views • Panel Object Views • Use panel Object Views in the platform • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 2.566
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/ontology/applications",
+      "request_url": "https://www.palantir.com/docs/foundry/ontology/applications/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 8,
+          "url": "https://www.palantir.com/docs/foundry/ontology/applications/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/ontology/applications/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/ontology/applications",
+        "content_type": "text/html",
+        "content_length": "465560",
+        "elapsed_seconds": 3.455
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/ontology/applications/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/ontology/applications",
+        "content_type": "text/html",
+        "content_length": "465560",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "1c3f773900debf07c53d721d0f01b0eb9f702dc9a51979de6655cb0f6d1c59d8",
+        "page_title": "Ontology-aware applications • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 6.072
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/workshop/actions-use",
+      "request_url": "https://www.palantir.com/docs/foundry/workshop/actions-use/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 155,
+          "url": "https://www.palantir.com/docs/foundry/workshop/actions-use/",
+          "fragment": null
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 52,
+          "url": "https://www.palantir.com/docs/foundry/workshop/actions-use/#chaining-an-event-with-an-action",
+          "fragment": "chaining-an-event-with-an-action"
+        }
+      ],
+      "prior_web_or_registry_evidence": [],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/workshop/actions-use/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/workshop/actions-use",
+        "content_type": "text/html",
+        "content_length": "421024",
+        "elapsed_seconds": 3.191
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/workshop/actions-use/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/workshop/actions-use",
+        "content_type": "text/html",
+        "content_length": "421024",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "d9a0d5932eb3cc2a4b22769f265b729feae8e04acea500979b6be657f8eec724",
+        "page_title": "Workshop • Actions • Use Actions in Workshop • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 3.396
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/workshop/auto-refresh",
+      "request_url": "https://www.palantir.com/docs/foundry/workshop/auto-refresh/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 155,
+          "url": "https://www.palantir.com/docs/foundry/workshop/auto-refresh/",
+          "fragment": null
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 58,
+          "url": "https://www.palantir.com/docs/foundry/workshop/auto-refresh/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/workshop/auto-refresh/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/workshop/auto-refresh",
+        "content_type": "text/html",
+        "content_length": "411478",
+        "elapsed_seconds": 3.354
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/workshop/auto-refresh/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/workshop/auto-refresh",
+        "content_type": "text/html",
+        "content_length": "411478",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "3b75378ba2832b3c371e8ef520ad0189c79a199d95b7c63efda633b00b58e32f",
+        "page_title": "Workshop • Auto-refresh • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 3.572
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/workshop/concepts-events",
+      "request_url": "https://www.palantir.com/docs/foundry/workshop/concepts-events/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 155,
+          "url": "https://www.palantir.com/docs/foundry/workshop/concepts-events/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 192,
+          "url": "https://www.palantir.com/docs/foundry/workshop/concepts-events/",
+          "fragment": null
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 34,
+          "url": "https://www.palantir.com/docs/foundry/workshop/concepts-events/#applications",
+          "fragment": "applications"
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 58,
+          "url": "https://www.palantir.com/docs/foundry/workshop/concepts-events/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/workshop/concepts-events/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/workshop/concepts-events",
+        "content_type": "text/html",
+        "content_length": "436262",
+        "elapsed_seconds": 3.631
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/workshop/concepts-events/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/workshop/concepts-events",
+        "content_type": "text/html",
+        "content_length": "436262",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "d090a918c4c0d6e25dc3b4cd6aaa7b9a0a0c51ec017321ea9e06cac705f5fb27",
+        "page_title": "Workshop • Core concepts • Events • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 3.241
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/workshop/concepts-permissions",
+      "request_url": "https://www.palantir.com/docs/foundry/workshop/concepts-permissions/",
+      "references": [
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 54,
+          "url": "https://www.palantir.com/docs/foundry/workshop/concepts-permissions/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/workshop/concepts-permissions/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/workshop/concepts-permissions",
+        "content_type": "text/html",
+        "content_length": "386382",
+        "elapsed_seconds": 3.707
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/workshop/concepts-permissions/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/workshop/concepts-permissions",
+        "content_type": "text/html",
+        "content_length": "386382",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "cd2c0273c82ca4e1c34532f9588621ede0508df002bd284ef71288d1bddf3489",
+        "page_title": "Workshop • Core concepts • Permissions • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 3.288
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/workshop/drag-and-drop",
+      "request_url": "https://www.palantir.com/docs/foundry/workshop/drag-and-drop",
+      "references": [
+        {
+          "file": "notes/media-evidence.md",
+          "line": 88,
+          "url": "https://www.palantir.com/docs/foundry/workshop/drag-and-drop",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/workshop/drag-and-drop",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/workshop/drag-and-drop",
+        "content_type": "text/html",
+        "content_length": "404276",
+        "elapsed_seconds": 2.459
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/workshop/drag-and-drop",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/workshop/drag-and-drop",
+        "content_type": "text/html",
+        "content_length": "404276",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "1dda286aef5f6a015f1cc945a58ed80343d3da3910d3bd61df65d36e41dd7aa3",
+        "page_title": "Workshop • Cross-application interactivity • Drag and drop • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 2.362
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/workshop/embedded-modules",
+      "request_url": "https://www.palantir.com/docs/foundry/workshop/embedded-modules/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 129,
+          "url": "https://www.palantir.com/docs/foundry/workshop/embedded-modules/",
+          "fragment": null
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 20,
+          "url": "https://www.palantir.com/docs/foundry/workshop/embedded-modules/#module-selection",
+          "fragment": "module-selection"
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 26,
+          "url": "https://www.palantir.com/docs/foundry/workshop/embedded-modules/#interface-configuration",
+          "fragment": "interface-configuration"
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 30,
+          "url": "https://www.palantir.com/docs/foundry/workshop/embedded-modules/#interface-configuration",
+          "fragment": "interface-configuration"
+        }
+      ],
+      "prior_web_or_registry_evidence": [],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/workshop/embedded-modules/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/workshop/embedded-modules",
+        "content_type": "text/html",
+        "content_length": "388609",
+        "elapsed_seconds": 3.794
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/workshop/embedded-modules/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/workshop/embedded-modules",
+        "content_type": "text/html",
+        "content_length": "388609",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "483c597620ca5e23fc85eef6fabdbcde36b462eb454e0641989804cdec5b9a89",
+        "page_title": "Workshop • Embed Workshop modules • Widget: Embedded modules • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 2.932
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/workshop/embedding-workshop-modules-overview",
+      "request_url": "https://www.palantir.com/docs/foundry/workshop/embedding-workshop-modules-overview/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 129,
+          "url": "https://www.palantir.com/docs/foundry/workshop/embedding-workshop-modules-overview/",
+          "fragment": null
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 20,
+          "url": "https://www.palantir.com/docs/foundry/workshop/embedding-workshop-modules-overview/#permission-of-embedded-modules",
+          "fragment": "permission-of-embedded-modules"
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 28,
+          "url": "https://www.palantir.com/docs/foundry/workshop/embedding-workshop-modules-overview/#event-passing",
+          "fragment": "event-passing"
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 30,
+          "url": "https://www.palantir.com/docs/foundry/workshop/embedding-workshop-modules-overview/#communicating-across-embedded-modules",
+          "fragment": "communicating-across-embedded-modules"
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 58,
+          "url": "https://www.palantir.com/docs/foundry/workshop/embedding-workshop-modules-overview/#no-module-settings-inheritance-of-child-modules",
+          "fragment": "no-module-settings-inheritance-of-child-modules"
+        }
+      ],
+      "prior_web_or_registry_evidence": [],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/workshop/embedding-workshop-modules-overview/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/workshop/embedding-workshop-modules-overview",
+        "content_type": "text/html",
+        "content_length": "417982",
+        "elapsed_seconds": 3.656
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/workshop/embedding-workshop-modules-overview/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/workshop/embedding-workshop-modules-overview",
+        "content_type": "text/html",
+        "content_length": "417982",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "3b7f0288e7a76d93b8c5765c812296124c7d82d87cf03d658c7697d386391f67",
+        "page_title": "Workshop • Embed Workshop modules • Overview • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 16.504
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/workshop/module-interface",
+      "request_url": "https://www.palantir.com/docs/foundry/workshop/module-interface/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 14,
+          "url": "https://www.palantir.com/docs/foundry/workshop/module-interface/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 127,
+          "url": "https://www.palantir.com/docs/foundry/workshop/module-interface/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 139,
+          "url": "https://www.palantir.com/docs/foundry/workshop/module-interface/",
+          "fragment": null
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 26,
+          "url": "https://www.palantir.com/docs/foundry/workshop/module-interface/#embedded-module-interface",
+          "fragment": "embedded-module-interface"
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 34,
+          "url": "https://www.palantir.com/docs/foundry/workshop/module-interface/#open-workshop-module-event",
+          "fragment": "open-workshop-module-event"
+        }
+      ],
+      "prior_web_or_registry_evidence": [],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/workshop/module-interface/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/workshop/module-interface",
+        "content_type": "text/html",
+        "content_length": "396579",
+        "elapsed_seconds": 3.528
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/workshop/module-interface/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/workshop/module-interface",
+        "content_type": "text/html",
+        "content_length": "396579",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "4461ba8e2654b987b8d14b296735770db668cc5d80dff0e76a9bb983fcb5e8f4",
+        "page_title": "Workshop • Variable types and usage • Module interface • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 3.355
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/workshop/routing",
+      "request_url": "https://www.palantir.com/docs/foundry/workshop/routing/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 139,
+          "url": "https://www.palantir.com/docs/foundry/workshop/routing/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 170,
+          "url": "https://www.palantir.com/docs/foundry/workshop/routing/",
+          "fragment": null
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 36,
+          "url": "https://www.palantir.com/docs/foundry/workshop/routing/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/workshop/routing/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/workshop/routing",
+        "content_type": "text/html",
+        "content_length": "394423",
+        "elapsed_seconds": 3.812
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/workshop/routing/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/workshop/routing",
+        "content_type": "text/html",
+        "content_length": "394423",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "564b6b4c4a7d421136572506e412ed02b97e8acc4a404f73c919977a1108e823",
+        "page_title": "Workshop • Routing • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 3.212
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/workshop/state-saving",
+      "request_url": "https://www.palantir.com/docs/foundry/workshop/state-saving/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 139,
+          "url": "https://www.palantir.com/docs/foundry/workshop/state-saving/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 170,
+          "url": "https://www.palantir.com/docs/foundry/workshop/state-saving/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 172,
+          "url": "https://www.palantir.com/docs/foundry/workshop/state-saving/#setting-a-default-saved-state",
+          "fragment": "setting-a-default-saved-state"
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 62,
+          "url": "https://www.palantir.com/docs/foundry/workshop/state-saving/",
+          "fragment": null
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 64,
+          "url": "https://www.palantir.com/docs/foundry/workshop/state-saving/#limitations",
+          "fragment": "limitations"
+        }
+      ],
+      "prior_web_or_registry_evidence": [],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/workshop/state-saving/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/workshop/state-saving",
+        "content_type": "text/html",
+        "content_length": "416803",
+        "elapsed_seconds": 3.94
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/workshop/state-saving/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/workshop/state-saving",
+        "content_type": "text/html",
+        "content_length": "416803",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "41852258f28880714e4a5323092fac17de2b5c475f5b5a1be7eec137031f2478",
+        "page_title": "Workshop • State saving • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 2.591
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/workshop/widgets-inline-action-form",
+      "request_url": "https://www.palantir.com/docs/foundry/workshop/widgets-inline-action-form/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 155,
+          "url": "https://www.palantir.com/docs/foundry/workshop/widgets-inline-action-form/",
+          "fragment": null
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 52,
+          "url": "https://www.palantir.com/docs/foundry/workshop/widgets-inline-action-form/#configuration",
+          "fragment": "configuration"
+        }
+      ],
+      "prior_web_or_registry_evidence": [],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/workshop/widgets-inline-action-form/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/workshop/widgets-inline-action-form",
+        "content_type": "text/html",
+        "content_length": "394858",
+        "elapsed_seconds": 3.214
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/workshop/widgets-inline-action-form/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/workshop/widgets-inline-action-form",
+        "content_type": "text/html",
+        "content_length": "394858",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "038ef7509d716c415efd43409168d3958326c23e11c473480651b0f5b52d4035",
+        "page_title": "Workshop • Event-trigger & navigational widgets • Inline Action • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 5.953
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/workshop/widgets-media-preview",
+      "request_url": "https://www.palantir.com/docs/foundry/workshop/widgets-media-preview/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 102,
+          "url": "https://www.palantir.com/docs/foundry/workshop/widgets-media-preview/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 59,
+          "url": "https://www.palantir.com/docs/foundry/workshop/widgets-media-preview/",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/views-sources.json",
+          "source_id": "G17",
+          "access_observation": {
+            "status": "public-readable",
+            "method": "公开网页正文",
+            "limits": "配置组合未在租户执行"
+          },
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/workshop/widgets-media-preview/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/workshop/widgets-media-preview",
+        "content_type": "text/html",
+        "content_length": "389586",
+        "elapsed_seconds": 4.987
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/workshop/widgets-media-preview/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/workshop/widgets-media-preview",
+        "content_type": "text/html",
+        "content_length": "389586",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "182c1b03fb1379509bc62139ced134cf9ad9772772b48a1528fc333b570443ff",
+        "page_title": "Workshop • Visualization widgets • Media Preview • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 3.034
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.palantir.com/docs/foundry/workshop/widgets-object-view",
+      "request_url": "https://www.palantir.com/docs/foundry/workshop/widgets-object-view/",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 13,
+          "url": "https://www.palantir.com/docs/foundry/workshop/widgets-object-view/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 14,
+          "url": "https://www.palantir.com/docs/foundry/workshop/widgets-object-view/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 47,
+          "url": "https://www.palantir.com/docs/foundry/workshop/widgets-object-view/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 57,
+          "url": "https://www.palantir.com/docs/foundry/workshop/widgets-object-view/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 110,
+          "url": "https://www.palantir.com/docs/foundry/workshop/widgets-object-view/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 119,
+          "url": "https://www.palantir.com/docs/foundry/workshop/widgets-object-view/#form-factor-configuration-options",
+          "fragment": "form-factor-configuration-options"
+        },
+        {
+          "file": "README.md",
+          "line": 121,
+          "url": "https://www.palantir.com/docs/foundry/workshop/widgets-object-view/",
+          "fragment": null
+        },
+        {
+          "file": "README.md",
+          "line": 127,
+          "url": "https://www.palantir.com/docs/foundry/workshop/widgets-object-view/",
+          "fragment": null
+        },
+        {
+          "file": "notes/views-governance.md",
+          "line": 30,
+          "url": "https://www.palantir.com/docs/foundry/workshop/widgets-object-view/",
+          "fragment": null
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 11,
+          "url": "https://www.palantir.com/docs/foundry/workshop/widgets-object-view/#configuration-options",
+          "fragment": "configuration-options"
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 20,
+          "url": "https://www.palantir.com/docs/foundry/workshop/widgets-object-view/#form-factor-configuration-options",
+          "fragment": "form-factor-configuration-options"
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 24,
+          "url": "https://www.palantir.com/docs/foundry/workshop/widgets-object-view/#form-factor-configuration-options",
+          "fragment": "form-factor-configuration-options"
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 64,
+          "url": "https://www.palantir.com/docs/foundry/workshop/widgets-object-view/#core-configuration-options",
+          "fragment": "core-configuration-options"
+        },
+        {
+          "file": "notes/workshop-boundaries.md",
+          "line": 80,
+          "url": "https://www.palantir.com/docs/foundry/workshop/widgets-object-view/#core-configuration-options",
+          "fragment": "core-configuration-options"
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/views-sources.json",
+          "source_id": "G18",
+          "access_observation": {
+            "status": "public-readable",
+            "method": "公开网页正文",
+            "limits": "实际租户 rollout/交互仍待核验"
+          },
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.palantir.com/docs/foundry/workshop/widgets-object-view/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/workshop/widgets-object-view",
+        "content_type": "text/html",
+        "content_length": "396466",
+        "elapsed_seconds": 3.852
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://www.palantir.com/docs/foundry/workshop/widgets-object-view/",
+        "status": 200,
+        "final_url": "https://www.palantir.com/docs/foundry/workshop/widgets-object-view",
+        "content_type": "text/html",
+        "content_length": "396466",
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "1249f207cae59fa2435df97625b68c4239f5bd4d6b7bab3cc1faa75d91364bd2",
+        "page_title": "Workshop • Core display widgets • Object View • Palantir",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 3.422
+      },
+      "verdict": "http_success_html_sample"
+    },
+    {
+      "page_key": "https://www.youtube.com/watch?v=Cgn52Qqgxeg",
+      "request_url": "https://www.youtube.com/watch?v=Cgn52Qqgxeg",
+      "references": [
+        {
+          "file": "notes/media-evidence.md",
+          "line": 88,
+          "url": "https://www.youtube.com/watch?v=Cgn52Qqgxeg",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/media-sources.json",
+          "source_id": "MV02",
+          "access_observation": "title from public search; direct page retrieval throttled; no verified content frame",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.youtube.com/watch?v=Cgn52Qqgxeg",
+        "status": null,
+        "error_type": "URLError",
+        "error": "<urlopen error [Errno 65] No route to host>",
+        "elapsed_seconds": 12.089
+      },
+      "get": null,
+      "verdict": "transport_error"
+    },
+    {
+      "page_key": "https://www.youtube.com/watch?v=YuT96FVeDuc",
+      "request_url": "https://www.youtube.com/watch?v=YuT96FVeDuc",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 204,
+          "url": "https://www.youtube.com/watch?v=YuT96FVeDuc",
+          "fragment": null
+        },
+        {
+          "file": "notes/explorer-flow.md",
+          "line": 102,
+          "url": "https://www.youtube.com/watch?v=YuT96FVeDuc",
+          "fragment": null
+        },
+        {
+          "file": "notes/media-evidence.md",
+          "line": 71,
+          "url": "https://www.youtube.com/watch?v=YuT96FVeDuc",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [
+        {
+          "registry": "notes/explorer-sources.json",
+          "source_id": "OE-23",
+          "access_observation": "Initial direct body fetch failed; final public browser description/date/chapters read, as registered in MV01; player failed and transcript unavailable",
+          "accessed_on": "2026-10-01"
+        },
+        {
+          "registry": "notes/media-sources.json",
+          "source_id": "MV01",
+          "access_observation": "public title/channel/date/description/chapters read; no verified content frame; transcript unavailable",
+          "accessed_on": "2026-10-01"
+        }
+      ],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://www.youtube.com/watch?v=YuT96FVeDuc",
+        "status": null,
+        "error_type": "URLError",
+        "error": "<urlopen error [Errno 65] No route to host>",
+        "elapsed_seconds": 12.02
+      },
+      "get": null,
+      "verdict": "transport_error"
+    },
+    {
+      "page_key": "https://zenn.dev/knowledge_graph/articles/palantir-ontology-vs-devrev",
+      "request_url": "https://zenn.dev/knowledge_graph/articles/palantir-ontology-vs-devrev",
+      "references": [
+        {
+          "file": "README.md",
+          "line": 206,
+          "url": "https://zenn.dev/knowledge_graph/articles/palantir-ontology-vs-devrev",
+          "fragment": null
+        },
+        {
+          "file": "notes/secondary-reading.md",
+          "line": 7,
+          "url": "https://zenn.dev/knowledge_graph/articles/palantir-ontology-vs-devrev",
+          "fragment": null
+        }
+      ],
+      "prior_web_or_registry_evidence": [],
+      "head": {
+        "method": "HEAD",
+        "requested_url": "https://zenn.dev/knowledge_graph/articles/palantir-ontology-vs-devrev",
+        "status": 200,
+        "final_url": "https://zenn.dev/knowledge_graph/articles/palantir-ontology-vs-devrev",
+        "content_type": "text/html; charset=utf-8",
+        "content_length": null,
+        "elapsed_seconds": 0.868
+      },
+      "get": {
+        "method": "GET",
+        "requested_url": "https://zenn.dev/knowledge_graph/articles/palantir-ontology-vs-devrev",
+        "status": 200,
+        "final_url": "https://zenn.dev/knowledge_graph/articles/palantir-ontology-vs-devrev",
+        "content_type": "text/html; charset=utf-8",
+        "content_length": null,
+        "bytes_sampled": 131072,
+        "sample_limit": 131072,
+        "body_complete": false,
+        "sample_sha256": "9123e5daabea0eea09bf6b6bbe49609e9b2ae9dc90c6fc5118eb4e10252badb0",
+        "page_title": "Palantir Foundry OntologyとDevRevの思想と実装の違い",
+        "html_sample_received": true,
+        "content_observation": "bounded response sample; not a full-page review or video viewing",
+        "elapsed_seconds": 0.611
+      },
+      "verdict": "http_success_html_sample"
+    }
+  ]
+}

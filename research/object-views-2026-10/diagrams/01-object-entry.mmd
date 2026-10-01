@@ -1,0 +1,28 @@
+flowchart TB
+    subgraph ontology["Ontology 语义与治理"]
+        TYPE["Object Type：身份、属性、链接"]
+        SECURITY["对象数据与 Action 授权"]
+    end
+    TYPE --> STANDARD["Standard View：元数据自动展示"]
+    TYPE --> OV["Configured View：类型级配置与版本"]
+    subgraph authoring["配置与创作"]
+        OM["Ontology Manager：视图入口与预览"] --> OV
+        OV -->|Full tabs / Panel| MODULE["Workshop modules：布局、变量、事件"]
+    end
+    subgraph runtime["运行入口与对象上下文"]
+        EXPLORER["Object Explorer：集合探索与选择"] --> CONTEXT["当前对象 / ObjectSet"]
+        HOST["Workshop / Carbon 等支持宿主"] --> CONTEXT
+        CONTEXT -->|选择形态与已发布配置| DETAIL["对象详情：属性、关联、媒体与交互"]
+        STANDARD --> DETAIL
+        MODULE --> DETAIL
+        DETAIL --> ACTION["配置的业务 Action 入口"]
+        ACTION -->|提交结果与所配置的刷新| DETAIL
+    end
+    SECURITY -.-> DETAIL
+    SECURITY -.-> ACTION
+    classDef domain fill:#e7f5ff,stroke:#1971c2,color:#102a43;
+    classDef config fill:#e5dbff,stroke:#5f3dc4,color:#102a43;
+    classDef entry fill:#c5f6fa,stroke:#0c8599,color:#102a43;
+    class TYPE,SECURITY domain;
+    class OM,OV,MODULE config;
+    class STANDARD,EXPLORER,HOST,CONTEXT,DETAIL,ACTION entry;

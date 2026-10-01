@@ -1,0 +1,492 @@
+{
+  "retrieved_date": "2026-10-01",
+  "repository_baseline": "70feed00",
+  "scope": "Public Palantir Object Views / Workshop / Carbon documents; no tenant testing or EOS source inspection",
+  "sources": [
+    {
+      "id": "WB01",
+      "title": "Object Views overview",
+      "url": "https://www.palantir.com/docs/foundry/object-views/overview/",
+      "type": "official-documentation",
+      "publication_date": null,
+      "version_label": "current document retrieved 2026-10-01",
+      "sections": [
+        "Standard and configured Object Views",
+        "Object View form factors"
+      ],
+      "supports": [
+        "Object View definition",
+        "Workshop-backed configured views"
+      ]
+    },
+    {
+      "id": "WB02",
+      "title": "Configured Object View overview",
+      "url": "https://www.palantir.com/docs/foundry/object-views/config-overview/",
+      "type": "official-documentation",
+      "publication_date": null,
+      "version_label": "current document; contains legacy permission and toggle wording",
+      "sections": [
+        "Default configurations",
+        "Permissions",
+        "Edit configured Object Views"
+      ],
+      "supports": [
+        "Managed tab module permissions",
+        "Object type edit/view alignment",
+        "Document conflict: Workshop toggle"
+      ]
+    },
+    {
+      "id": "WB03",
+      "title": "Configure full Object Views",
+      "url": "https://www.palantir.com/docs/foundry/object-views/config-object-views/",
+      "type": "official-documentation",
+      "publication_date": null,
+      "version_label": "current document retrieved 2026-10-01",
+      "sections": [
+        "Edit Object View tabs",
+        "Use the Object View editor"
+      ],
+      "supports": [
+        "One Workshop module per tab",
+        "Tab deletion removes contained module",
+        "Regular Workshop authoring"
+      ]
+    },
+    {
+      "id": "WB04",
+      "title": "Configure panel Object Views",
+      "url": "https://www.palantir.com/docs/foundry/object-views/config-panel-views/",
+      "type": "official-documentation",
+      "publication_date": null,
+      "version_label": "current document retrieved 2026-10-01",
+      "sections": [
+        "Object instance panels",
+        "Object set panels",
+        "Edit configured panel Object Views"
+      ],
+      "supports": [
+        "Instance vs set panel",
+        "Same-type aggregation",
+        "Editing display size is approximation"
+      ]
+    },
+    {
+      "id": "WB05",
+      "title": "Workshop Object View widget",
+      "url": "https://www.palantir.com/docs/foundry/workshop/widgets-object-view/",
+      "type": "official-documentation",
+      "publication_date": null,
+      "version_label": "current document; explicit legacy-widget compatibility options",
+      "sections": [
+        "Core configuration options",
+        "Form factor configuration options"
+      ],
+      "supports": [
+        "Full/panel and standard/configured",
+        "Full multiple-object first-object rule",
+        "Panel behavior modes",
+        "Object View module interface mappings",
+        "Legacy tabs and widget limits",
+        "Document conflict: standard/configured toggle"
+      ]
+    },
+    {
+      "id": "WB06",
+      "title": "Use full Object Views in the platform",
+      "url": "https://www.palantir.com/docs/foundry/object-views/use-full-views-in-platform/",
+      "type": "official-documentation",
+      "publication_date": null,
+      "version_label": "current document retrieved 2026-10-01",
+      "sections": [
+        "Workshop",
+        "Object Explorer",
+        "Platform applications"
+      ],
+      "supports": [
+        "Full view host integration",
+        "Object Explorer to detail",
+        "Panel title opens full modal"
+      ]
+    },
+    {
+      "id": "WB07",
+      "title": "Use panel Object Views in the platform",
+      "url": "https://www.palantir.com/docs/foundry/object-views/use-panel-views-in-platform/",
+      "type": "official-documentation",
+      "publication_date": null,
+      "version_label": "current document retrieved 2026-10-01",
+      "sections": [
+        "Panel Object Views in platform applications",
+        "Panels in Workshop applications"
+      ],
+      "supports": [
+        "Vertex/Map/Gaia selection panel",
+        "Single-type object set panels",
+        "Workshop panel widget"
+      ]
+    },
+    {
+      "id": "WB08",
+      "title": "Generate Object View URLs",
+      "url": "https://www.palantir.com/docs/foundry/object-views/generate-urls/",
+      "type": "official-documentation",
+      "publication_date": null,
+      "version_label": "current document lists hubble route formats; no inferred internal architecture",
+      "sections": [
+        "Generate object links"
+      ],
+      "supports": [
+        "Primary key and object RID links",
+        "RID search URL Object Explorer context vs unwrapped URL",
+        "embedded=true hides sidebar"
+      ]
+    },
+    {
+      "id": "WB09",
+      "title": "Workshop module interface",
+      "url": "https://www.palantir.com/docs/foundry/workshop/module-interface/",
+      "type": "official-documentation",
+      "publication_date": null,
+      "version_label": "current document retrieved 2026-10-01",
+      "sections": [
+        "Embedded module interface",
+        "Open Workshop module event",
+        "Create a URL with module interface variables",
+        "Carbon navigation"
+      ],
+      "supports": [
+        "Interface vs Ontology interface",
+        "Parent variable ownership",
+        "Invocation-time URL values",
+        "First-load URL initialization",
+        "Carbon naming"
+      ]
+    },
+    {
+      "id": "WB10",
+      "title": "Embedded Module widget",
+      "url": "https://www.palantir.com/docs/foundry/workshop/embedded-modules/",
+      "type": "official-documentation",
+      "publication_date": null,
+      "version_label": "current document retrieved 2026-10-01",
+      "sections": [
+        "Module selection",
+        "Interface configuration"
+      ],
+      "supports": [
+        "Published child version",
+        "Fully mapped variable shared values",
+        "Parent definition/default/recompute",
+        "Current-value edit debugging"
+      ]
+    },
+    {
+      "id": "WB11",
+      "title": "Embed Workshop modules overview",
+      "url": "https://www.palantir.com/docs/foundry/workshop/embedding-workshop-modules-overview/",
+      "type": "official-documentation",
+      "publication_date": null,
+      "version_label": "current document; explicit limitations",
+      "sections": [
+        "Communicating across embedded modules",
+        "No module settings inheritance of child modules",
+        "Event passing",
+        "Permission of embedded modules"
+      ],
+      "supports": [
+        "No settings inheritance",
+        "No event-configuration passing",
+        "Separate child permission",
+        "Document ambiguity: child update propagation"
+      ]
+    },
+    {
+      "id": "WB12",
+      "title": "Workshop Events",
+      "url": "https://www.palantir.com/docs/foundry/workshop/concepts-events/",
+      "type": "official-documentation",
+      "publication_date": null,
+      "version_label": "current document retrieved 2026-10-01",
+      "sections": [
+        "Event execution order",
+        "Applications",
+        "Data staleness"
+      ],
+      "supports": [
+        "Open Object View and Object Explorer events",
+        "Carbon tab vs browser tab",
+        "Refresh data in module",
+        "No downstream computation barrier"
+      ]
+    },
+    {
+      "id": "WB13",
+      "title": "Workshop Routing",
+      "url": "https://www.palantir.com/docs/foundry/workshop/routing/",
+      "type": "official-documentation",
+      "publication_date": null,
+      "version_label": "current document retrieved 2026-10-01",
+      "sections": [
+        "Routing for pages",
+        "Routing for variables",
+        "Limitations"
+      ],
+      "supports": [
+        "Page and variable URL state",
+        "URL write vs initialization",
+        "Single-RID ObjectSet and no direct filter",
+        "No embedded routing inheritance"
+      ]
+    },
+    {
+      "id": "WB14",
+      "title": "Workshop State saving",
+      "url": "https://www.palantir.com/docs/foundry/workshop/state-saving/",
+      "type": "official-documentation",
+      "publication_date": null,
+      "version_label": "current document retrieved 2026-10-01",
+      "sections": [
+        "Configure state saving for variables",
+        "Supported variable types and widgets",
+        "Limitations",
+        "Setting a default saved state"
+      ],
+      "supports": [
+        "Explicit state save; manual/link/default saved state loading",
+        "Native widget unfinished form input variables",
+        "Selection+Object View example",
+        "External ID stability",
+        "No child state saving inheritance",
+        "Platform access and module header required"
+      ]
+    },
+    {
+      "id": "WB15",
+      "title": "Use Actions in Workshop",
+      "url": "https://www.palantir.com/docs/foundry/workshop/actions-use/",
+      "type": "official-documentation",
+      "publication_date": null,
+      "version_label": "current document retrieved 2026-10-01",
+      "sections": [
+        "Use an Action within Workshop",
+        "Chaining an event with an action"
+      ],
+      "supports": [
+        "Action type reused in Workshop and Object Views",
+        "Generated action form",
+        "Variable parameter defaults",
+        "Start/success events"
+      ]
+    },
+    {
+      "id": "WB16",
+      "title": "Inline Action widget",
+      "url": "https://www.palantir.com/docs/foundry/workshop/widgets-inline-action-form/",
+      "type": "official-documentation",
+      "publication_date": null,
+      "version_label": "current document retrieved 2026-10-01",
+      "sections": [
+        "Configuration"
+      ],
+      "supports": [
+        "Action form/table",
+        "Success event",
+        "Output ObjectSet"
+      ]
+    },
+    {
+      "id": "WB17",
+      "title": "Permissions in Workshop",
+      "url": "https://www.palantir.com/docs/foundry/workshop/concepts-permissions/",
+      "type": "official-documentation",
+      "publication_date": null,
+      "version_label": "current document retrieved 2026-10-01",
+      "sections": [
+        "Permissions in Workshop",
+        "Checking permissions"
+      ],
+      "supports": [
+        "Module vs data/actions/functions permissions",
+        "Read-time visibility boundary",
+        "Check access"
+      ]
+    },
+    {
+      "id": "WB18",
+      "title": "Configure tabs",
+      "url": "https://www.palantir.com/docs/foundry/object-views/config-tabs/",
+      "type": "official-documentation",
+      "publication_date": null,
+      "version_label": "official Legacy Object Views documentation retrieved 2026-10-01",
+      "sections": [
+        "Configure tabs",
+        "Tab visibility"
+      ],
+      "supports": [
+        "Managed vs standalone tab modules",
+        "Managed module reuse restriction",
+        "Existing standalone reuse"
+      ]
+    },
+    {
+      "id": "WB19",
+      "title": "Workshop Auto-refresh",
+      "url": "https://www.palantir.com/docs/foundry/workshop/auto-refresh/",
+      "type": "official-documentation",
+      "publication_date": null,
+      "version_label": "current document retrieved 2026-10-01",
+      "sections": [
+        "Limitations"
+      ],
+      "supports": [
+        "ObjectSet watches reload module",
+        "OSv2 limit",
+        "User input reset caution",
+        "Sandboxed iframe isolation option"
+      ]
+    },
+    {
+      "id": "WB20",
+      "title": "Carbon Workspaces overview",
+      "url": "https://www.palantir.com/docs/foundry/carbon/workspaces-overview/",
+      "type": "official-documentation",
+      "publication_date": null,
+      "version_label": "current document retrieved 2026-10-01",
+      "sections": [
+        "Workspaces"
+      ],
+      "supports": [
+        "Curated applications/resources",
+        "Object workflow host"
+      ]
+    },
+    {
+      "id": "WB21",
+      "title": "Carbon Modules overview",
+      "url": "https://www.palantir.com/docs/foundry/carbon/modules-overview/",
+      "type": "official-documentation",
+      "publication_date": null,
+      "version_label": "current document retrieved 2026-10-01",
+      "sections": [
+        "Modules"
+      ],
+      "supports": [
+        "Parameterized application in Carbon tab",
+        "Input-output workflow composition"
+      ]
+    },
+    {
+      "id": "WB22",
+      "title": "Carbon Module navigation",
+      "url": "https://www.palantir.com/docs/foundry/carbon/modules-navigation/",
+      "type": "official-documentation",
+      "publication_date": null,
+      "version_label": "current document still uses Object Explorer examples",
+      "sections": [
+        "Modules inputs and outputs",
+        "Workshop"
+      ],
+      "supports": [
+        "Object Explorer list to separate Object View tabs",
+        "Object View single object context",
+        "Workshop parameter naming",
+        "Navigation variable limits"
+      ]
+    },
+    {
+      "id": "WB23",
+      "title": "Carbon Configure module discovery",
+      "url": "https://www.palantir.com/docs/foundry/carbon/modules-discovery/",
+      "type": "official-documentation",
+      "publication_date": null,
+      "version_label": "current document retrieved 2026-10-01",
+      "sections": [
+        "Workshop"
+      ],
+      "supports": [
+        "Discoverable modules registry",
+        "ObjectSet interface external ID; optional type constraint",
+        "Inside vs outside workspace discovery scope"
+      ]
+    },
+    {
+      "id": "WB24",
+      "title": "Carbon Configure permissions",
+      "url": "https://www.palantir.com/docs/foundry/carbon/permissions-configure/",
+      "type": "official-documentation",
+      "publication_date": null,
+      "version_label": "current document retrieved 2026-10-01",
+      "sections": [
+        "Configure permissions"
+      ],
+      "supports": [
+        "Workspace vs contained-resource access"
+      ]
+    },
+    {
+      "id": "WB25",
+      "title": "Carbon Restrict workspace navigation",
+      "url": "https://www.palantir.com/docs/foundry/carbon/restrict-workspace-nav/",
+      "type": "official-documentation",
+      "publication_date": null,
+      "version_label": "current document retrieved 2026-10-01",
+      "sections": [
+        "Restrict navigation out of a workspace"
+      ],
+      "supports": [
+        "Host-navigation restrictions do not eliminate in-module external links"
+      ]
+    },
+    {
+      "id": "WB26",
+      "title": "Carbon Workspace version history",
+      "url": "https://www.palantir.com/docs/foundry/carbon/workspaces-history/",
+      "type": "official-documentation",
+      "publication_date": null,
+      "version_label": "current document retrieved 2026-10-01",
+      "sections": [
+        "View version history"
+      ],
+      "supports": [
+        "Separate workspace version history"
+      ]
+    },
+    {
+      "id": "WB27",
+      "title": "Explore Ontology data in Carbon with Insight analysis",
+      "url": "https://www.palantir.com/docs/foundry/announcements/2026-09/#explore-ontology-data-in-carbon-with-insight-analysis",
+      "type": "official-announcement",
+      "publication_date": "2026-09-21",
+      "version_label": "dated rollout announcement; opt-in and future-default distinction",
+      "sections": [
+        "Explore Ontology data in Carbon with Insight analysis"
+      ],
+      "supports": [
+        "Insight and modern search opt-in",
+        "Replaces OE-style explorations when enabled",
+        "Existing workspaces opt-in",
+        "Future new-workspace default is plan"
+      ]
+    }
+  ],
+  "checks": {
+    "public_document_access": "All listed sources read with public web tools, including Carbon sources independently checked by a research subagent.",
+    "tenant_access": false,
+    "action_execution": false,
+    "eos_source_access": false,
+    "public_implementation_source_used": false,
+    "known_document_differences": [
+      "Configured overview says Workshop toggle unavailable, whereas Object View widget documents toggle option.",
+      "Embedding overview and Embedded Module widget use different wording for child variable updates."
+    ],
+    "unknowns": [
+      "Object View internal context injection IDs/schema",
+      "Complete Object View event parameter schema",
+      "Full tab history and URL state serialization",
+      "Cross-host Action-to-render completion signal",
+      "Insight legacy link compatibility"
+    ]
+  }
+}
