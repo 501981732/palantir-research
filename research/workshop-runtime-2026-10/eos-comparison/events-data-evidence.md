@@ -1,6 +1,6 @@
 # EOS Workshop：事件、组件联动与数据刷新现状证据
 
-> 本稿由既有只读报告转换为公开审阅拷贝，以下“本次核对”沿用原静态研究记录。本研究仓库不包含 EOS 源码；相对引用用于用户已有 `eos-workshop` checkout 核查，无法在本仓库直接打开。转换未重新审计 EOS 行为；随后仅只读核验相对路径与行号。未运行 EOS 测试、后端或部署。
+> 本稿由既有只读报告转换为公开审阅拷贝，以下“本次核对”沿用原静态研究记录。本研究仓库不包含 EOS 源码；相对引用用于用户已有 `eos-workshop` checkout 核查，无法在本仓库直接打开。公开转换后只读核验了相对路径与行号，并为图12修订复核相关Action/刷新前端接线；未重新进行全项目行为审计。未运行 EOS 测试、后端或部署。
 > 统一基线：`main @ ea071209ca3bce25e45bbca87a9f90f959ef59ed`；原观测工作区已有27个 tracked 文档变化和5个 untracked 项。本稿包含当时的工作区文档现状，不将其视为固定 HEAD 中已提交内容。
 
 日期：2026-10-01。用途：经用户明确授权公开的架构现状报告，供后续 Palantir Workshop 官方资料对照。原核对阶段未联网；本稿只含说明、图与相对证据引用，不含原始源码整包，未修改 EOS 项目。
@@ -183,13 +183,14 @@ flowchart TB
     reconnect --> replay["ActionExecutor 重放"]
     replay --> broad["额外失效：SyncManager未传scope"]
     broad --> broadscope["全部facet；未知类型时全部ObjectSet"]
-    replay --> settled["权威SUCCESS结果通知"]
+    replay -->|重放结果为SUCCESS时| settled["权威SUCCESS结果通知"]
     settled --> wait
     wait -->|SUCCESS| finalize
-    finalize --> refresh["当前模块与分支scope失效"]
+    finalize --> committed["notifyActionCommitted：await回调"]
+    committed -->|默认回调内| refresh["当前模块与分支scope失效"]
+    committed -->|回调返回后| lifecycle["派发onSubmit；非全部下游就绪"]
     refresh --> recompute["复制ObjectSet类definition 拉起重算"]
     recompute --> revision["增加dataRefreshRevision"]
-    revision --> lifecycle["派发onSubmit"]
     recompute -.-> fetching["异步查询与组件更新继续传播"]
     revision -.-> fetching
     manual["refreshDataInModule事件"] --> registry["invalidationRegistry通知"]
@@ -200,7 +201,7 @@ flowchart TB
     classDef result fill:#c5f6fa,stroke:#0c8599,color:#12434b;
     classDef exception fill:#ffe3e3,stroke:#c92a2a,color:#671414;
     class start,submit,execute,replay action;
-    class mode,result,wait,reconnect,finalize,refresh,recompute,revision,registry process;
+    class mode,result,wait,reconnect,finalize,committed,refresh,recompute,revision,registry process;
     class queued storage;
     class lifecycle,fetching,settled,manual result;
     class broad,broadscope,failure exception;
@@ -208,7 +209,9 @@ flowchart TB
 
 </details>
 
-图只表示已核实接线；在线QueryExecutor自身在mutation resolved时还先失效一次，图压缩为成功回调的主刷新链。failed逻辑payload也可能经过mutation onSuccess失效，详见第五节。独立ActionForm的异步notifyCommitted/onSuccess路径不包含在这张事件Action主链图中。
+图只表示已核实接线；成功finalize路径await的是onActionCommitted回调返回，随后才派发onSubmit，不保证全部新查询或下游组件已经就绪。tracked执行中刷新异常会中断后续派发；普通派发捕获刷新异常、记录warning后继续，详见第五节。手动refreshDataInModule只通知registry，监听器以void启动同一刷新函数；共享刷新链结束于revision更新并继续异步查询，不派发Action onSubmit。该顺序已只读复核 `packages/kernel/src/events/handlers/ApplicationEventHandler.ts:770–779,1117–1130`、`packages/kernel/src/events/handlers/DataEventHandler.ts:17–24` 与 `packages/runtime/src/bootstrap/VariableEngineRuntimeProvider.tsx:198–216,390–399`。
+
+在线QueryExecutor自身在mutation resolved时还先失效一次，图压缩为成功回调的主刷新链。failed逻辑payload也可能经过mutation onSuccess失效，详见第五节。离线重放可能成功、失败或继续queued；图中SUCCESS边只覆盖已得到成功结果的情况。独立ActionForm的异步notifyCommitted/onSuccess路径不包含在这张事件Action主链图中。
 
 ## 七、metadata生命周期与幂等保证仍有边界
 
