@@ -91,7 +91,7 @@ Standard 根据 **visibility与base type** 展示：prominent 置于上部，nor
 
 *图 4｜官方标注界面图，可见Object View与当前Workshop module两个版本/编辑层；标注为官方原图内容。[来源](https://www.palantir.com/docs/foundry/object-views/config-object-views/)。*
 
-Full每个tab有自己的Workshop module。外层可新增、重排、改名、删除tabs，内容按普通Workshop布局/变量/Scenarios构建；删除tab会删除其包含module。只有一个tab时，浏览态隐藏tab标题。兼容配置还能按对象属性、关联目标类型权限和profile控制tab可见、显示关联数量badge，须保留其Legacy文档来源。[Full configuration](https://www.palantir.com/docs/foundry/object-views/config-object-views/)、[Tab settings](https://www.palantir.com/docs/foundry/object-views/config-tabs/)
+Full每个tab有自己的Workshop module。外层可新增、重排、改名、删除tabs，内容按普通Workshop布局/变量/Scenarios构建；在当前OV-managed编辑路径中，删除tab会删除其托管module，不据此推断移除复用tab会删除共享standalone资源。只有一个tab时，浏览态隐藏tab标题。兼容配置还能按对象属性、关联目标类型权限和profile控制tab可见、显示关联数量badge，须保留其Legacy文档来源。[Full configuration](https://www.palantir.com/docs/foundry/object-views/config-object-views/)、[Tab settings](https://www.palantir.com/docs/foundry/object-views/config-tabs/)
 
 Panel分 **Object instance** 与同类型 **Object set**。初始instance展示prominent Property List；初始set有Charts和List，前者最多五个XY charts，后者每对象最多三个属性。编辑器的宿主尺寸预设是近似预览，实际尺寸随宿主和设备变化。[Panel configuration](https://www.palantir.com/docs/foundry/object-views/config-panel-views/)
 
@@ -183,7 +183,7 @@ Object View保存生成新版本，tabs结构和各Workshop module分别有版�
 
 这里补充了已有Workshop Runtime主题中未明确获得的autosave证据，适用范围首先是OV编辑器内的module；没有进一步证明保存周期、全部未打开tab草稿的一次性提交、CAS或当前浏览会话刷新策略。
 
-分支把OV-managed module内容与Full tabs结构分为不同资源；模块用Workshop rebase，tabs结构有单独三列冲突处理。Legacy tabs不能在branch编辑。Project-based权限、Ontology roles及legacy datasource-derived有不同编辑/merge规则；后者main编辑仅需任意backing datasource Editor，branch merge需所有backing datasources Editor与Object View Admin。[Branching](https://www.palantir.com/docs/foundry/object-views/branching-object-views/)、[Permissions](https://www.palantir.com/docs/foundry/object-views/config-overview/#permissions)
+分支把OV-managed module内容与Full tabs结构分为不同资源；模块用Workshop rebase，tabs结构有单独三列冲突处理。Legacy tabs不能在branch编辑。Project-based权限、Ontology roles及legacy datasource-derived有不同编辑/merge规则；后者main编辑需Object View Admin加任意输入datasource的Editor；branch merge的贡献者或批准者需对象类型View、所有backing datasources的Editor与Object View Admin。严格程度差异是数据源的“任意”与“所有”，不能漏掉应用权限。[Branching](https://www.palantir.com/docs/foundry/object-views/branching-object-views/)、[Permissions](https://www.palantir.com/docs/foundry/object-views/config-overview/#permissions)
 
 **审批继承与禁止主线修改分别看。** 父类型protected且有project approval policy时，政策约束logical children；同页又明确Inherited resource protection仍under development，在其生效前OV及tabs/panels modules仍可直接编辑main。Marketplace只明确支持Workshop builder的tabs，旧builder须重建；未据此推断panels、所有standalone依赖与安装后定制冲突的自动升级保证。[Branching](https://www.palantir.com/docs/foundry/object-views/branching-object-views/)、[Marketplace](https://www.palantir.com/docs/foundry/object-views/marketplace-object-views/)
 

@@ -52,7 +52,7 @@ Ontology 属性元数据另有 title key、base type、value / conditional forma
 
 Ontology Manager 的对象类型 **Object views** tab 可预览详情、固定一个默认预览对象、切换 full/panel 与 light/dark；右侧 Edit 进入配置编辑器。这个“默认 display object”是编辑预览样本，不是用户默认详情族类。Object Explorer 的 More → Advanced → Edit object view 和嵌入 Panel 的 ellipsis → Edit 是同一配置体系的其他入口；Panel 的编辑菜单只向有编辑权限的用户出现。[G03](https://www.palantir.com/docs/foundry/object-views/config-overview/)
 
-当前 Full 编辑器区分 **Object View 页签结构** 与 **每个页签的 Workshop 内容**。Header 显示 Ontology、对象类型、形态及两个版本号；对象标题栏齿轮管理 tabs。页签可新增、重排、改名、删除，删除页签会删除其包含的模块；仅一个页签时浏览态隐藏页签标题。内容按普通 Workshop 模块构建，布局与动态变量的能力由 Workshop 提供。[G05：Configure full views](https://www.palantir.com/docs/foundry/object-views/config-object-views/)
+当前 Full 编辑器区分 **Object View 页签结构** 与 **每个页签的 Workshop 内容**。Header 显示 Ontology、对象类型、形态及两个版本号；对象标题栏齿轮管理 tabs。页签可新增、重排、改名、删除；在当前OV-managed编辑路径中，删除页签会删除其托管模块，不外推为删除共享standalone资源。仅一个页签时浏览态隐藏页签标题。内容按普通 Workshop 模块构建，布局与动态变量的能力由 Workshop 提供。[G05：Configure full views](https://www.palantir.com/docs/foundry/object-views/config-object-views/)
 
 Panel 要进一步区分单对象 **Object instance** 与同一对象类型多实例的 **Object set**。初始 instance panel 是 prominent Property List；初始 set panel 有 Charts（最多五个 XY charts）和 List（每对象最多三个属性，含 title/prominent/media）两种入口。编辑器分辨率预设与手动尺寸只用于近似预览，实际尺寸取决于宿主与设备；它不是固定像素的运行保证。[G06：Configure panel views](https://www.palantir.com/docs/foundry/object-views/config-panel-views/)
 
@@ -98,7 +98,7 @@ Global Branching 对 Object Views 区分两类资源：每 Full tab / instance p
 
 **两个容易遗漏的治理限制：**
 
-- Datasource-derived 模型的 branch merge 比 main 编辑更严格：贡献者或批准者需对象类型 View、**所有** backing datasources 的 Editor 和 Object View Admin；main 编辑只要求任意 backing datasource 的 Editor。roles / project-based 模型则可由贡献者或 reviewer 的对象类型 edit access 满足，无须另加 Object View Admin。[G11](https://www.palantir.com/docs/foundry/object-views/branching-object-views/)
+- Datasource-derived 模型的 branch merge 比 main 编辑更严格：贡献者或批准者需对象类型 View、**所有** backing datasources 的 Editor 和 Object View Admin；main 编辑需Object View Admin加任意输入datasource的Editor。branch页关于“任意”的比较专指数据源要求，不取消配置概览明确的应用权限。roles / project-based 模型则可由贡献者或 reviewer 的对象类型 edit access 满足，无须另加 Object View Admin。[G11](https://www.palantir.com/docs/foundry/object-views/branching-object-views/)、[G03权限](https://www.palantir.com/docs/foundry/object-views/config-overview/#permissions)
 - 对象类型若 protected 且位于有 project approval policy 的项目，审批策略适用于作为 logical children 的 OV 与模块；但当前同页另写 **Inherited resource protection 仍在开发中**。在其可用之前，即使 parent object type protected，OV 及组成 tabs/panels 的 modules 仍可直接编辑 main。审批继承已经文档化，不代表阻断直接 main 编辑已完成。[G11](https://www.palantir.com/docs/foundry/object-views/branching-object-views/)
 
 **EOS 架构分析：**对象类型是详情配置的治理锚点值得借鉴；但审批、编辑授权和禁止主线修改必须分别验证。不要仅因“子资源继承对象权限”便认为生产配置具备强制评审门禁。
@@ -115,9 +115,9 @@ Object Views 可通过 Foundry DevOps 加入 Marketplace 产品；添加 outputs
 |---|---|---|
 | 新对象类型如何立即有入口 | 元数据驱动 Standard 保底；定制业务页单独拥有生命周期 | schema 变化后默认视图与已接管定制页分别如何更新 |
 | 详情与任务应用如何组合 | Full 管综合详情，Panel 保持宿主工作流上下文；单对象与集合 panel 分开 | 宿主尺寸、对象类型、单/多选择、切换回标准视图（Workshop 文档差异待租户核验） |
-| 页面是否可复用 | OV-managed 与 standalone 分开，前者自动同权，后者跨类型复用 | 复用页升级与各详情采用版本，独立页无权限时的降级行为 |
+| 页面是否可复用 | OV-managed 与 standalone 分开，前者自动同权，后者可跨Object Views复用 | 复用页升级与各详情采用版本，独立页无权限时的降级行为 |
 | 谁能改生产入口 | 对象类型做治理锚点；发布与保存分离；branch内容/结构分资源 | 主线是否仍可绕过审阅，父对象策略是否完整落到子资源 |
-| 旧视图如何退出 | 存量兼容，停止新增；迁移后才可进入 branch/Marketplace | 旧 visibility、profile、过滤、sidebar 参数逐项等价性 |
+| 旧视图如何退出 | Legacy tab无法在branch编辑；要打包到Marketplace的Legacy tab须用Workshop重建 | 不扩大成含Legacy tab的整个OV不能进入branch；旧visibility、profile、过滤、sidebar参数逐项等价性 |
 | 富媒体如何进入对象详情 | 默认按类型识别；定制媒体组件明确输入契约 | attachment/media ref/URL、权限、CSP、PDF嵌入附件、专用播放器差异 |
 
 ## 10. 明确未验证的事项

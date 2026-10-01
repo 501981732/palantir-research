@@ -6,7 +6,7 @@ Object View 可以理解为**按对象类型配置、由对象上下文实例化
 
 ## 1. Workshop 既是创作工具，也能成为 Object View 的消费宿主
 
-**已核实事实，当前文档，2026-10-01 检索。** configured full Object View 的每个页签都有一个 Workshop module，页签内容用 Workshop 的布局、变量和 Scenarios 创作；configured panel 也采用 Workshop 创作方式，编辑画布提供宿主应用尺寸预设、通用分辨率或手工尺寸。画布尺寸是近似预览，实际 panel 尺寸随设备和宿主变化。一个 full 页签被删除时，所含的 Workshop module 也被删除。[Configure full Object Views](https://www.palantir.com/docs/foundry/object-views/config-object-views/#edit-object-view-tabs)、[Configure panel Object Views](https://www.palantir.com/docs/foundry/object-views/config-panel-views/#edit-configured-panel-object-views)
+**已核实事实，当前文档，2026-10-01 检索。** configured full Object View 的每个页签都有一个 Workshop module，页签内容用 Workshop 的布局、变量和 Scenarios 创作；configured panel 也采用 Workshop 创作方式，编辑画布提供宿主应用尺寸预设、通用分辨率或手工尺寸。画布尺寸是近似预览，实际 panel 尺寸随设备和宿主变化。当前OV-managed编辑路径中，删除full页签会删除其托管Workshop module；不能据此推断复用的共享standalone资源也会被删除。[Configure full Object Views](https://www.palantir.com/docs/foundry/object-views/config-object-views/#edit-object-view-tabs)、[Configure panel Object Views](https://www.palantir.com/docs/foundry/object-views/config-panel-views/#edit-configured-panel-object-views)
 
 这与“在通用 Workshop 里放入 Object View widget”是另一方向：widget 消费对象类型的已有视图，构建者可以选择 full/panel、standard/configured、header、空状态及接口映射。full 适合较大详情区域，官方举例通常放在 overlay/modal；Vertex、Map、Gaia 等应用用 panel 表达紧凑的对象选择，点击对象标题又可在可移动、可缩放的 modal 中打开 full。[Object View widget](https://www.palantir.com/docs/foundry/workshop/widgets-object-view/#configuration-options)、[Use full Object Views](https://www.palantir.com/docs/foundry/object-views/use-full-views-in-platform/#platform-applications)、[Use panel Object Views](https://www.palantir.com/docs/foundry/object-views/use-panel-views-in-platform/)
 
@@ -45,7 +45,7 @@ Object View 当前 URL 文档列出以下链接格式，路径中的 `hubble` �
 
 文档明确说明第二种 RID search URL 在 Object Explorer 上下文中加载 Object View，含特殊字符的主键推荐 RID 方式。第三种不带额外包装，官方例子包括 iframe；iframe 可加 `embedded=true` 去掉 Workspace sidebar。此页没有列出“把全部详情页签、表单草稿和集合筛选序列化进 Object View URL”的完整契约，不能从这些链接推出这一能力。[Generate Object View URLs](https://www.palantir.com/docs/foundry/object-views/generate-urls/)
 
-**分析。** 列表到详情的全页导航是一份当时状态快照；嵌入详情可持续共享接口值；可分享 routing 是部分 URL 状态。设计评估必须先选机制，再测试其初始化、更新、回退和权限行为。一个“打开对象”按钮本身不能证明以上三套机制等价。
+**分析。** 配置应用打开事件时，列表到详情的全页导航按触发时接口值初始化目标；嵌入详情可持续共享映射的接口值；可分享routing是部分URL状态。设计评估必须先选机制，再测试其初始化、更新、回退和权限行为。一个“打开对象”按钮本身不能证明以上三套机制等价。
 
 ## 4. Action、权限和刷新属于业务执行层
 
@@ -61,7 +61,7 @@ Workshop 模块的打开/编辑权限与对象、Action、Function 的权限独�
 
 **已核实事实，当前文档。** state saving 保存明确启用的变量当前值和可选当前页；官方例子包括保存列表筛选、当前高亮对象，以及由原生 Text input、Date input 等组件构成的未填完表单。保存需要显式操作，启用变量不等于自动保存跨会话偏好；加载则可手动、通过链接或指定默认已保存状态。当URL没有特定已保存状态，模块再次访问会自动应用所指定的默认状态。它支持 ObjectSet 和 ObjectSet filter，而 routing 直接 URL 的支持范围更窄。状态用 external ID 关联变量，修改 ID 可能使旧状态无法重载。这没有证明任意未配置字段或Action内部事务草稿都能恢复。[State saving](https://www.palantir.com/docs/foundry/workshop/state-saving/)
 
-子模块不继承 state saving 配置，要把需要保存的 child interface 接到父模块已启用保存的变量。state saving 还要求终端用户具备 platform access，浏览态 module header 可见。Object View widget 的 hide object-view header 是另一配置项；公开文档没有充分证据把它与 module header 的可见性直接等同。[State-saving limitations](https://www.palantir.com/docs/foundry/workshop/state-saving/#limitations)、[Object View widget options](https://www.palantir.com/docs/foundry/workshop/widgets-object-view/#core-configuration-options)
+子模块不继承 state saving 配置，要把需要保存的 child interface 接到父模块已启用保存的变量。state saving要求终端用户具备platform access；浏览态保存状态菜单需要module header可见，这不表示隐藏header就不能加载默认已保存状态。Object View widget的hide object-view header是另一配置项，公开文档没有充分证据把它与module header的可见性直接等同。[State-saving limitations](https://www.palantir.com/docs/foundry/workshop/state-saving/#limitations)、[Object View widget options](https://www.palantir.com/docs/foundry/workshop/widgets-object-view/#core-configuration-options)
 
 **分析。** 研究和应用评审应分别记录：对象类型/视图配置版本、backing Workshop module 的发布版本、链接初始化、用户保存状态，以及业务对象实际数据。当前资料可证明几种状态不同，不能证明已公开它们之间的完整恢复、迁移或原子发布协议。
 

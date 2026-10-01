@@ -49,7 +49,7 @@
       "date_or_version": "检索日当前在线文档",
       "published_at": null,
       "sections": ["Edit configured full Object Views", "Edit Object View tabs", "Use the Object View editor"],
-      "claims": ["每 tab 对应 Workshop module", "结构与内容分开", "删除 tab 同时删除其 module", "单 tab 浏览态隐藏标题", "当前编辑器仍链接 legacy configuration"],
+      "claims": ["每 tab 对应 Workshop module", "结构与内容分开", "OV-managed路径：删除tab同时删除其托管module；不推断共享standalone资源删除", "单 tab 浏览态隐藏标题", "当前编辑器仍链接 legacy configuration"],
       "access": {"status": "public-readable", "method": "公开网页正文", "limits": "编辑器 UI 未在租户亲测"}
     },
     {
@@ -109,7 +109,7 @@
       "date_or_version": "检索日当前在线文档；inherited resource protection 仍标 under development",
       "published_at": null,
       "sections": ["Adding, removing, and modifying resources", "Cross-application compatibility", "Merge requirements", "Rebasing and conflict resolution", "Known limitations"],
-      "claims": ["module 内容与 tabs 结构分资源", "rebase 与 publish checks", "legacy tab 禁 branch", "datasource merge 全部 Editor 比 main 任意 Editor 严格", "approval policy 继承不等于阻断 main 编辑"],
+      "claims": ["module 内容与 tabs 结构分资源", "rebase 与 publish checks", "legacy tab 不能在branch编辑", "datasource-derived：main需OV Admin+任意输入datasource Editor；merge需对象类型View+所有backing datasources Editor+OV Admin", "approval policy 继承不等于阻断 main 编辑"],
       "access": {"status": "public-readable", "method": "公开网页正文及公开 HTML 核对", "limits": "未来 protection 未当成当前已交付能力"}
     },
     {

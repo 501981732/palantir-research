@@ -50,7 +50,7 @@
       ],
       "supports": [
         "One Workshop module per tab",
-        "Tab deletion removes contained module",
+        "Current OV-managed editor tab deletion removes its managed module; not a shared standalone deletion guarantee",
         "Regular Workshop authoring"
       ]
     },
@@ -259,7 +259,7 @@
         "Selection+Object View example",
         "External ID stability",
         "No child state saving inheritance",
-        "Platform access and module header required"
+        "Platform access required; visible module header required for View Mode state-saving menu, not a prerequisite inferred for default state loading"
       ]
     },
     {

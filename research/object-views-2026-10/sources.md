@@ -24,9 +24,9 @@
 | S002（G02, MD06） | [Standard Object Views](https://www.palantir.com/docs/foundry/object-views/standard-object-views) | 发布日期未标示或未核实；检索：2026-10-01；公开正文已读；未访问租户 | 元数据 visibility / base type 驱动默认属性展示；媒体、时序、地理属性增强展示；关联对象分组、预览及详情导航。 限制：媒体种类以文档支持范围为准。 |
 | S003（G03, WB02, MD02） | [Configured Object Views 配置概览](https://www.palantir.com/docs/foundry/object-views/config-overview) | 发布日期未标示或未核实；检索：2026-10-01；公开正文已读；未访问租户 | 自动默认配置的 schema 同步与编辑后接管；Ontology Manager 等配置入口；对象类型、托管模块与独立模块权限。 限制：default configured 与 Standard 的物化/迁移细节未公开；此页称 Workshop 无切换开关，与 G18 / WB05 相冲突。 |
 | S004（G04） | [Object View 版本管理](https://www.palantir.com/docs/foundry/object-views/manage-versions) | 发布日期未标示或未核实；检索：2026-10-01；公开正文已读；未访问租户 | 视图与模块分别版本化；默认自动发布；保存/发布协调页签与当前模块；模块周期性自动保存；历史作者、日期和发布标识。 限制：未发布视图修改对浏览者不可见；未给出自动保存周期、并发协议或所有页签原子发布保证。 |
-| S005（G05, WB03, MD03） | [Configured Full Object View](https://www.palantir.com/docs/foundry/object-views/config-object-views) | 发布日期未标示或未核实；检索：2026-10-01；公开正文已读；未访问租户 | 每个页签对应 Workshop 模块；页签结构与模块内容分开配置；删除页签同时删除所属模块；单页签浏览态隐藏标题。 限制：编辑器未在租户亲测；当前页仍链接遗留配置。 |
+| S005（G05, WB03, MD03） | [Configured Full Object View](https://www.palantir.com/docs/foundry/object-views/config-object-views) | 发布日期未标示或未核实；检索：2026-10-01；公开正文已读；未访问租户 | 每个页签对应 Workshop 模块；页签结构与模块内容分开配置；当前OV-managed路径删除页签会删除托管模块，不推断共享standalone资源删除；单页签浏览态隐藏标题。 限制：编辑器未在租户亲测；当前页仍链接遗留配置。 |
 | S006（G06, WB04, MD04） | [Configured Panel Object View](https://www.palantir.com/docs/foundry/object-views/config-panel-views) | 发布日期未标示或未核实；检索：2026-10-01；公开正文已读；未访问租户 | 实例面板与对象集面板分别配置；对象集 Charts / List 默认内容；同类型对象聚合；编辑尺寸预设。 限制：尺寸预设只是近似预览，运行尺寸由宿主和设备决定。 |
-| S011（G11） | [Object View 分支开发](https://www.palantir.com/docs/foundry/object-views/branching-object-views) | 发布日期未标示或未核实；检索：2026-10-01；公开正文已读；未访问租户 | 页签结构与模块内容分资源；变基、发布检查、合并权限；遗留页签不支持分支；审批政策继承。 限制：合并对数据源权限要求更严格；继承主线资源保护仍标开发中，审批继承不代表已经阻断主线编辑。 |
+| S011（G11） | [Object View 分支开发](https://www.palantir.com/docs/foundry/object-views/branching-object-views) | 发布日期未标示或未核实；检索：2026-10-01；公开正文已读；未访问租户 | 页签结构与模块内容分资源；变基、发布检查、合并权限；遗留页签不能在分支编辑；审批政策继承。 限制：datasource-derived的main需OV Admin+任意输入datasource Editor，merge需类型View+所有backing datasources Editor+OV Admin；继承主线资源保护仍标开发中，审批继承不代表已经阻断主线编辑。 |
 | S012（G12） | [Object Views 与 Marketplace](https://www.palantir.com/docs/foundry/object-views/marketplace-object-views) | 发布日期未标示或未核实；检索：2026-10-01；公开正文已读；未访问租户 | 通过 DevOps / Marketplace 按页签打包；仅支持 Workshop builder，遗留页签需重建。 限制：未说明所有面板依赖及消费者定制冲突的处理。 |
 | S014（G15） | [对象属性元数据参考](https://www.palantir.com/docs/foundry/object-link-types/property-metadata) | 发布日期未标示或未核实；检索：2026-10-01；公开正文已读；未访问租户 | title key、base type、格式、render hints 与 visibility 的区别；默认 visibility 为 normal。 限制：展示隐藏不等于安全隔离。 |
 | S015（G16） | [属性 Render hints](https://www.palantir.com/docs/foundry/object-link-types/metadata-render-hints) | 发布日期未标示或未核实；检索：2026-10-01；公开正文已读；未访问租户 | 应用展示提示；额外索引及重新索引的历史性能说明。 限制：索引说明明确针对 OSv1 / Phonograph，不外推到 OSv2 实现。 |
@@ -204,7 +204,7 @@
 
 ## 登记核对
 
-- 已核对 [主文](README.md)及五篇附录，共 271 次直接技术外链引用、104 个精确 URL；遗漏 **0**。
+- 已核对 [主文](README.md)及五篇附录，共 272 次直接技术外链引用、104个规范化去重URL（去末尾slash、保留query与fragment）；原始逐字符URL共111个；遗漏 **0**。
 - 原始编号保留：G 系列 19、OE 系列 24、WB 系列 27、媒体系列 23；原始重复记录归并 16 条。
 - 补充编号 X01—X06 对应六个新增整页/源码，D01—D23 对应章节深链；原来源编号未重写。
 - 所有发布日期、版本标识和访问限度按既有证据登记；章节锚点未独立测试，视频未声称内容观看，源码未声称执行。

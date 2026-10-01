@@ -38,7 +38,7 @@
 
 ![官方 GIF 的真实第 359 帧：Manage tabs 与 visibility 设置](../assets/media-manage-tabs-frame359.png)
 
-M06 原始文件是 [Manage tabs 官方动图](../assets/media-manage-tabs.gif)，共 479 帧。检查第 0、119、239、359、478 帧，可观察到添加、重排页签以及 visibility 设置；上图为第 359 帧，距 GIF 起点 **20.530 秒**，未经 UI 增补。它展示外层 Object View tabs 的管理面与内层 Workshop 编辑器并存。不能凭操作示例断言删除页签之后的恢复机制，或 visibility 规则等同数据授权。来源：[Configured full Object View](https://www.palantir.com/docs/foundry/object-views/config-object-views/)。
+M06 原始文件是 [Manage tabs 官方动图](../assets/media-manage-tabs.gif)，共 479 帧。检查第 0、119、239、359、478 帧，可观察到添加、重排页签以及 visibility 设置；证据包静帧M06-S（media-manage-tabs-frame359.png）为第359帧，距GIF起点 **20.530秒**，未经UI增补。它展示外层Object View tabs的管理面与内层Workshop编辑器并存。不能凭操作示例断言删除页签之后的恢复机制，或visibility规则等同数据授权。来源：[Configured full Object View](https://www.palantir.com/docs/foundry/object-views/config-object-views/)。
 
 ![官方文档组合图：Object instance / Object set panel 编辑上下文](../assets/media-panel-instance-set.png)
 
@@ -48,13 +48,13 @@ M07 以两幅官方截图对照 object instance 与 object set 的编辑画布�
 
 ![官方文档组合图：Gaia、Maps、Vertex 中的 Object set panel](../assets/media-set-panel-hosts.png)
 
-原图把 Gaia、Maps、Vertex 的示例截图组合在一起，地图或图选择与右侧对象集信息并列。它证明官方公开展示了多个宿主中的对象集 panel 场景。图像很宽，建议打开原文件放大阅读。它不能证明所有宿主采用同一 DOM、同一状态机，或对象集 panel 直接替代 Explorer 完整探索功能。来源：[Use panel Object Views](https://www.palantir.com/docs/foundry/object-views/use-panel-views-in-platform)。
+原图把Gaia、Maps、Vertex的示例截图组合在一起，地图或图选择与侧边对象集信息并列，Vertex示例的信息位于左侧。它证明官方公开展示了多个宿主中的对象集panel场景。图像很宽，建议打开原文件放大阅读。它不能证明所有宿主采用同一DOM、同一状态机，或对象集panel直接替代Explorer完整探索功能。来源：[Use panel Object Views](https://www.palantir.com/docs/foundry/object-views/use-panel-views-in-platform)。
 
 ### M10：通用 Workshop 页面以 Object View widget 复用 panel
 
 ![官方 GIF 的真实第 31 帧：Workshop 内的 Panel Object View widget](../assets/media-panel-in-workshop-frame31.png)
 
-M10 原始文件是 [Workshop panel 官方动图](../assets/media-panel-in-workshop.gif)，共 62 帧。检查第 0、15、31、46、61 帧，能看到 AIP Contract Dashboard 的表格与右侧 Object Preview；上图第 31 帧距 GIF 起点 **1.660 秒**。背景模糊及 `Panel Object View widget` 箭头文字都来自官方 GIF，本研究未添加。它清楚展示通用应用页面与嵌入对象详情的空间关系。图片不能证明每次选中表格行都会以何种速度更新、是否保留上次状态或 Action 成功后如何刷新；这些必须结合 widget 文档与实际测试。页面出现 **Fri, Feb 21, 2025** 是示例 UI 日期，不是页面发布日或本次检索时的平台日期。来源：[Use panel Object Views](https://www.palantir.com/docs/foundry/object-views/use-panel-views-in-platform)。
+M10原始文件是 [Workshop panel官方动图](../assets/media-panel-in-workshop.gif)，共62帧。检查第0、15、31、46、61帧，能看到AIP Contract Dashboard的表格与右侧Object Preview；证据包静帧M10-S（media-panel-in-workshop-frame31.png）为第31帧，距GIF起点 **1.660秒**。背景模糊及`Panel Object View widget`箭头文字都来自官方GIF，本研究未添加。它清楚展示通用应用页面与嵌入对象详情的空间关系。图片不能证明每次选中表格行都会以何种速度更新、是否保留上次状态或Action成功后如何刷新；这些必须结合widget文档与实际测试。页面出现 **Fri, Feb 21, 2025** 是示例UI日期，不是页面发布日或本次检索时的平台日期。来源：[Use panel Object Views](https://www.palantir.com/docs/foundry/object-views/use-panel-views-in-platform)。
 
 ### M11–M12：Explorer 把对象集探索与单对象详情放在连续界面中
 

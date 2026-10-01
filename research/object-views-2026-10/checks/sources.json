@@ -51,7 +51,7 @@
     "supplemental_fragment_urls": 23,
     "registered_normalized_urls": 106,
     "content_files_checked": 6,
-    "direct_technical_link_occurrences": 271,
+    "direct_technical_link_occurrences": 272,
     "distinct_direct_technical_urls": 104,
     "unregistered_direct_technical_urls": 0,
     "direct_raw_asset_urls_excluded": 0,
@@ -70,7 +70,9 @@
       "技术博客": 1,
       "官方公开源码": 2,
       "未读取正文的候选": 1
-    }
+    },
+    "distinct_raw_direct_technical_urls": 111,
+    "direct_technical_url_count_basis": "去路径末尾slash但保留query与fragment后的规范化去重URL；原始逐字符URL另计。"
   },
   "content_files_checked": [
     "README.md",
@@ -718,7 +720,7 @@
           "support_scope": [
             "每 tab 对应 Workshop module",
             "结构与内容分开",
-            "删除 tab 同时删除其 module",
+            "OV-managed路径：删除tab同时删除其托管module；不推断共享standalone资源删除",
             "单 tab 浏览态隐藏标题",
             "当前编辑器仍链接 legacy configuration"
           ],
@@ -744,7 +746,7 @@
           },
           "support_scope": [
             "One Workshop module per tab",
-            "Tab deletion removes contained module",
+            "Current OV-managed editor tab deletion removes its managed module; not a shared standalone deletion guarantee",
             "Regular Workshop authoring"
           ],
           "sections": [
@@ -810,7 +812,7 @@
       "published_on": [],
       "title_zh": "Configured Full Object View",
       "supports": [
-        "每个页签对应 Workshop 模块；页签结构与模块内容分开配置；删除页签同时删除所属模块；单页签浏览态隐藏标题。"
+        "每个页签对应 Workshop 模块；页签结构与模块内容分开配置；当前OV-managed路径删除页签会删除托管模块，不推断共享standalone资源删除；单页签浏览态隐藏标题。"
       ],
       "limitations_zh": "编辑器未在租户亲测；当前页仍链接遗留配置。",
       "access_level": "public-readable-non-tenant",
@@ -1278,8 +1280,8 @@
           "support_scope": [
             "module 内容与 tabs 结构分资源",
             "rebase 与 publish checks",
-            "legacy tab 禁 branch",
-            "datasource merge 全部 Editor 比 main 任意 Editor 严格",
+            "legacy tab 不能在branch编辑",
+            "datasource-derived：main需OV Admin+任意输入datasource Editor；merge需对象类型View+所有backing datasources Editor+OV Admin",
             "approval policy 继承不等于阻断 main 编辑"
           ],
           "sections": [
@@ -1350,9 +1352,9 @@
       "published_on": [],
       "title_zh": "Object View 分支开发",
       "supports": [
-        "页签结构与模块内容分资源；变基、发布检查、合并权限；遗留页签不支持分支；审批政策继承。"
+        "页签结构与模块内容分资源；变基、发布检查、合并权限；遗留页签不能在分支编辑；审批政策继承。"
       ],
-      "limitations_zh": "合并对数据源权限要求更严格；继承主线资源保护仍标开发中，审批继承不代表已经阻断主线编辑。",
+      "limitations_zh": "datasource-derived的main需OV Admin+任意输入datasource Editor，merge需类型View+所有backing datasources Editor+OV Admin；继承主线资源保护仍标开发中，审批继承不代表已经阻断主线编辑。",
       "access_level": "public-readable-non-tenant",
       "access_summary_zh": "公开正文已读；未访问租户",
       "category": "Object Views 与展示配置",
@@ -3955,7 +3957,7 @@
             "Selection+Object View example",
             "External ID stability",
             "No child state saving inheritance",
-            "Platform access and module header required"
+            "Platform access required; visible module header required for View Mode state-saving menu, not a prerequisite inferred for default state loading"
           ],
           "sections": [
             "Configure state saving for variables",

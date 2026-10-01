@@ -15,7 +15,7 @@
   "input_snapshot": [
     {
       "file": "README.md",
-      "sha256": "7d4e88b921c6710fa6533d9131097e11c6762f334952e84967fcce9af30b356c"
+      "sha256": "27dbf7c0435b3ff16e35605700af12a8e9f38999c36d37d245871f137e3992e6"
     },
     {
       "file": "notes/explorer-flow.md",
@@ -23,7 +23,7 @@
     },
     {
       "file": "notes/media-evidence.md",
-      "sha256": "674f0abc203b557734b2307cdd4f25cbdac9c271209bd87d35458c555408dd47"
+      "sha256": "42f952960291836457bb997d4ab4528336ce094e7191521188efa9ee1c478897"
     },
     {
       "file": "notes/secondary-reading.md",
@@ -31,16 +31,16 @@
     },
     {
       "file": "notes/views-governance.md",
-      "sha256": "fa5039c11287bcde2c3be859c1ef69e6db6e4015ba41e820e2e15db7dacb7e07"
+      "sha256": "09bdca2da844198b75d541039afcbd9e2620c6bcbbf4014502ad86e7e0e312f5"
     },
     {
       "file": "notes/workshop-boundaries.md",
-      "sha256": "3f8383e4906ced12ad16b80e7a160d1825dd8b17f109664d24b2838478ea81bc"
+      "sha256": "67fa2bf4f34e4524756d73ae8b03ccb432eebcab2101c85425758a5039e626f8"
     }
   ],
   "summary": {
     "unique_pages": 81,
-    "references": 271,
+    "references": 272,
     "excluded_media_references": 0,
     "verdict_counts": {
       "http_access_limited": 1,
@@ -70,7 +70,7 @@
         "http_success_html_sample": 1
       }
     },
-    "fragment_references": 32,
+    "fragment_references": 33,
     "page_head_checks": 81,
     "page_get_checks": 78
   },
@@ -3088,6 +3088,12 @@
           "fragment": null
         },
         {
+          "file": "notes/views-governance.md",
+          "line": 101,
+          "url": "https://www.palantir.com/docs/foundry/object-views/config-overview/#permissions",
+          "fragment": "permissions"
+        },
+        {
           "file": "notes/workshop-boundaries.md",
           "line": 5,
           "url": "https://www.palantir.com/docs/foundry/object-views/config-overview/",
@@ -4844,5 +4850,7 @@
       },
       "verdict": "http_success_html_sample"
     }
-  ]
+  ],
+  "reference_snapshot_refreshed_at_utc": "2026-10-01T10:00:36+00:00",
+  "reference_snapshot_note": "内容修订后离线更新引用位置与输入hash；页面URL集合未变，复用已记录HTTP请求，不重新请求或改变读取程度。"
 }
