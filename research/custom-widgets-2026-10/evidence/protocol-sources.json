@@ -1,0 +1,300 @@
+{
+  "retrievedAt": "2026-10-01T04:27:31.558247+00:00",
+  "article": "protocol-api.md",
+  "sources": [
+    {
+      "citationId": "parameters-wire",
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/parameters.ts#L83-L85",
+      "sourceType": "Palantir public source, pinned release commit",
+      "releaseCommit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.api/src/parameters.ts",
+      "lineStart": 83,
+      "lineEnd": 85,
+      "sourceSha256": "2b5184d45da8e59166e474c34b18b569b6016ec3daf485d5c80da503f50b3269",
+      "sourceBytes": 3894,
+      "verifiedAgainstActualNpmSourcemap": true
+    },
+    {
+      "citationId": "parameters-types",
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/parameters.ts#L21-L54",
+      "sourceType": "Palantir public source, pinned release commit",
+      "releaseCommit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.api/src/parameters.ts",
+      "lineStart": 21,
+      "lineEnd": 54,
+      "sourceSha256": "2b5184d45da8e59166e474c34b18b569b6016ec3daf485d5c80da503f50b3269",
+      "sourceBytes": 3894,
+      "verifiedAgainstActualNpmSourcemap": true
+    },
+    {
+      "citationId": "parameters-union",
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/parameters.ts#L77-L124",
+      "sourceType": "Palantir public source, pinned release commit",
+      "releaseCommit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.api/src/parameters.ts",
+      "lineStart": 77,
+      "lineEnd": 124,
+      "sourceSha256": "2b5184d45da8e59166e474c34b18b569b6016ec3daf485d5c80da503f50b3269",
+      "sourceBytes": 3894,
+      "verifiedAgainstActualNpmSourcemap": true
+    },
+    {
+      "citationId": "objectset-value",
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/parameters.ts#L68-L75",
+      "sourceType": "Palantir public source, pinned release commit",
+      "releaseCommit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.api/src/parameters.ts",
+      "lineStart": 68,
+      "lineEnd": 75,
+      "sourceSha256": "2b5184d45da8e59166e474c34b18b569b6016ec3daf485d5c80da503f50b3269",
+      "sourceBytes": 3894,
+      "verifiedAgainstActualNpmSourcemap": true
+    },
+    {
+      "citationId": "map-value",
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/parameters.ts#L56-L66",
+      "sourceType": "Palantir public source, pinned release commit",
+      "releaseCommit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.api/src/parameters.ts",
+      "lineStart": 56,
+      "lineEnd": 66,
+      "sourceSha256": "2b5184d45da8e59166e474c34b18b569b6016ec3daf485d5c80da503f50b3269",
+      "sourceBytes": 3894,
+      "verifiedAgainstActualNpmSourcemap": true
+    },
+    {
+      "citationId": "config-widget",
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/config.ts#L69-L86",
+      "sourceType": "Palantir public source, pinned release commit",
+      "releaseCommit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.api/src/config.ts",
+      "lineStart": 69,
+      "lineEnd": 86,
+      "sourceSha256": "4faaa1103ce3b1f9235eb5c70dd38dfac8900e2be0ca2c789d95b72e5ac03e68",
+      "sourceBytes": 6447,
+      "verifiedAgainstActualNpmSourcemap": true
+    },
+    {
+      "citationId": "config-parameters",
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/config.ts#L24-L67",
+      "sourceType": "Palantir public source, pinned release commit",
+      "releaseCommit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.api/src/config.ts",
+      "lineStart": 24,
+      "lineEnd": 67,
+      "sourceSha256": "4faaa1103ce3b1f9235eb5c70dd38dfac8900e2be0ca2c789d95b72e5ac03e68",
+      "sourceBytes": 6447,
+      "verifiedAgainstActualNpmSourcemap": true
+    },
+    {
+      "citationId": "config-map-experimental",
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/config.ts#L33-L37",
+      "sourceType": "Palantir public source, pinned release commit",
+      "releaseCommit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.api/src/config.ts",
+      "lineStart": 33,
+      "lineEnd": 37,
+      "sourceSha256": "4faaa1103ce3b1f9235eb5c70dd38dfac8900e2be0ca2c789d95b72e5ac03e68",
+      "sourceBytes": 6447,
+      "verifiedAgainstActualNpmSourcemap": true
+    },
+    {
+      "citationId": "config-readonly",
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/config.ts#L93-L98",
+      "sourceType": "Palantir public source, pinned release commit",
+      "releaseCommit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.api/src/config.ts",
+      "lineStart": 93,
+      "lineEnd": 98,
+      "sourceSha256": "4faaa1103ce3b1f9235eb5c70dd38dfac8900e2be0ca2c789d95b72e5ac03e68",
+      "sourceBytes": 6447,
+      "verifiedAgainstActualNpmSourcemap": true
+    },
+    {
+      "citationId": "config-derived",
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/config.ts#L103-L186",
+      "sourceType": "Palantir public source, pinned release commit",
+      "releaseCommit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.api/src/config.ts",
+      "lineStart": 103,
+      "lineEnd": 186,
+      "sourceSha256": "4faaa1103ce3b1f9235eb5c70dd38dfac8900e2be0ca2c789d95b72e5ac03e68",
+      "sourceBytes": 6447,
+      "verifiedAgainstActualNpmSourcemap": true
+    },
+    {
+      "citationId": "define-config",
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/config.ts#L191-L195",
+      "sourceType": "Palantir public source, pinned release commit",
+      "releaseCommit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.api/src/config.ts",
+      "lineStart": 191,
+      "lineEnd": 195,
+      "sourceSha256": "4faaa1103ce3b1f9235eb5c70dd38dfac8900e2be0ca2c789d95b72e5ac03e68",
+      "sourceBytes": 6447,
+      "verifiedAgainstActualNpmSourcemap": true
+    },
+    {
+      "citationId": "async-value",
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/utils/asyncValue.ts#L17-L58",
+      "sourceType": "Palantir public source, pinned release commit",
+      "releaseCommit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.api/src/utils/asyncValue.ts",
+      "lineStart": 17,
+      "lineEnd": 58,
+      "sourceSha256": "47f165a32235aea18b3b5ffac6ca1788bf0f996df643bdbbee153475c06ec629",
+      "sourceBytes": 1557,
+      "verifiedAgainstActualNpmSourcemap": true
+    },
+    {
+      "citationId": "host-messages",
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/messages/hostMessages.ts#L25-L46",
+      "sourceType": "Palantir public source, pinned release commit",
+      "releaseCommit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.api/src/messages/hostMessages.ts",
+      "lineStart": 25,
+      "lineEnd": 46,
+      "sourceSha256": "91e0824921740adfc0319a6e2a5b22cdbc7cb441006083883e649832c00b4378",
+      "sourceBytes": 2437,
+      "verifiedAgainstActualNpmSourcemap": true
+    },
+    {
+      "citationId": "host-guards",
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/messages/hostMessages.ts#L48-L81",
+      "sourceType": "Palantir public source, pinned release commit",
+      "releaseCommit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.api/src/messages/hostMessages.ts",
+      "lineStart": 48,
+      "lineEnd": 81,
+      "sourceSha256": "91e0824921740adfc0319a6e2a5b22cdbc7cb441006083883e649832c00b4378",
+      "sourceBytes": 2437,
+      "verifiedAgainstActualNpmSourcemap": true
+    },
+    {
+      "citationId": "widget-messages",
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/messages/widgetMessages.ts#L31-L97",
+      "sourceType": "Palantir public source, pinned release commit",
+      "releaseCommit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.api/src/messages/widgetMessages.ts",
+      "lineStart": 31,
+      "lineEnd": 97,
+      "sourceSha256": "133fc9a11caeac72057e59ef7ba239d2f0f90aeed1fef3712a1bed78b34cafe3",
+      "sourceBytes": 4179,
+      "verifiedAgainstActualNpmSourcemap": true
+    },
+    {
+      "citationId": "widget-guards",
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/messages/widgetMessages.ts#L99-L147",
+      "sourceType": "Palantir public source, pinned release commit",
+      "releaseCommit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.api/src/messages/widgetMessages.ts",
+      "lineStart": 99,
+      "lineEnd": 147,
+      "sourceSha256": "133fc9a11caeac72057e59ef7ba239d2f0f90aeed1fef3712a1bed78b34cafe3",
+      "sourceBytes": 4179,
+      "verifiedAgainstActualNpmSourcemap": true
+    },
+    {
+      "citationId": "client-interface",
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client/src/client.ts#L27-L79",
+      "sourceType": "Palantir public source, pinned release commit",
+      "releaseCommit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.client/src/client.ts",
+      "lineStart": 27,
+      "lineEnd": 79,
+      "sourceSha256": "8057ee2364d69bef5953ff29e83ba9398c3c372a518e59c74123ed093b2f0465",
+      "sourceBytes": 4606,
+      "verifiedAgainstActualNpmSourcemap": true
+    },
+    {
+      "citationId": "client-bridge",
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client/src/client.ts#L81-L121",
+      "sourceType": "Palantir public source, pinned release commit",
+      "releaseCommit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.client/src/client.ts",
+      "lineStart": 81,
+      "lineEnd": 121,
+      "sourceSha256": "8057ee2364d69bef5953ff29e83ba9398c3c372a518e59c74123ed093b2f0465",
+      "sourceBytes": 4606,
+      "verifiedAgainstActualNpmSourcemap": true
+    },
+    {
+      "citationId": "client-methods",
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client/src/client.ts#L123-L162",
+      "sourceType": "Palantir public source, pinned release commit",
+      "releaseCommit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.client/src/client.ts",
+      "lineStart": 123,
+      "lineEnd": 162,
+      "sourceSha256": "8057ee2364d69bef5953ff29e83ba9398c3c372a518e59c74123ed093b2f0465",
+      "sourceBytes": 4606,
+      "verifiedAgainstActualNpmSourcemap": true
+    },
+    {
+      "citationId": "host-event-target",
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client/src/host.ts#L24-L66",
+      "sourceType": "Palantir public source, pinned release commit",
+      "releaseCommit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.client/src/host.ts",
+      "lineStart": 24,
+      "lineEnd": 66,
+      "sourceSha256": "156eb7b9c5e5fb915dc6b10cfec8bfcb2398a14560e1750f33494380e7eed19f",
+      "sourceBytes": 2133,
+      "verifiedAgainstActualNpmSourcemap": true
+    },
+    {
+      "citationId": "token-provider",
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client/src/tokenProvider.ts#L17-L24",
+      "sourceType": "Palantir public source, pinned release commit",
+      "releaseCommit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.client/src/tokenProvider.ts",
+      "lineStart": 17,
+      "lineEnd": 24,
+      "sourceSha256": "2f35d970616c48bd94de19b8c5c27ddecb65b38f572151ab70eb9d32d58779a2",
+      "sourceBytes": 948,
+      "verifiedAgainstActualNpmSourcemap": true
+    },
+    {
+      "citationId": "permissions",
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/permissions.ts#L20-L37",
+      "sourceType": "Palantir public source, pinned release commit",
+      "releaseCommit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.api/src/permissions.ts",
+      "lineStart": 20,
+      "lineEnd": 37,
+      "sourceSha256": "2c53dd4af775ad2899da819143cdf39186e2984a246895986a5487a171dc615b",
+      "sourceBytes": 1448,
+      "verifiedAgainstActualNpmSourcemap": true
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/iframe-attributes",
+      "sourceType": "Palantir public documentation",
+      "retrievedAt": "2026-10-01",
+      "versionBoundary": "Live documentation; tenant behavior not tested"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/open-url-in-workshop",
+      "sourceType": "Palantir public documentation",
+      "retrievedAt": "2026-10-01",
+      "versionBoundary": "Live documentation; tenant behavior not tested"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/parameters-and-events",
+      "sourceType": "Palantir public documentation",
+      "retrievedAt": "2026-10-01",
+      "versionBoundary": "Live documentation; tenant behavior not tested"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/troubleshooting",
+      "sourceType": "Palantir public documentation",
+      "retrievedAt": "2026-10-01",
+      "versionBoundary": "Live documentation; tenant behavior not tested"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/use-osdk",
+      "sourceType": "Palantir public documentation",
+      "retrievedAt": "2026-10-01",
+      "versionBoundary": "Live documentation; tenant behavior not tested"
+    }
+  ]
+}

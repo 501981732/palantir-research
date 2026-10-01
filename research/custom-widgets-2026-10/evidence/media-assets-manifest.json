@@ -1,0 +1,297 @@
+[
+  {
+    "file": "media-creation-wizard.png",
+    "original_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/creation-wizard.png",
+    "source_page": "https://www.palantir.com/docs/foundry/custom-widgets/create",
+    "alt": "Image 7: Create new widget set wizard.",
+    "type": "official-documentation-original",
+    "http_status": 200,
+    "content_type": "image/png",
+    "byte_size": 70649,
+    "sha256": "642371634a4265c86643f7b91dd5ee9950196b73fed42e6793956b61370efa69",
+    "retrieved_utc": "2026-10-01T04:15:42.875120+00:00",
+    "visual_review": "passed",
+    "dimensions": [
+      1120,
+      950
+    ],
+    "visual_review_utc": "2026-10-01",
+    "visual_observation": "创建向导同时展示 In Foundry 与 Outside of Foundry，两条开发位置路径；并非研究者亲自创建资源。"
+  },
+  {
+    "file": "media-widget-set-overview.png",
+    "original_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/widget-set-overview.png",
+    "source_page": "https://www.palantir.com/docs/foundry/custom-widgets/create",
+    "alt": "Image 9: Widget set overview page.",
+    "type": "official-documentation-original",
+    "http_status": 200,
+    "content_type": "image/png",
+    "byte_size": 65677,
+    "sha256": "146c45f763341eecd28a3b0e2363204f675ac582cf2278dcb346b76c20b3b900",
+    "retrieved_utc": "2026-10-01T04:15:45.871975+00:00",
+    "visual_review": "passed",
+    "dimensions": [
+      2400,
+      1426
+    ],
+    "visual_review_utc": "2026-10-01",
+    "visual_observation": "Widget Registry资源页，Widgets列表与0.0.1 release/Upload release/Edit in Code Workspace/Configure SDK。"
+  },
+  {
+    "file": "media-widget-preview.png",
+    "original_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/widget-preview.png",
+    "source_page": "https://www.palantir.com/docs/foundry/custom-widgets/create",
+    "alt": "Image 10: Preview your widget.",
+    "type": "official-documentation-original",
+    "http_status": 200,
+    "content_type": "image/png",
+    "byte_size": 99380,
+    "sha256": "f5b28056aaa1affc4e7619430753b1548626dac4eb657e00893014ed29d6196f",
+    "retrieved_utc": "2026-10-01T04:15:49.078978+00:00",
+    "visual_review": "passed",
+    "dimensions": [
+      2404,
+      1430
+    ],
+    "visual_review_utc": "2026-10-01",
+    "visual_observation": "发布版本v1.0.0预览，Configuration中Greeting name和Counter value(required)，Count为8，底部Message Log记录Parameter updated。"
+  },
+  {
+    "file": "media-npm-run-dev.png",
+    "original_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/npm-run-dev.png",
+    "source_page": "https://www.palantir.com/docs/foundry/custom-widgets/development",
+    "alt": "Image 1: The npm run dev command and dev mode setup link in the terminal.",
+    "type": "official-documentation-original",
+    "http_status": 200,
+    "content_type": "image/png",
+    "byte_size": 8309,
+    "sha256": "c7bc06700f23f3e4733bc4c9aea4181396f6da259a692cdb255d65571c8cb168",
+    "retrieved_utc": "2026-10-01T04:15:50.750935+00:00",
+    "visual_review": "passed",
+    "dimensions": [
+      681,
+      112
+    ],
+    "visual_review_utc": "2026-10-01",
+    "visual_observation": "终端显示Vite v6.3.5与localhost:8080/.palantir/setup/；图中版本是示例截图历史版本。"
+  },
+  {
+    "file": "media-vscode-workspaces-dev-mode.png",
+    "original_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/vscode-workspaces-dev-mode.png",
+    "source_page": "https://www.palantir.com/docs/foundry/custom-widgets/development",
+    "alt": "Image 2: A widget running from a development server in VS Code Workspaces.",
+    "type": "official-documentation-original",
+    "http_status": 200,
+    "content_type": "image/png",
+    "byte_size": 451358,
+    "sha256": "a0d01bcb28cb86fc4c03cbd08eb8e432850bc3075b7e3922339dd1ae432a7ee7",
+    "retrieved_utc": "2026-10-01T04:15:54.683216+00:00",
+    "visual_review": "passed",
+    "dimensions": [
+      3352,
+      1790
+    ],
+    "visual_review_utc": "2026-10-01",
+    "visual_observation": "Code Workspace源码与Hello World Count 31预览并排，源码可见parameters.values/emitEvent(setCounterValue)/parameterUpdates。"
+  },
+  {
+    "file": "media-dev-mode-enabled-inactive.png",
+    "original_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/dev-mode-enabled-inactive.png?width=350",
+    "source_page": "https://www.palantir.com/docs/foundry/custom-widgets/development",
+    "alt": "Image 4: The dev mode menu reports that no widget overrides are configured for an inactive session.",
+    "type": "official-documentation-original",
+    "http_status": 200,
+    "content_type": "image/png",
+    "byte_size": 38180,
+    "sha256": "c2edd91ab22e9df35094349d4283aab3f7c50cd1b701db93df5ad069dbd27b55",
+    "retrieved_utc": "2026-10-01T04:15:56.948425+00:00",
+    "visual_review": "passed",
+    "dimensions": [
+      508,
+      476
+    ],
+    "visual_review_utc": "2026-10-01",
+    "visual_observation": "Inactive状态明确提示没有widget overrides，要求运行dev server并配置overrides。"
+  },
+  {
+    "file": "media-dev-mode-paused.png",
+    "original_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/dev-mode-paused.png?width=350",
+    "source_page": "https://www.palantir.com/docs/foundry/custom-widgets/development",
+    "alt": "Image 5: The dev mode menu provides controls to resume or stop a paused session.",
+    "type": "official-documentation-original",
+    "http_status": 200,
+    "content_type": "image/png",
+    "byte_size": 38367,
+    "sha256": "287eebdea4d8ce52ba0c5227c6940ff9ba7fa40d1efc49a30badf04df5d44a3e",
+    "retrieved_utc": "2026-10-01T04:15:59.167652+00:00",
+    "visual_review": "passed",
+    "dimensions": [
+      506,
+      466
+    ],
+    "visual_review_utc": "2026-10-01",
+    "visual_observation": "Paused状态下提供Resume/Stop，与Inactive状态不同。"
+  },
+  {
+    "file": "media-dev-mode-enabled-localhost.png",
+    "original_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/dev-mode-enabled-localhost.png?width=350",
+    "source_page": "https://www.palantir.com/docs/foundry/custom-widgets/development",
+    "alt": "Image 6: Dev mode is enabled and using a development server on localhost.",
+    "type": "official-documentation-original",
+    "http_status": 200,
+    "content_type": "image/png",
+    "byte_size": 68494,
+    "sha256": "bf85f58bf717aa48caa65d03c9e84e0e65f962a64bb9c7c3016e3520a7687544",
+    "retrieved_utc": "2026-10-01T04:16:01.527424+00:00",
+    "visual_review": "passed",
+    "dimensions": [
+      734,
+      442
+    ],
+    "visual_review_utc": "2026-10-01",
+    "visual_observation": "Active状态中资产来源tooltip明确为http://localhost:8080/。"
+  },
+  {
+    "file": "media-playground-dev-mode.png",
+    "original_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/playground-dev-mode.png",
+    "source_page": "https://www.palantir.com/docs/foundry/custom-widgets/development",
+    "alt": "Image 8: A widget in dev mode in the custom widgets playground.",
+    "type": "official-documentation-original",
+    "http_status": 200,
+    "content_type": "image/png",
+    "byte_size": 127886,
+    "sha256": "026512a5c904f9e1a252c8d23e3f3fc77e655415cc39d15de871c5142313c3f6",
+    "retrieved_utc": "2026-10-01T04:16:04.449139+00:00",
+    "visual_review": "passed",
+    "dimensions": [
+      2744,
+      1444
+    ],
+    "visual_review_utc": "2026-10-01",
+    "visual_observation": "Playground处于Dev mode Active，右侧Counter value26与组件Count26，底部Message Log Parameter updated；静态图不证明动态顺序。"
+  },
+  {
+    "file": "media-workshop-dev-mode.png",
+    "original_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/workshop-dev-mode.png",
+    "source_page": "https://www.palantir.com/docs/foundry/custom-widgets/development",
+    "alt": "Image 9: A widget in dev mode in Workshop.",
+    "type": "official-documentation-original",
+    "http_status": 200,
+    "content_type": "image/png",
+    "byte_size": 321786,
+    "sha256": "187e3a7c79b88d8a5cc7dddf06e6988ced3089aebe396e41a7f493ec0c255b29",
+    "retrieved_utc": "2026-10-01T04:16:07.763671+00:00",
+    "visual_review": "passed",
+    "dimensions": [
+      2740,
+      1664
+    ],
+    "visual_review_utc": "2026-10-01",
+    "visual_observation": "Workshop处于Dev mode Active；版本0.0.1，Greeting name绑定Name(abc)，Counter value绑定Count(47)，Set counter value配置Add event。"
+  },
+  {
+    "file": "media-configure-sdk.png",
+    "original_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/configure-sdk.png",
+    "source_page": "https://www.palantir.com/docs/foundry/custom-widgets/use-osdk",
+    "alt": "Image 3: Configure SDK options.",
+    "type": "official-documentation-original",
+    "http_status": 200,
+    "content_type": "image/png",
+    "byte_size": 109686,
+    "sha256": "4183a4dc9320d82bd829c7c64f1d75e64871f83a213c9926572a887bc8ff6f57",
+    "retrieved_utc": "2026-10-01T04:16:10.532695+00:00",
+    "visual_review": "passed",
+    "dimensions": [
+      2048,
+      1536
+    ],
+    "visual_review_utc": "2026-10-01",
+    "visual_observation": "Widget Registry配置SDK界面，Ontology APIs Enable单独入口与生成SDK的Ontology选择；未执行授权。"
+  },
+  {
+    "file": "media-manual-ui-upload.png",
+    "original_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/manual-ui-upload.png",
+    "source_page": "https://www.palantir.com/docs/foundry/custom-widgets/publish",
+    "alt": "Image 3: The dialog for manually uploading a .zip archive file in the user interface.",
+    "type": "official-documentation-original",
+    "http_status": 200,
+    "content_type": "image/png",
+    "byte_size": 110269,
+    "sha256": "4da5bd724766161ae5bdd713a4e797931bb2999a0e99d09ec3accf337a4dd14f",
+    "retrieved_utc": "2026-10-01T04:16:13.325594+00:00",
+    "visual_review": "passed",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "visual_review_utc": "2026-10-01",
+    "visual_observation": "Upload new asset对话框要求ZIP，后台列1.0.0和0.0.1 releases；未上传产物。"
+  },
+  {
+    "file": "media-tag-build.png",
+    "original_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/tag-build.png",
+    "source_page": "https://www.palantir.com/docs/foundry/custom-widgets/publish",
+    "alt": "Image 4: The status of a tag build in the Tags tab.",
+    "type": "official-documentation-original",
+    "http_status": 200,
+    "content_type": "image/png",
+    "byte_size": 218152,
+    "sha256": "438c3e624fec811833a52e36fa536fdae44b5cf5c45acb960edbf14b972a333b",
+    "retrieved_utc": "2026-10-01T04:16:16.974667+00:00",
+    "visual_review": "passed",
+    "dimensions": [
+      2560,
+      1440
+    ],
+    "visual_review_utc": "2026-10-01",
+    "visual_observation": "官方历史CI截图：2025-07-02、0.0.1 tag与commit、osdk-widget-publish检查、CLI0.26.3、manifest version、ZIP和Publish complete；不当作当前版本。"
+  },
+  {
+    "file": "media-workshop-iframe-attributes.png",
+    "original_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/workshop-iframe-attributes.png",
+    "source_page": "https://www.palantir.com/docs/foundry/custom-widgets/iframe-attributes",
+    "alt": "Workshop configuration for enabling additional iframe attributes",
+    "type": "official-documentation-original",
+    "http_status": 200,
+    "content_type": "image/png",
+    "byte_size": 129533,
+    "sha256": "e9a475cfd1b5a5fac9a91b00a51ac0fdff0b012448bac289866c2dc1dade8fab",
+    "dimensions": [
+      560,
+      1660
+    ],
+    "retrieved_utc": "2026-10-01T04:29:32.071964+00:00",
+    "visual_review": "passed",
+    "visual_review_utc": "2026-10-01",
+    "visual_observation": "Workshop配置中同时显示参数/事件Updates parameters与PERMISSIONS；camera/microphone/autoplay/allow-downloads/allow-forms/allow-popups开关，并注明部分能力仍需终端用户接受浏览器提示。灰色遮盖属于官方原图，研究者未增补或改动。"
+  },
+  {
+    "file": "media-video-ontologize-default-widget.jpg",
+    "original_url": "https://www.youtube.com/watch?v=U_EB06sWv-s&t=216s",
+    "source_page": "https://www.youtube.com/watch?v=U_EB06sWv-s",
+    "type": "public-author-video-real-frame",
+    "title": "Vibe Coding a Custom Workshop Widget",
+    "channel": "Ontologize",
+    "published_date": "2026-03-04",
+    "content_type": "image/jpeg",
+    "byte_size": 53174,
+    "sha256": "cf67df43371cb1ddb006c8139a057bf15837dce8f67247c93579448b80d19758",
+    "dimensions": [
+      1018,
+      573
+    ],
+    "retrieved_utc": "2026-10-01T04:17:10.785113+00:00",
+    "source_time_seconds": 216.359606,
+    "source_time_label": "03:36.36",
+    "capture_method": "Chrome player screenshot of observed #movie_player rectangle, clip x16 y68 width1018 height573; no source video download",
+    "observed_video_state": {
+      "currentTime": 216.359606,
+      "paused": true,
+      "readyState": 4,
+      "duration": 1039.881
+    },
+    "visual_review": "passed",
+    "visual_review_utc": "2026-10-01",
+    "visual_observation": "作者录像的Code Workspace welcome、dev终端与custom widget preview加载状态；顶端NOTIONAL DATA - ONTOLOGIZE。不是研究者租户，也不能证明动态事件或完整AI生成/发布流程。"
+  }
+]

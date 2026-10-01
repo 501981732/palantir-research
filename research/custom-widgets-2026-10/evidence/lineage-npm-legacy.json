@@ -1,0 +1,43 @@
+{
+  "retrievedAt": "2026-10-01",
+  "source": "https://registry.npmjs.org/@osdk%2Fworkshop-iframe-custom-widget",
+  "version": "1.1.1",
+  "publishedAt": "2025-08-21T19:30:43.040Z",
+  "gitHead": "244f70956356e869f8cc5143c815369170d056fe",
+  "distTags": {
+    "latest": "1.1.1"
+  },
+  "tarballUrl": "https://registry.npmjs.org/@osdk/workshop-iframe-custom-widget/-/workshop-iframe-custom-widget-1.1.1.tgz",
+  "bytes": 27814,
+  "sha256": "607aa54696aa97aa39ab2d346ee26779d9eb37adf6c60076077f3c8b4798319f",
+  "npmIntegrity": "sha512-EIzLHVmd42f4sdG6I+hVQLmnJ1RuKvgpu3r+bT9Mrg/Y47cLqZQsDGhes1rNVYfYErladBs1rIF3tMPB3TF6Gg==",
+  "integrityVerified": true,
+  "license": "SEE LICENSE IN LICENSE.md",
+  "inspectedFiles": [
+    "package/build/internal/messages.js",
+    "package/build/useWorkshopContext.js",
+    "package/build/transform-config/utils.js",
+    "package/build/utils.js",
+    "package/build/internal/messages.d.ts",
+    "package/build/internal/variableTypeWithDefaultValue.d.ts"
+  ],
+  "observedSymbols": {
+    "temporaryObjectSetRid": true,
+    "react-app-sending-config": true,
+    "workshop-accepted-config": true,
+    "workshop-rejected-config": true,
+    "workshop-requesting-config": true,
+    "workshop-value-change": true,
+    "react-app-set-auto-max-height": true,
+    "event.source !== window.parent": true,
+    "window.parent.postMessage(message, \"*\")": true
+  },
+  "boundary": "Published package inspection only. No authenticated Workshop host was run. Tarball read in memory; source files not redistributed.",
+  "fauxObjectSetRelease": {
+    "source": "https://registry.npmjs.org/@osdk%2Ffaux",
+    "version": "0.23.0",
+    "publishedAt": "2026-06-03T14:54:10.587Z",
+    "gitHead": null,
+    "changelogCommit": "58922c122b7c5c7624d30c74232826c1d534e52f"
+  }
+}

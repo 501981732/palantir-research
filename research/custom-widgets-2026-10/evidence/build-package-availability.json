@@ -1,0 +1,18 @@
+[
+  {
+    "package": "@osdk/create-widget-set",
+    "url": "https://registry.npmjs.org/@osdk%2fcreate-widget-set",
+    "retrievedDate": "2026-10-01",
+    "observedStatus": 404,
+    "command": "npm view @osdk/create-widget-set version dist --json --registry=https://registry.npmjs.org",
+    "scope": "Package availability at retrieval time; not evidence about unreleased/private packages."
+  },
+  {
+    "package": "@osdk/widget.preview",
+    "url": "https://registry.npmjs.org/@osdk%2fwidget.preview",
+    "retrievedDate": "2026-10-01",
+    "observedStatus": 404,
+    "command": "npm view @osdk/widget.preview version dist --json --registry=https://registry.npmjs.org",
+    "scope": "Package availability at retrieval time; not evidence about unreleased/private packages."
+  }
+]

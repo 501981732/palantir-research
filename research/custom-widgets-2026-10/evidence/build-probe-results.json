@@ -1,0 +1,178 @@
+{
+  "retrievedDate": "2026-10-01",
+  "scope": "Local published-plugin validation and official no-OSDK template build; no Workshop host, tenant, API calls or mock SDK.",
+  "node": "v22.17.0",
+  "resolvedVersions": {
+    "@osdk/widget.vite-plugin": "3.74.0",
+    "@osdk/widget.client": "3.74.0",
+    "@osdk/widget.client-react": "3.74.0",
+    "@osdk/widget.api": "3.74.0",
+    "@osdk/foundry-config-json": "1.13.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "vite": "7.3.6",
+    "typescript": "5.5.4"
+  },
+  "lockSha256": "991f8cd7ed052bbe50cda34ee4bd7142d5634d7f88a046f0e28c8d99089a0ac0",
+  "computedVersion": "0.0.0",
+  "manifest": {
+    "manifestVersion": "1.0.0",
+    "widgetSet": {
+      "rid": "ri.widgetregistry..widget-set.public-research-probe",
+      "version": "0.0.0",
+      "widgets": {
+        "widgetId": {
+          "id": "widgetId",
+          "name": "Custom Widget",
+          "description": "An example custom widget implementation",
+          "type": "workshopWidgetV1",
+          "entrypointJs": [
+            {
+              "path": "assets/index-CoTw3yDo.js",
+              "type": "module"
+            }
+          ],
+          "entrypointCss": [
+            {
+              "path": "assets/index-C_QIH3rL.css"
+            }
+          ],
+          "parameters": {
+            "greetingName": {
+              "displayName": "Greeting name",
+              "type": "string"
+            },
+            "counterValue": {
+              "displayName": "Counter value",
+              "type": "number"
+            }
+          },
+          "events": {
+            "setCounterValue": {
+              "displayName": "Set counter value",
+              "parameterUpdateIds": [
+                "counterValue"
+              ]
+            }
+          }
+        }
+      },
+      "inputSpec": {
+        "discovered": {
+          "sdks": []
+        }
+      }
+    }
+  },
+  "cases": [
+    {
+      "name": "valid baseline",
+      "expected": "accepted",
+      "observed": "accepted",
+      "pass": true
+    },
+    {
+      "name": "widget id snake_case",
+      "expected": "rejected",
+      "observed": "rejected",
+      "pass": true,
+      "error": "Widget id \"bad_id\" does not match allowed pattern (must be camelCase)"
+    },
+    {
+      "name": "parameter id snake_case",
+      "expected": "rejected",
+      "observed": "rejected",
+      "pass": true,
+      "error": "Parameter id \"bad_id\" does not match allowed pattern (must be camelCase)"
+    },
+    {
+      "name": "event id snake_case is not checked by plugin",
+      "expected": "accepted",
+      "observed": "accepted",
+      "pass": true
+    },
+    {
+      "name": "51 parameters not checked by plugin",
+      "expected": "accepted",
+      "observed": "accepted",
+      "pass": true
+    },
+    {
+      "name": "51 events not checked by plugin",
+      "expected": "accepted",
+      "observed": "accepted",
+      "pass": true
+    },
+    {
+      "name": "event references absent parameter not checked by plugin",
+      "expected": "accepted",
+      "observed": "accepted",
+      "pass": true
+    },
+    {
+      "name": "objectSet missing generated RID metadata",
+      "expected": "rejected",
+      "observed": "rejected",
+      "pass": true,
+      "error": "ObjectSet parameter \"objects\" must have a valid rid in its metadata, make sure your OSDK was generated with a generator version >=2.6.2. Provided type: '{\"type\":\"object\",\"apiName\":\"Todo\"}'"
+    },
+    {
+      "name": "event updating readonly mapTileLayer",
+      "expected": "rejected",
+      "observed": "rejected",
+      "pass": true,
+      "error": "Event \"updateCount\" cannot update read-only map tile layer parameter \"count\""
+    },
+    {
+      "name": "duplicate widget IDs in set",
+      "expected": "rejected",
+      "observed": "rejected",
+      "pass": true,
+      "error": "Duplicate widget ID: probeWidget. Each widget must have a unique ID."
+    },
+    {
+      "name": "HTML external module script",
+      "expected": "accepted",
+      "observed": "accepted",
+      "pass": true
+    },
+    {
+      "name": "HTML inline script",
+      "expected": "rejected",
+      "observed": "rejected",
+      "pass": true,
+      "error": "Unexpected inline content found in Vite HTML output"
+    },
+    {
+      "name": "HTML script defer attribute",
+      "expected": "rejected",
+      "observed": "rejected",
+      "pass": true,
+      "error": "Unexpected defer attribute found in Vite HTML output"
+    },
+    {
+      "name": "HTML stylesheet media attribute",
+      "expected": "rejected",
+      "observed": "rejected",
+      "pass": true,
+      "error": "Unexpected media attribute found in Vite HTML output"
+    }
+  ],
+  "convertedObjectSets": {
+    "object": {
+      "type": "objectSet",
+      "displayName": "Objects",
+      "objectTypeRids": [
+        "ri.ontology..object.probe"
+      ],
+      "allowedType": "ri.ontology..object.probe"
+    },
+    "interface": {
+      "type": "objectSet",
+      "displayName": "Objects",
+      "objectTypeRids": [],
+      "allowedType": "ri.ontology..interface.probe"
+    }
+  },
+  "allPass": true
+}

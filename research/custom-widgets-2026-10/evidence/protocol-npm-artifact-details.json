@@ -1,0 +1,458 @@
+{
+  "inspectedAt": "2026-10-01T04:20:17.998136+00:00",
+  "method": "Offline path, JSON, declaration text and content-hash inspection; no package code installed or executed.",
+  "packages": [
+    {
+      "name": "@osdk/widget.api",
+      "version": "3.74.0",
+      "license": "Apache-2.0",
+      "dependencies": {
+        "@osdk/api": "2.75.0"
+      },
+      "packagedManifestMatchesRegistryVersionAndDependencies": true,
+      "rootExportTargets": [
+        {
+          "condition": "/browser",
+          "path": "./build/browser/index.js",
+          "exists": true
+        },
+        {
+          "condition": "/import/types",
+          "path": "./build/types/index.d.ts",
+          "exists": true
+        },
+        {
+          "condition": "/import/default",
+          "path": "./build/esm/index.js",
+          "exists": true
+        },
+        {
+          "condition": "/require",
+          "path": "./build/cjs/index.cjs",
+          "exists": true
+        },
+        {
+          "condition": "/default",
+          "path": "./build/browser/index.js",
+          "exists": true
+        }
+      ],
+      "wildcardExportTargets": [
+        {
+          "condition": "/browser",
+          "pattern": "./build/browser/public/*.js",
+          "matchingFileCount": 0
+        },
+        {
+          "condition": "/import/types",
+          "pattern": "./build/types/public/*.d.ts",
+          "matchingFileCount": 0
+        },
+        {
+          "condition": "/import/default",
+          "pattern": "./build/esm/public/*.js",
+          "matchingFileCount": 0
+        },
+        {
+          "condition": "/require",
+          "pattern": "./build/cjs/public/*.cjs",
+          "matchingFileCount": 0
+        },
+        {
+          "condition": "/default",
+          "pattern": "./build/browser/public/*.js",
+          "matchingFileCount": 0
+        }
+      ],
+      "browserEsmContentComparisons": [
+        {
+          "relativePath": "config.js",
+          "browserEqualsEsm": true
+        },
+        {
+          "relativePath": "index.js",
+          "browserEqualsEsm": true
+        },
+        {
+          "relativePath": "manifest.js",
+          "browserEqualsEsm": true
+        },
+        {
+          "relativePath": "messages/hostMessages.js",
+          "browserEqualsEsm": true
+        },
+        {
+          "relativePath": "messages/widgetMessages.js",
+          "browserEqualsEsm": true
+        },
+        {
+          "relativePath": "parameters.js",
+          "browserEqualsEsm": true
+        },
+        {
+          "relativePath": "permissions.js",
+          "browserEqualsEsm": true
+        },
+        {
+          "relativePath": "utils/asyncValue.js",
+          "browserEqualsEsm": true
+        }
+      ],
+      "rootTypeDeclarationSha256": "83285277f533b5c3fbf117ec14e1b5bbbe21adf05a3db981b72608746ac543e0",
+      "rootTypeDeclarationSnapshot": "export type { AsyncParameterValueMap, EventId, EventParameterValueMap, ManifestParameterDefinition, ParameterConfig, ParameterDefinition, ParameterValueMap, WidgetConfig } from \"./config.js\";\nexport { defineConfig } from \"./config.js\";\nexport type { OntologySdkInputSpecV1 as OntologySdkInputSpec, WidgetManifestConfigV1 as WidgetManifestConfig, WidgetSetAuthorizationsInputSpecV1 as WidgetSetAuthorizationsInputSpec, WidgetSetDiscoveredInputSpecV1 as WidgetSetDiscoveredInputSpec, WidgetSetInputSpecV1 as WidgetSetInputSpec, WidgetSetManifestV1 as WidgetSetManifest } from \"./manifest.js\";\nexport { MANIFEST_FILE_LOCATION } from \"./manifest.js\";\nexport { HostMessage, isHostParametersUpdatedMessage, visitHostMessage } from \"./messages/hostMessages.js\";\nexport { isWidgetEmitEventMessage, isWidgetReadyMessage, isWidgetReloadMessage, isWidgetResizeMessage, visitWidgetMessage } from \"./messages/widgetMessages.js\";\nexport type { WidgetMessage } from \"./messages/widgetMessages.js\";\nexport type { AllowedObjectSetParameterType, ParameterValue } from \"./parameters.js\";\nexport { BrowserPermission } from \"./permissions.js\";\nexport type { AsyncFailedValue, AsyncLoadedValue, AsyncLoadingValue, AsyncNotStartedLoadingValue, AsyncReloadingValue, AsyncValue } from \"./utils/asyncValue.js\";\n",
+      "sourceManifestDifferences": [
+        {
+          "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+          "sourceVersion": "3.74.0",
+          "sameExports": true,
+          "logicalJsonDifferences": {
+            "dependencies": {
+              "source": {
+                "@osdk/api": "workspace:*"
+              },
+              "published": {
+                "@osdk/api": "2.75.0"
+              }
+            },
+            "devDependencies": {
+              "source": {
+                "@osdk/monorepo.api-extractor": "workspace:~",
+                "@osdk/monorepo.tsconfig": "workspace:~",
+                "ts-expect": "^1.3.0",
+                "typescript": "~5.5.4",
+                "vitest": "^3.2.4"
+              },
+              "published": {
+                "ts-expect": "^1.3.0",
+                "typescript": "~5.5.4",
+                "vitest": "^3.2.4",
+                "@osdk/monorepo.tsconfig": "~0.7.0",
+                "@osdk/monorepo.api-extractor": "~0.7.0"
+              }
+            }
+          }
+        },
+        {
+          "commit": "e53b94ecd5de7cdd7e864d0daa04363bdad4db4c",
+          "sourceVersion": "3.74.0",
+          "sameExports": true,
+          "logicalJsonDifferences": {
+            "dependencies": {
+              "source": {
+                "@osdk/api": "workspace:*"
+              },
+              "published": {
+                "@osdk/api": "2.75.0"
+              }
+            },
+            "devDependencies": {
+              "source": {
+                "@osdk/monorepo.api-extractor": "workspace:~",
+                "@osdk/monorepo.tsconfig": "workspace:~",
+                "ts-expect": "^1.3.0",
+                "typescript": "~5.5.4",
+                "vitest": "^3.2.4"
+              },
+              "published": {
+                "ts-expect": "^1.3.0",
+                "typescript": "~5.5.4",
+                "vitest": "^3.2.4",
+                "@osdk/monorepo.tsconfig": "~0.7.0",
+                "@osdk/monorepo.api-extractor": "~0.7.0"
+              }
+            }
+          }
+        },
+        {
+          "commit": "37cfd38676bf04edaef5847e929d914ea214c149",
+          "sourceVersion": "3.72.0",
+          "sameExports": true,
+          "logicalJsonDifferences": {
+            "dependencies": {
+              "source": {
+                "@osdk/api": "workspace:*"
+              },
+              "published": {
+                "@osdk/api": "2.75.0"
+              }
+            },
+            "devDependencies": {
+              "source": {
+                "@osdk/monorepo.api-extractor": "workspace:~",
+                "@osdk/monorepo.tsconfig": "workspace:~",
+                "ts-expect": "^1.3.0",
+                "typescript": "~5.5.4",
+                "vitest": "^3.2.4"
+              },
+              "published": {
+                "ts-expect": "^1.3.0",
+                "typescript": "~5.5.4",
+                "vitest": "^3.2.4",
+                "@osdk/monorepo.tsconfig": "~0.7.0",
+                "@osdk/monorepo.api-extractor": "~0.7.0"
+              }
+            },
+            "version": {
+              "source": "3.72.0",
+              "published": "3.74.0"
+            }
+          }
+        }
+      ],
+      "selectedFunctionalChangelogSections": [
+        {
+          "version": "3.74.0",
+          "selectedBullets": [
+            "- @osdk/api@2.75.0"
+          ]
+        },
+        {
+          "version": "3.72.0",
+          "selectedBullets": [
+            "- d414a46: Add allow-modals to the supported widget browser permissions"
+          ]
+        },
+        {
+          "version": "3.71.0",
+          "selectedBullets": [
+            "- 00e43a9: Add a mapTileLayer parameter type to widgets."
+          ]
+        },
+        {
+          "version": "3.54.0",
+          "selectedBullets": [
+            "- 47c66c3: Generate widget set manifest authorizations defined in a resources.json file"
+          ]
+        },
+        {
+          "version": "3.19.0",
+          "selectedBullets": [
+            "- 2f3aa7b: Support reloading widget on vite HMR full reload"
+          ]
+        },
+        {
+          "version": "3.5.0",
+          "selectedBullets": [
+            "- e590bed: Add scenario parameter type for Scenarios support in custom widgets",
+            "- b9066dd: Support interfaces in object set parameters"
+          ]
+        },
+        {
+          "version": "3.2.1",
+          "selectedBullets": [
+            "- 77475e6: Improved support for object set parameters in widget.client-react"
+          ]
+        },
+        {
+          "version": "2.0.0",
+          "selectedBullets": [
+            "- 01c02e5: Add vite plugin to parse out parameter config into a generated config file"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "@osdk/widget.client",
+      "version": "3.74.0",
+      "license": "Apache-2.0",
+      "dependencies": {
+        "tiny-invariant": "^1.3.3",
+        "@osdk/widget.api": "~3.74.0"
+      },
+      "packagedManifestMatchesRegistryVersionAndDependencies": true,
+      "rootExportTargets": [
+        {
+          "condition": "/browser",
+          "path": "./build/browser/index.js",
+          "exists": true
+        },
+        {
+          "condition": "/import/types",
+          "path": "./build/types/index.d.ts",
+          "exists": true
+        },
+        {
+          "condition": "/import/default",
+          "path": "./build/esm/index.js",
+          "exists": true
+        },
+        {
+          "condition": "/require",
+          "path": "./build/cjs/index.cjs",
+          "exists": true
+        },
+        {
+          "condition": "/default",
+          "path": "./build/browser/index.js",
+          "exists": true
+        }
+      ],
+      "wildcardExportTargets": [
+        {
+          "condition": "/browser",
+          "pattern": "./build/browser/public/*.js",
+          "matchingFileCount": 0
+        },
+        {
+          "condition": "/import/types",
+          "pattern": "./build/types/public/*.d.ts",
+          "matchingFileCount": 0
+        },
+        {
+          "condition": "/import/default",
+          "pattern": "./build/esm/public/*.js",
+          "matchingFileCount": 0
+        },
+        {
+          "condition": "/require",
+          "pattern": "./build/cjs/public/*.cjs",
+          "matchingFileCount": 0
+        },
+        {
+          "condition": "/default",
+          "pattern": "./build/browser/public/*.js",
+          "matchingFileCount": 0
+        }
+      ],
+      "browserEsmContentComparisons": [
+        {
+          "relativePath": "client.js",
+          "browserEqualsEsm": true
+        },
+        {
+          "relativePath": "host.js",
+          "browserEqualsEsm": true
+        },
+        {
+          "relativePath": "index.js",
+          "browserEqualsEsm": true
+        },
+        {
+          "relativePath": "tokenProvider.js",
+          "browserEqualsEsm": true
+        }
+      ],
+      "rootTypeDeclarationSha256": "e50cfcbaf2e84b952d0ae5de33985abe99031679e1e276921120ed77002beeb4",
+      "rootTypeDeclarationSnapshot": "export type { AsyncFailedValue, AsyncLoadedValue, AsyncLoadingValue, AsyncNotStartedLoadingValue, AsyncParameterValueMap, AsyncReloadingValue, AsyncValue, EventId, EventParameterValueMap, ParameterConfig, ParameterValue, ParameterValueMap, WidgetConfig, WidgetMessage } from \"@osdk/widget.api\";\nexport { defineConfig, HostMessage, isHostParametersUpdatedMessage } from \"@osdk/widget.api\";\nexport { createFoundryWidgetClient } from \"./client.js\";\nexport type { FoundryWidgetClient } from \"./client.js\";\nexport { FoundryHostEventTarget } from \"./host.js\";\nexport { createFoundryWidgetTokenProvider } from \"./tokenProvider.js\";\n",
+      "sourceManifestDifferences": [
+        {
+          "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+          "sourceVersion": "3.74.0",
+          "sameExports": true,
+          "logicalJsonDifferences": {
+            "dependencies": {
+              "source": {
+                "@osdk/widget.api": "workspace:~",
+                "tiny-invariant": "^1.3.3"
+              },
+              "published": {
+                "tiny-invariant": "^1.3.3",
+                "@osdk/widget.api": "~3.74.0"
+              }
+            },
+            "devDependencies": {
+              "source": {
+                "@osdk/monorepo.api-extractor": "workspace:~",
+                "@osdk/monorepo.tsconfig": "workspace:~",
+                "ts-expect": "^1.3.0",
+                "typescript": "~5.5.4"
+              },
+              "published": {
+                "ts-expect": "^1.3.0",
+                "typescript": "~5.5.4",
+                "@osdk/monorepo.tsconfig": "~0.7.0",
+                "@osdk/monorepo.api-extractor": "~0.7.0"
+              }
+            }
+          }
+        },
+        {
+          "commit": "e53b94ecd5de7cdd7e864d0daa04363bdad4db4c",
+          "sourceVersion": "3.74.0",
+          "sameExports": true,
+          "logicalJsonDifferences": {
+            "dependencies": {
+              "source": {
+                "@osdk/widget.api": "workspace:~",
+                "tiny-invariant": "^1.3.3"
+              },
+              "published": {
+                "tiny-invariant": "^1.3.3",
+                "@osdk/widget.api": "~3.74.0"
+              }
+            },
+            "devDependencies": {
+              "source": {
+                "@osdk/monorepo.api-extractor": "workspace:~",
+                "@osdk/monorepo.tsconfig": "workspace:~",
+                "ts-expect": "^1.3.0",
+                "typescript": "~5.5.4"
+              },
+              "published": {
+                "ts-expect": "^1.3.0",
+                "typescript": "~5.5.4",
+                "@osdk/monorepo.tsconfig": "~0.7.0",
+                "@osdk/monorepo.api-extractor": "~0.7.0"
+              }
+            }
+          }
+        },
+        {
+          "commit": "37cfd38676bf04edaef5847e929d914ea214c149",
+          "sourceVersion": "3.72.0",
+          "sameExports": true,
+          "logicalJsonDifferences": {
+            "dependencies": {
+              "source": {
+                "@osdk/widget.api": "workspace:~",
+                "tiny-invariant": "^1.3.3"
+              },
+              "published": {
+                "tiny-invariant": "^1.3.3",
+                "@osdk/widget.api": "~3.74.0"
+              }
+            },
+            "devDependencies": {
+              "source": {
+                "@osdk/monorepo.api-extractor": "workspace:~",
+                "@osdk/monorepo.tsconfig": "workspace:~",
+                "ts-expect": "^1.3.0",
+                "typescript": "~5.5.4"
+              },
+              "published": {
+                "ts-expect": "^1.3.0",
+                "typescript": "~5.5.4",
+                "@osdk/monorepo.tsconfig": "~0.7.0",
+                "@osdk/monorepo.api-extractor": "~0.7.0"
+              }
+            },
+            "version": {
+              "source": "3.72.0",
+              "published": "3.74.0"
+            }
+          }
+        }
+      ],
+      "selectedFunctionalChangelogSections": [
+        {
+          "version": "3.74.0",
+          "selectedBullets": [
+            "- @osdk/widget.api@3.74.0"
+          ]
+        },
+        {
+          "version": "3.19.0",
+          "selectedBullets": [
+            "- 2f3aa7b: Support reloading widget on vite HMR full reload"
+          ]
+        },
+        {
+          "version": "2.0.0",
+          "selectedBullets": [
+            "- 01c02e5: Add vite plugin to parse out parameter config into a generated config file"
+          ]
+        }
+      ]
+    }
+  ]
+}

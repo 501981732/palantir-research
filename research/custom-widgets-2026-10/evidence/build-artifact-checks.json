@@ -1,0 +1,105 @@
+{
+  "checkedDate": "2026-10-01",
+  "scope": "Official no-OSDK React template; no tenant, mock SDK or runtime host.",
+  "generator": "@osdk/create-widget@3.74.0 --template=widget-react --sdkVersion=2.x --skipOsdk",
+  "lint": {
+    "command": "npm run lint",
+    "exitCode": 0
+  },
+  "build": {
+    "command": "npm run build",
+    "exitCode": 0,
+    "steps": [
+      "tsc",
+      "vite build"
+    ],
+    "transformedModules": 4788
+  },
+  "files": [
+    {
+      "path": ".palantir/widgets.config.json",
+      "bytes": 1141,
+      "sha256": "a3e292c506bce9ba34e7c4e22b27739338c0628058240a43bdb27da1107abf12"
+    },
+    {
+      "path": "assets/ObjectSetListenerWebsocket-DMtVFmSQ.js",
+      "bytes": 9160,
+      "sha256": "ad4422a591e4f3050ffb16213b09c00ecdb18e79b240f23ec6eee3921a2a1afb"
+    },
+    {
+      "path": "assets/allPaths-DIpHQAvl.js",
+      "bytes": 255,
+      "sha256": "f7a9cb8b09eb6e94488893efcff8a4032baa7dabe00f5858bbf82fa9b9245dde"
+    },
+    {
+      "path": "assets/allPathsLoader-Nk1iGQ5O.js",
+      "bytes": 477,
+      "sha256": "4d8e91d264a3a613359de1452800f0817b913638063bf47b5067166a070b289f"
+    },
+    {
+      "path": "assets/index-Bck4KEe_.js",
+      "bytes": 290688,
+      "sha256": "cca1b5e7ce9f6311948829e4a0da93d6b824b3b3f5f60093362e0f65d468f02b"
+    },
+    {
+      "path": "assets/index-C_QIH3rL.css",
+      "bytes": 465818,
+      "sha256": "f9d241ae7745dc9ef7415f62f5f4853255ca517cf9f58ceb1960cf021bdeed01"
+    },
+    {
+      "path": "assets/index-CoTw3yDo.js",
+      "bytes": 224821,
+      "sha256": "1d4c5cb86d7a5f5d5e89cedefcf1471ee245c55dd4116b97d2f3de7ec7803f7f"
+    },
+    {
+      "path": "assets/index-W58HgMhY.js",
+      "bytes": 299583,
+      "sha256": "a777bc1c4060d6ba2ac490056abbe7105dbca56446028e2f9d402e99f38a6fda"
+    },
+    {
+      "path": "assets/splitPathsBySizeLoader-JUyhaFIA.js",
+      "bytes": 281,
+      "sha256": "6103a3519731fd1fc83af87cacca9532c7caed8d26436a17f78bc09f53e70431"
+    },
+    {
+      "path": "index.html",
+      "bytes": 404,
+      "sha256": "da0e9bc43bea7d8f9a945e2339be9ef3a5323288cb44b1ad71583a714cc36925"
+    }
+  ],
+  "zip": {
+    "method": "Python zipfile ZIP_DEFLATED, equivalent root layout; not CLI upload",
+    "bytes": 325096,
+    "sha256": "bb33c093020bf29b0dc4f589e84fb78c569cf1dad82211bf581d0c96cb2618a4",
+    "entryNames": [
+      ".palantir/widgets.config.json",
+      "assets/ObjectSetListenerWebsocket-DMtVFmSQ.js",
+      "assets/allPaths-DIpHQAvl.js",
+      "assets/allPathsLoader-Nk1iGQ5O.js",
+      "assets/index-Bck4KEe_.js",
+      "assets/index-C_QIH3rL.css",
+      "assets/index-CoTw3yDo.js",
+      "assets/index-W58HgMhY.js",
+      "assets/splitPathsBySizeLoader-JUyhaFIA.js",
+      "index.html"
+    ],
+    "manifestAtRoot": true,
+    "noDistWrapper": true
+  },
+  "unverified": [
+    "Workshop server validates and loads this bundle",
+    "Real Foundry CI tag build",
+    "Tenant deployment and permissions",
+    "Upgrade/rollback preserving bindings"
+  ],
+  "reproduction": {
+    "script": "probes/build-reproduce.sh",
+    "exitCode": 0,
+    "date": "2026-10-01",
+    "lintExitCode": 0,
+    "buildExitCode": 0,
+    "validationCasesPassed": 14,
+    "filesCompared": 10,
+    "allArtifactSha256Match": true
+  }
+}

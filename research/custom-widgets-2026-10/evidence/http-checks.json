@@ -1,0 +1,1063 @@
+{
+  "checked_at": "2026-10-01T04:45:58.757949+00:00",
+  "boundary": "Public HEAD reachability; status 200 does not prove content claims, anchors, playback or tenant capabilities.",
+  "url_count": 176,
+  "results": [
+    {
+      "url": "https://community.palantir.com/t/how-to-create-a-custom-widget-for-workshop/2182",
+      "status": 200,
+      "final_url": "https://community.palantir.com/t/how-to-create-a-custom-widget-for-workshop/2182",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/aip-community-registry",
+      "status": 200,
+      "final_url": "https://github.com/palantir/aip-community-registry",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/aip-community-registry/blob/2545a91fe6026441af71d4accfd36e8dc41ff22f/OSDK%20Widget%20in%20Foundry/README.md",
+      "status": 200,
+      "final_url": "https://github.com/palantir/aip-community-registry/blob/2545a91fe6026441af71d4accfd36e8dc41ff22f/OSDK%20Widget%20in%20Foundry/README.md",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/aip-community-registry/tree/2545a91fe6026441af71d4accfd36e8dc41ff22f/OSDK%20Widget%20in%20Foundry",
+      "status": 200,
+      "final_url": "https://github.com/palantir/aip-community-registry/tree/2545a91fe6026441af71d4accfd36e8dc41ff22f/OSDK%20Widget%20in%20Foundry",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/actions/runs/36432616035/attempts/1",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/actions/runs/36432616035/attempts/1",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/actions/runs/36603145053/attempts/1",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/actions/runs/36603145053/attempts/1",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/react-components/README.md",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/react-components/README.md",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/react-components/src/object-table/ObjectTableApi.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/react-components/src/object-table/ObjectTableApi.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/e1f16d9273eb60122571341fbd2efb6f0cde361d/packages/widget.preview/README.md",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/e1f16d9273eb60122571341fbd2efb6f0cde361d/packages/widget.preview/README.md",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/e1f16d9273eb60122571341fbd2efb6f0cde361d/packages/widget.preview/src/__tests__/preview.test.tsx",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/e1f16d9273eb60122571341fbd2efb6f0cde361d/packages/widget.preview/src/__tests__/preview.test.tsx",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/e1f16d9273eb60122571341fbd2efb6f0cde361d/packages/widget.preview/src/useWidgetPreviewState.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/e1f16d9273eb60122571341fbd2efb6f0cde361d/packages/widget.preview/src/useWidgetPreviewState.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/faux/CHANGELOG.md",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/faux/CHANGELOG.md",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/faux/src/FauxFoundry/FauxDataStore.test.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/faux/src/FauxFoundry/FauxDataStore.test.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/faux/src/FauxFoundry/FauxDataStore.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/faux/src/FauxFoundry/FauxDataStore.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/faux/src/FauxFoundry/getObjectsFromSet.test.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/faux/src/FauxFoundry/getObjectsFromSet.test.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/faux/src/FauxFoundry/getObjectsFromSet.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/faux/src/FauxFoundry/getObjectsFromSet.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/widget.client-react/src/utils/extendParametersWithObjectSets.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/widget.client-react/src/utils/extendParametersWithObjectSets.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/widget.client-react/src/utils/transformEmitEventPayload.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/widget.client-react/src/utils/transformEmitEventPayload.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/commands/widgetset/deploy/index.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/commands/widgetset/deploy/index.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/commands/widgetset/deploy/widgetSetDeployCommand.mts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/commands/widgetset/deploy/widgetSetDeployCommand.mts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/commands/widgetset/version/index.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/commands/widgetset/version/index.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/net/widget-registry/Release.mts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/net/widget-registry/Release.mts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/net/widget-registry/ReleaseLocator.mts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/net/widget-registry/ReleaseLocator.mts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/net/widget-registry/deleteRelease.mts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/net/widget-registry/deleteRelease.mts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/net/widget-registry/listReleases.mts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/net/widget-registry/listReleases.mts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/net/widget-registry/publishRelease.mts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/net/widget-registry/publishRelease.mts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/client/src/scenarios/withScenario.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/client/src/scenarios/withScenario.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget.template.react.v2/templates/package.json.no-osdk.hbs",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget.template.react.v2/templates/package.json.no-osdk.hbs",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget.template.react.v2/templates/package.json.osdk.hbs",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget.template.react.v2/templates/package.json.osdk.hbs",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget.template.react.v2/templates/src/client.ts.osdk.hbs",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget.template.react.v2/templates/src/client.ts.osdk.hbs",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget.template.react.v2/templates/src/main.tsx.hbs",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget.template.react.v2/templates/src/main.tsx.hbs",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget.template.react.v2/templates/src/useDarkTheme.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget.template.react.v2/templates/src/useDarkTheme.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget/src/cli.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget/src/cli.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget/src/generate/generateFoundryConfigJson.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget/src/generate/generateFoundryConfigJson.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget/src/run.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget/src/run.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/foundry-config-json/src/autoVersion.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/foundry-config-json/src/autoVersion.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/foundry-config-json/src/config.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/foundry-config-json/src/config.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/react/src/index.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/react/src/index.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/config.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/config.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/messages/hostMessages.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/messages/hostMessages.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/messages/widgetMessages.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/messages/widgetMessages.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/parameters.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/parameters.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/permissions.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/permissions.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/utils/asyncValue.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/utils/asyncValue.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client-react/src/ErrorBoundary.tsx",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client-react/src/ErrorBoundary.tsx",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client-react/src/client.test.tsx",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client-react/src/client.test.tsx",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client-react/src/client.tsx",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client-react/src/client.tsx",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client-react/src/context.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client-react/src/context.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client-react/src/index.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client-react/src/index.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client-react/src/utils/extendParametersWithObjectSets.test.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client-react/src/utils/extendParametersWithObjectSets.test.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client-react/src/utils/extendParametersWithObjectSets.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client-react/src/utils/extendParametersWithObjectSets.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client-react/src/utils/initializeParameters.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client-react/src/utils/initializeParameters.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client-react/src/utils/transformEmitEventPayload.test.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client-react/src/utils/transformEmitEventPayload.test.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client-react/src/utils/transformEmitEventPayload.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client-react/src/utils/transformEmitEventPayload.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client/src/client.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client/src/client.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client/src/host.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client/src/host.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client/src/tokenProvider.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client/src/tokenProvider.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/package.json",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/package.json",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/FoundryWidgetBuildPlugin.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/FoundryWidgetBuildPlugin.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/buildWidgetSetManifest.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/buildWidgetSetManifest.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/extractBuildOutputs.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/extractBuildOutputs.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/getWidgetBuildOutputs.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/getWidgetBuildOutputs.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/getWidgetSetInputSpec.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/getWidgetSetInputSpec.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/validateWidgetSet.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/validateWidgetSet.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/client/entrypointIframe.tsx",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/client/entrypointIframe.tsx",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/common/constants.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/common/constants.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/common/extractWidgetConfig.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/common/extractWidgetConfig.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/common/validateWidgetConfig.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/common/validateWidgetConfig.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/common/visitNpmPackages.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/common/visitNpmPackages.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/FoundryWidgetDevPlugin.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/FoundryWidgetDevPlugin.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/buildDevModeManifest.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/buildDevModeManifest.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/codeWorkspacesMode.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/codeWorkspacesMode.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/extractInjectedScripts.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/extractInjectedScripts.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/getFoundryToken.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/getFoundryToken.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/network.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/network.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/publishDevModeSettings.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/publishDevModeSettings.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/index.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/index.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/commit/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/commit/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/commit/fb8ec172d540ef7819382ff036aa2a692614af75",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/commit/fb8ec172d540ef7819382ff036aa2a692614af75",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/pull/2033",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/pull/2033",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/pull/2214",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/pull/2214",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/pull/2216",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/pull/2216",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/pull/2218",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/pull/2218",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/pull/2294",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/pull/2294",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/pull/2474",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/pull/2474",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/pull/2538",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/pull/2538",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/pull/2545",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/pull/2545",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/pull/3023",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/pull/3023",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/pull/3418",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/pull/3418",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/pull/4070",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/pull/4070",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/pull/4102",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/pull/4102",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/pull/4103",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/pull/4103",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/pull/4104",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/pull/4104",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/pull/4105",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/pull/4105",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/pull/4120",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/pull/4120",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/tree/37cfd38676bf04edaef5847e929d914ea214c149",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/tree/37cfd38676bf04edaef5847e929d914ea214c149",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/tree/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/tree/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/tree/fb8ec172d540ef7819382ff036aa2a692614af75",
+      "status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/tree/fb8ec172d540ef7819382ff036aa2a692614af75",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/workshop-iframe-custom-widget/blob/244f70956356e869f8cc5143c815369170d056fe/LICENSE.md",
+      "status": 200,
+      "final_url": "https://github.com/palantir/workshop-iframe-custom-widget/blob/244f70956356e869f8cc5143c815369170d056fe/LICENSE.md",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/workshop-iframe-custom-widget/blob/244f70956356e869f8cc5143c815369170d056fe/README.md",
+      "status": 200,
+      "final_url": "https://github.com/palantir/workshop-iframe-custom-widget/blob/244f70956356e869f8cc5143c815369170d056fe/README.md",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/workshop-iframe-custom-widget/blob/244f70956356e869f8cc5143c815369170d056fe/src/internal/messages.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/workshop-iframe-custom-widget/blob/244f70956356e869f8cc5143c815369170d056fe/src/internal/messages.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/workshop-iframe-custom-widget/blob/244f70956356e869f8cc5143c815369170d056fe/src/internal/variableTypeWithDefaultValue.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/workshop-iframe-custom-widget/blob/244f70956356e869f8cc5143c815369170d056fe/src/internal/variableTypeWithDefaultValue.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/workshop-iframe-custom-widget/blob/244f70956356e869f8cc5143c815369170d056fe/src/transform-config/transformConfigCallbacks.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/workshop-iframe-custom-widget/blob/244f70956356e869f8cc5143c815369170d056fe/src/transform-config/transformConfigCallbacks.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/workshop-iframe-custom-widget/blob/244f70956356e869f8cc5143c815369170d056fe/src/types/configDefinition.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/workshop-iframe-custom-widget/blob/244f70956356e869f8cc5143c815369170d056fe/src/types/configDefinition.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/workshop-iframe-custom-widget/blob/244f70956356e869f8cc5143c815369170d056fe/src/useWorkshopContext.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/workshop-iframe-custom-widget/blob/244f70956356e869f8cc5143c815369170d056fe/src/useWorkshopContext.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://github.com/palantir/workshop-iframe-custom-widget/blob/244f70956356e869f8cc5143c815369170d056fe/src/utils.ts",
+      "status": 200,
+      "final_url": "https://github.com/palantir/workshop-iframe-custom-widget/blob/244f70956356e869f8cc5143c815369170d056fe/src/utils.ts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/@osdk%2freact-components@0.61.0",
+      "status": 200,
+      "final_url": "https://registry.npmjs.org/-/npm/v1/attestations/@osdk%2freact-components@0.61.0",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/@osdk%2fwidget.api@3.74.0",
+      "status": 200,
+      "final_url": "https://registry.npmjs.org/-/npm/v1/attestations/@osdk%2fwidget.api@3.74.0",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/@osdk%2fwidget.client-react@3.74.0",
+      "status": 200,
+      "final_url": "https://registry.npmjs.org/-/npm/v1/attestations/@osdk%2fwidget.client-react@3.74.0",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/@osdk%2fwidget.client@3.74.0",
+      "status": 200,
+      "final_url": "https://registry.npmjs.org/-/npm/v1/attestations/@osdk%2fwidget.client@3.74.0",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/@osdk%2fwidget.vite-plugin@3.74.0",
+      "status": 200,
+      "final_url": "https://registry.npmjs.org/-/npm/v1/attestations/@osdk%2fwidget.vite-plugin@3.74.0",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://registry.npmjs.org/@osdk%2Ffaux",
+      "status": 200,
+      "final_url": "https://registry.npmjs.org/@osdk%2Ffaux",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://registry.npmjs.org/@osdk%2Freact-components",
+      "status": 200,
+      "final_url": "https://registry.npmjs.org/@osdk%2Freact-components",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://registry.npmjs.org/@osdk%2Freact-components/0.61.0",
+      "status": 200,
+      "final_url": "https://registry.npmjs.org/@osdk%2Freact-components/0.61.0",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://registry.npmjs.org/@osdk%2Fwidget.client-react",
+      "status": 200,
+      "final_url": "https://registry.npmjs.org/@osdk%2Fwidget.client-react",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://registry.npmjs.org/@osdk%2Fworkshop-iframe-custom-widget",
+      "status": 200,
+      "final_url": "https://registry.npmjs.org/@osdk%2Fworkshop-iframe-custom-widget",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://registry.npmjs.org/@osdk%2fcli/0.101.0",
+      "status": 200,
+      "final_url": "https://registry.npmjs.org/@osdk%2fcli/0.101.0",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://registry.npmjs.org/@osdk%2fcreate-widget/3.74.0",
+      "status": 200,
+      "final_url": "https://registry.npmjs.org/@osdk%2fcreate-widget/3.74.0",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://registry.npmjs.org/@osdk%2ffoundry-config-json/1.13.0",
+      "status": 200,
+      "final_url": "https://registry.npmjs.org/@osdk%2ffoundry-config-json/1.13.0",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://registry.npmjs.org/@osdk%2fwidget.api/3.74.0",
+      "status": 200,
+      "final_url": "https://registry.npmjs.org/@osdk%2fwidget.api/3.74.0",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://registry.npmjs.org/@osdk%2fwidget.client/3.74.0",
+      "status": 200,
+      "final_url": "https://registry.npmjs.org/@osdk%2fwidget.client/3.74.0",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://registry.npmjs.org/@osdk%2fwidget.vite-plugin/3.74.0",
+      "status": 200,
+      "final_url": "https://registry.npmjs.org/@osdk%2fwidget.vite-plugin/3.74.0",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://registry.npmjs.org/@osdk/widget.api/-/widget.api-3.74.0.tgz",
+      "status": 200,
+      "final_url": "https://registry.npmjs.org/@osdk/widget.api/-/widget.api-3.74.0.tgz",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://registry.npmjs.org/@osdk/widget.client-react/-/widget.client-react-3.74.0.tgz",
+      "status": 200,
+      "final_url": "https://registry.npmjs.org/@osdk/widget.client-react/-/widget.client-react-3.74.0.tgz",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://registry.npmjs.org/@osdk/widget.client/-/widget.client-3.74.0.tgz",
+      "status": 200,
+      "final_url": "https://registry.npmjs.org/@osdk/widget.client/-/widget.client-3.74.0.tgz",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/ai-fde/modes-and-capabilities",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/ai-fde/modes-and-capabilities",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/ai-fde/prefill-sessions",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/ai-fde/prefill-sessions",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/announcements/2025-08/",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/announcements/2025-08",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/auto-sizing",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/custom-widgets/auto-sizing",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/core-concepts",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/custom-widgets/core-concepts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/core-concepts/",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/custom-widgets/core-concepts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/create",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/custom-widgets/create",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/create/",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/custom-widgets/create",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/dark-theme",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/custom-widgets/dark-theme",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/development",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/custom-widgets/development",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/development/",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/custom-widgets/development",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/embedding-in-workshop/",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/custom-widgets/embedding-in-workshop",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/iframe-attributes",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/custom-widgets/iframe-attributes",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/iframe-attributes/",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/custom-widgets/iframe-attributes",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/manage-node-version-in-foundry-code-repository",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/custom-widgets/manage-node-version-in-foundry-code-repository",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/marketplace",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/custom-widgets/marketplace",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/open-url-in-workshop",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/custom-widgets/open-url-in-workshop",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/overview",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/custom-widgets/overview",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/overview/",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/custom-widgets/overview",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/parameters-and-events",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/custom-widgets/parameters-and-events",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/parameters-and-events/",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/custom-widgets/parameters-and-events",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/publish",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/custom-widgets/publish",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/publish/",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/custom-widgets/publish",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/troubleshooting",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/custom-widgets/troubleshooting",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/use-osdk",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/custom-widgets/use-osdk",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/use-osdk/",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/custom-widgets/use-osdk",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/palantir-mcp/available-tools",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/palantir-mcp/available-tools",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/pilot/build-a-widget",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/pilot/build-a-widget",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/pilot/build-a-widget/",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/pilot/build-a-widget",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/pilot/deploy-a-widget",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/pilot/deploy-a-widget",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/pilot/deploy-a-widget/",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/pilot/deploy-a-widget",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/superrepo/core-concepts",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/superrepo/core-concepts",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/workshop/widget-display-optimization/",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/workshop/widget-display-optimization",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/workshop/widgets-iframe",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/workshop/widgets-iframe",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/configure-sdk.png",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/configure-sdk.png",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/creation-wizard.png",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/creation-wizard.png",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/dev-mode-enabled-inactive.png?width=350",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/dev-mode-enabled-inactive.png?width=350",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/dev-mode-enabled-localhost.png?width=350",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/dev-mode-enabled-localhost.png?width=350",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/dev-mode-paused.png?width=350",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/dev-mode-paused.png?width=350",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/manual-ui-upload.png",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/manual-ui-upload.png",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/npm-run-dev.png",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/npm-run-dev.png",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/playground-dev-mode.png",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/playground-dev-mode.png",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/tag-build.png",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/tag-build.png",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/vscode-workspaces-dev-mode.png",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/vscode-workspaces-dev-mode.png",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/widget-preview.png",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/widget-preview.png",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/widget-set-overview.png",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/widget-set-overview.png",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/workshop-dev-mode.png",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/workshop-dev-mode.png",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/workshop-iframe-attributes.png",
+      "status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/custom-widgets/workshop-iframe-attributes.png",
+      "method": "HEAD"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=U_EB06sWv-s",
+      "status": null,
+      "method": "HEAD",
+      "error": "<urlopen error [Errno 65] No route to host>"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=U_EB06sWv-s&t=216s",
+      "status": null,
+      "method": "HEAD",
+      "error": "<urlopen error [Errno 65] No route to host>"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=kD6R1lGTQEo",
+      "status": null,
+      "method": "HEAD",
+      "error": "<urlopen error [Errno 65] No route to host>"
+    }
+  ]
+}

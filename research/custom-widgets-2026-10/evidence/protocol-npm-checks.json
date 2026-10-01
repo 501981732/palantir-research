@@ -1,0 +1,112 @@
+{
+  "checkedAt": "2026-10-01T04:23:54.461513+00:00",
+  "scope": "Offline static verification of downloaded public package artifacts and bounded evidence; no real Workshop tenant or consumer runtime tests.",
+  "checks": [
+    {
+      "check": "selected versions and latest tags",
+      "status": "PASS",
+      "detail": "Both packages latest, highest stable semver, latest stable by published date and selected version were 3.74.0 at retrieval."
+    },
+    {
+      "check": "tarball SHA-1 and SHA-512",
+      "status": "PASS",
+      "detail": "2 SHA-1 and 2 SHA-512 computations matched official registry metadata."
+    },
+    {
+      "check": "tarball inventory count and bytes",
+      "status": "PASS",
+      "detail": "widget.api 53 files / 153783 bytes; widget.client 29 files / 81192 bytes."
+    },
+    {
+      "check": "sourcemap exact source equality",
+      "status": "PASS",
+      "detail": "12 source files x 3 pinned commits = 36 exact equality checks; release anchor fb8ec172d540ef7819382ff036aa2a692614af75."
+    },
+    {
+      "check": "published manifest and registry",
+      "status": "PASS",
+      "detail": "Actual packaged version/dependencies match official version metadata."
+    },
+    {
+      "check": "root export target file presence",
+      "status": "PASS",
+      "detail": "10 concrete root export-condition target paths exist; file-presence test only."
+    },
+    {
+      "check": "browser and ESM JS equality",
+      "status": "PASS",
+      "detail": "12 browser runtime JS files equal corresponding ESM runtime JS files."
+    },
+    {
+      "check": "provenance subject hash association",
+      "status": "PASS",
+      "detail": "4 decoded publish/SLSA statement subjects match exact tarball SHA-512; signatures not cryptographically verified."
+    },
+    {
+      "check": "provenance source commit",
+      "status": "PASS",
+      "detail": "Both SLSA statements declare the same release commit."
+    },
+    {
+      "check": "evidence scripts syntax",
+      "status": "PASS",
+      "detail": "4 Python scripts parsed with ast.parse; no package code installed or executed."
+    }
+  ],
+  "observations": [
+    {
+      "name": "wildcard ./public export target file absence",
+      "status": "OBSERVED",
+      "detail": "All 10 wildcard export-condition patterns have 0 matching packaged files; this is recorded separately from pass criteria, and no consumer deep-import runtime test is claimed."
+    }
+  ],
+  "files": [
+    {
+      "path": "protocol-npm-artifact-details.json",
+      "bytes": 15669,
+      "sha256": "c9eadfb99f7f53c7f9fd3a998a872aad6b404788f27eb3727703148437a3a45f"
+    },
+    {
+      "path": "protocol-npm-artifact-inspect.py",
+      "bytes": 4606,
+      "sha256": "bde2a4d0a4d2834b43ff7698c7273ba835d7d148a95942ba0d9a08e07fd86436"
+    },
+    {
+      "path": "protocol-npm-audit.json",
+      "bytes": 30401,
+      "sha256": "8f38c1bdd5e6f36228b189f52e1b8bbc46345f36d1fed2a7607bbb1096c116f8"
+    },
+    {
+      "path": "protocol-npm-fetch.py",
+      "bytes": 5220,
+      "sha256": "dadd22e9c0e73bafee466a1362e6f7895cabd05626d24d9cbdfdff65423a4eca"
+    },
+    {
+      "path": "protocol-npm-provenance-fetch.py",
+      "bytes": 1972,
+      "sha256": "1a85df65a6954d2a588ea480a5df409d5493006bec5de4fd672f6d1bac27ba80"
+    },
+    {
+      "path": "protocol-npm-provenance.json",
+      "bytes": 7321,
+      "sha256": "30b7dafde7a5bf101bbdaed7f0e24506e859ac45ee342a3f495da9000c6284ba"
+    },
+    {
+      "path": "protocol-npm-source-compare.json",
+      "bytes": 31792,
+      "sha256": "d462ff51003a348b4faff5ef6a403019798b527df477506bb700add91e9f4529"
+    },
+    {
+      "path": "protocol-npm-source-compare.py",
+      "bytes": 4380,
+      "sha256": "77cb70e2c92a43eee8205f6f0de7c0f972411713287ff99a688813d26cb868a7"
+    },
+    {
+      "path": "protocol-npm-summary.md",
+      "bytes": 8248,
+      "sha256": "7e75924bbc8ee5d0dfe7bca23fb7a046ac9471fac8a3e93386d7c5ae77166eff"
+    }
+  ],
+  "artifactInventoryCheckedAt": "2026-10-01T05:10:22.309363+00:00",
+  "scriptSyntaxCheckedAt": "2026-10-01T05:10:22.309363+00:00"
+}

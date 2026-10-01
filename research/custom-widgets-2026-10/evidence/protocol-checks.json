@@ -1,0 +1,18 @@
+{
+  "retrievedAt": "2026-10-01T04:27:31.559768+00:00",
+  "articleSha256": "050d8212494c90f5f5163b628cf4488895179e185d4860ff64646a786058751b",
+  "pinnedSourceCitationsChecked": 22,
+  "sourceLineRangesValid": true,
+  "sourceHashesMatchReleaseArtifactComparison": true,
+  "clientMockAssertionsPassed": 13,
+  "typeNegativeControlsRejected": 5,
+  "realWorkshopTested": false,
+  "npmVerificationEvidence": "protocol-npm-checks.json",
+  "documentationURLs": [
+    "https://www.palantir.com/docs/foundry/custom-widgets/iframe-attributes",
+    "https://www.palantir.com/docs/foundry/custom-widgets/open-url-in-workshop",
+    "https://www.palantir.com/docs/foundry/custom-widgets/parameters-and-events",
+    "https://www.palantir.com/docs/foundry/custom-widgets/troubleshooting",
+    "https://www.palantir.com/docs/foundry/custom-widgets/use-osdk"
+  ]
+}

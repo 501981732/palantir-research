@@ -1,0 +1,118 @@
+{
+  "retrieval_date_utc": "2026-10-01",
+  "scope": "Public Custom Widgets / Widget Registry documentation visuals and short public-video evidence; no tenant access",
+  "documentation_images": {
+    "saved": 14,
+    "download_status": 200,
+    "format": "original PNG",
+    "individual_visual_review": true,
+    "full_document_bodies_saved_in_repository": false,
+    "originals_mutated": false
+  },
+  "attempts": [
+    {
+      "action": "yt-dlp metadata-only read of https://www.youtube.com/watch?v=U_EB06sWv-s",
+      "command_flags": [
+        "--skip-download",
+        "--dump-single-json",
+        "--socket-timeout 15",
+        "--retries 0"
+      ],
+      "version": "2026.03.03",
+      "result": "network No route to host; exit1; metadata output was empty; no source video downloaded"
+    },
+    {
+      "action": "Normal Chrome YouTube search and playback",
+      "result": "Two relevant public author tutorials identified; metadata obtained from their visible descriptions."
+    },
+    {
+      "action": "Chrome player screenshot of Ontologize real tutorial",
+      "result": "one valid paused frame saved",
+      "source_time_seconds": 216.359606,
+      "ready_state": 4,
+      "duration_seconds": 1039.881,
+      "asset": "media-video-ontologize-default-widget.jpg",
+      "interpretation_limit": "Code Workspace dev startup / preview spinner only; no successful event interaction or complete AI engineering delivery proven"
+    },
+    {
+      "action": "Further Ontologize chapter attempts",
+      "result": "Normal chapter links visible; actual 04:13 playback attempted without reliable recovery. 13:46 was a visible future integration chapter, not a captured frame. Ads and stale/buffering screenshots excluded. A temporary candidate overwritten by an ad was deleted rather than registered.",
+      "observed_chapter_links": [
+        {
+          "time_seconds": 253,
+          "label": "Prompting for the renderer"
+        },
+        {
+          "time_seconds": 826,
+          "label": "Integrating the widget"
+        }
+      ]
+    },
+    {
+      "action": "Object Set tutorial 04:56 chapter playback",
+      "url": "https://www.youtube.com/watch?v=kD6R1lGTQEo",
+      "observed_state_before_play": {
+        "current_time_seconds": 296,
+        "ready_state": 1,
+        "paused": true,
+        "duration_seconds": 483.661
+      },
+      "observed_pixels": "Intro slide remained stale; not saved as 04:56 frame",
+      "result": "Normal playback then reported YouTube media error, currentTime0/readyState0. No reliable Workshop frame obtained."
+    },
+    {
+      "action": "Standard browser subtitle export for both videos",
+      "result": "No transcript is available for this YouTube video returned for each source; no transcript invented or mirrored"
+    },
+    {
+      "action": "Visible YouTube transcript-button check",
+      "url": "https://www.youtube.com/watch?v=U_EB06sWv-s",
+      "result": "Opened transcript panel; initial state loading spinner. No successful transcript acquisition claimed."
+    },
+    {
+      "action": "ffmpeg -version prerequisite for local short screen-recording encoding",
+      "result": "ffmpeg 8.0.1_4 could not start: exit 134, missing libx265.215.dylib; encoding not performed."
+    },
+    {
+      "action": "Final normal source recovery and short-recording feasibility",
+      "result": "Ad could play and was skipped through normal UI; requested tutorial chapter remained readyState0 and blank/buffering, then media error. Reliable continuous source playback and recording executable unavailable; no recording delivered and no static-image-to-video substitute created."
+    }
+  ],
+  "videos": [
+    {
+      "url": "https://www.youtube.com/watch?v=U_EB06sWv-s",
+      "title": "Vibe Coding a Custom Workshop Widget",
+      "channel": "Ontologize",
+      "publication_date": "2026-03-04",
+      "duration_seconds": 1039.881,
+      "provenance": "public author/training provider; not official Palantir documentation",
+      "date_evidence": "expanded YouTube description",
+      "saved_frame_time_seconds": 216.359606,
+      "transcript": "unavailable through tested standard browser export"
+    },
+    {
+      "url": "https://www.youtube.com/watch?v=kD6R1lGTQEo",
+      "title": "Palantir Foundry 自定义组件教程：Object Set 读取 Ontology 对象并回传选择",
+      "channel": "跟贝贝一起学习",
+      "publication_date": "2026-09-18",
+      "duration_seconds": 483.661,
+      "provenance": "third-party instructor, descriptive claims not independently confirmed by video frames",
+      "date_evidence": "expanded YouTube description",
+      "saved_frames": 0,
+      "transcript": "unavailable through tested standard browser export"
+    }
+  ],
+  "remaining_gaps": [
+    "usable short continuous screen recording",
+    "usable timed transcript",
+    "real video frame of successful host parameter/event interaction",
+    "visual demo of hidden-widget lifecycle / storage restrictions"
+  ],
+  "safety_and_rights": {
+    "source_long_video_mirrored": false,
+    "thumbnail_used_as_frame": false,
+    "fake_or_AI_generated_UI": false,
+    "CAPTCHA_or_access_restrictions_bypassed": false
+  },
+  "updated_utc": "2026-10-01T04:34:43.637024+00:00"
+}

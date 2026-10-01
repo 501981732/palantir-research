@@ -1,0 +1,109 @@
+{
+  "title": "Actual npm widget API/client with a local injected-bridge mock",
+  "retrievedAt": "2026-10-01T04:21:23.667Z",
+  "nodeVersion": "v22.17.0",
+  "packageVersions": {
+    "widgetApi": "3.74.0",
+    "widgetClient": "3.74.0"
+  },
+  "scope": "Client behavior only. No real Workshop, Foundry authentication, browser iframe/postMessage/origin enforcement, or permission checks.",
+  "mockPolicy": "Only window.__PALANTIR_WIDGET_API__ is replaced; package implementation and its dependency are the published npm artifacts.",
+  "assertionCount": 13,
+  "results": [
+    {
+      "name": "missing injected bridge throws immediately",
+      "result": "PASS"
+    },
+    {
+      "name": "construction neither subscribes nor sends ready automatically",
+      "result": "PASS"
+    },
+    {
+      "name": "ready announces the wire API version 1.0.0",
+      "result": "PASS"
+    },
+    {
+      "name": "subscribed host payload is dispatched without value conversion",
+      "result": "PASS"
+    },
+    {
+      "name": "unknown host message is silently ignored by the client visitor",
+      "result": "PASS"
+    },
+    {
+      "name": "emitEvent forwards updates but does not synthesize a host acknowledgement",
+      "result": "PASS"
+    },
+    {
+      "name": "reload and resize are one-way bridge messages",
+      "result": "PASS"
+    },
+    {
+      "name": "unsubscribe stops delivery and subscribe can restore it",
+      "result": "PASS"
+    },
+    {
+      "name": "message guards only discriminate type and do not validate payload",
+      "result": "PASS"
+    },
+    {
+      "name": "defineConfig is an identity function, not a runtime schema validator",
+      "result": "PASS"
+    },
+    {
+      "name": "untyped callers can forward undeclared event/parameter IDs",
+      "result": "PASS"
+    },
+    {
+      "name": "generic sendMessage is a pass-through at this public client layer",
+      "result": "PASS"
+    },
+    {
+      "name": "token provider callback resolves placeholder widgets-auth",
+      "result": "PASS"
+    }
+  ],
+  "messagesSent": [
+    {
+      "type": "widget.ready",
+      "payload": {
+        "apiVersion": "1.0.0"
+      }
+    },
+    {
+      "type": "widget.emit-event",
+      "payload": {
+        "eventId": "updateCount",
+        "parameterUpdates": {
+          "count": 8
+        }
+      }
+    },
+    {
+      "type": "widget.reload",
+      "payload": {}
+    },
+    {
+      "type": "widget.resize",
+      "payload": {
+        "width": 640,
+        "height": 360
+      }
+    },
+    {
+      "type": "widget.emit-event",
+      "payload": {
+        "eventId": "notInAnyConfig",
+        "parameterUpdates": {
+          "undeclaredParameter": "x"
+        }
+      }
+    },
+    {
+      "type": "widget.not-a-supported-message",
+      "payload": {
+        "arbitrary": true
+      }
+    }
+  ]
+}

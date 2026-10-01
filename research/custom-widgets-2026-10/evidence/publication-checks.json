@@ -1,0 +1,14 @@
+{
+  "checked_at": "2026-10-01T05:12:06.624369+00:00",
+  "scope": "Affected documentation and portable evidence tooling only; original client/React/plugin runtime probe results are retained, not rerun by this check.",
+  "python_scripts_syntax_checked": 10,
+  "parameter_help_checks": 4,
+  "cached_source_comparison_checks": 36,
+  "artifact_inspection_packages_match_original": 2,
+  "cached_replay_network_requests": 0,
+  "react_markdown_snippet_strict_typecheck": "passed; exact extracted snippet, NodeNext/strict/tsc --noEmit; no UI or Foundry requests",
+  "media_content_changed": false,
+  "passed": true,
+  "public_text_files_scanned": 76,
+  "privacy_and_internal_process_hits": []
+}
