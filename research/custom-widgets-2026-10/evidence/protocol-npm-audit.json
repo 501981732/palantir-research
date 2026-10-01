@@ -1,0 +1,802 @@
+{
+  "retrievedAt": "2026-10-01T04:13:40.314561+00:00",
+  "registry": "https://registry.npmjs.org",
+  "packages": [
+    {
+      "name": "@osdk/widget.api",
+      "metadataUrl": "https://registry.npmjs.org/@osdk%2fwidget.api",
+      "metadataSha256": "ced77d6ee50a096e76f916b68fe31ed6d51a294cef9343c2b7ddca7e4d5c9365",
+      "responseHeaders": {
+        "Date": "Thu, 01 Oct 2026 04:13:41 GMT",
+        "Content-Type": "application/json",
+        "ETag": "\"9712b1cb4152a50a8a50f5a1feded419\"",
+        "Last-Modified": "Tue, 29 Sep 2026 17:25:08 GMT"
+      },
+      "distTags": {
+        "latest-2.2.x": "2.1.1",
+        "latest-2.5.x": "3.2.10",
+        "rc": "3.4.0-rc.15",
+        "beta": "3.20.1-beta.0",
+        "next-sj-object-type-alias-remapping": "3.50.1-sj-object-type-alias-remapping-f922b13c56bb00c60a987446fb29ceb5c45f5c1e",
+        "pr-zka": "3.55.1-pr-zka-777e77d07df73352290241cfc585d3e81e883a96",
+        "next-zka-make-client-branch-aware": "3.55.1-zka-make-client-branch-aware-0f0b7499d7b3df21db1ff80208f824ba492eebcd",
+        "next-zka-vite-plugin-branch": "3.57.1-zka-vite-plugin-branch-76fa7cfd38390c4b48569ea5ecc636fb6e0dea7a",
+        "next-ading-window": "3.65.1-ading-window-b5638eea96f7c833685e304505dad6f9e65e4d76",
+        "pr-jzhang": "3.66.1-pr-jzhang-c89656ed85ead18739e4ba0666ee91a06afacc01",
+        "next-amishshah-cw-vite-plugin-changes": "3.65.1-amishshah-cw-vite-plugin-changes-6a9dc14549fb96bcab149286122bb69234d40767",
+        "next-amishs-map-tile-layer-parameter": "3.67.1-amishs-map-tile-layer-parameter-68fb34261c2794e37dc945a6a01ac199597f9587",
+        "next-zeyadka-client-branch-query-param": "3.70.1-zeyadka-client-branch-query-param-782428ef372211d38221a3819133fb3482d97be5",
+        "latest": "3.74.0",
+        "next-main": "3.73.1-main-e5da5150e9db362ea94628ef4ff790271684ff36"
+      },
+      "latestStableBySemver": "3.74.0",
+      "latestStableByPublishTime": "3.74.0",
+      "selectedVersionPublishedAt": "2026-09-29T17:25:06.301Z",
+      "recentStableVersions": [
+        {
+          "version": "3.74.0",
+          "publishedAt": "2026-09-29T17:25:06.301Z"
+        },
+        {
+          "version": "3.73.0",
+          "publishedAt": "2026-09-29T15:08:47.704Z"
+        },
+        {
+          "version": "3.72.0",
+          "publishedAt": "2026-09-25T13:30:34.714Z"
+        },
+        {
+          "version": "3.71.0",
+          "publishedAt": "2026-09-23T15:55:13.855Z"
+        },
+        {
+          "version": "3.70.0",
+          "publishedAt": "2026-09-21T20:54:55.748Z"
+        },
+        {
+          "version": "3.69.0",
+          "publishedAt": "2026-09-16T20:08:23.515Z"
+        },
+        {
+          "version": "3.68.0",
+          "publishedAt": "2026-09-15T15:35:28.111Z"
+        },
+        {
+          "version": "3.67.0",
+          "publishedAt": "2026-09-14T13:36:57.637Z"
+        },
+        {
+          "version": "3.66.0",
+          "publishedAt": "2026-09-11T14:17:11.978Z"
+        },
+        {
+          "version": "3.65.0",
+          "publishedAt": "2026-09-08T17:06:28.956Z"
+        },
+        {
+          "version": "3.64.0",
+          "publishedAt": "2026-09-04T18:37:25.900Z"
+        },
+        {
+          "version": "3.63.0",
+          "publishedAt": "2026-09-02T16:48:06.069Z"
+        },
+        {
+          "version": "3.62.0",
+          "publishedAt": "2026-08-28T19:07:04.824Z"
+        },
+        {
+          "version": "3.61.0",
+          "publishedAt": "2026-08-27T19:50:20.257Z"
+        },
+        {
+          "version": "3.60.0",
+          "publishedAt": "2026-08-27T16:09:21.645Z"
+        },
+        {
+          "version": "3.59.0",
+          "publishedAt": "2026-08-25T17:33:52.641Z"
+        },
+        {
+          "version": "3.58.0",
+          "publishedAt": "2026-08-25T10:11:57.700Z"
+        },
+        {
+          "version": "3.57.0",
+          "publishedAt": "2026-08-19T18:11:03.367Z"
+        },
+        {
+          "version": "3.56.0",
+          "publishedAt": "2026-08-18T19:43:45.050Z"
+        },
+        {
+          "version": "3.55.0",
+          "publishedAt": "2026-08-12T13:37:41.742Z"
+        }
+      ],
+      "selectedVersionMetadata": {
+        "name": "@osdk/widget.api",
+        "version": "3.74.0",
+        "description": "API contract between Foundry UIs that can embed custom widgets and the custom widgets themselves",
+        "license": "Apache-2.0",
+        "repository": {
+          "url": "git+https://github.com/palantir/osdk-ts.git",
+          "type": "git"
+        },
+        "homepage": "https://github.com/palantir/osdk-ts#readme",
+        "bugs": {
+          "url": "https://github.com/palantir/osdk-ts/issues"
+        },
+        "main": "./build/cjs/index.cjs",
+        "module": "./build/esm/index.js",
+        "types": "./build/cjs/index.d.cts",
+        "exports": {
+          ".": {
+            "import": {
+              "types": "./build/types/index.d.ts",
+              "default": "./build/esm/index.js"
+            },
+            "browser": "./build/browser/index.js",
+            "default": "./build/browser/index.js",
+            "require": "./build/cjs/index.cjs"
+          },
+          "./*": {
+            "import": {
+              "types": "./build/types/public/*.d.ts",
+              "default": "./build/esm/public/*.js"
+            },
+            "browser": "./build/browser/public/*.js",
+            "default": "./build/browser/public/*.js",
+            "require": "./build/cjs/public/*.cjs"
+          }
+        },
+        "dependencies": {
+          "@osdk/api": "2.75.0"
+        },
+        "_npmVersion": "11.19.0",
+        "_nodeVersion": "24.21.0",
+        "dist": {
+          "shasum": "8fa10b761df7280785d76311b8fddfdded93136d",
+          "tarball": "https://registry.npmjs.org/@osdk/widget.api/-/widget.api-3.74.0.tgz",
+          "fileCount": 53,
+          "integrity": "sha512-G9gn1sX5VeLfpurqBfjf/6xoR6f1ThehoNnGnWOQcD6QY7ciqTxMsvGPY58ZuuRrVevc4sovSkulxa/+u/IAOg==",
+          "signatures": [
+            {
+              "sig": "MEUCIAvWILjKmydEUkuIKnzpx125Te+r/znE8eHLCtGB7qR3AiEAqD63yFOIemUWqqt13Kh/Ne+164C7nWJLhNHtgOjU0Ps=",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+              "sig": "MEQCIAQsBIm9osD7JH7p9Kc6tNoWcuc03ol3v6GNQG4QpzU3AiAxZkUNPDhtU1u+DgkXtP6gUE1jC5ccsAo/z0OFnwzBRw=="
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/@osdk%2fwidget.api@3.74.0",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 153783
+        }
+      },
+      "tarballVerification": {
+        "bytes": 25928,
+        "sha256": "219b56aa5f91a6fbb1933d5042d8120ef069ec26eaa5b10ce5ee21ac75c84074",
+        "computedSha1": "8fa10b761df7280785d76311b8fddfdded93136d",
+        "registrySha1": "8fa10b761df7280785d76311b8fddfdded93136d",
+        "sha1Matches": true,
+        "computedIntegrity": "sha512-G9gn1sX5VeLfpurqBfjf/6xoR6f1ThehoNnGnWOQcD6QY7ciqTxMsvGPY58ZuuRrVevc4sovSkulxa/+u/IAOg==",
+        "registryIntegrity": "sha512-G9gn1sX5VeLfpurqBfjf/6xoR6f1ThehoNnGnWOQcD6QY7ciqTxMsvGPY58ZuuRrVevc4sovSkulxa/+u/IAOg==",
+        "integrityMatches": true
+      },
+      "fileCount": 53,
+      "files": [
+        {
+          "path": "package/build/cjs/index.cjs",
+          "bytes": 2476,
+          "sha256": "2ee29df0cfe639d7bac63c33fbddc85ba8d5438c11e14a67cf4eb7b52b81b17e"
+        },
+        {
+          "path": "package/build/cjs/index.d.cts",
+          "bytes": 18947,
+          "sha256": "cfd90b8752e3bac2fac193412bedbda429990d4f21e8433c0061d6089e87988a"
+        },
+        {
+          "path": "package/build/browser/utils/asyncValue.js",
+          "bytes": 49,
+          "sha256": "0dd062867632512cbae7e90fdb47f18acd8f82ebe51a9aab528feec0bad89e18"
+        },
+        {
+          "path": "package/build/esm/utils/asyncValue.js",
+          "bytes": 49,
+          "sha256": "0dd062867632512cbae7e90fdb47f18acd8f82ebe51a9aab528feec0bad89e18"
+        },
+        {
+          "path": "package/build/browser/config.js",
+          "bytes": 1385,
+          "sha256": "e2cadfc528b1528816ecf99218b7b46de9b5ceac22c42c51f1db214d0e55a136"
+        },
+        {
+          "path": "package/build/esm/config.js",
+          "bytes": 1385,
+          "sha256": "e2cadfc528b1528816ecf99218b7b46de9b5ceac22c42c51f1db214d0e55a136"
+        },
+        {
+          "path": "package/build/browser/messages/hostMessages.js",
+          "bytes": 1349,
+          "sha256": "02c72c36e5fc725a99249db712a0b27f0f890717475a86466d6fed45dac9470c"
+        },
+        {
+          "path": "package/build/esm/messages/hostMessages.js",
+          "bytes": 1349,
+          "sha256": "02c72c36e5fc725a99249db712a0b27f0f890717475a86466d6fed45dac9470c"
+        },
+        {
+          "path": "package/build/browser/index.js",
+          "bytes": 1089,
+          "sha256": "40749954205066dde0930121d5e6eb0bcb54a11436b998bc71bbd6b4cf5e2766"
+        },
+        {
+          "path": "package/build/esm/index.js",
+          "bytes": 1089,
+          "sha256": "40749954205066dde0930121d5e6eb0bcb54a11436b998bc71bbd6b4cf5e2766"
+        },
+        {
+          "path": "package/build/browser/manifest.js",
+          "bytes": 856,
+          "sha256": "01872720f3e9831d45fb6c3c19f8d3ad2fa75da4c56ee744e2cb1a8874953ff6"
+        },
+        {
+          "path": "package/build/esm/manifest.js",
+          "bytes": 856,
+          "sha256": "01872720f3e9831d45fb6c3c19f8d3ad2fa75da4c56ee744e2cb1a8874953ff6"
+        },
+        {
+          "path": "package/build/browser/parameters.js",
+          "bytes": 937,
+          "sha256": "c3b4ab2b636c967ec2624f7c907dcb7025d046f4bce69bee4e3b43c33c810052"
+        },
+        {
+          "path": "package/build/esm/parameters.js",
+          "bytes": 937,
+          "sha256": "c3b4ab2b636c967ec2624f7c907dcb7025d046f4bce69bee4e3b43c33c810052"
+        },
+        {
+          "path": "package/build/browser/permissions.js",
+          "bytes": 1383,
+          "sha256": "659e5a447f36cab235dae56d89fd25cbbfba27ac1e37e2502e4c0ffc350e2405"
+        },
+        {
+          "path": "package/build/esm/permissions.js",
+          "bytes": 1383,
+          "sha256": "659e5a447f36cab235dae56d89fd25cbbfba27ac1e37e2502e4c0ffc350e2405"
+        },
+        {
+          "path": "package/build/browser/messages/widgetMessages.js",
+          "bytes": 1441,
+          "sha256": "9e17ad657975b4aa252c91b1abd4b4de0ee92901cd99584da40983dd421e83b6"
+        },
+        {
+          "path": "package/build/esm/messages/widgetMessages.js",
+          "bytes": 1441,
+          "sha256": "9e17ad657975b4aa252c91b1abd4b4de0ee92901cd99584da40983dd421e83b6"
+        },
+        {
+          "path": "package/package.json",
+          "bytes": 2214,
+          "sha256": "7b1ad1489df53ec58a8045720476b40f04d5de493838510f598ef33961e9518f"
+        },
+        {
+          "path": "package/build/types/utils/asyncValue.d.ts.map",
+          "bytes": 466,
+          "sha256": "ce826434104a6f2116cb91cbb10865391ae3f5337140b818fc5479ddf6e315dd"
+        },
+        {
+          "path": "package/build/browser/utils/asyncValue.js.map",
+          "bytes": 1756,
+          "sha256": "0d7847c6dbe8de227797e100368fec3589af16668f0f43799728dd0ed5342c0e"
+        },
+        {
+          "path": "package/build/esm/utils/asyncValue.js.map",
+          "bytes": 1756,
+          "sha256": "0d7847c6dbe8de227797e100368fec3589af16668f0f43799728dd0ed5342c0e"
+        },
+        {
+          "path": "package/build/types/config.d.ts.map",
+          "bytes": 2013,
+          "sha256": "4c3925e36f13485633e13735642fc498ddd4ec5cde47585dbb1fcc8152be20eb"
+        },
+        {
+          "path": "package/build/browser/config.js.map",
+          "bytes": 7104,
+          "sha256": "f6368b3446e32b776299b0ce4f273fe2d7203773c22587f6ea78f78f25d69a5c"
+        },
+        {
+          "path": "package/build/esm/config.js.map",
+          "bytes": 7104,
+          "sha256": "f6368b3446e32b776299b0ce4f273fe2d7203773c22587f6ea78f78f25d69a5c"
+        },
+        {
+          "path": "package/build/types/messages/hostMessages.d.ts.map",
+          "bytes": 941,
+          "sha256": "ba0283361942efe220bf1776432a977e525b703c5fa56a94541c350d90b9274c"
+        },
+        {
+          "path": "package/build/browser/messages/hostMessages.js.map",
+          "bytes": 3375,
+          "sha256": "e6082a8e5d22d0ca7c22f85b3607f426ba6c24774623e560591ac86fbed52fde"
+        },
+        {
+          "path": "package/build/esm/messages/hostMessages.js.map",
+          "bytes": 3375,
+          "sha256": "e6082a8e5d22d0ca7c22f85b3607f426ba6c24774623e560591ac86fbed52fde"
+        },
+        {
+          "path": "package/build/cjs/index.cjs.map",
+          "bytes": 8040,
+          "sha256": "751d171b19849a1c371688b4ec8ce1daefec4871d99a71c5aadfa2fd192cd08d"
+        },
+        {
+          "path": "package/build/types/index.d.ts.map",
+          "bytes": 449,
+          "sha256": "ad25a11f8c2879fd712499de87a46ee091c1421164510e7c4e1e95ae4b7b7550"
+        },
+        {
+          "path": "package/build/browser/index.js.map",
+          "bytes": 2735,
+          "sha256": "4e00e6870e01a99c135be76ff37baee9a361aa535d82874d58177ab50068fe99"
+        },
+        {
+          "path": "package/build/esm/index.js.map",
+          "bytes": 2735,
+          "sha256": "4e00e6870e01a99c135be76ff37baee9a361aa535d82874d58177ab50068fe99"
+        },
+        {
+          "path": "package/build/types/manifest.d.ts.map",
+          "bytes": 718,
+          "sha256": "56896d490623da95cb9c8c730a27a156ceb063d6a91b2aa9d546e8cd422827b2"
+        },
+        {
+          "path": "package/build/browser/manifest.js.map",
+          "bytes": 5034,
+          "sha256": "77ac36fe412a5d45c751462c70a55be68aae2968e2a4b76489c095beb61e1eb6"
+        },
+        {
+          "path": "package/build/esm/manifest.js.map",
+          "bytes": 5034,
+          "sha256": "77ac36fe412a5d45c751462c70a55be68aae2968e2a4b76489c095beb61e1eb6"
+        },
+        {
+          "path": "package/build/types/parameters.d.ts.map",
+          "bytes": 1077,
+          "sha256": "0de3c8c74725c5974afa9266006974a4ad209a1119006cbe7f0f6d84863a1af9"
+        },
+        {
+          "path": "package/build/browser/parameters.js.map",
+          "bytes": 4330,
+          "sha256": "daaabe8585aeb962e63230b7d5db0eb93e9ca099304879122016b0b66bebfc6a"
+        },
+        {
+          "path": "package/build/esm/parameters.js.map",
+          "bytes": 4330,
+          "sha256": "daaabe8585aeb962e63230b7d5db0eb93e9ca099304879122016b0b66bebfc6a"
+        },
+        {
+          "path": "package/build/types/permissions.d.ts.map",
+          "bytes": 226,
+          "sha256": "f2edc320b4a5b3c949b682b96c9a22de33a015f1dedc8a17734fa850445a1671"
+        },
+        {
+          "path": "package/build/browser/permissions.js.map",
+          "bytes": 2061,
+          "sha256": "0a685120f71782a486d9b653575ef0cfa240e927d518b6a1e0d1bf62f6d42f1d"
+        },
+        {
+          "path": "package/build/esm/permissions.js.map",
+          "bytes": 2061,
+          "sha256": "0a685120f71782a486d9b653575ef0cfa240e927d518b6a1e0d1bf62f6d42f1d"
+        },
+        {
+          "path": "package/build/types/messages/widgetMessages.d.ts.map",
+          "bytes": 1500,
+          "sha256": "f2d388817b500f9657001941ce4a4ebbcea202d1bd1603d1a8e5f20fc1e1a2cb"
+        },
+        {
+          "path": "package/build/browser/messages/widgetMessages.js.map",
+          "bytes": 5421,
+          "sha256": "c5ac95c61701ae7c6499eb7965bfd5e13f291733f89711b6b82b3f7e99cfa479"
+        },
+        {
+          "path": "package/build/esm/messages/widgetMessages.js.map",
+          "bytes": 5421,
+          "sha256": "c5ac95c61701ae7c6499eb7965bfd5e13f291733f89711b6b82b3f7e99cfa479"
+        },
+        {
+          "path": "package/CHANGELOG.md",
+          "bytes": 15407,
+          "sha256": "8c5bc5ef52e37ea7b82ad1d540f076edcf4bb1e5b70a91c974d54f733574789b"
+        },
+        {
+          "path": "package/build/types/utils/asyncValue.d.ts",
+          "bytes": 895,
+          "sha256": "04dae07be00c3c390dafb3fbaf709447c0408c38e90ba4e2f81bac91f2ebff23"
+        },
+        {
+          "path": "package/build/types/config.d.ts",
+          "bytes": 5064,
+          "sha256": "645c6ffdad04848575c67157557cf4f95ea3e94e212e4af257ea429894f3634a"
+        },
+        {
+          "path": "package/build/types/messages/hostMessages.d.ts",
+          "bytes": 1332,
+          "sha256": "f7d232458a57d5ae7808adec9bec2d45ed48580bfd0719fc2e9df4c3cb7555ba"
+        },
+        {
+          "path": "package/build/types/index.d.ts",
+          "bytes": 1285,
+          "sha256": "83285277f533b5c3fbf117ec14e1b5bbbe21adf05a3db981b72608746ac543e0"
+        },
+        {
+          "path": "package/build/types/manifest.d.ts",
+          "bytes": 3773,
+          "sha256": "55404cf51ffc49572f100e38c80c742f6c54b0616695fa9323f6d37ab2592c39"
+        },
+        {
+          "path": "package/build/types/parameters.d.ts",
+          "bytes": 3017,
+          "sha256": "1952fb618e05723605d11d27cfb200bf31c58b7da1a245f0c2bbcc474094702d"
+        },
+        {
+          "path": "package/build/types/permissions.d.ts",
+          "bytes": 851,
+          "sha256": "e4a6a0b1e2de24460f715ce3ffb21d16072121583f275fb8a06319de118bcbce"
+        },
+        {
+          "path": "package/build/types/messages/widgetMessages.d.ts",
+          "bytes": 2482,
+          "sha256": "9f352e325d9f38e550de2a16a347079c23815a99822d968fdc2bbac24c101cb9"
+        }
+      ],
+      "packageSubdirectory": "widget.api"
+    },
+    {
+      "name": "@osdk/widget.client",
+      "metadataUrl": "https://registry.npmjs.org/@osdk%2fwidget.client",
+      "metadataSha256": "e991a4897dce52c1ada5a3d361b4efb587b2b560dde8b040d356fc91c27a89be",
+      "responseHeaders": {
+        "Date": "Thu, 01 Oct 2026 04:13:44 GMT",
+        "Content-Type": "application/json",
+        "ETag": "\"023b558570489106f4017ceac3022be1\"",
+        "Last-Modified": "Tue, 29 Sep 2026 17:20:34 GMT"
+      },
+      "distTags": {
+        "latest-2.2.x": "2.1.1",
+        "latest-2.5.x": "3.2.10",
+        "rc": "3.4.0-rc.15",
+        "beta": "3.20.1-beta.0",
+        "next-sj-object-type-alias-remapping": "3.50.1-sj-object-type-alias-remapping-f922b13c56bb00c60a987446fb29ceb5c45f5c1e",
+        "pr-zka": "3.55.1-pr-zka-777e77d07df73352290241cfc585d3e81e883a96",
+        "next-zka-make-client-branch-aware": "3.55.1-zka-make-client-branch-aware-0f0b7499d7b3df21db1ff80208f824ba492eebcd",
+        "next-zka-vite-plugin-branch": "3.57.1-zka-vite-plugin-branch-76fa7cfd38390c4b48569ea5ecc636fb6e0dea7a",
+        "next-ading-window": "3.65.1-ading-window-b5638eea96f7c833685e304505dad6f9e65e4d76",
+        "pr-jzhang": "3.66.1-pr-jzhang-c89656ed85ead18739e4ba0666ee91a06afacc01",
+        "next-amishshah-cw-vite-plugin-changes": "3.65.1-amishshah-cw-vite-plugin-changes-6a9dc14549fb96bcab149286122bb69234d40767",
+        "next-amishs-map-tile-layer-parameter": "3.67.1-amishs-map-tile-layer-parameter-68fb34261c2794e37dc945a6a01ac199597f9587",
+        "next-zeyadka-client-branch-query-param": "3.70.1-zeyadka-client-branch-query-param-782428ef372211d38221a3819133fb3482d97be5",
+        "latest": "3.74.0",
+        "next-main": "3.73.1-main-e5da5150e9db362ea94628ef4ff790271684ff36"
+      },
+      "latestStableBySemver": "3.74.0",
+      "latestStableByPublishTime": "3.74.0",
+      "selectedVersionPublishedAt": "2026-09-29T17:20:31.590Z",
+      "recentStableVersions": [
+        {
+          "version": "3.74.0",
+          "publishedAt": "2026-09-29T17:20:31.590Z"
+        },
+        {
+          "version": "3.73.0",
+          "publishedAt": "2026-09-29T15:12:31.462Z"
+        },
+        {
+          "version": "3.72.0",
+          "publishedAt": "2026-09-25T13:29:21.945Z"
+        },
+        {
+          "version": "3.71.0",
+          "publishedAt": "2026-09-23T15:53:59.348Z"
+        },
+        {
+          "version": "3.70.0",
+          "publishedAt": "2026-09-21T20:56:07.005Z"
+        },
+        {
+          "version": "3.69.0",
+          "publishedAt": "2026-09-16T20:08:51.405Z"
+        },
+        {
+          "version": "3.68.0",
+          "publishedAt": "2026-09-15T15:32:59.434Z"
+        },
+        {
+          "version": "3.67.0",
+          "publishedAt": "2026-09-14T13:38:47.312Z"
+        },
+        {
+          "version": "3.66.0",
+          "publishedAt": "2026-09-11T14:19:06.332Z"
+        },
+        {
+          "version": "3.65.0",
+          "publishedAt": "2026-09-08T17:07:02.640Z"
+        },
+        {
+          "version": "3.64.0",
+          "publishedAt": "2026-09-04T18:38:05.123Z"
+        },
+        {
+          "version": "3.63.0",
+          "publishedAt": "2026-09-02T16:48:40.943Z"
+        },
+        {
+          "version": "3.62.0",
+          "publishedAt": "2026-08-28T19:07:36.415Z"
+        },
+        {
+          "version": "3.61.0",
+          "publishedAt": "2026-08-27T19:50:52.618Z"
+        },
+        {
+          "version": "3.60.0",
+          "publishedAt": "2026-08-27T16:09:53.758Z"
+        },
+        {
+          "version": "3.59.0",
+          "publishedAt": "2026-08-25T17:34:29.380Z"
+        },
+        {
+          "version": "3.58.0",
+          "publishedAt": "2026-08-25T10:12:07.487Z"
+        },
+        {
+          "version": "3.57.0",
+          "publishedAt": "2026-08-19T18:11:24.774Z"
+        },
+        {
+          "version": "3.56.0",
+          "publishedAt": "2026-08-18T19:44:20.015Z"
+        },
+        {
+          "version": "3.55.0",
+          "publishedAt": "2026-08-12T13:38:09.870Z"
+        }
+      ],
+      "selectedVersionMetadata": {
+        "name": "@osdk/widget.client",
+        "version": "3.74.0",
+        "description": "Client that sets up listeners for the custom widgets embedded into Foundry, adhering to the contract laid out in @osdk/widget.api",
+        "license": "Apache-2.0",
+        "repository": {
+          "url": "git+https://github.com/palantir/osdk-ts.git",
+          "type": "git"
+        },
+        "homepage": "https://github.com/palantir/osdk-ts#readme",
+        "bugs": {
+          "url": "https://github.com/palantir/osdk-ts/issues"
+        },
+        "main": "./build/cjs/index.cjs",
+        "module": "./build/esm/index.js",
+        "types": "./build/cjs/index.d.cts",
+        "exports": {
+          ".": {
+            "import": {
+              "types": "./build/types/index.d.ts",
+              "default": "./build/esm/index.js"
+            },
+            "browser": "./build/browser/index.js",
+            "default": "./build/browser/index.js",
+            "require": "./build/cjs/index.cjs"
+          },
+          "./*": {
+            "import": {
+              "types": "./build/types/public/*.d.ts",
+              "default": "./build/esm/public/*.js"
+            },
+            "browser": "./build/browser/public/*.js",
+            "default": "./build/browser/public/*.js",
+            "require": "./build/cjs/public/*.cjs"
+          }
+        },
+        "dependencies": {
+          "tiny-invariant": "^1.3.3",
+          "@osdk/widget.api": "~3.74.0"
+        },
+        "_npmVersion": "11.19.0",
+        "_nodeVersion": "24.21.0",
+        "dist": {
+          "shasum": "b68066b97b28e174ed94fa231be43ec1921146c0",
+          "tarball": "https://registry.npmjs.org/@osdk/widget.client/-/widget.client-3.74.0.tgz",
+          "fileCount": 29,
+          "integrity": "sha512-ChVSJeZr3/GolKsWSstWvREYnV39QzyiJrm/LoBOwWe0tobVFEhFUb5zMyeGMu4S+9EPXkwFSIf/su2J10nD0w==",
+          "signatures": [
+            {
+              "sig": "MEUCIDobZhhxifUNn6ewXFLAd3Xto6jDZzFt9wd+rKT27QBnAiEAstPKi7J/G4gKphsSu9OHsTnGLe4twI9DiZS9rr+1VBM=",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+              "sig": "MEUCIFC98UQK58sK2CHJNWI+J3S8u/RX7DOdqLdX90wZHS5KAiEAu91fNQh86EQww1sTaY19hJk0EpQpx/u/LTI0uqTL24k="
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/@osdk%2fwidget.client@3.74.0",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 81192
+        }
+      },
+      "tarballVerification": {
+        "bytes": 12978,
+        "sha256": "2539c7c40cc027946bb8a6ccfbf23116732ef7bfc6ec48b8673db169583515b4",
+        "computedSha1": "b68066b97b28e174ed94fa231be43ec1921146c0",
+        "registrySha1": "b68066b97b28e174ed94fa231be43ec1921146c0",
+        "sha1Matches": true,
+        "computedIntegrity": "sha512-ChVSJeZr3/GolKsWSstWvREYnV39QzyiJrm/LoBOwWe0tobVFEhFUb5zMyeGMu4S+9EPXkwFSIf/su2J10nD0w==",
+        "registryIntegrity": "sha512-ChVSJeZr3/GolKsWSstWvREYnV39QzyiJrm/LoBOwWe0tobVFEhFUb5zMyeGMu4S+9EPXkwFSIf/su2J10nD0w==",
+        "integrityMatches": true
+      },
+      "fileCount": 29,
+      "files": [
+        {
+          "path": "package/build/cjs/index.cjs",
+          "bytes": 3105,
+          "sha256": "4ebe39c1dc880c9e5f60efc4bfe98eafb1434b684f6980564eaf30c303a3c4f8"
+        },
+        {
+          "path": "package/build/cjs/index.d.cts",
+          "bytes": 3459,
+          "sha256": "081585d26bb0c7278ece41020f7bc8abc8e29cb0cbbb2e86c717cffb8d15a0dd"
+        },
+        {
+          "path": "package/build/browser/client.js",
+          "bytes": 2392,
+          "sha256": "6616afe5ecd821d07fc506f7f9bb8a5139ea86cbe6bbdfb6584127d8c93ec120"
+        },
+        {
+          "path": "package/build/esm/client.js",
+          "bytes": 2392,
+          "sha256": "6616afe5ecd821d07fc506f7f9bb8a5139ea86cbe6bbdfb6584127d8c93ec120"
+        },
+        {
+          "path": "package/build/browser/host.js",
+          "bytes": 1059,
+          "sha256": "eeca545f0fba0eaf1120c25546ae3d194dd5ba57c088feec574306344c5a1ebb"
+        },
+        {
+          "path": "package/build/esm/host.js",
+          "bytes": 1059,
+          "sha256": "eeca545f0fba0eaf1120c25546ae3d194dd5ba57c088feec574306344c5a1ebb"
+        },
+        {
+          "path": "package/build/browser/index.js",
+          "bytes": 940,
+          "sha256": "db1ffc82e35e995bb7d6499e0796fc798eb9c2b9869c8237d63ec796e0590719"
+        },
+        {
+          "path": "package/build/esm/index.js",
+          "bytes": 940,
+          "sha256": "db1ffc82e35e995bb7d6499e0796fc798eb9c2b9869c8237d63ec796e0590719"
+        },
+        {
+          "path": "package/build/browser/tokenProvider.js",
+          "bytes": 966,
+          "sha256": "6e2e43c8eb64be7083b7583a476a135fdec6b0436d52c71580c88fbc1e7d14ad"
+        },
+        {
+          "path": "package/build/esm/tokenProvider.js",
+          "bytes": 966,
+          "sha256": "6e2e43c8eb64be7083b7583a476a135fdec6b0436d52c71580c88fbc1e7d14ad"
+        },
+        {
+          "path": "package/package.json",
+          "bytes": 2266,
+          "sha256": "27b100df8a83ad6fdf21a8c25dd85453336aa6fa508a3f6fe784f827821e1499"
+        },
+        {
+          "path": "package/build/types/client.d.ts.map",
+          "bytes": 666,
+          "sha256": "21918ef543cfe2d5562b01e38798ead2a760fefb79890eee49f1babd48b32742"
+        },
+        {
+          "path": "package/build/browser/client.js.map",
+          "bytes": 6870,
+          "sha256": "4f5eb2d53f582763e79ae85cadf27081d706973ca32131fb71096bbd8e3b92f3"
+        },
+        {
+          "path": "package/build/esm/client.js.map",
+          "bytes": 6870,
+          "sha256": "4f5eb2d53f582763e79ae85cadf27081d706973ca32131fb71096bbd8e3b92f3"
+        },
+        {
+          "path": "package/build/types/host.d.ts.map",
+          "bytes": 1064,
+          "sha256": "d1eb1d4d9f22e281296ac33e4bf721c5d4682f5c05095f31fd3cfd7d91748060"
+        },
+        {
+          "path": "package/build/browser/host.js.map",
+          "bytes": 3025,
+          "sha256": "38fa6c9ac15d17ea91033a600a3e6e5c7dda4c12087124ae08338ef677f21115"
+        },
+        {
+          "path": "package/build/esm/host.js.map",
+          "bytes": 3025,
+          "sha256": "38fa6c9ac15d17ea91033a600a3e6e5c7dda4c12087124ae08338ef677f21115"
+        },
+        {
+          "path": "package/build/cjs/index.cjs.map",
+          "bytes": 6606,
+          "sha256": "a47e9d31291dd8c94df3b5d3cbfeb9a9270275a44e5d1fb44093e4d1f5f406cb"
+        },
+        {
+          "path": "package/build/types/index.d.ts.map",
+          "bytes": 279,
+          "sha256": "3545c9526e751136178c9993d1097cf6e12d37e50729dc3038176e190f6d5479"
+        },
+        {
+          "path": "package/build/browser/index.js.map",
+          "bytes": 1835,
+          "sha256": "feafb938fb341ad74a2717004b382b99f0e789e918338feb39b6474e90b2508e"
+        },
+        {
+          "path": "package/build/esm/index.js.map",
+          "bytes": 1835,
+          "sha256": "feafb938fb341ad74a2717004b382b99f0e789e918338feb39b6474e90b2508e"
+        },
+        {
+          "path": "package/build/types/tokenProvider.d.ts.map",
+          "bytes": 135,
+          "sha256": "9f7405a18ba5b51eaaa3fc00faefda5b251469a569bc491f32cbf1cdbe18a0d8"
+        },
+        {
+          "path": "package/build/browser/tokenProvider.js.map",
+          "bytes": 1354,
+          "sha256": "59cb5d095a24762a84e9c718ddde6083ed2ea50b19ded6bfff1e93b1c0f9d562"
+        },
+        {
+          "path": "package/build/esm/tokenProvider.js.map",
+          "bytes": 1354,
+          "sha256": "59cb5d095a24762a84e9c718ddde6083ed2ea50b19ded6bfff1e93b1c0f9d562"
+        },
+        {
+          "path": "package/CHANGELOG.md",
+          "bytes": 23127,
+          "sha256": "d54b318684a8c778addf85f386d6ed760153ca8d8a1d8a52c930e55dc584768c"
+        },
+        {
+          "path": "package/build/types/client.d.ts",
+          "bytes": 1615,
+          "sha256": "bbba4262ee91105ce770c1c5feedd8f115f26cdf1e751d2ac330eb0e85bcce48"
+        },
+        {
+          "path": "package/build/types/host.d.ts",
+          "bytes": 1095,
+          "sha256": "7ff766500cac9eb1399ec44dcef896c8de9d04d24c9c3a54006df89a2e171ce7"
+        },
+        {
+          "path": "package/build/types/index.d.ts",
+          "bytes": 625,
+          "sha256": "e50cfcbaf2e84b952d0ae5de33985abe99031679e1e276921120ed77002beeb4"
+        },
+        {
+          "path": "package/build/types/tokenProvider.d.ts",
+          "bytes": 268,
+          "sha256": "1a099f8f16f8f83da0fc8bb55372356f48e4829028a640ef7e8111cbb354a158"
+        }
+      ],
+      "packageSubdirectory": "widget.client"
+    }
+  ],
+  "completedAt": "2026-10-01T04:13:45.862181+00:00"
+}

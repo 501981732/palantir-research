@@ -1,0 +1,40 @@
+{
+  "retrievedAt": "2026-10-01",
+  "appendix": "lineage-cases.md",
+  "lineCount": 162,
+  "charCount": 18309,
+  "missingLocalLinks": [],
+  "unresolvedExplicitAnchors": [],
+  "evidenceFiles": [
+    {
+      "file": "lineage-documentary-sources.json",
+      "jsonValid": true,
+      "sha256": "9a09850e300a0be8c8f80e9160e28483485c76928981f3fac37e9aeedd61272b"
+    },
+    {
+      "file": "lineage-npm-legacy.json",
+      "jsonValid": true,
+      "sha256": "f3a3537c3fa84a3a28fb64300bf2b67a7944e8146b0b29327deda8a147644921"
+    },
+    {
+      "file": "lineage-pr-state.json",
+      "jsonValid": true,
+      "sha256": "e4ba18156b136c54a3210804610dc323d7089cf19fbd6bf90ab936b43100be79"
+    }
+  ],
+  "verifiedChecks": [
+    "existing-topic cross reading",
+    "GitHub PR metadata status and SHA locking",
+    "legacy npm SRI and symbols",
+    "faux changelog and npm release date",
+    "official MCP list and product boundary review",
+    "author-case old iframe classification"
+  ],
+  "notExecuted": [
+    "legacy author project deployment",
+    "draft PR test suites",
+    "Palantir authenticated production host",
+    "EOS source audit"
+  ],
+  "boundary": "Document/source metadata checks only; no authenticated host, deployment, draft-code execution or EOS source verification."
+}

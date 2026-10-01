@@ -1,0 +1,9 @@
+{
+  "retrieved": "2026-10-01",
+  "url": "https://www.palantir.com/docs/foundry/custom-widgets/iframe-attributes/",
+  "title": "Palantir",
+  "fetch_code": 200,
+  "raw_body_sha256": "d6cbb08c670fa1dbaf45aa0f8836223405d2b0c6a5f5b2c5a2e2b67ba04513a2",
+  "raw_body_retained_in_repository": false,
+  "note": "官方文档正文仅临时读取；此记录保留来源与响应指纹，不镜像供应商文档。"
+}

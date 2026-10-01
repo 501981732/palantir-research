@@ -1,0 +1,23 @@
+{
+  "name": "custom-widget-react-adapter-probe",
+  "private": true,
+  "type": "module",
+  "scripts": { "probe": "node probe.mjs", "typecheck": "tsc --noEmit" },
+  "dependencies": {
+    "@osdk/api": "2.75.0",
+    "@osdk/client": "2.75.0",
+    "@osdk/widget.api": "3.74.0",
+    "@osdk/widget.client": "3.74.0",
+    "@osdk/widget.client-react": "3.74.0",
+    "@osdk/react": "2.75.0",
+    "@osdk/react-components": "0.61.0",
+    "react": "19.1.1",
+    "react-dom": "19.1.1"
+  },
+  "devDependencies": {
+    "@types/react": "19.1.16",
+    "@types/react-dom": "19.1.9",
+    "jsdom": "26.1.0",
+    "typescript": "5.8.3"
+  }
+}

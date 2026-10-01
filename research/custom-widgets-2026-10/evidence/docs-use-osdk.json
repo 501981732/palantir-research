@@ -1,0 +1,9 @@
+{
+  "retrieved": "2026-10-01",
+  "url": "https://www.palantir.com/docs/foundry/custom-widgets/use-osdk/",
+  "title": "Palantir",
+  "fetch_code": 200,
+  "raw_body_sha256": "94971ecdb3cc3a228c881bfcd06a81fc8cd0a24fe76b3f2914ed970938edcc82",
+  "raw_body_retained_in_repository": false,
+  "note": "官方文档正文仅临时读取；此记录保留来源与响应指纹，不镜像供应商文档。"
+}

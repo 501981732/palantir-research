@@ -1,0 +1,19 @@
+{
+  "retrieved_at": "2026-10-01T04:41:42.192443+00:00",
+  "package": "@osdk/react-components",
+  "version": "0.61.0",
+  "published_at": "2026-09-28T14:10:56.505Z",
+  "registry_url": "https://registry.npmjs.org/@osdk%2Freact-components/0.61.0",
+  "integrity": "sha512-J9SFPB5/wCTd28ZaCzQUXjwhrTl5Y0dk77s8X/uCKiap3yXEvZTKhdpW3nMvuFWVziDdS9SEriykOdoRczlGmg==",
+  "sha1_from_registry": "89a842b191fc1705a328c3ad886c3ac56cf0c839",
+  "tarball": "https://registry.npmjs.org/@osdk/react-components/-/react-components-0.61.0.tgz",
+  "source_commit": "37cfd38676bf04edaef5847e929d914ea214c149",
+  "invocation": "https://github.com/palantir/osdk-ts/actions/runs/36432616035/attempts/1",
+  "api_source_map": {
+    "path": "build/esm/object-table/ObjectTableApi.js.map",
+    "source": "ObjectTableApi.ts",
+    "source_sha256": "69a581ef7186d5304c279f39d68d71c8d85ec44f9ccb0f2d7c70e8d4ab6e6004",
+    "matches_source_at_release_commit": true
+  },
+  "validation_note": "Actual installed npm package (package-lock integrity); decoded publisher provenance. No independent certificate/transparency-log cryptographic verification. ObjectTable UI and Foundry backend were not executed."
+}

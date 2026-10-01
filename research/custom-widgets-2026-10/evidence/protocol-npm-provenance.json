@@ -1,0 +1,176 @@
+{
+  "retrievedAt": "2026-10-01T04:17:14.894402+00:00",
+  "verificationBoundary": "Registry URL retrieved over HTTPS; payload decoded and subject hash compared. Sigstore certificate, DSSE signature and Rekor inclusion proofs were not cryptographically validated by this script.",
+  "packages": [
+    {
+      "name": "@osdk/widget.api",
+      "version": "3.74.0",
+      "sourceUrl": "https://registry.npmjs.org/-/npm/v1/attestations/@osdk%2fwidget.api@3.74.0",
+      "responseBytes": 14709,
+      "responseSha256": "b1638a981f3b2c8bc8538a548e81a2fe0c9efc5d899247121bf4b881aa9f65f6",
+      "decodedAttestations": [
+        {
+          "predicateType": "https://github.com/npm/attestation/tree/main/specs/publish/v0.1",
+          "payloadType": "application/vnd.in-toto+json",
+          "statement": {
+            "_type": "https://in-toto.io/Statement/v0.1",
+            "subject": [
+              {
+                "name": "pkg:npm/%40osdk/widget.api@3.74.0",
+                "digest": {
+                  "sha512": "1bd827d6c5f955e2dfa6eaea05f8dfffac6847a7f54e17a1a0d9c69d6390703e9063b722a93c4cb2f18f639f19bae46b55ebdce2ca2f4a4ba5c5affebbf2003a"
+                }
+              }
+            ],
+            "predicateType": "https://github.com/npm/attestation/tree/main/specs/publish/v0.1",
+            "predicate": {
+              "name": "@osdk/widget.api",
+              "version": "3.74.0",
+              "registry": "https://registry.npmjs.org"
+            }
+          },
+          "payloadSha256": "886a15add1d45487a4693e463c96e70acc42e381109e785b0f16bc45e79de0d6",
+          "sha512SubjectMatchesTarball": true
+        },
+        {
+          "predicateType": "https://slsa.dev/provenance/v1",
+          "payloadType": "application/vnd.in-toto+json",
+          "statement": {
+            "_type": "https://in-toto.io/Statement/v1",
+            "subject": [
+              {
+                "name": "pkg:npm/%40osdk/widget.api@3.74.0",
+                "digest": {
+                  "sha512": "1bd827d6c5f955e2dfa6eaea05f8dfffac6847a7f54e17a1a0d9c69d6390703e9063b722a93c4cb2f18f639f19bae46b55ebdce2ca2f4a4ba5c5affebbf2003a"
+                }
+              }
+            ],
+            "predicateType": "https://slsa.dev/provenance/v1",
+            "predicate": {
+              "buildDefinition": {
+                "buildType": "https://slsa-framework.github.io/github-actions-buildtypes/workflow/v1",
+                "externalParameters": {
+                  "workflow": {
+                    "ref": "refs/heads/main",
+                    "repository": "https://github.com/palantir/osdk-ts",
+                    "path": ".github/workflows/release.yml"
+                  }
+                },
+                "internalParameters": {
+                  "github": {
+                    "event_name": "push",
+                    "repository_id": "727788197",
+                    "repository_owner_id": "303157"
+                  }
+                },
+                "resolvedDependencies": [
+                  {
+                    "uri": "git+https://github.com/palantir/osdk-ts@refs/heads/main",
+                    "digest": {
+                      "gitCommit": "fb8ec172d540ef7819382ff036aa2a692614af75"
+                    }
+                  }
+                ]
+              },
+              "runDetails": {
+                "builder": {
+                  "id": "https://github.com/actions/runner/github-hosted"
+                },
+                "metadata": {
+                  "invocationId": "https://github.com/palantir/osdk-ts/actions/runs/36603145053/attempts/1"
+                }
+              }
+            }
+          },
+          "payloadSha256": "df6a9c6db4eafeef85e58edb211536106f2ba7f1d6445dbbcfc3002741ad897a",
+          "sha512SubjectMatchesTarball": true
+        }
+      ]
+    },
+    {
+      "name": "@osdk/widget.client",
+      "version": "3.74.0",
+      "sourceUrl": "https://registry.npmjs.org/-/npm/v1/attestations/@osdk%2fwidget.client@3.74.0",
+      "responseBytes": 14769,
+      "responseSha256": "2b777bcd0f8425e9c59514d82e741db7e826d46cac663d2424e8261459ae6f68",
+      "decodedAttestations": [
+        {
+          "predicateType": "https://github.com/npm/attestation/tree/main/specs/publish/v0.1",
+          "payloadType": "application/vnd.in-toto+json",
+          "statement": {
+            "_type": "https://in-toto.io/Statement/v0.1",
+            "subject": [
+              {
+                "name": "pkg:npm/%40osdk/widget.client@3.74.0",
+                "digest": {
+                  "sha512": "0a155225e66bdff1a894ab164acb56bd11189d5dfd433ca226b9bf2e804ec167b4b686d514484551be7333278632ee12fbd10f5e4c054887ffb2ed89d749c3d3"
+                }
+              }
+            ],
+            "predicateType": "https://github.com/npm/attestation/tree/main/specs/publish/v0.1",
+            "predicate": {
+              "name": "@osdk/widget.client",
+              "version": "3.74.0",
+              "registry": "https://registry.npmjs.org"
+            }
+          },
+          "payloadSha256": "7145ad729d62d7f8c999f35b1264f5d82c0bdde3acc77b549b0823ad2316cd3c",
+          "sha512SubjectMatchesTarball": true
+        },
+        {
+          "predicateType": "https://slsa.dev/provenance/v1",
+          "payloadType": "application/vnd.in-toto+json",
+          "statement": {
+            "_type": "https://in-toto.io/Statement/v1",
+            "subject": [
+              {
+                "name": "pkg:npm/%40osdk/widget.client@3.74.0",
+                "digest": {
+                  "sha512": "0a155225e66bdff1a894ab164acb56bd11189d5dfd433ca226b9bf2e804ec167b4b686d514484551be7333278632ee12fbd10f5e4c054887ffb2ed89d749c3d3"
+                }
+              }
+            ],
+            "predicateType": "https://slsa.dev/provenance/v1",
+            "predicate": {
+              "buildDefinition": {
+                "buildType": "https://slsa-framework.github.io/github-actions-buildtypes/workflow/v1",
+                "externalParameters": {
+                  "workflow": {
+                    "ref": "refs/heads/main",
+                    "repository": "https://github.com/palantir/osdk-ts",
+                    "path": ".github/workflows/release.yml"
+                  }
+                },
+                "internalParameters": {
+                  "github": {
+                    "event_name": "push",
+                    "repository_id": "727788197",
+                    "repository_owner_id": "303157"
+                  }
+                },
+                "resolvedDependencies": [
+                  {
+                    "uri": "git+https://github.com/palantir/osdk-ts@refs/heads/main",
+                    "digest": {
+                      "gitCommit": "fb8ec172d540ef7819382ff036aa2a692614af75"
+                    }
+                  }
+                ]
+              },
+              "runDetails": {
+                "builder": {
+                  "id": "https://github.com/actions/runner/github-hosted"
+                },
+                "metadata": {
+                  "invocationId": "https://github.com/palantir/osdk-ts/actions/runs/36603145053/attempts/1"
+                }
+              }
+            }
+          },
+          "payloadSha256": "55c8fb4f2fc54c7c3ff1e7accc351ff2d5f64aebeb1c3393c3baa35f218df550",
+          "sha512SubjectMatchesTarball": true
+        }
+      ]
+    }
+  ]
+}

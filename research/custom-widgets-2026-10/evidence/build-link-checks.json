@@ -1,0 +1,450 @@
+[
+  {
+    "url": "https://github.com/palantir/osdk-ts/actions/runs/36603145053/attempts/1",
+    "checkedUrl": "https://github.com/palantir/osdk-ts/actions/runs/36603145053/attempts/1",
+    "status": 200,
+    "finalUrl": "https://github.com/palantir/osdk-ts/actions/runs/36603145053/attempts/1",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/commands/widgetset/deploy/index.ts#L27",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/commands/widgetset/deploy/index.ts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/commands/widgetset/deploy/index.ts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/commands/widgetset/deploy/widgetSetDeployCommand.mts#L31",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/commands/widgetset/deploy/widgetSetDeployCommand.mts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/commands/widgetset/deploy/widgetSetDeployCommand.mts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/commands/widgetset/version/index.ts#L20",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/commands/widgetset/version/index.ts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/commands/widgetset/version/index.ts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/net/widget-registry/Release.mts#L17",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/net/widget-registry/Release.mts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/net/widget-registry/Release.mts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/net/widget-registry/ReleaseLocator.mts#L17",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/net/widget-registry/ReleaseLocator.mts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/net/widget-registry/ReleaseLocator.mts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/net/widget-registry/deleteRelease.mts#L21",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/net/widget-registry/deleteRelease.mts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/net/widget-registry/deleteRelease.mts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/net/widget-registry/listReleases.mts#L21",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/net/widget-registry/listReleases.mts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/net/widget-registry/listReleases.mts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/net/widget-registry/publishRelease.mts#L24",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/net/widget-registry/publishRelease.mts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/cli/src/net/widget-registry/publishRelease.mts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget.template.react.v2/templates/package.json.no-osdk.hbs",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget.template.react.v2/templates/package.json.no-osdk.hbs",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget.template.react.v2/templates/package.json.no-osdk.hbs",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget.template.react.v2/templates/package.json.osdk.hbs",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget.template.react.v2/templates/package.json.osdk.hbs",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget.template.react.v2/templates/package.json.osdk.hbs",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget.template.react.v2/templates/src/client.ts.osdk.hbs",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget.template.react.v2/templates/src/client.ts.osdk.hbs",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget.template.react.v2/templates/src/client.ts.osdk.hbs",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget.template.react.v2/templates/src/main.tsx.hbs",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget.template.react.v2/templates/src/main.tsx.hbs",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget.template.react.v2/templates/src/main.tsx.hbs",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget/src/cli.ts#L17",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget/src/cli.ts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget/src/cli.ts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget/src/generate/generateFoundryConfigJson.ts#L17",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget/src/generate/generateFoundryConfigJson.ts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget/src/generate/generateFoundryConfigJson.ts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget/src/run.ts#L39",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget/src/run.ts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/create-widget/src/run.ts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/foundry-config-json/src/autoVersion.ts#L36",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/foundry-config-json/src/autoVersion.ts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/foundry-config-json/src/autoVersion.ts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/foundry-config-json/src/config.ts#L135",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/foundry-config-json/src/config.ts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/foundry-config-json/src/config.ts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/package.json",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/package.json",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/package.json",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/FoundryWidgetBuildPlugin.ts#L29",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/FoundryWidgetBuildPlugin.ts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/FoundryWidgetBuildPlugin.ts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/buildWidgetSetManifest.ts#L30",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/buildWidgetSetManifest.ts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/buildWidgetSetManifest.ts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/buildWidgetSetManifest.ts#L75",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/buildWidgetSetManifest.ts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/buildWidgetSetManifest.ts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/extractBuildOutputs.ts#L23",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/extractBuildOutputs.ts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/extractBuildOutputs.ts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/getWidgetBuildOutputs.ts#L24",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/getWidgetBuildOutputs.ts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/getWidgetBuildOutputs.ts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/getWidgetSetInputSpec.ts#L23",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/getWidgetSetInputSpec.ts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/getWidgetSetInputSpec.ts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/validateWidgetSet.ts#L21",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/validateWidgetSet.ts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/build-plugin/validateWidgetSet.ts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/client/entrypointIframe.tsx#L24",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/client/entrypointIframe.tsx",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/client/entrypointIframe.tsx",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/common/constants.ts#L17",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/common/constants.ts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/common/constants.ts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/common/extractWidgetConfig.ts#L24",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/common/extractWidgetConfig.ts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/common/extractWidgetConfig.ts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/common/validateWidgetConfig.ts#L28",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/common/validateWidgetConfig.ts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/common/validateWidgetConfig.ts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/common/visitNpmPackages.ts#L31",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/common/visitNpmPackages.ts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/common/visitNpmPackages.ts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/FoundryWidgetDevPlugin.ts#L260",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/FoundryWidgetDevPlugin.ts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/FoundryWidgetDevPlugin.ts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/FoundryWidgetDevPlugin.ts#L95",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/FoundryWidgetDevPlugin.ts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/FoundryWidgetDevPlugin.ts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/buildDevModeManifest.ts#L28",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/buildDevModeManifest.ts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/buildDevModeManifest.ts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/codeWorkspacesMode.ts#L24",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/codeWorkspacesMode.ts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/codeWorkspacesMode.ts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/extractInjectedScripts.ts#L31",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/extractInjectedScripts.ts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/extractInjectedScripts.ts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/getFoundryToken.ts#L26",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/getFoundryToken.ts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/getFoundryToken.ts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/network.ts#L22",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/network.ts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/network.ts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/publishDevModeSettings.ts#L78",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/publishDevModeSettings.ts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/dev-plugin/publishDevModeSettings.ts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/index.ts#L17",
+    "checkedUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/index.ts",
+    "status": 200,
+    "finalUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.vite-plugin/src/index.ts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/commit/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c",
+    "checkedUrl": "https://github.com/palantir/osdk-ts/commit/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c",
+    "status": 200,
+    "finalUrl": "https://github.com/palantir/osdk-ts/commit/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/commit/fb8ec172d540ef7819382ff036aa2a692614af75",
+    "checkedUrl": "https://github.com/palantir/osdk-ts/commit/fb8ec172d540ef7819382ff036aa2a692614af75",
+    "status": 200,
+    "finalUrl": "https://github.com/palantir/osdk-ts/commit/fb8ec172d540ef7819382ff036aa2a692614af75",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://registry.npmjs.org/-/npm/v1/attestations/@osdk%2fwidget.vite-plugin@3.74.0",
+    "checkedUrl": "https://registry.npmjs.org/-/npm/v1/attestations/@osdk%2fwidget.vite-plugin@3.74.0",
+    "status": 200,
+    "finalUrl": "https://registry.npmjs.org/-/npm/v1/attestations/@osdk%2fwidget.vite-plugin@3.74.0",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://www.npmjs.com/package/@osdk/cli/v/0.101.0",
+    "checkedUrl": "https://www.npmjs.com/package/@osdk/cli/v/0.101.0",
+    "status": 403,
+    "retrievedDate": "2026-10-01",
+    "error": "HTTP Error 403: Forbidden",
+    "referencedInFinalAppendix": false
+  },
+  {
+    "url": "https://www.npmjs.com/package/@osdk/create-widget/v/3.74.0",
+    "checkedUrl": "https://www.npmjs.com/package/@osdk/create-widget/v/3.74.0",
+    "status": 403,
+    "retrievedDate": "2026-10-01",
+    "error": "HTTP Error 403: Forbidden",
+    "referencedInFinalAppendix": false
+  },
+  {
+    "url": "https://www.npmjs.com/package/@osdk/foundry-config-json/v/1.13.0",
+    "checkedUrl": "https://www.npmjs.com/package/@osdk/foundry-config-json/v/1.13.0",
+    "status": 403,
+    "retrievedDate": "2026-10-01",
+    "error": "HTTP Error 403: Forbidden",
+    "referencedInFinalAppendix": false
+  },
+  {
+    "url": "https://www.npmjs.com/package/@osdk/widget.vite-plugin/v/3.74.0",
+    "checkedUrl": "https://www.npmjs.com/package/@osdk/widget.vite-plugin/v/3.74.0",
+    "status": 403,
+    "retrievedDate": "2026-10-01",
+    "error": "HTTP Error 403: Forbidden",
+    "referencedInFinalAppendix": false
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/custom-widgets/core-concepts",
+    "checkedUrl": "https://www.palantir.com/docs/foundry/custom-widgets/core-concepts",
+    "status": 200,
+    "finalUrl": "https://www.palantir.com/docs/foundry/custom-widgets/core-concepts",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/custom-widgets/create",
+    "checkedUrl": "https://www.palantir.com/docs/foundry/custom-widgets/create",
+    "status": 200,
+    "finalUrl": "https://www.palantir.com/docs/foundry/custom-widgets/create",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/custom-widgets/development",
+    "checkedUrl": "https://www.palantir.com/docs/foundry/custom-widgets/development",
+    "status": 200,
+    "finalUrl": "https://www.palantir.com/docs/foundry/custom-widgets/development",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/custom-widgets/manage-node-version-in-foundry-code-repository",
+    "checkedUrl": "https://www.palantir.com/docs/foundry/custom-widgets/manage-node-version-in-foundry-code-repository",
+    "status": 200,
+    "finalUrl": "https://www.palantir.com/docs/foundry/custom-widgets/manage-node-version-in-foundry-code-repository",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/custom-widgets/publish",
+    "checkedUrl": "https://www.palantir.com/docs/foundry/custom-widgets/publish",
+    "status": 200,
+    "finalUrl": "https://www.palantir.com/docs/foundry/custom-widgets/publish",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://registry.npmjs.org/@osdk%2fcli/0.101.0",
+    "checkedUrl": "https://registry.npmjs.org/@osdk%2fcli/0.101.0",
+    "status": 200,
+    "finalUrl": "https://registry.npmjs.org/@osdk%2fcli/0.101.0",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://registry.npmjs.org/@osdk%2fcreate-widget/3.74.0",
+    "checkedUrl": "https://registry.npmjs.org/@osdk%2fcreate-widget/3.74.0",
+    "status": 200,
+    "finalUrl": "https://registry.npmjs.org/@osdk%2fcreate-widget/3.74.0",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://registry.npmjs.org/@osdk%2ffoundry-config-json/1.13.0",
+    "checkedUrl": "https://registry.npmjs.org/@osdk%2ffoundry-config-json/1.13.0",
+    "status": 200,
+    "finalUrl": "https://registry.npmjs.org/@osdk%2ffoundry-config-json/1.13.0",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  },
+  {
+    "url": "https://registry.npmjs.org/@osdk%2fwidget.vite-plugin/3.74.0",
+    "checkedUrl": "https://registry.npmjs.org/@osdk%2fwidget.vite-plugin/3.74.0",
+    "status": 200,
+    "finalUrl": "https://registry.npmjs.org/@osdk%2fwidget.vite-plugin/3.74.0",
+    "retrievedDate": "2026-10-01",
+    "referencedInFinalAppendix": true
+  }
+]

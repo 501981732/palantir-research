@@ -1,0 +1,65 @@
+{
+  "retrievedAt": "2026-10-01",
+  "sources": [
+    {
+      "url": "https://www.palantir.com/docs/foundry/announcements/2025-08/",
+      "section": "Extend Workshop module development with custom widgets",
+      "publishedAt": "2025-08-21",
+      "finding": "公开推出Registry custom widgets；当时给出未来普遍可用和待增强项。历史边界不作为当前限制。"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/workshop/widgets-iframe",
+      "finding": "现行文档仍记录Bidirectional旧iframe路径及useWorkshopContext。"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/palantir-mcp/available-tools",
+      "finding": "docs工具和convert_to_osdk_react；所列工具没有明确widget生成/转换/发布专用API。"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/ai-fde/modes-and-capabilities",
+      "finding": "OSDK React mode含apps/custom widgets。"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/ai-fde/prefill-sessions",
+      "finding": "公开URL入口prompt/skillRid/autoStart，保持tool approvals；不能等同自动发布API。"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/pilot/build-a-widget",
+      "finding": "Pilot定义parameters/events，sandbox预览，模型不读真实数据。"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/pilot/deploy-a-widget",
+      "finding": "tag→Foundry CI→Registry；宿主版本显式升级。"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/marketplace",
+      "finding": "现有Widget Set可作为Marketplace输出；API名字/安装后权限/源码开发等限制。不是SuperRepo原生WIDGET声明验证。"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/superrepo/core-concepts",
+      "finding": "当前公开foundry.yml例含ONTOLOGY/TYPESCRIPT_FUNCTIONS/APP；对widget支持只作弱负面线索。"
+    },
+    {
+      "url": "https://community.palantir.com/t/how-to-create-a-custom-widget-for-workshop/2182",
+      "author": "VincentF",
+      "publishedAt": "2024-12-11",
+      "finding": "作者亲自介绍Developer Console网站+OAuth+useWorkshopContext；2025-01-31补充route wrapper/CSP。"
+    },
+    {
+      "url": "https://github.com/palantir/aip-community-registry/tree/2545a91fe6026441af71d4accfd36e8dc41ff22f/OSDK%20Widget%20in%20Foundry",
+      "contributor": "Matthew Steele",
+      "pathCommitAt": "2025-01-06T16:36:02Z",
+      "readmeBlob": "819d97a735924eebc95624c38c41714d3f4369c9",
+      "finding": "作者案例沿旧hosted-site/iframe链，不能当Registry示例。"
+    },
+    {
+      "url": "https://github.com/palantir/workshop-iframe-custom-widget",
+      "defaultBranch": "develop",
+      "head": "de1ce669f01df4d11f05db8ec79e81daab129230",
+      "headAt": "2025-08-21T19:31:47Z",
+      "archived": false,
+      "finding": "旧adapter仍公开未归档；正式npm源码锁244f709，见lineage-npm-legacy.json。"
+    }
+  ],
+  "boundary": "Only source metadata and short paraphrases retained. No complete vendor document, community article, npm source or media copied into the repository."
+}

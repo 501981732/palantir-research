@@ -1,0 +1,90 @@
+{
+  "checked_at": "2026-10-01T05:13:48.566019+00:00",
+  "base_commit": "9a3bf0898d1505cc34fb5823d22042025b7b7a1f",
+  "scope": "Local assembly only; external URL reachability and real host behavior are separate evidence.",
+  "markdown_files": 16,
+  "local_links_checked": 393,
+  "local_anchors_checked": 7,
+  "json_files_parsed": 37,
+  "external_urls_discovered": 267,
+  "media_checks": [
+    {
+      "file": "media-creation-wizard.png",
+      "hash_and_bytes_match": true,
+      "visual_review": "passed"
+    },
+    {
+      "file": "media-widget-set-overview.png",
+      "hash_and_bytes_match": true,
+      "visual_review": "passed"
+    },
+    {
+      "file": "media-widget-preview.png",
+      "hash_and_bytes_match": true,
+      "visual_review": "passed"
+    },
+    {
+      "file": "media-npm-run-dev.png",
+      "hash_and_bytes_match": true,
+      "visual_review": "passed"
+    },
+    {
+      "file": "media-vscode-workspaces-dev-mode.png",
+      "hash_and_bytes_match": true,
+      "visual_review": "passed"
+    },
+    {
+      "file": "media-dev-mode-enabled-inactive.png",
+      "hash_and_bytes_match": true,
+      "visual_review": "passed"
+    },
+    {
+      "file": "media-dev-mode-paused.png",
+      "hash_and_bytes_match": true,
+      "visual_review": "passed"
+    },
+    {
+      "file": "media-dev-mode-enabled-localhost.png",
+      "hash_and_bytes_match": true,
+      "visual_review": "passed"
+    },
+    {
+      "file": "media-playground-dev-mode.png",
+      "hash_and_bytes_match": true,
+      "visual_review": "passed"
+    },
+    {
+      "file": "media-workshop-dev-mode.png",
+      "hash_and_bytes_match": true,
+      "visual_review": "passed"
+    },
+    {
+      "file": "media-configure-sdk.png",
+      "hash_and_bytes_match": true,
+      "visual_review": "passed"
+    },
+    {
+      "file": "media-manual-ui-upload.png",
+      "hash_and_bytes_match": true,
+      "visual_review": "passed"
+    },
+    {
+      "file": "media-tag-build.png",
+      "hash_and_bytes_match": true,
+      "visual_review": "passed"
+    },
+    {
+      "file": "media-workshop-iframe-attributes.png",
+      "hash_and_bytes_match": true,
+      "visual_review": "passed"
+    },
+    {
+      "file": "media-video-ontologize-default-widget.jpg",
+      "hash_and_bytes_match": true,
+      "visual_review": "passed"
+    }
+  ],
+  "existing_topics_unchanged": true,
+  "failures": [],
+  "all_pass": true
+}

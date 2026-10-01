@@ -1,0 +1,282 @@
+{
+  "checked_utc": "2026-10-01T04:36:03.774837+00:00",
+  "asset_count": 15,
+  "official_original_count": 14,
+  "real_video_frame_count": 1,
+  "short_recording_count": 0,
+  "total_asset_bytes": 1910900,
+  "all_media_assets_registered": true,
+  "unregistered_assets": [],
+  "missing_assets": [],
+  "asset_checks": [
+    {
+      "file": "media-creation-wizard.png",
+      "exists": true,
+      "size_matches": true,
+      "sha256_matches": true,
+      "dimensions_match": true,
+      "individually_visually_reviewed": true,
+      "has_provenance": true
+    },
+    {
+      "file": "media-widget-set-overview.png",
+      "exists": true,
+      "size_matches": true,
+      "sha256_matches": true,
+      "dimensions_match": true,
+      "individually_visually_reviewed": true,
+      "has_provenance": true
+    },
+    {
+      "file": "media-widget-preview.png",
+      "exists": true,
+      "size_matches": true,
+      "sha256_matches": true,
+      "dimensions_match": true,
+      "individually_visually_reviewed": true,
+      "has_provenance": true
+    },
+    {
+      "file": "media-npm-run-dev.png",
+      "exists": true,
+      "size_matches": true,
+      "sha256_matches": true,
+      "dimensions_match": true,
+      "individually_visually_reviewed": true,
+      "has_provenance": true
+    },
+    {
+      "file": "media-vscode-workspaces-dev-mode.png",
+      "exists": true,
+      "size_matches": true,
+      "sha256_matches": true,
+      "dimensions_match": true,
+      "individually_visually_reviewed": true,
+      "has_provenance": true
+    },
+    {
+      "file": "media-dev-mode-enabled-inactive.png",
+      "exists": true,
+      "size_matches": true,
+      "sha256_matches": true,
+      "dimensions_match": true,
+      "individually_visually_reviewed": true,
+      "has_provenance": true
+    },
+    {
+      "file": "media-dev-mode-paused.png",
+      "exists": true,
+      "size_matches": true,
+      "sha256_matches": true,
+      "dimensions_match": true,
+      "individually_visually_reviewed": true,
+      "has_provenance": true
+    },
+    {
+      "file": "media-dev-mode-enabled-localhost.png",
+      "exists": true,
+      "size_matches": true,
+      "sha256_matches": true,
+      "dimensions_match": true,
+      "individually_visually_reviewed": true,
+      "has_provenance": true
+    },
+    {
+      "file": "media-playground-dev-mode.png",
+      "exists": true,
+      "size_matches": true,
+      "sha256_matches": true,
+      "dimensions_match": true,
+      "individually_visually_reviewed": true,
+      "has_provenance": true
+    },
+    {
+      "file": "media-workshop-dev-mode.png",
+      "exists": true,
+      "size_matches": true,
+      "sha256_matches": true,
+      "dimensions_match": true,
+      "individually_visually_reviewed": true,
+      "has_provenance": true
+    },
+    {
+      "file": "media-configure-sdk.png",
+      "exists": true,
+      "size_matches": true,
+      "sha256_matches": true,
+      "dimensions_match": true,
+      "individually_visually_reviewed": true,
+      "has_provenance": true
+    },
+    {
+      "file": "media-manual-ui-upload.png",
+      "exists": true,
+      "size_matches": true,
+      "sha256_matches": true,
+      "dimensions_match": true,
+      "individually_visually_reviewed": true,
+      "has_provenance": true
+    },
+    {
+      "file": "media-tag-build.png",
+      "exists": true,
+      "size_matches": true,
+      "sha256_matches": true,
+      "dimensions_match": true,
+      "individually_visually_reviewed": true,
+      "has_provenance": true
+    },
+    {
+      "file": "media-workshop-iframe-attributes.png",
+      "exists": true,
+      "size_matches": true,
+      "sha256_matches": true,
+      "dimensions_match": true,
+      "individually_visually_reviewed": true,
+      "has_provenance": true
+    },
+    {
+      "file": "media-video-ontologize-default-widget.jpg",
+      "exists": true,
+      "size_matches": true,
+      "sha256_matches": true,
+      "dimensions_match": true,
+      "individually_visually_reviewed": true,
+      "has_provenance": true
+    }
+  ],
+  "local_markdown_link_checks": [
+    {
+      "document": "media-evidence.md",
+      "target": "assets-media.md",
+      "exists": true
+    },
+    {
+      "document": "media-evidence.md",
+      "target": "evidence/media-checks.json",
+      "exists": true
+    },
+    {
+      "document": "media-evidence.md",
+      "target": "assets/media-widget-set-overview.png",
+      "exists": true
+    },
+    {
+      "document": "media-evidence.md",
+      "target": "assets/media-playground-dev-mode.png",
+      "exists": true
+    },
+    {
+      "document": "media-evidence.md",
+      "target": "assets/media-workshop-dev-mode.png",
+      "exists": true
+    },
+    {
+      "document": "media-evidence.md",
+      "target": "assets/media-workshop-iframe-attributes.png",
+      "exists": true
+    },
+    {
+      "document": "media-evidence.md",
+      "target": "../pilot-2026-09/assets.md",
+      "exists": true
+    },
+    {
+      "document": "media-evidence.md",
+      "target": "assets/media-video-ontologize-default-widget.jpg",
+      "exists": true
+    },
+    {
+      "document": "media-evidence.md",
+      "target": "evidence/media-attempts.json",
+      "exists": true
+    },
+    {
+      "document": "assets-media.md",
+      "target": "evidence/media-assets-manifest.json",
+      "exists": true
+    },
+    {
+      "document": "assets-media.md",
+      "target": "evidence/media-checks.json",
+      "exists": true
+    },
+    {
+      "document": "assets-media.md",
+      "target": "assets/media-creation-wizard.png",
+      "exists": true
+    },
+    {
+      "document": "assets-media.md",
+      "target": "assets/media-widget-set-overview.png",
+      "exists": true
+    },
+    {
+      "document": "assets-media.md",
+      "target": "assets/media-widget-preview.png",
+      "exists": true
+    },
+    {
+      "document": "assets-media.md",
+      "target": "assets/media-npm-run-dev.png",
+      "exists": true
+    },
+    {
+      "document": "assets-media.md",
+      "target": "assets/media-vscode-workspaces-dev-mode.png",
+      "exists": true
+    },
+    {
+      "document": "assets-media.md",
+      "target": "assets/media-dev-mode-enabled-inactive.png",
+      "exists": true
+    },
+    {
+      "document": "assets-media.md",
+      "target": "assets/media-dev-mode-paused.png",
+      "exists": true
+    },
+    {
+      "document": "assets-media.md",
+      "target": "assets/media-dev-mode-enabled-localhost.png",
+      "exists": true
+    },
+    {
+      "document": "assets-media.md",
+      "target": "assets/media-playground-dev-mode.png",
+      "exists": true
+    },
+    {
+      "document": "assets-media.md",
+      "target": "assets/media-workshop-dev-mode.png",
+      "exists": true
+    },
+    {
+      "document": "assets-media.md",
+      "target": "assets/media-configure-sdk.png",
+      "exists": true
+    },
+    {
+      "document": "assets-media.md",
+      "target": "assets/media-manual-ui-upload.png",
+      "exists": true
+    },
+    {
+      "document": "assets-media.md",
+      "target": "assets/media-tag-build.png",
+      "exists": true
+    },
+    {
+      "document": "assets-media.md",
+      "target": "assets/media-workshop-iframe-attributes.png",
+      "exists": true
+    },
+    {
+      "document": "assets-media.md",
+      "target": "assets/media-video-ontologize-default-widget.jpg",
+      "exists": true
+    }
+  ],
+  "result": "passed",
+  "scope": "Filesystem and provenance integrity only; no successful tenant runtime or continuous video/recording claimed"
+}

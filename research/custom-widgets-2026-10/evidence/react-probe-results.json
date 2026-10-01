@@ -1,0 +1,119 @@
+{
+  "boundary": "ACTUAL NPM CLIENT/REACT, JSDOM + SIMULATED HOST; NO FOUNDRY TENANT",
+  "checkedAt": "2026-10-01T04:24:22.637Z",
+  "node": "v22.17.0",
+  "react": "19.1.1",
+  "versions": {
+    "widgetClientReact": "3.74.0",
+    "widgetClient": "3.74.0",
+    "osdkClient": "2.75.0"
+  },
+  "checks": [
+    {
+      "name": "context_without_provider",
+      "observed": {
+        "state": "not-started",
+        "values": {},
+        "emit": "no-op"
+      },
+      "result": "PASS"
+    },
+    {
+      "name": "initialValues_do_not_initialize_aggregate",
+      "observed": {
+        "values": {},
+        "state": "not-started"
+      },
+      "result": "PASS"
+    },
+    {
+      "name": "scenario_and_mapTileLayer_are_pass_through",
+      "observed": {
+        "scenario": "ri.ontology.main.scenario.mock",
+        "layer": {
+          "styleJsonUrl": "https://local.invalid/mock-style.json"
+        }
+      },
+      "result": "PASS"
+    },
+    {
+      "name": "emitEvent_requires_host_echo_to_update_context",
+      "observed": {
+        "contextCount": 4,
+        "outboundCount": 9
+      },
+      "result": "PASS"
+    },
+    {
+      "name": "host_echo_updates_context",
+      "observed": {
+        "values": {
+          "title": "Host title",
+          "count": 9,
+          "scenario": "ri.ontology.main.scenario.mock",
+          "layer": {
+            "styleJsonUrl": "https://local.invalid/mock-style.json"
+          }
+        },
+        "state": "loaded"
+      },
+      "result": "PASS"
+    },
+    {
+      "name": "partial_update_aggregate_only_checks_current_message",
+      "observed": {
+        "aggregate": "loaded",
+        "retainedTitle": "failed"
+      },
+      "result": "PASS"
+    },
+    {
+      "name": "ResizeObserver_notifies_host",
+      "observed": {
+        "type": "widget.resize",
+        "payload": {
+          "width": 640,
+          "height": 360
+        }
+      },
+      "result": "PASS"
+    },
+    {
+      "name": "unmount_cleans_transport_and_observer",
+      "observed": {
+        "adds": 1,
+        "removes": 1,
+        "resizeDisconnected": 1
+      },
+      "result": "PASS"
+    },
+    {
+      "name": "StrictMode_effect_replay_retains_two_hostEventTarget_handlers",
+      "observed": {
+        "parameterGetterReads": 2,
+        "adds": 2,
+        "removes": 1
+      },
+      "result": "PASS"
+    },
+    {
+      "name": "initial_array_not_started_omits_subType",
+      "observed": {
+        "type": "array",
+        "value": {
+          "type": "not-started"
+        }
+      },
+      "result": "PASS"
+    },
+    {
+      "name": "ObjectSet_lazy_hydration_and_same_RID_identity_cache",
+      "observed": {
+        "sameRidPreservesIdentity": true,
+        "newRidChangesIdentity": true,
+        "networkCalls": 0
+      },
+      "result": "PASS"
+    }
+  ]
+}

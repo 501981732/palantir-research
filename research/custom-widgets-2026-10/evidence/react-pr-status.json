@@ -1,0 +1,95 @@
+{
+  "retrieved_date": "2026-10-01",
+  "source": "GitHub API via authorized connector",
+  "pull_requests": [
+    {
+      "number": 2033,
+      "title": "Add object set support to widgets config",
+      "url": "https://github.com/palantir/osdk-ts/pull/2033",
+      "created_at": "2025-10-03T13:04:10Z",
+      "merged_at": "2025-10-07T11:19:10Z",
+      "state": "closed",
+      "merged": true,
+      "merge_commit_sha": "faffea09171a1bd72c6abdbb9ea55a57858c96f6"
+    },
+    {
+      "number": 2294,
+      "title": "Improved object set writes",
+      "url": "https://github.com/palantir/osdk-ts/pull/2294",
+      "created_at": "2025-12-16T14:20:52Z",
+      "merged_at": "2025-12-19T11:35:02Z",
+      "state": "closed",
+      "merged": true,
+      "merge_commit_sha": "ee3af167ef8bfd7a3176abdc75c1db2edb726e2a"
+    },
+    {
+      "number": 2214,
+      "title": "[widgets] Error boundary",
+      "url": "https://github.com/palantir/osdk-ts/pull/2214",
+      "created_at": "2025-11-27T16:05:11Z",
+      "merged_at": "2025-11-27T19:47:53Z",
+      "state": "closed",
+      "merged": true,
+      "merge_commit_sha": "a8802b391595c69c2880adad8284001798fcd61a"
+    },
+    {
+      "number": 2216,
+      "title": "[widgets] expand ErrorBoundary to catch all errors",
+      "url": "https://github.com/palantir/osdk-ts/pull/2216",
+      "created_at": "2025-11-28T11:03:33Z",
+      "merged_at": "2025-11-29T00:46:45Z",
+      "state": "closed",
+      "merged": true,
+      "merge_commit_sha": "8d7b8db414984252be5576c6c4a71d32c36022fb"
+    },
+    {
+      "number": 2218,
+      "title": "Backport widget fixes",
+      "url": "https://github.com/palantir/osdk-ts/pull/2218",
+      "created_at": "2025-11-29T11:12:22Z",
+      "merged_at": "2025-12-01T11:04:13Z",
+      "state": "closed",
+      "merged": true,
+      "merge_commit_sha": "71f33ca194cdd4f4131208db1c2c9b758d71d03c"
+    },
+    {
+      "number": 3023,
+      "title": "Support reloading widget on vite HMR full reload",
+      "url": "https://github.com/palantir/osdk-ts/pull/3023",
+      "created_at": "2026-04-15T12:33:38Z",
+      "merged_at": "2026-05-18T12:09:16Z",
+      "state": "closed",
+      "merged": true,
+      "merge_commit_sha": "2f3aa7b37aacb7b0925dcb0eb1ee71e1f82a5af4"
+    },
+    {
+      "number": 2545,
+      "title": "[custom widgets] lazy load @osdk/client",
+      "url": "https://github.com/palantir/osdk-ts/pull/2545",
+      "created_at": "2026-02-17T15:40:51Z",
+      "merged_at": null,
+      "state": "open",
+      "merged": false,
+      "merge_commit_sha": null
+    },
+    {
+      "number": 2538,
+      "title": "[custom widgets] HMR for widget config files",
+      "url": "https://github.com/palantir/osdk-ts/pull/2538",
+      "created_at": "2026-02-16T17:19:39Z",
+      "merged_at": "2026-02-17T11:04:23Z",
+      "state": "closed",
+      "merged": true,
+      "merge_commit_sha": "de531ed46bfa297e1ebcc91f19600c58f0dd6e6b"
+    },
+    {
+      "number": 2474,
+      "title": "[custom widgets] support interfaces in object set parameters",
+      "url": "https://github.com/palantir/osdk-ts/pull/2474",
+      "merged_at": "2026-02-06T16:32:53Z",
+      "state": "closed",
+      "merged": true,
+      "merge_commit_sha": "b9066dda0e9c0bd493b6f23e3abe9c91964bf0cb"
+    }
+  ]
+}

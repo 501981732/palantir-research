@@ -1,0 +1,645 @@
+{
+  "retrievedAt": "2026-10-01T04:17:47.726208+00:00",
+  "npmVersion": "3.74.0",
+  "method": "Exact UTF-8 byte/text comparison of published browser JS sourcemap sourcesContent to pinned raw GitHub TypeScript files; does not establish provenance attestation or closed-source host behavior.",
+  "commits": [
+    "fb8ec172d540ef7819382ff036aa2a692614af75",
+    "e53b94ecd5de7cdd7e864d0daa04363bdad4db4c",
+    "37cfd38676bf04edaef5847e929d914ea214c149"
+  ],
+  "files": [
+    {
+      "package": "widget.api",
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.api/src/config.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/config.ts",
+      "sourceSha256": "4faaa1103ce3b1f9235eb5c70dd38dfac8900e2be0ca2c789d95b72e5ac03e68",
+      "sourceBytes": 6447,
+      "sourceMapPath": "build/browser/config.js.map",
+      "sourceMapEmbeddedSha256": "4faaa1103ce3b1f9235eb5c70dd38dfac8900e2be0ca2c789d95b72e5ac03e68",
+      "sourceMapEmbeddedBytes": 6447,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.api",
+      "commit": "e53b94ecd5de7cdd7e864d0daa04363bdad4db4c",
+      "repoPath": "packages/widget.api/src/config.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/widget.api/src/config.ts",
+      "sourceSha256": "4faaa1103ce3b1f9235eb5c70dd38dfac8900e2be0ca2c789d95b72e5ac03e68",
+      "sourceBytes": 6447,
+      "sourceMapPath": "build/browser/config.js.map",
+      "sourceMapEmbeddedSha256": "4faaa1103ce3b1f9235eb5c70dd38dfac8900e2be0ca2c789d95b72e5ac03e68",
+      "sourceMapEmbeddedBytes": 6447,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.api",
+      "commit": "37cfd38676bf04edaef5847e929d914ea214c149",
+      "repoPath": "packages/widget.api/src/config.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/37cfd38676bf04edaef5847e929d914ea214c149/packages/widget.api/src/config.ts",
+      "sourceSha256": "4faaa1103ce3b1f9235eb5c70dd38dfac8900e2be0ca2c789d95b72e5ac03e68",
+      "sourceBytes": 6447,
+      "sourceMapPath": "build/browser/config.js.map",
+      "sourceMapEmbeddedSha256": "4faaa1103ce3b1f9235eb5c70dd38dfac8900e2be0ca2c789d95b72e5ac03e68",
+      "sourceMapEmbeddedBytes": 6447,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.api",
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.api/src/index.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/index.ts",
+      "sourceSha256": "a70d361fecee35f7dd3a5187b3663e8fa438bda47080e65893517141f59f5826",
+      "sourceBytes": 1984,
+      "sourceMapPath": "build/browser/index.js.map",
+      "sourceMapEmbeddedSha256": "a70d361fecee35f7dd3a5187b3663e8fa438bda47080e65893517141f59f5826",
+      "sourceMapEmbeddedBytes": 1984,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.api",
+      "commit": "e53b94ecd5de7cdd7e864d0daa04363bdad4db4c",
+      "repoPath": "packages/widget.api/src/index.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/widget.api/src/index.ts",
+      "sourceSha256": "a70d361fecee35f7dd3a5187b3663e8fa438bda47080e65893517141f59f5826",
+      "sourceBytes": 1984,
+      "sourceMapPath": "build/browser/index.js.map",
+      "sourceMapEmbeddedSha256": "a70d361fecee35f7dd3a5187b3663e8fa438bda47080e65893517141f59f5826",
+      "sourceMapEmbeddedBytes": 1984,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.api",
+      "commit": "37cfd38676bf04edaef5847e929d914ea214c149",
+      "repoPath": "packages/widget.api/src/index.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/37cfd38676bf04edaef5847e929d914ea214c149/packages/widget.api/src/index.ts",
+      "sourceSha256": "a70d361fecee35f7dd3a5187b3663e8fa438bda47080e65893517141f59f5826",
+      "sourceBytes": 1984,
+      "sourceMapPath": "build/browser/index.js.map",
+      "sourceMapEmbeddedSha256": "a70d361fecee35f7dd3a5187b3663e8fa438bda47080e65893517141f59f5826",
+      "sourceMapEmbeddedBytes": 1984,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.api",
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.api/src/manifest.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/manifest.ts",
+      "sourceSha256": "9cf5fcb8bcebae84651e3926dcdc9fa92c885aa7b2f3f55b3724deab2b70fa48",
+      "sourceBytes": 4576,
+      "sourceMapPath": "build/browser/manifest.js.map",
+      "sourceMapEmbeddedSha256": "9cf5fcb8bcebae84651e3926dcdc9fa92c885aa7b2f3f55b3724deab2b70fa48",
+      "sourceMapEmbeddedBytes": 4576,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.api",
+      "commit": "e53b94ecd5de7cdd7e864d0daa04363bdad4db4c",
+      "repoPath": "packages/widget.api/src/manifest.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/widget.api/src/manifest.ts",
+      "sourceSha256": "9cf5fcb8bcebae84651e3926dcdc9fa92c885aa7b2f3f55b3724deab2b70fa48",
+      "sourceBytes": 4576,
+      "sourceMapPath": "build/browser/manifest.js.map",
+      "sourceMapEmbeddedSha256": "9cf5fcb8bcebae84651e3926dcdc9fa92c885aa7b2f3f55b3724deab2b70fa48",
+      "sourceMapEmbeddedBytes": 4576,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.api",
+      "commit": "37cfd38676bf04edaef5847e929d914ea214c149",
+      "repoPath": "packages/widget.api/src/manifest.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/37cfd38676bf04edaef5847e929d914ea214c149/packages/widget.api/src/manifest.ts",
+      "sourceSha256": "9cf5fcb8bcebae84651e3926dcdc9fa92c885aa7b2f3f55b3724deab2b70fa48",
+      "sourceBytes": 4576,
+      "sourceMapPath": "build/browser/manifest.js.map",
+      "sourceMapEmbeddedSha256": "9cf5fcb8bcebae84651e3926dcdc9fa92c885aa7b2f3f55b3724deab2b70fa48",
+      "sourceMapEmbeddedBytes": 4576,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.api",
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.api/src/messages/hostMessages.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/messages/hostMessages.ts",
+      "sourceSha256": "91e0824921740adfc0319a6e2a5b22cdbc7cb441006083883e649832c00b4378",
+      "sourceBytes": 2437,
+      "sourceMapPath": "build/browser/messages/hostMessages.js.map",
+      "sourceMapEmbeddedSha256": "91e0824921740adfc0319a6e2a5b22cdbc7cb441006083883e649832c00b4378",
+      "sourceMapEmbeddedBytes": 2437,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.api",
+      "commit": "e53b94ecd5de7cdd7e864d0daa04363bdad4db4c",
+      "repoPath": "packages/widget.api/src/messages/hostMessages.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/widget.api/src/messages/hostMessages.ts",
+      "sourceSha256": "91e0824921740adfc0319a6e2a5b22cdbc7cb441006083883e649832c00b4378",
+      "sourceBytes": 2437,
+      "sourceMapPath": "build/browser/messages/hostMessages.js.map",
+      "sourceMapEmbeddedSha256": "91e0824921740adfc0319a6e2a5b22cdbc7cb441006083883e649832c00b4378",
+      "sourceMapEmbeddedBytes": 2437,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.api",
+      "commit": "37cfd38676bf04edaef5847e929d914ea214c149",
+      "repoPath": "packages/widget.api/src/messages/hostMessages.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/37cfd38676bf04edaef5847e929d914ea214c149/packages/widget.api/src/messages/hostMessages.ts",
+      "sourceSha256": "91e0824921740adfc0319a6e2a5b22cdbc7cb441006083883e649832c00b4378",
+      "sourceBytes": 2437,
+      "sourceMapPath": "build/browser/messages/hostMessages.js.map",
+      "sourceMapEmbeddedSha256": "91e0824921740adfc0319a6e2a5b22cdbc7cb441006083883e649832c00b4378",
+      "sourceMapEmbeddedBytes": 2437,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.api",
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.api/src/messages/widgetMessages.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/messages/widgetMessages.ts",
+      "sourceSha256": "133fc9a11caeac72057e59ef7ba239d2f0f90aeed1fef3712a1bed78b34cafe3",
+      "sourceBytes": 4179,
+      "sourceMapPath": "build/browser/messages/widgetMessages.js.map",
+      "sourceMapEmbeddedSha256": "133fc9a11caeac72057e59ef7ba239d2f0f90aeed1fef3712a1bed78b34cafe3",
+      "sourceMapEmbeddedBytes": 4179,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.api",
+      "commit": "e53b94ecd5de7cdd7e864d0daa04363bdad4db4c",
+      "repoPath": "packages/widget.api/src/messages/widgetMessages.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/widget.api/src/messages/widgetMessages.ts",
+      "sourceSha256": "133fc9a11caeac72057e59ef7ba239d2f0f90aeed1fef3712a1bed78b34cafe3",
+      "sourceBytes": 4179,
+      "sourceMapPath": "build/browser/messages/widgetMessages.js.map",
+      "sourceMapEmbeddedSha256": "133fc9a11caeac72057e59ef7ba239d2f0f90aeed1fef3712a1bed78b34cafe3",
+      "sourceMapEmbeddedBytes": 4179,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.api",
+      "commit": "37cfd38676bf04edaef5847e929d914ea214c149",
+      "repoPath": "packages/widget.api/src/messages/widgetMessages.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/37cfd38676bf04edaef5847e929d914ea214c149/packages/widget.api/src/messages/widgetMessages.ts",
+      "sourceSha256": "133fc9a11caeac72057e59ef7ba239d2f0f90aeed1fef3712a1bed78b34cafe3",
+      "sourceBytes": 4179,
+      "sourceMapPath": "build/browser/messages/widgetMessages.js.map",
+      "sourceMapEmbeddedSha256": "133fc9a11caeac72057e59ef7ba239d2f0f90aeed1fef3712a1bed78b34cafe3",
+      "sourceMapEmbeddedBytes": 4179,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.api",
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.api/src/parameters.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/parameters.ts",
+      "sourceSha256": "2b5184d45da8e59166e474c34b18b569b6016ec3daf485d5c80da503f50b3269",
+      "sourceBytes": 3894,
+      "sourceMapPath": "build/browser/parameters.js.map",
+      "sourceMapEmbeddedSha256": "2b5184d45da8e59166e474c34b18b569b6016ec3daf485d5c80da503f50b3269",
+      "sourceMapEmbeddedBytes": 3894,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.api",
+      "commit": "e53b94ecd5de7cdd7e864d0daa04363bdad4db4c",
+      "repoPath": "packages/widget.api/src/parameters.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/widget.api/src/parameters.ts",
+      "sourceSha256": "2b5184d45da8e59166e474c34b18b569b6016ec3daf485d5c80da503f50b3269",
+      "sourceBytes": 3894,
+      "sourceMapPath": "build/browser/parameters.js.map",
+      "sourceMapEmbeddedSha256": "2b5184d45da8e59166e474c34b18b569b6016ec3daf485d5c80da503f50b3269",
+      "sourceMapEmbeddedBytes": 3894,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.api",
+      "commit": "37cfd38676bf04edaef5847e929d914ea214c149",
+      "repoPath": "packages/widget.api/src/parameters.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/37cfd38676bf04edaef5847e929d914ea214c149/packages/widget.api/src/parameters.ts",
+      "sourceSha256": "2b5184d45da8e59166e474c34b18b569b6016ec3daf485d5c80da503f50b3269",
+      "sourceBytes": 3894,
+      "sourceMapPath": "build/browser/parameters.js.map",
+      "sourceMapEmbeddedSha256": "2b5184d45da8e59166e474c34b18b569b6016ec3daf485d5c80da503f50b3269",
+      "sourceMapEmbeddedBytes": 3894,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.api",
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.api/src/permissions.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/permissions.ts",
+      "sourceSha256": "2c53dd4af775ad2899da819143cdf39186e2984a246895986a5487a171dc615b",
+      "sourceBytes": 1448,
+      "sourceMapPath": "build/browser/permissions.js.map",
+      "sourceMapEmbeddedSha256": "2c53dd4af775ad2899da819143cdf39186e2984a246895986a5487a171dc615b",
+      "sourceMapEmbeddedBytes": 1448,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.api",
+      "commit": "e53b94ecd5de7cdd7e864d0daa04363bdad4db4c",
+      "repoPath": "packages/widget.api/src/permissions.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/widget.api/src/permissions.ts",
+      "sourceSha256": "2c53dd4af775ad2899da819143cdf39186e2984a246895986a5487a171dc615b",
+      "sourceBytes": 1448,
+      "sourceMapPath": "build/browser/permissions.js.map",
+      "sourceMapEmbeddedSha256": "2c53dd4af775ad2899da819143cdf39186e2984a246895986a5487a171dc615b",
+      "sourceMapEmbeddedBytes": 1448,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.api",
+      "commit": "37cfd38676bf04edaef5847e929d914ea214c149",
+      "repoPath": "packages/widget.api/src/permissions.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/37cfd38676bf04edaef5847e929d914ea214c149/packages/widget.api/src/permissions.ts",
+      "sourceSha256": "2c53dd4af775ad2899da819143cdf39186e2984a246895986a5487a171dc615b",
+      "sourceBytes": 1448,
+      "sourceMapPath": "build/browser/permissions.js.map",
+      "sourceMapEmbeddedSha256": "2c53dd4af775ad2899da819143cdf39186e2984a246895986a5487a171dc615b",
+      "sourceMapEmbeddedBytes": 1448,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.api",
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.api/src/utils/asyncValue.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/src/utils/asyncValue.ts",
+      "sourceSha256": "47f165a32235aea18b3b5ffac6ca1788bf0f996df643bdbbee153475c06ec629",
+      "sourceBytes": 1557,
+      "sourceMapPath": "build/browser/utils/asyncValue.js.map",
+      "sourceMapEmbeddedSha256": "47f165a32235aea18b3b5ffac6ca1788bf0f996df643bdbbee153475c06ec629",
+      "sourceMapEmbeddedBytes": 1557,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.api",
+      "commit": "e53b94ecd5de7cdd7e864d0daa04363bdad4db4c",
+      "repoPath": "packages/widget.api/src/utils/asyncValue.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/widget.api/src/utils/asyncValue.ts",
+      "sourceSha256": "47f165a32235aea18b3b5ffac6ca1788bf0f996df643bdbbee153475c06ec629",
+      "sourceBytes": 1557,
+      "sourceMapPath": "build/browser/utils/asyncValue.js.map",
+      "sourceMapEmbeddedSha256": "47f165a32235aea18b3b5ffac6ca1788bf0f996df643bdbbee153475c06ec629",
+      "sourceMapEmbeddedBytes": 1557,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.api",
+      "commit": "37cfd38676bf04edaef5847e929d914ea214c149",
+      "repoPath": "packages/widget.api/src/utils/asyncValue.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/37cfd38676bf04edaef5847e929d914ea214c149/packages/widget.api/src/utils/asyncValue.ts",
+      "sourceSha256": "47f165a32235aea18b3b5ffac6ca1788bf0f996df643bdbbee153475c06ec629",
+      "sourceBytes": 1557,
+      "sourceMapPath": "build/browser/utils/asyncValue.js.map",
+      "sourceMapEmbeddedSha256": "47f165a32235aea18b3b5ffac6ca1788bf0f996df643bdbbee153475c06ec629",
+      "sourceMapEmbeddedBytes": 1557,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.api",
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.api/package.json",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.api/package.json",
+      "sourceSha256": "50cf6992a8516592a0e4a061c21cc63861baf91f572b6490199755a0d4172ad2",
+      "sourceBytes": 2230,
+      "sourceMapPath": null,
+      "sourceManifestVersion": "3.74.0",
+      "sourceManifestDependencies": {
+        "@osdk/api": "workspace:*"
+      },
+      "sourceManifestExports": {
+        ".": {
+          "browser": "./build/browser/index.js",
+          "import": {
+            "types": "./build/types/index.d.ts",
+            "default": "./build/esm/index.js"
+          },
+          "require": "./build/cjs/index.cjs",
+          "default": "./build/browser/index.js"
+        },
+        "./*": {
+          "browser": "./build/browser/public/*.js",
+          "import": {
+            "types": "./build/types/public/*.d.ts",
+            "default": "./build/esm/public/*.js"
+          },
+          "require": "./build/cjs/public/*.cjs",
+          "default": "./build/browser/public/*.js"
+        }
+      }
+    },
+    {
+      "package": "widget.api",
+      "commit": "e53b94ecd5de7cdd7e864d0daa04363bdad4db4c",
+      "repoPath": "packages/widget.api/package.json",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/widget.api/package.json",
+      "sourceSha256": "50cf6992a8516592a0e4a061c21cc63861baf91f572b6490199755a0d4172ad2",
+      "sourceBytes": 2230,
+      "sourceMapPath": null,
+      "sourceManifestVersion": "3.74.0",
+      "sourceManifestDependencies": {
+        "@osdk/api": "workspace:*"
+      },
+      "sourceManifestExports": {
+        ".": {
+          "browser": "./build/browser/index.js",
+          "import": {
+            "types": "./build/types/index.d.ts",
+            "default": "./build/esm/index.js"
+          },
+          "require": "./build/cjs/index.cjs",
+          "default": "./build/browser/index.js"
+        },
+        "./*": {
+          "browser": "./build/browser/public/*.js",
+          "import": {
+            "types": "./build/types/public/*.d.ts",
+            "default": "./build/esm/public/*.js"
+          },
+          "require": "./build/cjs/public/*.cjs",
+          "default": "./build/browser/public/*.js"
+        }
+      }
+    },
+    {
+      "package": "widget.api",
+      "commit": "37cfd38676bf04edaef5847e929d914ea214c149",
+      "repoPath": "packages/widget.api/package.json",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/37cfd38676bf04edaef5847e929d914ea214c149/packages/widget.api/package.json",
+      "sourceSha256": "0c414eb24465febc32ccb51fedcb2d7075cc58c436fe13c50e50960fac7898a7",
+      "sourceBytes": 2230,
+      "sourceMapPath": null,
+      "sourceManifestVersion": "3.72.0",
+      "sourceManifestDependencies": {
+        "@osdk/api": "workspace:*"
+      },
+      "sourceManifestExports": {
+        ".": {
+          "browser": "./build/browser/index.js",
+          "import": {
+            "types": "./build/types/index.d.ts",
+            "default": "./build/esm/index.js"
+          },
+          "require": "./build/cjs/index.cjs",
+          "default": "./build/browser/index.js"
+        },
+        "./*": {
+          "browser": "./build/browser/public/*.js",
+          "import": {
+            "types": "./build/types/public/*.d.ts",
+            "default": "./build/esm/public/*.js"
+          },
+          "require": "./build/cjs/public/*.cjs",
+          "default": "./build/browser/public/*.js"
+        }
+      }
+    },
+    {
+      "package": "widget.client",
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.client/src/client.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client/src/client.ts",
+      "sourceSha256": "8057ee2364d69bef5953ff29e83ba9398c3c372a518e59c74123ed093b2f0465",
+      "sourceBytes": 4606,
+      "sourceMapPath": "build/browser/client.js.map",
+      "sourceMapEmbeddedSha256": "8057ee2364d69bef5953ff29e83ba9398c3c372a518e59c74123ed093b2f0465",
+      "sourceMapEmbeddedBytes": 4606,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.client",
+      "commit": "e53b94ecd5de7cdd7e864d0daa04363bdad4db4c",
+      "repoPath": "packages/widget.client/src/client.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/widget.client/src/client.ts",
+      "sourceSha256": "8057ee2364d69bef5953ff29e83ba9398c3c372a518e59c74123ed093b2f0465",
+      "sourceBytes": 4606,
+      "sourceMapPath": "build/browser/client.js.map",
+      "sourceMapEmbeddedSha256": "8057ee2364d69bef5953ff29e83ba9398c3c372a518e59c74123ed093b2f0465",
+      "sourceMapEmbeddedBytes": 4606,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.client",
+      "commit": "37cfd38676bf04edaef5847e929d914ea214c149",
+      "repoPath": "packages/widget.client/src/client.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/37cfd38676bf04edaef5847e929d914ea214c149/packages/widget.client/src/client.ts",
+      "sourceSha256": "8057ee2364d69bef5953ff29e83ba9398c3c372a518e59c74123ed093b2f0465",
+      "sourceBytes": 4606,
+      "sourceMapPath": "build/browser/client.js.map",
+      "sourceMapEmbeddedSha256": "8057ee2364d69bef5953ff29e83ba9398c3c372a518e59c74123ed093b2f0465",
+      "sourceMapEmbeddedBytes": 4606,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.client",
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.client/src/host.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client/src/host.ts",
+      "sourceSha256": "156eb7b9c5e5fb915dc6b10cfec8bfcb2398a14560e1750f33494380e7eed19f",
+      "sourceBytes": 2133,
+      "sourceMapPath": "build/browser/host.js.map",
+      "sourceMapEmbeddedSha256": "156eb7b9c5e5fb915dc6b10cfec8bfcb2398a14560e1750f33494380e7eed19f",
+      "sourceMapEmbeddedBytes": 2133,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.client",
+      "commit": "e53b94ecd5de7cdd7e864d0daa04363bdad4db4c",
+      "repoPath": "packages/widget.client/src/host.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/widget.client/src/host.ts",
+      "sourceSha256": "156eb7b9c5e5fb915dc6b10cfec8bfcb2398a14560e1750f33494380e7eed19f",
+      "sourceBytes": 2133,
+      "sourceMapPath": "build/browser/host.js.map",
+      "sourceMapEmbeddedSha256": "156eb7b9c5e5fb915dc6b10cfec8bfcb2398a14560e1750f33494380e7eed19f",
+      "sourceMapEmbeddedBytes": 2133,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.client",
+      "commit": "37cfd38676bf04edaef5847e929d914ea214c149",
+      "repoPath": "packages/widget.client/src/host.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/37cfd38676bf04edaef5847e929d914ea214c149/packages/widget.client/src/host.ts",
+      "sourceSha256": "156eb7b9c5e5fb915dc6b10cfec8bfcb2398a14560e1750f33494380e7eed19f",
+      "sourceBytes": 2133,
+      "sourceMapPath": "build/browser/host.js.map",
+      "sourceMapEmbeddedSha256": "156eb7b9c5e5fb915dc6b10cfec8bfcb2398a14560e1750f33494380e7eed19f",
+      "sourceMapEmbeddedBytes": 2133,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.client",
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.client/src/index.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client/src/index.ts",
+      "sourceSha256": "3e56eeda62fdfcb6897af06a5b5b8e1688a2729add0f7f122f2593f9ae1285ba",
+      "sourceBytes": 1294,
+      "sourceMapPath": "build/browser/index.js.map",
+      "sourceMapEmbeddedSha256": "3e56eeda62fdfcb6897af06a5b5b8e1688a2729add0f7f122f2593f9ae1285ba",
+      "sourceMapEmbeddedBytes": 1294,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.client",
+      "commit": "e53b94ecd5de7cdd7e864d0daa04363bdad4db4c",
+      "repoPath": "packages/widget.client/src/index.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/widget.client/src/index.ts",
+      "sourceSha256": "3e56eeda62fdfcb6897af06a5b5b8e1688a2729add0f7f122f2593f9ae1285ba",
+      "sourceBytes": 1294,
+      "sourceMapPath": "build/browser/index.js.map",
+      "sourceMapEmbeddedSha256": "3e56eeda62fdfcb6897af06a5b5b8e1688a2729add0f7f122f2593f9ae1285ba",
+      "sourceMapEmbeddedBytes": 1294,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.client",
+      "commit": "37cfd38676bf04edaef5847e929d914ea214c149",
+      "repoPath": "packages/widget.client/src/index.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/37cfd38676bf04edaef5847e929d914ea214c149/packages/widget.client/src/index.ts",
+      "sourceSha256": "3e56eeda62fdfcb6897af06a5b5b8e1688a2729add0f7f122f2593f9ae1285ba",
+      "sourceBytes": 1294,
+      "sourceMapPath": "build/browser/index.js.map",
+      "sourceMapEmbeddedSha256": "3e56eeda62fdfcb6897af06a5b5b8e1688a2729add0f7f122f2593f9ae1285ba",
+      "sourceMapEmbeddedBytes": 1294,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.client",
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.client/src/tokenProvider.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client/src/tokenProvider.ts",
+      "sourceSha256": "2f35d970616c48bd94de19b8c5c27ddecb65b38f572151ab70eb9d32d58779a2",
+      "sourceBytes": 948,
+      "sourceMapPath": "build/browser/tokenProvider.js.map",
+      "sourceMapEmbeddedSha256": "2f35d970616c48bd94de19b8c5c27ddecb65b38f572151ab70eb9d32d58779a2",
+      "sourceMapEmbeddedBytes": 948,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.client",
+      "commit": "e53b94ecd5de7cdd7e864d0daa04363bdad4db4c",
+      "repoPath": "packages/widget.client/src/tokenProvider.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/widget.client/src/tokenProvider.ts",
+      "sourceSha256": "2f35d970616c48bd94de19b8c5c27ddecb65b38f572151ab70eb9d32d58779a2",
+      "sourceBytes": 948,
+      "sourceMapPath": "build/browser/tokenProvider.js.map",
+      "sourceMapEmbeddedSha256": "2f35d970616c48bd94de19b8c5c27ddecb65b38f572151ab70eb9d32d58779a2",
+      "sourceMapEmbeddedBytes": 948,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.client",
+      "commit": "37cfd38676bf04edaef5847e929d914ea214c149",
+      "repoPath": "packages/widget.client/src/tokenProvider.ts",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/37cfd38676bf04edaef5847e929d914ea214c149/packages/widget.client/src/tokenProvider.ts",
+      "sourceSha256": "2f35d970616c48bd94de19b8c5c27ddecb65b38f572151ab70eb9d32d58779a2",
+      "sourceBytes": 948,
+      "sourceMapPath": "build/browser/tokenProvider.js.map",
+      "sourceMapEmbeddedSha256": "2f35d970616c48bd94de19b8c5c27ddecb65b38f572151ab70eb9d32d58779a2",
+      "sourceMapEmbeddedBytes": 948,
+      "exactlyEqual": true
+    },
+    {
+      "package": "widget.client",
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "repoPath": "packages/widget.client/package.json",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/fb8ec172d540ef7819382ff036aa2a692614af75/packages/widget.client/package.json",
+      "sourceSha256": "acdd2ece4b9aba468e67d4f1cec1cde15ad66a9b74b63dbafb74035297c1cd34",
+      "sourceBytes": 2281,
+      "sourceMapPath": null,
+      "sourceManifestVersion": "3.74.0",
+      "sourceManifestDependencies": {
+        "@osdk/widget.api": "workspace:~",
+        "tiny-invariant": "^1.3.3"
+      },
+      "sourceManifestExports": {
+        ".": {
+          "browser": "./build/browser/index.js",
+          "import": {
+            "types": "./build/types/index.d.ts",
+            "default": "./build/esm/index.js"
+          },
+          "require": "./build/cjs/index.cjs",
+          "default": "./build/browser/index.js"
+        },
+        "./*": {
+          "browser": "./build/browser/public/*.js",
+          "import": {
+            "types": "./build/types/public/*.d.ts",
+            "default": "./build/esm/public/*.js"
+          },
+          "require": "./build/cjs/public/*.cjs",
+          "default": "./build/browser/public/*.js"
+        }
+      }
+    },
+    {
+      "package": "widget.client",
+      "commit": "e53b94ecd5de7cdd7e864d0daa04363bdad4db4c",
+      "repoPath": "packages/widget.client/package.json",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/widget.client/package.json",
+      "sourceSha256": "acdd2ece4b9aba468e67d4f1cec1cde15ad66a9b74b63dbafb74035297c1cd34",
+      "sourceBytes": 2281,
+      "sourceMapPath": null,
+      "sourceManifestVersion": "3.74.0",
+      "sourceManifestDependencies": {
+        "@osdk/widget.api": "workspace:~",
+        "tiny-invariant": "^1.3.3"
+      },
+      "sourceManifestExports": {
+        ".": {
+          "browser": "./build/browser/index.js",
+          "import": {
+            "types": "./build/types/index.d.ts",
+            "default": "./build/esm/index.js"
+          },
+          "require": "./build/cjs/index.cjs",
+          "default": "./build/browser/index.js"
+        },
+        "./*": {
+          "browser": "./build/browser/public/*.js",
+          "import": {
+            "types": "./build/types/public/*.d.ts",
+            "default": "./build/esm/public/*.js"
+          },
+          "require": "./build/cjs/public/*.cjs",
+          "default": "./build/browser/public/*.js"
+        }
+      }
+    },
+    {
+      "package": "widget.client",
+      "commit": "37cfd38676bf04edaef5847e929d914ea214c149",
+      "repoPath": "packages/widget.client/package.json",
+      "sourceUrl": "https://raw.githubusercontent.com/palantir/osdk-ts/37cfd38676bf04edaef5847e929d914ea214c149/packages/widget.client/package.json",
+      "sourceSha256": "aa586f055aad37bcfd95ac168dc3f6dbccc950928b8a26fc99c36089510f4174",
+      "sourceBytes": 2281,
+      "sourceMapPath": null,
+      "sourceManifestVersion": "3.72.0",
+      "sourceManifestDependencies": {
+        "@osdk/widget.api": "workspace:~",
+        "tiny-invariant": "^1.3.3"
+      },
+      "sourceManifestExports": {
+        ".": {
+          "browser": "./build/browser/index.js",
+          "import": {
+            "types": "./build/types/index.d.ts",
+            "default": "./build/esm/index.js"
+          },
+          "require": "./build/cjs/index.cjs",
+          "default": "./build/browser/index.js"
+        },
+        "./*": {
+          "browser": "./build/browser/public/*.js",
+          "import": {
+            "types": "./build/types/public/*.d.ts",
+            "default": "./build/esm/public/*.js"
+          },
+          "require": "./build/cjs/public/*.cjs",
+          "default": "./build/browser/public/*.js"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "retrieved_at": "2026-10-01T04:24:24.290533+00:00",
+  "registry_url": "https://registry.npmjs.org/@osdk%2Fwidget.client-react",
+  "package": "@osdk/widget.client-react",
+  "version": "3.74.0",
+  "published_at": "2026-09-29T17:20:47.478Z",
+  "tarball": "https://registry.npmjs.org/@osdk/widget.client-react/-/widget.client-react-3.74.0.tgz",
+  "integrity": "sha512-ANRTKIopkhZGQEW/JmtSyewl7jsB+tIE8ppyvNf6tGk5RT8IJfJ4od7EBe8bCPuiTsgXRR2jRAEeb1k/WH4oNg==",
+  "sha1": "2a42922dc96823c299c2a38173d6d2a6c77e9609",
+  "sha256": "3c67ffb38bc203430a7efb7df73cd322dc6e9e6adbc3599a5fe2c1826de80792",
+  "peerDependencies": {
+    "react": "^18 || ^19",
+    "react-dom": "^18 || ^19",
+    "@osdk/client": "^2.75.0",
+    "@types/react": "^18 || ^19",
+    "@types/react-dom": "^18 || ^19",
+    "@osdk/widget.client": "^3.74.0"
+  },
+  "source_commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+  "workflow": {
+    "ref": "refs/heads/main",
+    "repository": "https://github.com/palantir/osdk-ts",
+    "path": ".github/workflows/release.yml"
+  },
+  "invocation": "https://github.com/palantir/osdk-ts/actions/runs/36603145053/attempts/1",
+  "provenance_note": "Decoded publisher-supplied provenance and matched tarball hash; independent certificate/transparency-log cryptographic verification was not performed.",
+  "source_map_comparison": [
+    {
+      "source": "client.tsx",
+      "sha256": "61a818d3ad3f7596c33493e8518d73858a29b3ea4ad652854f2184e6e7fc7b9d",
+      "matches_source_at_release_commit": true
+    },
+    {
+      "source": "ErrorBoundary.tsx",
+      "sha256": "3f10cbcb22c9de1d15470651bdf681acce5e33f07ec343e33cd6272a22dca834",
+      "matches_source_at_release_commit": true
+    },
+    {
+      "source": "index.ts",
+      "sha256": "e05024a7b1b121d1bd49aaea8ed0735c5d4a96b028c5f2e5d4a65c5c3f41106c",
+      "matches_source_at_release_commit": true
+    },
+    {
+      "source": "context.ts",
+      "sha256": "bea6e37fbf091139398d1feb45bd43e05c9d1bac44f09c317fa82fef89e03e16",
+      "matches_source_at_release_commit": true
+    },
+    {
+      "source": "utils/extendParametersWithObjectSets.ts",
+      "sha256": "24c4cc705bbb3c8e93a332b23fcfc94dc440af72287e6d53c08912681d32eb01",
+      "matches_source_at_release_commit": true
+    },
+    {
+      "source": "utils/transformEmitEventPayload.ts",
+      "sha256": "dc611edccd38dfb84fa3c9dbff5e62c46b1061109c4cb9965e8ab2042766e967",
+      "matches_source_at_release_commit": true
+    },
+    {
+      "source": "utils/initializeParameters.ts",
+      "sha256": "74df59dc4ee59e58e862878296c18b102c828ed59b63c5d9a83a1b6b22a1e27f",
+      "matches_source_at_release_commit": true
+    }
+  ]
+}

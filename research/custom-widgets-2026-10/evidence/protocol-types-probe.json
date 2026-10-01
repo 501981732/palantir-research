@@ -1,0 +1,35 @@
+{
+  "title": "Actual npm 3.74.0 declaration contract and negative controls",
+  "retrievedAt": "2026-10-01T04:21:23.402Z",
+  "nodeVersion": "v22.17.0",
+  "packageVersions": {
+    "widgetApi": "3.74.0",
+    "widgetClient": "3.74.0",
+    "typescript": "5.5.4"
+  },
+  "sourceSha256": "925a8fa2b276a4b90e9c5c001c1ee66d4fa5f36463e0fa664b06ae7190ac2979",
+  "scope": "TypeScript declaration behavior only; no runtime schema or real Workshop validation.",
+  "positiveCompilation": {
+    "exitCode": 0,
+    "diagnostics": ""
+  },
+  "negativeControlCompilation": {
+    "exitCode": 2,
+    "errorCount": 5,
+    "diagnostics": "protocol-types-negative-control.ts(19,71): error TS2322: Type 'string' is not assignable to type 'number'.\nprotocol-types-negative-control.ts(20,18): error TS2345: Argument of type '\"missingEvent\"' is not assignable to parameter of type '\"changed\"'.\nprotocol-types-negative-control.ts(21,79): error TS2322: Type 'Date' is not assignable to type 'string'.\nprotocol-types-negative-control.ts(33,28): error TS2322: Type 'string' is not assignable to type 'never'.\nprotocol-types-negative-control.ts(43,28): error TS2322: Type '\"missingParameter\"' is not assignable to type '\"count\"'.\n"
+  },
+  "positiveCases": [
+    "valid raw event updates",
+    "scenario arrays",
+    "loaded undefined",
+    "malformed date string is still assignable as string",
+    "Infinity is still assignable as number"
+  ],
+  "rejectedCases": [
+    "number as string",
+    "unknown event ID",
+    "JavaScript Date instance as date wire value",
+    "read-only mapTileLayer event update",
+    "unknown parameter ID in event"
+  ]
+}
