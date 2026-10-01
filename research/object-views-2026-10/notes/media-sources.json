@@ -1,0 +1,372 @@
+{
+  "retrieval_date": "2026-10-01",
+  "sources": [
+    {
+      "id": "MD01",
+      "kind": "official_documentation",
+      "title": "Object Views overview",
+      "url": "https://www.palantir.com/docs/foundry/object-views/overview",
+      "published_date": null,
+      "access": "public body and original image links read",
+      "relevance": "标准/配置视图与full/panel形态的官方样例"
+    },
+    {
+      "id": "MD02",
+      "kind": "official_documentation",
+      "title": "Configured Object View overview",
+      "url": "https://www.palantir.com/docs/foundry/object-views/config-overview",
+      "published_date": null,
+      "access": "public body and original image links read",
+      "relevance": "Ontology Manager / Explorer / panel编辑入口与切换配置视图"
+    },
+    {
+      "id": "MD03",
+      "kind": "official_documentation",
+      "title": "Configured full Object View",
+      "url": "https://www.palantir.com/docs/foundry/object-views/config-object-views/",
+      "published_date": null,
+      "access": "public body and original image links read",
+      "relevance": "Workshop编辑器、外层Object View tabs、模块版本和发布"
+    },
+    {
+      "id": "MD04",
+      "kind": "official_documentation",
+      "title": "Configured panel Object View",
+      "url": "https://www.palantir.com/docs/foundry/object-views/config-panel-views",
+      "published_date": null,
+      "access": "public body and original image links read",
+      "relevance": "Object instance / Object set与画布尺寸配置"
+    },
+    {
+      "id": "MD05",
+      "kind": "official_documentation",
+      "title": "Use panel Object Views",
+      "url": "https://www.palantir.com/docs/foundry/object-views/use-panel-views-in-platform",
+      "published_date": null,
+      "access": "public body and original image links read",
+      "relevance": "Vertex / Maps / Gaia / Workshop嵌入宿主"
+    },
+    {
+      "id": "MD06",
+      "kind": "official_documentation",
+      "title": "Standard Object Views",
+      "url": "https://www.palantir.com/docs/foundry/object-views/standard-object-views/",
+      "published_date": null,
+      "access": "public body and original image links read",
+      "relevance": "关联对象组件、标准panel"
+    },
+    {
+      "id": "MD07",
+      "kind": "official_documentation",
+      "title": "Object Explorer Getting started",
+      "url": "https://www.palantir.com/docs/foundry/object-explorer/getting-started",
+      "published_date": null,
+      "access": "public body and original image links read",
+      "relevance": "Explorer首页类型/对象/探索的入口结构"
+    },
+    {
+      "id": "MD08",
+      "kind": "official_documentation",
+      "title": "Object Explorer View results",
+      "url": "https://www.palantir.com/docs/foundry/object-explorer/view-results",
+      "published_date": null,
+      "access": "public body and original image links read",
+      "relevance": "结果表与Object View选择预览"
+    },
+    {
+      "id": "MV01",
+      "kind": "third_party_author_video",
+      "title": "Intro to Object Explorer",
+      "url": "https://www.youtube.com/watch?v=YuT96FVeDuc",
+      "author": "Ontologize",
+      "published_date": "2024-10-17",
+      "date_basis": "expanded description in public YouTube browser page",
+      "duration_display": "15:18",
+      "access": "public title/channel/date/description/chapters read; no verified content frame; transcript unavailable",
+      "relevance": "2024历史Explorer教程；描述注明教学虚构数据；频道对Partner身份的描述为本人自述",
+      "chapters": [
+        {
+          "timestamp": "00:00",
+          "title": "Intro"
+        },
+        {
+          "timestamp": "00:33",
+          "title": "Starting out in Object Explorer"
+        },
+        {
+          "timestamp": "01:33",
+          "title": "Filtering an Object Set"
+        },
+        {
+          "timestamp": "03:22",
+          "title": "Customizing your Exploration"
+        },
+        {
+          "timestamp": "06:30",
+          "title": "Saving your Layout"
+        },
+        {
+          "timestamp": "08:23",
+          "title": "Traversing Links"
+        },
+        {
+          "timestamp": "09:24",
+          "title": "Saving your Results"
+        },
+        {
+          "timestamp": "11:52",
+          "title": "Comparisons"
+        },
+        {
+          "timestamp": "14:12",
+          "title": "Next Steps"
+        },
+        {
+          "timestamp": "14:55",
+          "title": "Conclusion"
+        }
+      ],
+      "limitations": [
+        "Not an official Palantir channel",
+        "No full-video viewing claim",
+        "No keyframe or screen recording delivered",
+        "Playback error; readyState=0 and videoWidth=0 on final inspection",
+        "Standard transcript export reported no available transcript"
+      ]
+    },
+    {
+      "id": "MV02",
+      "kind": "video_candidate",
+      "title": "Product Launch: Ontology-backed App Building | DevCon 4",
+      "url": "https://www.youtube.com/watch?v=Cgn52Qqgxeg",
+      "author": null,
+      "published_date": null,
+      "access": "title from public search; direct page retrieval throttled; no verified content frame",
+      "relevance": "社区线程6721指向OE→Workshop拖放演示，文字称16:08，链接t=972实际16:12",
+      "candidate_timestamp": "16:08–16:20",
+      "limitations": [
+        "Channel and upload date not verified",
+        "No transcript or keyframe",
+        "No full-video viewing claim"
+      ]
+    },
+    {
+      "id": "MC01",
+      "kind": "public_community",
+      "title": "Object View for sets of objects",
+      "url": "https://community.palantir.com/t/object-view-for-sets-of-objects/3749",
+      "authors": [
+        "SiggyTheViking",
+        "joshOntologize",
+        "evanj",
+        "lrhyne",
+        "jen"
+      ],
+      "published_date": "2025-05–2025-11",
+      "access": "public discussion body read",
+      "relevance": "2025-05对象集跨应用入口讨论；2025-11-19 jen自称Object View Team宣布Object Set Panels及adaptive/instance/set模式",
+      "limitations": [
+        "Authors job titles not independently verified",
+        "Use current official panel/widget docs for present behavior",
+        "Do not treat May 2025 gap as current limitation"
+      ]
+    },
+    {
+      "id": "MC02",
+      "kind": "public_community",
+      "title": "Object Views: Custom external ID support for interface variables of that object type when embedding Workshop modules",
+      "url": "https://community.palantir.com/t/object-views-custom-external-id-support-for-interface-variables-of-that-object-type-when-embedding-workshop-modules/1073",
+      "authors": [
+        "MSL0727"
+      ],
+      "published_date": "2024-08-20",
+      "access": "public body and two screenshot links read",
+      "relevance": "旧Object View嵌入Workshop tab的external ID object映射摩擦",
+      "limitations": [
+        "Historical user report; not proof of current limitation",
+        "Screenshots not localized in this evidence set"
+      ]
+    },
+    {
+      "id": "MC03",
+      "kind": "public_community",
+      "title": "Navigate to different object view tab with button",
+      "url": "https://community.palantir.com/t/navigate-to-different-object-view-tab-with-button/1111",
+      "authors": [
+        "haavard",
+        "tdyck"
+      ],
+      "published_date": "2024-08-22",
+      "access": "public discussion body read",
+      "relevance": "历史外层Object View页签与内层Workshop tabs导航差别",
+      "limitations": [
+        "Historical reply only; not current feature guarantee"
+      ]
+    },
+    {
+      "id": "MC04",
+      "kind": "public_community",
+      "title": "Add all object properties to Workshop widget even after name change",
+      "url": "https://community.palantir.com/t/add-all-object-properties-to-workshop-widget-even-after-name-change/2665",
+      "authors": [
+        "green",
+        "evanj"
+      ],
+      "published_date": "2025-01-28",
+      "access": "public discussion body read",
+      "relevance": "当时Workshop Add all为显式属性列表，不自动加入后续schema属性，可与当前默认配置自动更新机制比较",
+      "limitations": [
+        "Historical Workshop behavior; use current official docs for default views"
+      ]
+    },
+    {
+      "id": "MC05",
+      "kind": "public_community",
+      "title": "Variable Folders",
+      "url": "https://community.palantir.com/t/variable-folders/3017",
+      "authors": [
+        "tparry",
+        "lrhyne"
+      ],
+      "published_date": "2025-02-28",
+      "access": "public discussion body read",
+      "relevance": "社区经验：Workshop拆sub-apps/Object Views，以embedding/Carbon Workspace组合",
+      "limitations": [
+        "Community architecture advice; not official architecture commitment",
+        "Author role not independently verified"
+      ]
+    },
+    {
+      "id": "MC06",
+      "kind": "public_community",
+      "title": "Can’t save new object view anymore",
+      "url": "https://community.palantir.com/t/can-t-save-new-object-view-anymore/4802",
+      "authors": [
+        "morgan26",
+        "joshOntologize",
+        "melissaz"
+      ],
+      "published_date": "2025-08-18",
+      "access": "public discussion body read",
+      "relevance": "autosave/publish区分；当日保存bug回复称已经修复",
+      "limitations": [
+        "Resolved historical incident; do not label an ongoing bug",
+        "Prior Palantir employment is a user self-description"
+      ]
+    },
+    {
+      "id": "MC07",
+      "kind": "public_community",
+      "title": "Turn off actions from Object Explorer",
+      "url": "https://community.palantir.com/t/turn-off-actions-from-object-explorer/144",
+      "authors": [
+        "charlesq",
+        "albratosin",
+        "dan"
+      ],
+      "published_date": "2024-04; follow-up 2026-01",
+      "access": "public discussion body read",
+      "relevance": "历史hubble-oe:hide-action呈现控制，与当前安全权限不是同一判断",
+      "limitations": [
+        "2026 follow-up has no new answer",
+        "Historical feature restrictions are not current security rules"
+      ]
+    },
+    {
+      "id": "MC08",
+      "kind": "public_community",
+      "title": "Saved List versus Saved Exploration",
+      "url": "https://community.palantir.com/t/saved-list-versus-saved-exploration/2020",
+      "authors": [
+        "BenjaminB",
+        "gdf"
+      ],
+      "published_date": "2024-11",
+      "access": "public discussion body read",
+      "relevance": "动态工作队列案例：探索条件与保存名单的差别",
+      "limitations": [
+        "Use official save docs for semantic definitions"
+      ]
+    },
+    {
+      "id": "MC09",
+      "kind": "public_community",
+      "title": "Records in search object: discover access only",
+      "url": "https://community.palantir.com/t/records-in-search-object-discover-access-only/4875",
+      "authors": [
+        "VenkatPolimera"
+      ],
+      "published_date": "2025-08-27",
+      "access": "public discussion body read",
+      "relevance": "用户自述应用访问获批仍未有对象权限",
+      "limitations": [
+        "User report, not controlled tenant test"
+      ]
+    },
+    {
+      "id": "MC10",
+      "kind": "public_community",
+      "title": "Object Explorer: Switch branches",
+      "url": "https://community.palantir.com/t/object-explorer-switch-branches/5034",
+      "authors": [
+        "Coder",
+        "bkaplan",
+        "slaczay"
+      ],
+      "published_date": "2025-09-15",
+      "access": "public discussion body read",
+      "relevance": "历史OE未branch-aware及未来现代化方向的评论",
+      "limitations": [
+        "Roadmap comment is not current-state proof"
+      ]
+    },
+    {
+      "id": "MC11",
+      "kind": "public_community",
+      "title": "Question regarding drag and drop workflow from Object Explorer to Workshop",
+      "url": "https://community.palantir.com/t/question-regarding-drag-and-drop-workflow-from-object-explorer-to-workshop/6721",
+      "authors": [
+        "Donat"
+      ],
+      "published_date": "2026-06-04",
+      "access": "public discussion body read",
+      "relevance": "DevCon视频16:08/16:12线索；section drop zone需平台管理员启用的回复",
+      "limitations": [
+        "Do not infer feature is universally enabled",
+        "Use official Workshop drag-and-drop docs for current behavior"
+      ]
+    },
+    {
+      "id": "MC12",
+      "kind": "public_community",
+      "title": "Object View as configured in legacy Object View",
+      "url": "https://community.palantir.com/t/object-view-as-configured-in-legacy-object-view/3708",
+      "authors": [
+        "vip_001"
+      ],
+      "published_date": "2025-04-28",
+      "access": "public body and historical screenshot links read",
+      "relevance": "legacy属性搜索和ellipsis菜单历史用户截图",
+      "limitations": [
+        "No effective answer in source thread",
+        "Do not turn user question into verified missing feature"
+      ]
+    },
+    {
+      "id": "MD09",
+      "kind": "official_documentation",
+      "title": "Carbon module discovery",
+      "url": "https://www.palantir.com/docs/foundry/carbon/modules-discovery",
+      "published_date": null,
+      "access": "public documentation body read",
+      "relevance": "Carbon registered discoverable module与Workshop Object Set interface/external ID/type constraint和Open in入口",
+      "limitations": [
+        "Does not establish Object View must depend on Carbon"
+      ]
+    }
+  ],
+  "discovery_limits": [
+    "No independently verified Object Views technical blog identified",
+    "Public community profile pages returned 403; no access bypass attempted"
+  ]
+}

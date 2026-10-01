@@ -1,0 +1,100 @@
+{
+  "retrieval_date": "2026-10-01",
+  "assets": [
+    {
+      "id": "M01",
+      "exists": true,
+      "bytes_match": true,
+      "sha256_match": true,
+      "decode": "passed"
+    },
+    {
+      "id": "M02",
+      "exists": true,
+      "bytes_match": true,
+      "sha256_match": true,
+      "decode": "passed"
+    },
+    {
+      "id": "M03",
+      "exists": true,
+      "bytes_match": true,
+      "sha256_match": true,
+      "decode": "passed"
+    },
+    {
+      "id": "M04",
+      "exists": true,
+      "bytes_match": true,
+      "sha256_match": true,
+      "decode": "passed"
+    },
+    {
+      "id": "M05",
+      "exists": true,
+      "bytes_match": true,
+      "sha256_match": true,
+      "decode": "passed"
+    },
+    {
+      "id": "M06",
+      "exists": true,
+      "bytes_match": true,
+      "sha256_match": true,
+      "decode": "passed"
+    },
+    {
+      "id": "M07",
+      "exists": true,
+      "bytes_match": true,
+      "sha256_match": true,
+      "decode": "passed"
+    },
+    {
+      "id": "M09",
+      "exists": true,
+      "bytes_match": true,
+      "sha256_match": true,
+      "decode": "passed"
+    },
+    {
+      "id": "M10",
+      "exists": true,
+      "bytes_match": true,
+      "sha256_match": true,
+      "decode": "passed"
+    },
+    {
+      "id": "M11",
+      "exists": true,
+      "bytes_match": true,
+      "sha256_match": true,
+      "decode": "passed"
+    },
+    {
+      "id": "M12",
+      "exists": true,
+      "bytes_match": true,
+      "sha256_match": true,
+      "decode": "passed"
+    },
+    {
+      "id": "M06-S",
+      "exists": true,
+      "bytes_match": true,
+      "sha256_match": true,
+      "decode": "passed"
+    },
+    {
+      "id": "M10-S",
+      "exists": true,
+      "bytes_match": true,
+      "sha256_match": true,
+      "decode": "passed"
+    }
+  ],
+  "all_images_referenced_exist": true,
+  "no_personal_absolute_paths": true,
+  "video_frame_count": 0,
+  "mock_or_ai_ui_asset_count": 0
+}

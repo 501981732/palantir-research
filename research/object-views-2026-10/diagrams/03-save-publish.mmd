@@ -1,0 +1,21 @@
+flowchart TB
+    EDIT["编辑 Object View tabs 与当前 Workshop module"] --> AUTO["模块周期性 autosave：保存编辑进度"]
+    EDIT --> CHOICE{"自动发布开关"}
+    CHOICE -->|开启：默认| BOTH["Save and publish：保存并发布"]
+    CHOICE -->|关闭| SAVE["Save：保存 tab 与当前 module 变更"]
+    SAVE --> PREVIEW["查看 / 预览历史版本"]
+    SAVE --> PUBLISH["Publish：显式发布所选版本"]
+    PREVIEW -.->|可选：预览后发布| PUBLISH
+    BOTH --> VISIBLE["查看者使用已发布 Object View"]
+    PUBLISH --> VISIBLE
+    AUTO -.->|不能单独使变更对查看者可见| SAVE
+    VISIBLE --> ROLLBACK["出现问题：预览并重新发布旧版本"]
+    ROLLBACK --> VISIBLE
+    NOTE["Object View 与各 Workshop module 分别有版本号"] -.-> SAVE
+    NOTE -.-> BOTH
+    classDef draft fill:#e7f5ff,stroke:#1971c2,color:#102a43;
+    classDef gate fill:#e5dbff,stroke:#5f3dc4,color:#102a43;
+    classDef live fill:#c5f6fa,stroke:#0c8599,color:#102a43;
+    class EDIT,AUTO,SAVE,PREVIEW,NOTE draft;
+    class CHOICE,BOTH,PUBLISH,ROLLBACK gate;
+    class VISIBLE live;

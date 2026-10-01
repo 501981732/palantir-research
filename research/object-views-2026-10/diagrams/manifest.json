@@ -1,0 +1,183 @@
+{
+  "retrieval_date": "2026-10-01",
+  "provenance": "依据公开文档自绘概念关系，非官方架构图、租户截图或内部服务拓扑。",
+  "files": [
+    {
+      "file": "diagrams/01-object-entry.mmd",
+      "kind": "研究者自绘概念图源码",
+      "bytes": 1374,
+      "sha256": "8b0ff7521cb54879c36f5930be0b18078a794a4fb95d0c55e25247e9beda4204",
+      "generated_at_utc": "2026-10-01T09:40:31+00:00",
+      "source_file": "diagrams/01-object-entry.mmd",
+      "original_url": null,
+      "source_pages": [
+        "https://www.palantir.com/docs/foundry/object-views/overview/",
+        "https://www.palantir.com/docs/foundry/workshop/widgets-object-view/"
+      ],
+      "render_tool": "Mermaid CLI 11.12.0; Chromium headless; PingFang SC; global htmlLabels=false",
+      "visual_qa": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-01T09:40:31+00:00",
+        "observations": "中文可读，节点与连线无裁切、遮挡或乱码；图2上下文注入不声称内部协议；图3预览为可选。"
+      }
+    },
+    {
+      "file": "diagrams/01-object-entry.png",
+      "kind": "研究者自绘概念图实际渲染件",
+      "bytes": 117618,
+      "sha256": "1e8973c6abeb17dd2d4ce7aa0c930cc63d4898b14aabdae3f626654538e060e6",
+      "generated_at_utc": "2026-10-01T09:40:31+00:00",
+      "source_file": "diagrams/01-object-entry.mmd",
+      "original_url": null,
+      "source_pages": [
+        "https://www.palantir.com/docs/foundry/object-views/overview/",
+        "https://www.palantir.com/docs/foundry/workshop/widgets-object-view/"
+      ],
+      "width": 1384,
+      "height": 821,
+      "render_tool": "Mermaid CLI 11.12.0; Chromium headless; PingFang SC; global htmlLabels=false",
+      "visual_qa": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-01T09:40:31+00:00",
+        "observations": "中文可读，节点与连线无裁切、遮挡或乱码；图2上下文注入不声称内部协议；图3预览为可选。"
+      }
+    },
+    {
+      "file": "diagrams/01-object-entry.svg",
+      "kind": "研究者自绘概念图实际渲染件",
+      "bytes": 36432,
+      "sha256": "9d1dccb9fdf85c543cac3ab2cf8ec47f55e8081abeea9ec4b3e03a66ab2c0ab3",
+      "generated_at_utc": "2026-10-01T09:40:31+00:00",
+      "source_file": "diagrams/01-object-entry.mmd",
+      "original_url": null,
+      "source_pages": [
+        "https://www.palantir.com/docs/foundry/object-views/overview/",
+        "https://www.palantir.com/docs/foundry/workshop/widgets-object-view/"
+      ],
+      "viewBox": "0 -1 1394.7578125 826.9000244140625",
+      "render_tool": "Mermaid CLI 11.12.0; Chromium headless; PingFang SC; global htmlLabels=false",
+      "visual_qa": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-01T09:40:31+00:00",
+        "observations": "中文可读，节点与连线无裁切、遮挡或乱码；图2上下文注入不声称内部协议；图3预览为可选。"
+      }
+    },
+    {
+      "file": "diagrams/02-explore-detail-act.mmd",
+      "kind": "研究者自绘概念图源码",
+      "bytes": 1401,
+      "sha256": "fc2d0a25c45013d1b2f47c41970bfbfb9c4030d5d078d12519f103159fa038a7",
+      "generated_at_utc": "2026-10-01T09:40:31+00:00",
+      "source_file": "diagrams/02-explore-detail-act.mmd",
+      "original_url": null,
+      "source_pages": [
+        "https://www.palantir.com/docs/foundry/object-explorer/view-results/",
+        "https://www.palantir.com/docs/foundry/workshop/actions-use/"
+      ],
+      "render_tool": "Mermaid CLI 11.12.0; Chromium headless; PingFang SC; global htmlLabels=false",
+      "visual_qa": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-01T09:40:31+00:00",
+        "observations": "中文可读，节点与连线无裁切、遮挡或乱码；图2上下文注入不声称内部协议；图3预览为可选。"
+      }
+    },
+    {
+      "file": "diagrams/02-explore-detail-act.png",
+      "kind": "研究者自绘概念图实际渲染件",
+      "bytes": 140608,
+      "sha256": "a2b3f741c1cc92c4a4c4bb564fb26d980d6b8cb89e0e7c4ee56cdcef751444f5",
+      "generated_at_utc": "2026-10-01T09:40:31+00:00",
+      "source_file": "diagrams/02-explore-detail-act.mmd",
+      "original_url": null,
+      "source_pages": [
+        "https://www.palantir.com/docs/foundry/object-explorer/view-results/",
+        "https://www.palantir.com/docs/foundry/workshop/actions-use/"
+      ],
+      "width": 1092,
+      "height": 1364,
+      "render_tool": "Mermaid CLI 11.12.0; Chromium headless; PingFang SC; global htmlLabels=false",
+      "visual_qa": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-01T09:40:31+00:00",
+        "observations": "中文可读，节点与连线无裁切、遮挡或乱码；图2上下文注入不声称内部协议；图3预览为可选。"
+      }
+    },
+    {
+      "file": "diagrams/02-explore-detail-act.svg",
+      "kind": "研究者自绘概念图实际渲染件",
+      "bytes": 37717,
+      "sha256": "50f50ee8029f1d07cab37d981a192063fe965bb3dff256d4100eeb30dc648e0f",
+      "generated_at_utc": "2026-10-01T09:40:31+00:00",
+      "source_file": "diagrams/02-explore-detail-act.mmd",
+      "original_url": null,
+      "source_pages": [
+        "https://www.palantir.com/docs/foundry/object-explorer/view-results/",
+        "https://www.palantir.com/docs/foundry/workshop/actions-use/"
+      ],
+      "viewBox": "-50 -10 1092 1364",
+      "render_tool": "Mermaid CLI 11.12.0; Chromium headless; PingFang SC; global htmlLabels=false",
+      "visual_qa": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-01T09:40:31+00:00",
+        "observations": "中文可读，节点与连线无裁切、遮挡或乱码；图2上下文注入不声称内部协议；图3预览为可选。"
+      }
+    },
+    {
+      "file": "diagrams/03-save-publish.mmd",
+      "kind": "研究者自绘概念图源码",
+      "bytes": 1122,
+      "sha256": "61a862542ca40b9533613ab3aa10022cc1387c4f2d09bec3679a41dd0abeb49e",
+      "generated_at_utc": "2026-10-01T09:40:31+00:00",
+      "source_file": "diagrams/03-save-publish.mmd",
+      "original_url": null,
+      "source_pages": [
+        "https://www.palantir.com/docs/foundry/object-views/manage-versions/"
+      ],
+      "render_tool": "Mermaid CLI 11.12.0; Chromium headless; PingFang SC; global htmlLabels=false",
+      "visual_qa": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-01T09:40:31+00:00",
+        "observations": "中文可读，节点与连线无裁切、遮挡或乱码；图2上下文注入不声称内部协议；图3预览为可选。"
+      }
+    },
+    {
+      "file": "diagrams/03-save-publish.png",
+      "kind": "研究者自绘概念图实际渲染件",
+      "bytes": 91942,
+      "sha256": "5321a65a34f0f2b94ed434b5d774528e58f91bde0659402e8e135c01228f509e",
+      "generated_at_utc": "2026-10-01T09:40:31+00:00",
+      "source_file": "diagrams/03-save-publish.mmd",
+      "original_url": null,
+      "source_pages": [
+        "https://www.palantir.com/docs/foundry/object-views/manage-versions/"
+      ],
+      "width": 755,
+      "height": 965,
+      "render_tool": "Mermaid CLI 11.12.0; Chromium headless; PingFang SC; global htmlLabels=false",
+      "visual_qa": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-01T09:40:31+00:00",
+        "observations": "中文可读，节点与连线无裁切、遮挡或乱码；图2上下文注入不声称内部协议；图3预览为可选。"
+      }
+    },
+    {
+      "file": "diagrams/03-save-publish.svg",
+      "kind": "研究者自绘概念图实际渲染件",
+      "bytes": 33824,
+      "sha256": "2df3309e7057fb3b51044e474b37c9d79dfb0c33bbcd0516818cf02ce86cf173",
+      "generated_at_utc": "2026-10-01T09:40:31+00:00",
+      "source_file": "diagrams/03-save-publish.mmd",
+      "original_url": null,
+      "source_pages": [
+        "https://www.palantir.com/docs/foundry/object-views/manage-versions/"
+      ],
+      "viewBox": "0 0 754.6796875 964.2000122070312",
+      "render_tool": "Mermaid CLI 11.12.0; Chromium headless; PingFang SC; global htmlLabels=false",
+      "visual_qa": {
+        "status": "passed",
+        "checked_at_utc": "2026-10-01T09:40:31+00:00",
+        "observations": "中文可读，节点与连线无裁切、遮挡或乱码；图2上下文注入不声称内部协议；图3预览为可选。"
+      }
+    }
+  ]
+}

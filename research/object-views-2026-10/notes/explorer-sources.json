@@ -1,0 +1,175 @@
+{
+  "retrieved_at": "2026-10-01",
+  "scope": "Object Explorer 对象集探索、详情入口、Action、保存状态与跨应用链接",
+  "method_boundary": "公开文档正文读取及公开搜索索引；未访问 Foundry 租户，未观看视频，未下载媒体，未读取 EOS 代码。官方页面发布日期未标示时不推测发布日期。",
+  "sources": [
+    {
+      "id": "OE-01", "title": "Object Explorer overview", "publisher": "Palantir", "kind": "official-documentation",
+      "url": "https://www.palantir.com/docs/foundry/object-explorer/overview/", "accessed_on": "2026-10-01", "published_on": null,
+      "access": "public-body-read", "version_scope": "current-public-documentation-as-retrieved",
+      "supports": ["通用 Ontology 搜索/分析入口", "对象集、Object View、bulk Action、Open In、导出", "重新打开探索取得最新结果"],
+      "boundary": "未标示版本或发布日期；Quiver 是兼容应用示例，不能推及全部平台应用。"
+    },
+    {
+      "id": "OE-02", "title": "Getting started", "publisher": "Palantir", "kind": "official-documentation",
+      "url": "https://www.palantir.com/docs/foundry/object-explorer/getting-started/", "accessed_on": "2026-10-01", "published_on": null,
+      "access": "public-body-read", "version_scope": "current-public-documentation-as-retrieved",
+      "supports": ["全局搜索对象/类型/探索/modules", "object type groups 和类型预览", "超过250个可发现类型时全局keyword搜索范围限制"],
+      "boundary": "未在租户测试类型排序或超过250种类型时的实际默认顺序。"
+    },
+    {
+      "id": "OE-03", "title": "Filter results", "publisher": "Palantir", "kind": "official-documentation",
+      "url": "https://www.palantir.com/docs/foundry/object-explorer/filter-results/", "accessed_on": "2026-10-01", "published_on": null,
+      "access": "public-body-read", "version_scope": "current-public-documentation-as-retrieved",
+      "supports": ["属性/keyword/逻辑组合过滤", "有无关联、关联属性和关联到指定对象过滤"],
+      "boundary": "未执行复杂组合查询；UI过滤能力不能直接当外部search URL JSON能力。"
+    },
+    {
+      "id": "OE-04", "title": "Explore with charts", "publisher": "Palantir", "kind": "official-documentation",
+      "url": "https://www.palantir.com/docs/foundry/object-explorer/explore-charts/", "accessed_on": "2026-10-01", "published_on": null,
+      "access": "public-body-read", "version_scope": "current-public-documentation-as-retrieved",
+      "supports": ["主类型/linked类型属性聚合图表", "移除chart不移除filter", "Explorer Layout保存chart/columns/sorts/initialperspective", "personal default优先global default", "最近5个探索状态undo/redo", "20条预览card通向ObjectView"],
+      "boundary": "这是Explorer Layout，不是ObjectView version或Workshop module发布。undo/redo页面状态不等于Action数据回滚。"
+    },
+    {
+      "id": "OE-05", "title": "View results", "publisher": "Palantir", "kind": "official-documentation",
+      "url": "https://www.palantir.com/docs/foundry/object-explorer/view-results/", "accessed_on": "2026-10-01", "published_on": null,
+      "access": "public-body-read", "version_scope": "current-public-documentation-as-retrieved",
+      "supports": ["Title列打开新Object Explorer tab的ObjectView", "其他列/checkbox开启右侧Selection Preview", "多选前20对象预览和Compare objects", "inline edit action criteria进入和提交双重检查"],
+      "boundary": "未访问租户；Results当前配置的具体Full/Panel/Legacy默认选择需结合ObjectView专篇和租户验证。"
+    },
+    {
+      "id": "OE-06", "title": "Pivot to explore linked objects", "publisher": "Palantir", "kind": "official-documentation",
+      "url": "https://www.palantir.com/docs/foundry/object-explorer/pivot-linked/", "accessed_on": "2026-10-01", "published_on": null,
+      "access": "public-body-read", "version_scope": "current-public-documentation-as-retrieved",
+      "supports": ["沿linked object type切换探索主类型", "先筛选Airport再探索关联Departing Flights的官方例子"],
+      "boundary": "不把Pivot与原类型上的linked-property过滤混为一谈。"
+    },
+    {
+      "id": "OE-07", "title": "Compare object sets", "publisher": "Palantir", "kind": "official-documentation",
+      "url": "https://www.palantir.com/docs/foundry/object-explorer/compare-object-sets/", "accessed_on": "2026-10-01", "published_on": null,
+      "access": "public-body-read", "version_scope": "current-public-documentation-as-retrieved",
+      "supports": ["对比两组动态或已保存的对象集", "图表并排/联合filter/保留操作", "Comparison保存与分享", "分享不授予linked explorations和underlying objects权限"],
+      "boundary": "不是单个对象详情的Compare objects；文档例子为同一object type，不宣称可任意跨类型对比。"
+    },
+    {
+      "id": "OE-08", "title": "Save explorations", "publisher": "Palantir", "kind": "official-documentation",
+      "url": "https://www.palantir.com/docs/foundry/object-explorer/save-explorations/", "accessed_on": "2026-10-01", "published_on": null,
+      "access": "public-body-read", "version_scope": "current-public-documentation-as-retrieved",
+      "supports": ["保存search parameters/filters/layout", "Private home与Public指定位置权限", "禁止home保存时禁用Private", "分享不授予对象数据权限"],
+      "boundary": "不是对象数据快照；未承诺任意嵌入应用变量、表单状态或所有ObjectView页签状态一并保存。"
+    },
+    {
+      "id": "OE-09", "title": "Save lists", "publisher": "Palantir", "kind": "official-documentation",
+      "url": "https://www.palantir.com/docs/foundry/object-explorer/save-lists/", "accessed_on": "2026-10-01", "published_on": null,
+      "access": "public-body-read", "version_scope": "current-public-documentation-as-retrieved",
+      "supports": ["静态对象名单须手动更新", "可保存全体结果或显式勾选", "Private/Public位置权限", "分享不授予数据权限"],
+      "boundary": "静态成员不等于冻结属性值或保留已删对象；文档未给业务审计快照保证。"
+    },
+    {
+      "id": "OE-10", "title": "Apply Actions", "publisher": "Palantir", "kind": "official-documentation",
+      "url": "https://www.palantir.com/docs/foundry/object-explorer/apply-actions/", "accessed_on": "2026-10-01", "published_on": null,
+      "access": "public-body-read", "version_scope": "current-public-documentation-as-retrieved",
+      "supports": ["Actions/Open In/Export三类", "选中对象或无选择时全部结果传表单", "超过1000选择不可用", "参数预填歧义则不预填"],
+      "boundary": "1000是Explorer所述限制，不是全部Action API或后台bulk流程统一上限。Open In只针对兼容目标。"
+    },
+    {
+      "id": "OE-11", "title": "Generate Object Explorer URLs", "publisher": "Palantir", "kind": "official-documentation",
+      "url": "https://www.palantir.com/docs/foundry/object-explorer/generate-urls/", "accessed_on": "2026-10-01", "published_on": null,
+      "access": "public-body-read", "version_scope": "current-public-documentation-with-explicit-stale-example-warning",
+      "supports": ["keyword/search/objectTypeId/saved/external-objectSet路由", "perspectiveId=results", "复杂search JSON需从当前hubble_get_current_search获取", "多PROPERTY filter但仅1 LINK filter"],
+      "boundary": "页面明确JSON示例可能过时；只记录公开文档格式，未执行租户URL或console命令。不能推导共享所有源应用运行时状态。"
+    },
+    {
+      "id": "OE-12", "title": "Configure Object Explorer", "publisher": "Palantir", "kind": "official-documentation",
+      "url": "https://www.palantir.com/docs/foundry/object-explorer/configure/", "accessed_on": "2026-10-01", "published_on": null,
+      "access": "public-body-read", "version_scope": "current-public-documentation-with-development-warning-and-older-ui-examples",
+      "supports": ["Action成功toast的ObjectView链接typeclass", "hubble-oe:hide-action隐藏自动入口", "开发中的DynamicObjectSet Action将过滤表达和RID写入对象属性", "security-rid指定集合权限来源且集合不作为Project可搜索资源暴露"],
+      "boundary": "DynamicObjectSet Action明确可无自动迁移弃用；其旧式Linked Objects Exploration widget配置不能当全平台稳定合同。Ontology Editor名称/截图未租户核实。"
+    },
+    {
+      "id": "OE-13", "title": "Use actions in the platform", "publisher": "Palantir", "kind": "official-documentation",
+      "url": "https://www.palantir.com/docs/foundry/action-types/use-actions/", "accessed_on": "2026-10-01", "published_on": null,
+      "access": "public-body-read", "version_scope": "current-public-documentation-including-legacy-objectview-ui-description",
+      "supports": ["object reference与object reference list对应single/bulk上下文", "bulk按参数object type匹配", "Explorer三处适用Action自动发现入口"],
+      "boundary": "ObjectView Actions section与截图存在历史形态，不保证所有当前configured/full/panel ObjectView都显示同一位置/配置UI。"
+    },
+    {
+      "id": "OE-14", "title": "Action types Permissions", "publisher": "Palantir", "kind": "official-documentation",
+      "url": "https://www.palantir.com/docs/foundry/action-types/permissions/", "accessed_on": "2026-10-01", "published_on": null,
+      "access": "public-body-read", "version_scope": "current-public-documentation-as-retrieved",
+      "supports": ["view/edit/apply分别判断", "Action提交依赖类型/数据源可见性和submissioncriteria", "允许Action之外编辑时的writeback或restricted-view权限"],
+      "boundary": "须结合对象安全方案和Read/write authorizations可用性解释，不能简化为单一页面可见权限。"
+    },
+    {
+      "id": "OE-15", "title": "Read and write authorizations", "publisher": "Palantir", "kind": "official-documentation",
+      "url": "https://www.palantir.com/docs/foundry/action-types/read-write-authorizations/", "accessed_on": "2026-10-01", "published_on": null,
+      "access": "public-body-read-beta-notice", "version_scope": "Beta",
+      "supports": ["Read/write authorizations标Beta，未必所有enrollment开启"],
+      "boundary": "本附录仅引用可用性/版本边界，未声称验证所有细节或某租户已启用。"
+    },
+    {
+      "id": "OE-16", "title": "Object permissioning overview", "publisher": "Palantir", "kind": "official-documentation",
+      "url": "https://www.palantir.com/docs/foundry/object-permissioning/overview/", "accessed_on": "2026-10-01", "published_on": null,
+      "access": "public-body-read", "version_scope": "current-public-documentation-as-retrieved",
+      "supports": ["Ontology schema资源与objects/links数据两层授权"],
+      "boundary": "不把object type定义和实例数据当同一个授权资源。"
+    },
+    {
+      "id": "OE-17", "title": "Ontology permissions", "publisher": "Palantir", "kind": "official-documentation",
+      "url": "https://www.palantir.com/docs/foundry/object-permissioning/ontology-permissions/", "accessed_on": "2026-10-01", "published_on": null,
+      "access": "public-body-read", "version_scope": "current-project-based-resource-permissions",
+      "supports": ["Ontology resources保存于Compass project并由project决定view/edit/manage"],
+      "boundary": "不使用Legacy ontology permissions页作为当前project-based机制事实。"
+    },
+    {
+      "id": "OE-18", "title": "Manage object security", "publisher": "Palantir", "kind": "official-documentation",
+      "url": "https://www.palantir.com/docs/foundry/object-permissioning/managing-object-security/", "accessed_on": "2026-10-01", "published_on": null,
+      "access": "public-body-read", "version_scope": "current-public-documentation-as-retrieved",
+      "supports": ["object/property policies与data source policies", "cell-level包含row/column层级"],
+      "boundary": "未测试受限属性聚合、linked filtering和保存分享的具体UI退化。"
+    },
+    {
+      "id": "OE-19", "title": "Ontology Object Set basics", "publisher": "Palantir", "kind": "official-api-reference",
+      "url": "https://www.palantir.com/docs/foundry/api/v2/ontologies-v2-resources/ontology-object-sets/ontology-object-set-basics/", "accessed_on": "2026-10-01", "published_on": null,
+      "access": "public-body-read", "version_scope": "API v2",
+      "supports": ["ObjectSet表示Ontology中的对象组，可对多个对象操作"],
+      "boundary": "定义概念不代表Explorer内部源码或持久化结构。"
+    },
+    {
+      "id": "OE-20", "title": "Load Object Set", "publisher": "Palantir", "kind": "official-api-reference",
+      "url": "https://www.palantir.com/docs/foundry/api/ontologies-v2-resources/ontology-object-sets/load-object-set/", "accessed_on": "2026-10-01", "published_on": null,
+      "access": "public-body-read", "version_scope": "API v2",
+      "supports": ["定义输入与分页objects输出分离", "snapshot paging语义是API参数", "OSv1/OSv2加载限制区别"],
+      "boundary": "未调用API；不把API snapshot推导为Explorer List冻结属性值，不把API限制套Explorer UI。"
+    },
+    {
+      "id": "OE-21", "title": "Create Temporary Object Set", "publisher": "Palantir", "kind": "official-api-reference",
+      "url": "https://www.palantir.com/docs/foundry/api/v2/ontologies-v2-resources/ontology-object-sets/create-temporary-object-set/", "accessed_on": "2026-10-01", "published_on": null,
+      "access": "public-body-read", "version_scope": "API v2 Preview",
+      "supports": ["定义创建temporaryObjectSet并返回RID", "一小时过期", "Preview可修改或删除"],
+      "boundary": "临时RID不能替代持久Saved Exploration或List。未调用此写API。"
+    },
+    {
+      "id": "OE-22", "title": "Clickable object RID", "publisher": "Palantir Developer Community; gdf / joshOntologize", "kind": "community-user-report-and-author-reply",
+      "url": "https://community.palantir.com/t/clickable-object-rid/2228", "accessed_on": "2026-10-01", "published_on": "2024-12-16", "last_cited_reply_on": "2024-12-17",
+      "access": "public-body-read", "version_scope": "historical-user-observation",
+      "supports": ["2024年用户把对象RID当文件资源RID的导航误解", "作者建议显式ObjectViewURL并在Workshop用URLRedirect列"],
+      "boundary": "不可作为2026年Explorer永远不支持对象链接的保证；截图属于作者/用户观察而非本次租户亲测。"
+    },
+    {
+      "id": "OE-23", "title": "Intro to Object Explorer", "publisher": "Ontologize", "kind": "public-author-video-candidate",
+      "url": "https://www.youtube.com/watch?v=YuT96FVeDuc", "accessed_on": "2026-10-01", "published_on": "2024-10-17",
+      "access": "Initial direct body fetch failed; final public browser description/date/chapters read, as registered in MV01; player failed and transcript unavailable", "version_scope": "historical-author-tutorial-metadata-only",
+      "supports": ["公开浏览器描述核实作者、标题、2024-10-17发布日期与章节；最终范围见MV01"],
+      "boundary": "未观看视频内容、未取帧；不是Palantir官方频道视频。"
+    },
+    {
+      "id": "OE-24", "title": "Training Track - Data Analyst", "publisher": "Palantir Learn", "kind": "official-learning-directory",
+      "url": "https://learn.palantir.com/page/training-track-data-analyst", "accessed_on": "2026-10-01", "published_on": null,
+      "access": "search-metadata-only; direct-open-internal-error", "version_scope": "directory-as-indexed",
+      "supports": ["官方培训目录收录Ontologize: Intro to Object Explorer的索引线索"],
+      "boundary": "目录收录不等于官方平台保证，不声称完成视频课程。"
+    }
+  ]
+}
