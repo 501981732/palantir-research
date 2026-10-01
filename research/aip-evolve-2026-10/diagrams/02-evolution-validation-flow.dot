@@ -1,0 +1,29 @@
+digraph validation_flow {
+  graph [rankdir=TB, bgcolor="#FFFFFF", fontname="PingFang SC", fontsize=25,
+    label="AIP Evolve：基线、候选与验证闭环\n公开资料概念归纳，非官方内部实现", labelloc=t,
+    pad=0.35, nodesep=0.55, ranksep=0.52, splines=polyline, dpi=160];
+  node [shape=box, style="rounded,filled", fontname="PingFang SC", fontsize=19,
+    color="#8DA2B5", fontcolor="#183147", fillcolor="#F4F7FA", margin="0.22,0.14", penwidth=1.3];
+  edge [fontname="PingFang SC", fontsize=15, fontcolor="#456174", color="#637E91", arrowsize=0.75, penwidth=1.4];
+
+  baseline [label="检查目标并建立基线\n保留原行为与基线输出", fillcolor="#E8F3F0", color="#529382"];
+  cases [label="构造 / 选择验证用例\n官方示例：10 个代表性用例", fillcolor="#EDF5FC", color="#709ABC"];
+  candidate [label="形成候选变更\n官方示例：更换模型、调整 prompt", fillcolor="#EEEAF7", color="#9477BC"];
+  validate [label="对照基线验证\n检查输出、指标与质量回归", fillcolor="#EDF5FC", color="#709ABC"];
+  decision [shape=diamond, style=filled, label="目标与限制检查\n继续 / 结束？", fillcolor="#FFF4DF", color="#BD9753", margin="0.13,0.07"];
+  report [label="报告 / Proposal\n推荐变更与验证证据\n人工核查置信评估和限制", fillcolor="#E8F3F0", color="#529382"];
+  resume [label="Resume（可选）\n附加指令后继续 AI FDE evolution", fillcolor="#E8EEF9", color="#6887BD"];
+  limits [label="目标与运行限制\n示例最多 5 轮，实际完成 3 轮\n不代表默认值或统一算法", fillcolor="#FFF8EA", color="#B7A070", fontsize=17];
+  { rank=same; candidate; limits; }
+
+  baseline -> cases -> candidate -> validate -> decision;
+  limits -> candidate [style=dashed, label="约束"];
+  decision -> candidate [style=dashed, label="仍需探索"];
+  decision -> report [label="完成 / 到达限制"];
+  report -> resume [style=dashed, label="审阅后可继续"];
+  resume -> candidate [style=dashed, label="继续探索"];
+
+  boundary [shape=plain, fontsize=15, fontcolor="#647789",
+    label="图中顺序是概念归纳；具体调度、候选选择与停止判定未公开。\n未据此主张 beam / evolution 算法、固定 agent DAG 或严格代码修改预算。"];
+  resume -> boundary [style=invis];
+}

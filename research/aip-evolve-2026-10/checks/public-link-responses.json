@@ -1,0 +1,638 @@
+[
+  {
+    "url": "https://community.palantir.com/t/aip-evolve-install-error/7255",
+    "status": 200,
+    "final_url": "https://community.palantir.com/t/aip-evolve-install-error/7255",
+    "bytes": 24592,
+    "sha256": "2aeb761ab70e0a45bc189ffe59a307194f74a52939f837408d12cf9b60e7e43e",
+    "title": "AIP Evolve Install Error - Ask the Community - Palantir Developer Community",
+    "h1": [
+      "AIP Evolve Install Error"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://community.palantir.com/t/aip-evolve-questions-feedback/7148",
+    "status": 200,
+    "final_url": "https://community.palantir.com/t/aip-evolve-questions-feedback/7148",
+    "bytes": 23344,
+    "sha256": "5416a24bad101645440b53e3bd07e6cdf6e2bde7ddcdd93c6940c9578c300efa",
+    "title": "AIP Evolve Questions/Feedback - Ask the Community - Palantir Developer Community",
+    "h1": [
+      "AIP Evolve Questions/Feedback"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://community.palantir.com/t/aip-evolve-questions-feedback/7148.json",
+    "status": 200,
+    "final_url": "https://community.palantir.com/t/aip-evolve-questions-feedback/7148.json",
+    "bytes": 19504,
+    "sha256": "e4a5834165c5e1a68e4222d6f295ba5161953ea40b5252eefbab2f04d4307382",
+    "title": null,
+    "h1": [],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://community.palantir.com/t/aip-evolve-where-s-the-tutorial/6526",
+    "status": 200,
+    "final_url": "https://community.palantir.com/t/aip-evolve-where-s-the-tutorial/6526",
+    "bytes": 15858,
+    "sha256": "97081bc2b48bdbfe60cd6ac0356e485f811d4b87291e53270e06cab528410a8c",
+    "title": "AIP Evolve? Where’s the tutorial? - Ask the Community - Palantir Developer Community",
+    "h1": [
+      "AIP Evolve? Where’s the tutorial?"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/action-types/branching-action-types",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/action-types/branching-action-types",
+    "bytes": 452043,
+    "sha256": "ee2958af03b7b7ae8e59c0880a35fc3349f656f1a08113705f1088a9d3253e40",
+    "title": "Action types • Branching action types • Palantir",
+    "h1": [
+      "Branching action types"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/ai-fde/best-practices",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/ai-fde/best-practices",
+    "bytes": 295737,
+    "sha256": "3c9ac3a1077a555872764e817e28b3d4513acf3e63ccdd009988ef77c2e48f8f",
+    "title": "AI FDE • Best practices • Palantir",
+    "h1": [
+      "Best practices for using AI FDE"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/ai-fde/modes-and-capabilities",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/ai-fde/modes-and-capabilities",
+    "bytes": 293935,
+    "sha256": "c2ff84e239ca7488427230fcc105bb4a01221667a7c709c50cc822d1d340888e",
+    "title": "AI FDE • Modes and capabilities • Palantir",
+    "h1": [
+      "Modes and capabilities"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/ai-fde/navigation",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/ai-fde/navigation",
+    "bytes": 295327,
+    "sha256": "5b502536c7c8581163e315c96d519220818d1798b40c4e8a7292df82f405deaa",
+    "title": "AI FDE • Navigation • Palantir",
+    "h1": [
+      "Navigation"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/ai-fde/overview",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/ai-fde/overview",
+    "bytes": 300970,
+    "sha256": "f6ef82c14a18783e3b459cfcade3c726ab93a4c31a3dab256d81fecabca01307",
+    "title": "AI FDE • Overview • Palantir",
+    "h1": [
+      "AI FDE"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/ai-fde/security-and-governance",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/ai-fde/security-and-governance",
+    "bytes": 297162,
+    "sha256": "6066ef3e73fb3c6a6081638c4f2048d8d2547f0f1c0b05b4df5f34449e7df17e",
+    "title": "AI FDE • Security and governance • Palantir",
+    "h1": [
+      "Security and governance"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/aip-evals/create-suite",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/aip-evals/create-suite",
+    "bytes": 319554,
+    "sha256": "c7cd580b1ac4fbc4405d70d28b1e9a24dbb5ce9a58d1fb7198d954340ad0ece2",
+    "title": "AIP Evals • Create an evaluation suite • Palantir",
+    "h1": [
+      "Create an evaluation suite"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/aip-evals/experiments",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/aip-evals/experiments",
+    "bytes": 310155,
+    "sha256": "8d576777043e25c026db24fa995d8aa18a6c90969a1a59d5699e0ec13ac20313",
+    "title": "AIP Evals • Run experiments • Palantir",
+    "h1": [
+      "Run experiments"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/aip-evals/intermediate-parameters",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/aip-evals/intermediate-parameters",
+    "bytes": 286155,
+    "sha256": "955b6b363f6e1ae10add98398e16d722bc08157ce595faeccc4d64e55fe00b57",
+    "title": "AIP Evals • Use intermediate parameters to evaluate block output • Palantir",
+    "h1": [
+      "Use intermediate parameters to evaluate block output"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/aip-evals/ontology-edits",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/aip-evals/ontology-edits",
+    "bytes": 301783,
+    "sha256": "d6be29cbd555520a374dc9006f97c860f899e8641194b5d8be6b94123d1c665b",
+    "title": "AIP Evals • Evaluate Ontology edits • Palantir",
+    "h1": [
+      "Evaluation functions and Ontology edits"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/aip-evals/overview",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/aip-evals/overview",
+    "bytes": 288223,
+    "sha256": "cc02787a32c9b54b1be122e7b2395cef226b5e8b846bc6b6e2a7aa8c2cdf06ca",
+    "title": "AIP Evals • Overview • Palantir",
+    "h1": [
+      "AIP Evals"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/aip-evals/run-suite",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/aip-evals/run-suite",
+    "bytes": 309638,
+    "sha256": "77258d51cd0c98cf1cda2a947b8077fef2c7ea1ea41410802d32d972858dd5c5",
+    "title": "AIP Evals • Run an evaluation suite • Palantir",
+    "h1": [
+      "Run an evaluation suite"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/aip-evolve/overview",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/aip-evolve/overview",
+    "bytes": 291529,
+    "sha256": "209aaa36b12a493a56da019b0d4d521def31c5d255da5be7214e3ea7391b540f",
+    "title": "AIP Evolve • Overview • Palantir",
+    "h1": [
+      "AIP Evolve"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/aip/aip-compute-usage",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/aip/aip-compute-usage",
+    "bytes": 370744,
+    "sha256": "9502e6363978e369e984d90c7b6aac2f7428a299fd5b451c16ef72f04a01687e",
+    "title": "Compute usage with AIP • Palantir",
+    "h1": [
+      "Compute usage with AIP"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/aip/aip-security",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/aip/aip-security",
+    "bytes": 306280,
+    "sha256": "85bbccfad92af214c3a46ab42afb31c397f1178948055c28a22fe6e7584c45e5",
+    "title": "AIP security and privacy • Palantir",
+    "h1": [
+      "AIP security and privacy"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/announcements/2026-08",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/announcements/2026-08",
+    "bytes": 463654,
+    "sha256": "b4c38b996a541599e03c3358883b7c595799a59bd628ea1762feeb95d0faaa15",
+    "title": "August 2026 • Announcements • Palantir",
+    "h1": [
+      "Announcements"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/announcements/2026-09",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/announcements/2026-09",
+    "bytes": 485304,
+    "sha256": "10f5925e92993d51435eb78f7f02b485acb38e4029753f0cc6953ad5c8bb214f",
+    "title": "September 2026 • Announcements • Palantir",
+    "h1": [
+      "Announcements"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/developer-console/application-restrictions",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/developer-console/application-restrictions",
+    "bytes": 387903,
+    "sha256": "b22173ea21f06fa28bf5c04f5e9e35a9ee7c1d8cb64b1b8a27fccbedd9170549",
+    "title": "Developer Console • Core concepts • Application restrictions • Palantir",
+    "h1": [
+      "Application restrictions"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/global-branching/branch-security",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/global-branching/branch-security",
+    "bytes": 347130,
+    "sha256": "2101c05bffe3ce6ce7302e4ad81db2b09ec2677a0f7800ef778b90cc8bee9074",
+    "title": "Global Branching • Branch security • Palantir",
+    "h1": [
+      "Branch security"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/global-branching/core-concepts",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/global-branching/core-concepts",
+    "bytes": 377064,
+    "sha256": "19b3e3e11c83864a7d1b260a90577141123f1a70cec123a338626a47c7770a3b",
+    "title": "Global Branching • Core concepts • Palantir",
+    "h1": [
+      "Core concepts"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/global-branching/integrations",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/global-branching/integrations",
+    "bytes": 332117,
+    "sha256": "c4a1cf853cf0663c0a89c16e5f60f40148679aa1a6b5ff0a9f67d2266605b086",
+    "title": "Global Branching • Integrations • Palantir",
+    "h1": [
+      "Integrations"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/global-branching/resource-protection-and-approval-policies",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/global-branching/resource-protection-and-approval-policies",
+    "bytes": 350908,
+    "sha256": "0097fc221acc9522bbbded40ebff1a781dd2c84b4852bec377309faaf56730c9",
+    "title": "Global Branching • Resource protection and approval policies • Palantir",
+    "h1": [
+      "Resource protection and project approval policies"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/logic/branching-logic",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/logic/branching-logic",
+    "bytes": 310221,
+    "sha256": "1644df17480497d3d44cf7d278c4edda8051aae00be2b6e7569ea7d36b9b423c",
+    "title": "AIP Logic • Branching AIP Logic • Palantir",
+    "h1": [
+      "Branching AIP Logic"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/logic/core-concepts",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/logic/core-concepts",
+    "bytes": 294589,
+    "sha256": "94f232ddaeeb99ba90919d1f017b555259fa5dbc7b839f806854c8259db35148",
+    "title": "AIP Logic • Core concepts • Palantir",
+    "h1": [
+      "Core concepts"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/logic/faq",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/logic/faq",
+    "bytes": 322746,
+    "sha256": "aec034893567bb7312962f4de87a79ab08f42992775cafd5d26ad0f9cf713382",
+    "title": "AIP Logic • FAQ • Palantir",
+    "h1": [
+      "AIP Logic FAQ"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/ontology-mcp/authentication-and-authorization",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/ontology-mcp/authentication-and-authorization",
+    "bytes": 332098,
+    "sha256": "b23ab854f34e95fb62f1fe55d8fc371825556bd7ac0c5c5909acedc2539a0da1",
+    "title": "Ontology MCP • Authentication and authorization • Palantir",
+    "h1": [
+      "Authentication and authorization"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/ontology-mcp/debugging-with-mcp-inspector",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/ontology-mcp/debugging-with-mcp-inspector",
+    "bytes": 340151,
+    "sha256": "1e5f5423ebef9acac58ab4e2297166ae3927da7412f034afff2682ec3ac8f7d5",
+    "title": "Ontology MCP • Debugging with MCP Inspector • Palantir",
+    "h1": [
+      "Debugging with MCP Inspector"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/ontology-mcp/example-mcp-workflows",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/ontology-mcp/example-mcp-workflows",
+    "bytes": 331151,
+    "sha256": "f127d39ec6d6bd808e548ed7e2a2986a195366bc2e9ca3dfb006770530cd709e",
+    "title": "Ontology MCP • Example MCP workflows • Palantir",
+    "h1": [
+      "Example use cases for Ontology MCP (OMCP)"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/ontology-mcp/mcp-tools-and-agent-configuration",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/ontology-mcp/mcp-tools-and-agent-configuration",
+    "bytes": 377482,
+    "sha256": "1f92b81a65d6eba18f4666c9613dba7b9225a4e797e7543b5d6f8fb04872afdd",
+    "title": "Ontology MCP • MCP tools and agent configuration • Palantir",
+    "h1": [
+      "MCP tools and agent configuration"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/ontology-mcp/overview",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/ontology-mcp/overview",
+    "bytes": 332622,
+    "sha256": "37a71eb16f6ab02bb184176172bbad96ce98c3ad8b3a94f5be46e01ee123b160",
+    "title": "Ontology MCP • Overview • Palantir",
+    "h1": [
+      "Ontology MCP (OMCP)"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/ontology-mcp/sample-architecture",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/ontology-mcp/sample-architecture",
+    "bytes": 337715,
+    "sha256": "0624355435a290a703a5531f19cad4ad3931dbdfbbabc18269d8f462127c3120",
+    "title": "Ontology MCP • Sample architecture • Palantir",
+    "h1": [
+      "Sample architecture"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/palantir-mcp/available-tools",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/palantir-mcp/available-tools",
+    "bytes": 369017,
+    "sha256": "bc20f641174f02e9d16aedb641d66a1b9d5b85a4b6bac132b8e95ffa87331954",
+    "title": "Palantir MCP • Available tools • Palantir",
+    "h1": [
+      "Available tools"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/palantir-mcp/installation",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/palantir-mcp/installation",
+    "bytes": 379234,
+    "sha256": "99a6d8810a7b005f02538eb9466f49bc95a3f46728b5085167761fff829ed739",
+    "title": "Palantir MCP • Installation • Palantir",
+    "h1": [
+      "Installation"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/palantir-mcp/overview",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/palantir-mcp/overview",
+    "bytes": 338487,
+    "sha256": "a895a8de127c0070b18cf8dc107f64afd5f047cc95f1494c79e074edccce233a",
+    "title": "Palantir MCP • Overview • Palantir",
+    "h1": [
+      "Palantir MCP"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/palantir-mcp/security",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/palantir-mcp/security",
+    "bytes": 333515,
+    "sha256": "770093fe0bf5dcf97aa919b31ec77517bad93f7ef173775d0b991fcb36170fa5",
+    "title": "Palantir MCP • Security • Palantir",
+    "h1": [
+      "Data governance"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/palantir-mcp/tool-search",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/palantir-mcp/tool-search",
+    "bytes": 343584,
+    "sha256": "9c4959913c27bcb1f396b832f0c5f9e49410798ae1d8681849c0574f57d0f8e5",
+    "title": "Palantir MCP • Tool search • Palantir",
+    "h1": [
+      "Tool search"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/pilot/deploy-a-widget",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/pilot/deploy-a-widget",
+    "bytes": 389110,
+    "sha256": "5302c03971690cc65635bf8655b4caba6397a5eebff59c8c9c9ecd799b9d5a1a",
+    "title": "Pilot • How-to guides • Deploy a custom widget • Palantir",
+    "h1": [
+      "Deploy a custom widget"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/pilot/deploy-an-application",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/pilot/deploy-an-application",
+    "bytes": 419447,
+    "sha256": "8d486e8b69c2f80c7678e0b5d660befc6a5776763d2d0fd7175b885c93ed419f",
+    "title": "Pilot • How-to guides • Deploy an application • Palantir",
+    "h1": [
+      "Deploy an application"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/pilot/overview",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/pilot/overview",
+    "bytes": 395503,
+    "sha256": "44f1e047620731b97998505ae6c495ea0ec9ad5ea35a36cd47edc61bb43335c7",
+    "title": "Pilot • Overview • Palantir",
+    "h1": [
+      "Pilot"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/pilot/workspace-overview",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/pilot/workspace-overview",
+    "bytes": 406635,
+    "sha256": "d1b29925763c9cefaf4b71329b01c7bf23161d567d151049c703cb775fce16f4",
+    "title": "Pilot • The Pilot workspace • Overview • Palantir",
+    "h1": [
+      "The Pilot workspace"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/workshop/functions-use",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/workshop/functions-use",
+    "bytes": 412378,
+    "sha256": "af7ecb47b3b38987e1dbedb1a8ae56ce77c76718bedf9aebc33ef9b2f6f97ed7",
+    "title": "Workshop • Functions on objects (FOO) • Use functions in Workshop • Palantir",
+    "h1": [
+      "Use Functions in Workshop"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/workshop/performance-profiler",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/workshop/performance-profiler",
+    "bytes": 383723,
+    "sha256": "874346fe76de438fbf7fe5a84a6b452923053e7cf0519b43709e45cc74db079c",
+    "title": "Workshop • Performance Profiler • Palantir",
+    "h1": [
+      "Performance Profiler"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/workshop/versions",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/workshop/versions",
+    "bytes": 392313,
+    "sha256": "3117417bb126c9eed9b78ad18eba4876c9889eba5b57d5977fd791af00d9adbe",
+    "title": "Workshop • Publishing and versioning • Palantir",
+    "h1": [
+      "Publishing and versioning"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/workshop/widget-display-optimization",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/workshop/widget-display-optimization",
+    "bytes": 408011,
+    "sha256": "66d8d8962759944616283b5b2789399edfa741cb6d6e28e1415803d35ae7eb4c",
+    "title": "Workshop • Widget display optimization • Palantir",
+    "h1": [
+      "Widget display optimization"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/resources/foundry/aip-evolve/aip-evolve-workflow-1.png",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/resources/foundry/aip-evolve/aip-evolve-workflow-1.png",
+    "bytes": 138497,
+    "sha256": "1e52423b4c7e5c21bb1bf81ed551748bf207d6f0b31eb04ccb978c58be5ad42f",
+    "title": null,
+    "h1": [],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/resources/foundry/aip-evolve/aip-evolve-workflow-2.png",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/resources/foundry/aip-evolve/aip-evolve-workflow-2.png",
+    "bytes": 178243,
+    "sha256": "27554622366859f630e5ceeb393f8e0dd49c629c1bd12fb4637b921b8bf17a80",
+    "title": null,
+    "h1": [],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/resources/foundry/aip-evolve/aip-evolve-workflow-3.png",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/resources/foundry/aip-evolve/aip-evolve-workflow-3.png",
+    "bytes": 126396,
+    "sha256": "04c7ccf7826e6b67539b0b255b5ed26574e7e035aa7edac5c9999db2cce26e63",
+    "title": null,
+    "h1": [],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/platform-overview/development-life-cycle",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/platform-overview/development-life-cycle",
+    "bytes": 278540,
+    "sha256": "b54c8b0b4757cc8390b9facacd17f5a87f1aea6c901837b14a399610d56d1596",
+    "title": "Platform overview â¢ Development lifecycle â¢ Palantir",
+    "headings": [
+      "Getting started",
+      "Development lifecycle",
+      "Phases of development: Summary",
+      "Phases of development",
+      "Contents"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/workflow-lineage/overview",
+    "status": 200,
+    "final_url": "https://www.palantir.com/docs/foundry/workflow-lineage/overview",
+    "bytes": 393854,
+    "sha256": "48eb82d2fdc0827cacf2a031bcf9be70b2e4b841c62a1d7581a79cc51ec1f9fc",
+    "title": "Workflow Lineage â¢ Overview â¢ Palantir",
+    "headings": [
+      "Use case development",
+      "Workflow Lineage",
+      "When to use Workflow Lineage",
+      "Access control",
+      "Contents"
+    ],
+    "retrieved_date_utc": "2026-10-01"
+  }
+]
