@@ -1,0 +1,1335 @@
+{
+  "retrieved": "2026-10-01T01:06:25.202673+00:00",
+  "packages": [
+    {
+      "name": "@osdk/api",
+      "version": "2.75.0",
+      "license": "Apache-2.0",
+      "registry": "https://registry.npmjs.org/@osdk/api/2.75.0",
+      "metadata": {
+        "bugs": {
+          "url": "https://github.com/palantir/osdk-ts/issues"
+        },
+        "dist": {
+          "shasum": "291d4935d048e94dc1eca1e703f5369ddc28cf42",
+          "tarball": "https://registry.npmjs.org/@osdk/api/-/api-2.75.0.tgz",
+          "fileCount": 598,
+          "integrity": "sha512-mv/yIHOXVuibDwL2MbrIrNmoxVRDLoMS+shnWFb22JPl89oscbPvtdiNYAOzEEwMzxsloFLSWLveGjbh8bGO2Q==",
+          "signatures": [
+            {
+              "sig": "MEUCIQCII7swHyNfr+e1+UH2QDeVZoYLiJa1mdVQNNDU90qoSQIgXtXW1Iu/Y/NiH64S6SQyimzoeARlCCumX2DBO+BlJdQ=",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "sig": "MEUCIGil5YS2D6zLvzEnBt9ry3DXP82wT4L46p2jaJfDIRptAiEA2DTp80I52iwKw3o7nOuvIUktsgxLjzL/aOo8cgW4pl0=",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/@osdk%2fapi@2.75.0",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 1539849
+        },
+        "main": "./build/cjs/index.cjs",
+        "name": "@osdk/api",
+        "type": "module",
+        "_from": "file:osdk-api-2.75.0.tgz",
+        "types": "./build/cjs/index.d.cts",
+        "access": "public",
+        "module": "./build/esm/index.js",
+        "exports": {
+          ".": {
+            "import": {
+              "types": "./build/types/index.d.ts",
+              "default": "./build/esm/index.js"
+            },
+            "browser": "./build/browser/index.js",
+            "default": "./build/browser/index.js",
+            "require": "./build/cjs/index.cjs"
+          },
+          "./*": {
+            "import": {
+              "types": "./build/types/public/*.d.ts",
+              "default": "./build/esm/public/*.js"
+            },
+            "browser": "./build/browser/public/*.js",
+            "default": "./build/browser/public/*.js",
+            "require": "./build/cjs/public/*.cjs"
+          },
+          "./unstable": {
+            "import": {
+              "types": "./build/types/public/unstable.d.ts",
+              "default": "./build/esm/public/unstable.js"
+            },
+            "browser": "./build/browser/public/unstable.js",
+            "default": "./build/browser/public/unstable.js",
+            "require": "./build/cjs/public/unstable.cjs"
+          },
+          "./shapes-internal": {
+            "import": {
+              "types": "./build/types/public/shapes-internal.d.ts",
+              "default": "./build/esm/public/shapes-internal.js"
+            },
+            "browser": "./build/browser/public/shapes-internal.js",
+            "default": "./build/browser/public/shapes-internal.js",
+            "require": "./build/cjs/public/shapes-internal.cjs"
+          }
+        },
+        "license": "Apache-2.0",
+        "scripts": {
+          "lint": "oxlint -c ./oxlint.config.ts . && oxfmt -c ../../oxfmt.config.ts --check .",
+          "test": "vitest run --pool=forks",
+          "clean": "rm -rf lib dist types build tsconfig.tsbuildinfo",
+          "fix-lint": "oxlint -c ./oxlint.config.ts --fix . && oxfmt -c ../../oxfmt.config.ts .",
+          "check-api": "api-extractor run --verbose --local",
+          "typecheck": "tsc --noEmit --emitDeclarationOnly false",
+          "check-attw": "attw --pack .",
+          "test:watch": "vitest",
+          "transpileCjs": "monorepo.tool.transpile -f cjs -m bundle -t node",
+          "transpileEsm": "monorepo.tool.transpile -f esm -m normal -t node",
+          "check-spelling": "cspell --quiet .",
+          "transpileTypes": "monorepo.tool.transpile -f esm -m types -t node",
+          "updateSnapshots": "vitest run --pool=forks -u",
+          "transpileBrowser": "monorepo.tool.transpile -f esm -m normal -t browser"
+        },
+        "_npmUser": {
+          "name": "GitHub Actions",
+          "email": "npm-oidc-no-reply@github.com",
+          "trustedPublisher": {
+            "id": "github",
+            "oidcConfigId": "52734269-648c-4d4d-a8bc-573b00abd6ac"
+          }
+        },
+        "homepage": "https://github.com/palantir/osdk-ts#readme",
+        "keywords": [],
+        "_integrity": "sha512-mv/yIHOXVuibDwL2MbrIrNmoxVRDLoMS+shnWFb22JPl89oscbPvtdiNYAOzEEwMzxsloFLSWLveGjbh8bGO2Q==",
+        "repository": {
+          "url": "git+https://github.com/palantir/osdk-ts.git",
+          "type": "git"
+        },
+        "_npmVersion": "11.19.0",
+        "description": "",
+        "directories": {},
+        "maintainers": [
+          {
+            "name": "palantir",
+            "email": "pt-vendor-npm@palantir.com"
+          }
+        ],
+        "_nodeVersion": "24.21.0",
+        "dependencies": {
+          "type-fest": "^4.41.0",
+          "fetch-retry": "^6.0.0",
+          "@types/geojson": "^7946.0.16",
+          "tiny-invariant": "^1.3.3"
+        },
+        "publishConfig": {
+          "access": "public"
+        },
+        "_hasShrinkwrap": false,
+        "devDependencies": {
+          "ts-expect": "^1.3.0",
+          "typescript": "~5.5.4",
+          "@osdk/monorepo.tsconfig": "~0.7.0",
+          "@microsoft/api-extractor": "^7.52.11",
+          "@microsoft/api-documenter": "^7.26.32",
+          "@osdk/monorepo.api-extractor": "~0.7.0"
+        },
+        "_npmOperationalInternal": {
+          "tmp": "tmp/api_2.75.0_1790702554636_0.4533849256165241",
+          "host": "s3://npm-registry-packages-npm-production"
+        },
+        "_id": "@osdk/api@2.75.0",
+        "version": "2.75.0"
+      },
+      "provenance": [
+        {
+          "_type": "https://in-toto.io/Statement/v0.1",
+          "subject": [
+            {
+              "name": "pkg:npm/%40osdk/api@2.75.0",
+              "digest": {
+                "sha512": "9afff220739756e89b0f02f631bac8acd9a8c554432e8312fac8675856f6d893e5f3da2c71b3efb5d88d6003b3104c0ccf1b25a052d258bbde1a36e1f1b18ed9"
+              }
+            }
+          ],
+          "predicateType": "https://github.com/npm/attestation/tree/main/specs/publish/v0.1",
+          "predicate": {
+            "name": "@osdk/api",
+            "version": "2.75.0",
+            "registry": "https://registry.npmjs.org"
+          }
+        },
+        {
+          "_type": "https://in-toto.io/Statement/v1",
+          "subject": [
+            {
+              "name": "pkg:npm/%40osdk/api@2.75.0",
+              "digest": {
+                "sha512": "9afff220739756e89b0f02f631bac8acd9a8c554432e8312fac8675856f6d893e5f3da2c71b3efb5d88d6003b3104c0ccf1b25a052d258bbde1a36e1f1b18ed9"
+              }
+            }
+          ],
+          "predicateType": "https://slsa.dev/provenance/v1",
+          "predicate": {
+            "buildDefinition": {
+              "buildType": "https://slsa-framework.github.io/github-actions-buildtypes/workflow/v1",
+              "externalParameters": {
+                "workflow": {
+                  "ref": "refs/heads/main",
+                  "repository": "https://github.com/palantir/osdk-ts",
+                  "path": ".github/workflows/release.yml"
+                }
+              },
+              "internalParameters": {
+                "github": {
+                  "event_name": "push",
+                  "repository_id": "727788197",
+                  "repository_owner_id": "303157"
+                }
+              },
+              "resolvedDependencies": [
+                {
+                  "uri": "git+https://github.com/palantir/osdk-ts@refs/heads/main",
+                  "digest": {
+                    "gitCommit": "fb8ec172d540ef7819382ff036aa2a692614af75"
+                  }
+                }
+              ]
+            },
+            "runDetails": {
+              "builder": {
+                "id": "https://github.com/actions/runner/github-hosted"
+              },
+              "metadata": {
+                "invocationId": "https://github.com/palantir/osdk-ts/actions/runs/36603145053/attempts/1"
+              }
+            }
+          }
+        }
+      ],
+      "published": "2026-09-29T17:22:34.778Z",
+      "distTagsAtRetrieval": {
+        "next-release__1.1.x": "1.7.1",
+        "rc-2.2.x": "2.2.0-rc.26",
+        "latest-2.2.x": "2.2.1",
+        "latest-2.3.x": "2.3.4",
+        "latest-2.5.x": "2.5.7",
+        "rc": "2.7.0-rc.15",
+        "beta": "2.23.1-beta.2",
+        "next-sj-object-type-alias-remapping": "2.53.0-sj-object-type-alias-remapping-f922b13c56bb00c60a987446fb29ceb5c45f5c1e",
+        "pr-zka": "2.58.0-pr-zka-777e77d07df73352290241cfc585d3e81e883a96",
+        "next-zka-make-client-branch-aware": "2.58.0-zka-make-client-branch-aware-0f0b7499d7b3df21db1ff80208f824ba492eebcd",
+        "next-zka-vite-plugin-branch": "2.60.0-zka-vite-plugin-branch-76fa7cfd38390c4b48569ea5ecc636fb6e0dea7a",
+        "next-ading-window": "2.66.1-ading-window-b5638eea96f7c833685e304505dad6f9e65e4d76",
+        "pr-jzhang": "2.68.0-pr-jzhang-c89656ed85ead18739e4ba0666ee91a06afacc01",
+        "next-amishshah-cw-vite-plugin-changes": "2.67.0-amishshah-cw-vite-plugin-changes-6a9dc14549fb96bcab149286122bb69234d40767",
+        "next-amishs-map-tile-layer-parameter": "2.69.0-amishs-map-tile-layer-parameter-68fb34261c2794e37dc945a6a01ac199597f9587",
+        "next-zeyadka-client-branch-query-param": "2.72.0-zeyadka-client-branch-query-param-782428ef372211d38221a3819133fb3482d97be5",
+        "latest": "2.75.0",
+        "next-main": "2.74.1-main-e5da5150e9db362ea94628ef4ff790271684ff36"
+      }
+    },
+    {
+      "name": "@osdk/client",
+      "version": "2.75.0",
+      "license": "Apache-2.0",
+      "registry": "https://registry.npmjs.org/@osdk/client/2.75.0",
+      "metadata": {
+        "sls": {
+          "dependencies": {
+            "com.palantir.object-set-watcher:object-set-watcher": {
+              "optional": true,
+              "maxVersion": "0.x.x",
+              "minVersion": "0.613.0"
+            }
+          }
+        },
+        "bugs": {
+          "url": "https://github.com/palantir/osdk-ts/issues"
+        },
+        "dist": {
+          "shasum": "24438d2c525ef184828658cb762919453185e68e",
+          "tarball": "https://registry.npmjs.org/@osdk/client/-/client-2.75.0.tgz",
+          "fileCount": 1408,
+          "integrity": "sha512-jxlVncryC+mmQpyJ0s1FOUlp7IWIhAKdIHP84FnXvBRE6Vuncj4EKnfUAQXk3rIjKVKZZu4R5KAdC1f06zJdyQ==",
+          "signatures": [
+            {
+              "sig": "MEYCIQCZdqMAPgZz8wTfR2G3cwQtCw84V8H8M/BlpW9iHobcOwIhAIjA8JX3aANKTmvTwCROCsorNSEpjUbVDcNbaSxC/Oyg",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "sig": "MEUCIQC9RUNHMXbMmcucYw3QMhlsWkaKlEF/S5tw/OrVTLmkDQIgTjYYKGJVEipQQs9oYrUyl6BmmgFf2P1A7dY0GOlakh8=",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/@osdk%2fclient@2.75.0",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 6652172
+        },
+        "main": "./build/cjs/index.cjs",
+        "name": "@osdk/client",
+        "type": "module",
+        "_from": "file:osdk-client-2.75.0.tgz",
+        "types": "./build/cjs/index.d.cts",
+        "access": "public",
+        "module": "./build/esm/index.js",
+        "exports": {
+          ".": {
+            "import": {
+              "types": "./build/types/index.d.ts",
+              "default": "./build/esm/index.js"
+            },
+            "browser": "./build/browser/index.js",
+            "default": "./build/browser/index.js",
+            "require": "./build/cjs/index.cjs"
+          },
+          "./*": {
+            "import": {
+              "types": "./build/types/public/*.d.ts",
+              "default": "./build/esm/public/*.js"
+            },
+            "browser": "./build/browser/public/*.js",
+            "default": "./build/browser/public/*.js",
+            "require": "./build/cjs/public/*.cjs"
+          },
+          "./internal": {
+            "import": {
+              "types": "./build/types/public/internal.d.ts",
+              "default": "./build/esm/public/internal.js"
+            },
+            "browser": "./build/browser/public/internal.js",
+            "default": "./build/browser/public/internal.js",
+            "require": "./build/cjs/public/internal.cjs"
+          },
+          "./observable": {
+            "import": {
+              "types": "./build/types/public/observable.d.ts",
+              "default": "./build/esm/public/observable.js"
+            },
+            "browser": "./build/browser/public/observable.js",
+            "default": "./build/browser/public/observable.js",
+            "require": "./build/cjs/public/observable.cjs"
+          },
+          "./experimental": {
+            "import": {
+              "types": "./build/types/public/experimental.d.ts",
+              "default": "./build/esm/public/experimental.js"
+            },
+            "browser": "./build/browser/public/experimental.js",
+            "default": "./build/browser/public/experimental.js",
+            "require": "./build/cjs/public/experimental.cjs"
+          },
+          "./unstable-do-not-use": {
+            "import": {
+              "types": "./build/types/public/unstable-do-not-use.d.ts",
+              "default": "./build/esm/public/unstable-do-not-use.js"
+            },
+            "browser": "./build/browser/public/unstable-do-not-use.js",
+            "default": "./build/browser/public/unstable-do-not-use.js",
+            "require": "./build/cjs/public/unstable-do-not-use.cjs"
+          }
+        },
+        "license": "Apache-2.0",
+        "scripts": {
+          "lint": "oxlint -c ./oxlint.config.ts . && oxfmt -c ../../oxfmt.config.ts --check .",
+          "test": "vitest run --pool=forks",
+          "clean": "rm -rf lib dist types build tsconfig.tsbuildinfo",
+          "fix-lint": "oxlint -c ./oxlint.config.ts --fix . && oxfmt -c ../../oxfmt.config.ts .",
+          "check-api": "api-extractor run --verbose --local",
+          "typecheck": "tsc -p tsconfig.typecheck.json --noEmit --emitDeclarationOnly false",
+          "check-attw": "attw --pack .",
+          "test:watch": "vitest",
+          "transpileCjs": "monorepo.tool.transpile -f cjs -m bundle -t node",
+          "transpileEsm": "monorepo.tool.transpile -f esm -m normal -t node",
+          "check-spelling": "cspell --quiet .",
+          "transpileTypes": "monorepo.tool.transpile -f esm -m types -t node",
+          "transpileBrowser": "monorepo.tool.transpile -f esm -m normal -t browser"
+        },
+        "_npmUser": {
+          "name": "GitHub Actions",
+          "email": "npm-oidc-no-reply@github.com",
+          "trustedPublisher": {
+            "id": "github",
+            "oidcConfigId": "4f105681-8760-468c-b639-3b186164a2ac"
+          }
+        },
+        "homepage": "https://github.com/palantir/osdk-ts#readme",
+        "keywords": [],
+        "_integrity": "sha512-jxlVncryC+mmQpyJ0s1FOUlp7IWIhAKdIHP84FnXvBRE6Vuncj4EKnfUAQXk3rIjKVKZZu4R5KAdC1f06zJdyQ==",
+        "repository": {
+          "url": "git+https://github.com/palantir/osdk-ts.git",
+          "type": "git"
+        },
+        "_npmVersion": "11.19.0",
+        "description": "",
+        "directories": {},
+        "maintainers": [
+          {
+            "name": "palantir",
+            "email": "pt-vendor-npm@palantir.com"
+          }
+        ],
+        "sideEffects": false,
+        "_nodeVersion": "24.21.0",
+        "dependencies": {
+          "ws": "^8.20.1",
+          "rxjs": "^7.8.2",
+          "big.js": "^5.1.2",
+          "p-defer": "^4.0.1",
+          "@osdk/api": "~2.75.0",
+          "@wry/trie": "^0.5.0",
+          "type-fest": "^4.41.0",
+          "conjure-lite": "0.7.3",
+          "isomorphic-ws": "^5.0.0",
+          "@types/geojson": "^7946.0.16",
+          "tiny-invariant": "^1.3.3",
+          "fast-deep-equal": "^3.1.3",
+          "@osdk/foundry.core": "2.78.0",
+          "@osdk/shared.client": "^1.0.1",
+          "@osdk/shared.client2": "^1.0.0",
+          "@osdk/client.unstable": "2.75.0",
+          "@osdk/shared.net.fetch": "~1.13.0",
+          "@osdk/foundry.functions": "2.78.0",
+          "@osdk/foundry.mediasets": "2.78.0",
+          "@osdk/shared.net.errors": "~2.13.0",
+          "@osdk/foundry.ontologies": "2.78.0",
+          "@osdk/shared.client.impl": "~1.14.0",
+          "@osdk/generator-converters": "2.75.0"
+        },
+        "publishConfig": {
+          "access": "public"
+        },
+        "_hasShrinkwrap": false,
+        "devDependencies": {
+          "zod": "^3.25.76",
+          "pino": "^9.9.4",
+          "chalk": "^5.6.2",
+          "execa": "^9.6.0",
+          "p-map": "^7.0.3",
+          "find-up": "7.0.0",
+          "p-state": "^2.0.1",
+          "date-fns": "^4.1.0",
+          "p-locate": "^6.0.0",
+          "@types/ws": "^8.18.1",
+          "ts-expect": "^1.3.0",
+          "typescript": "~5.5.4",
+          "pino-pretty": "^11.3.0",
+          "@types/big.js": "^4.0.5",
+          "patch-package": "^8.0.1",
+          "timezone-mock": "^1.3.6",
+          "@types/geojson": "^7946.0.14",
+          "@osdk/monorepo.tsconfig": "~0.7.0",
+          "@microsoft/api-extractor": "^7.52.11",
+          "@microsoft/api-documenter": "^7.26.32",
+          "@osdk/client.test.ontology": "2.75.0",
+          "@osdk/monorepo.api-extractor": "~0.7.0",
+          "@osdk/shared.test.intellisense": "~0.27.0"
+        },
+        "peerDependencies": {
+          "@osdk/shared.test": "^2.50.0"
+        },
+        "peerDependenciesMeta": {
+          "@osdk/shared.test": {
+            "optional": true
+          }
+        },
+        "_npmOperationalInternal": {
+          "tmp": "tmp/client_2.75.0_1790702536648_0.89835989327376",
+          "host": "s3://npm-registry-packages-npm-production"
+        },
+        "_id": "@osdk/client@2.75.0",
+        "version": "2.75.0"
+      },
+      "provenance": [
+        {
+          "_type": "https://in-toto.io/Statement/v0.1",
+          "subject": [
+            {
+              "name": "pkg:npm/%40osdk/client@2.75.0",
+              "digest": {
+                "sha512": "8f19559dcaf20be9a6429c89d2cd45394969ec858884029d2073fce059d7bc1444e95ba7723e042a77d40105e4deb22329529966ee11e4a01d0b57f4eb325dc9"
+              }
+            }
+          ],
+          "predicateType": "https://github.com/npm/attestation/tree/main/specs/publish/v0.1",
+          "predicate": {
+            "name": "@osdk/client",
+            "version": "2.75.0",
+            "registry": "https://registry.npmjs.org"
+          }
+        },
+        {
+          "_type": "https://in-toto.io/Statement/v1",
+          "subject": [
+            {
+              "name": "pkg:npm/%40osdk/client@2.75.0",
+              "digest": {
+                "sha512": "8f19559dcaf20be9a6429c89d2cd45394969ec858884029d2073fce059d7bc1444e95ba7723e042a77d40105e4deb22329529966ee11e4a01d0b57f4eb325dc9"
+              }
+            }
+          ],
+          "predicateType": "https://slsa.dev/provenance/v1",
+          "predicate": {
+            "buildDefinition": {
+              "buildType": "https://slsa-framework.github.io/github-actions-buildtypes/workflow/v1",
+              "externalParameters": {
+                "workflow": {
+                  "ref": "refs/heads/main",
+                  "repository": "https://github.com/palantir/osdk-ts",
+                  "path": ".github/workflows/release.yml"
+                }
+              },
+              "internalParameters": {
+                "github": {
+                  "event_name": "push",
+                  "repository_id": "727788197",
+                  "repository_owner_id": "303157"
+                }
+              },
+              "resolvedDependencies": [
+                {
+                  "uri": "git+https://github.com/palantir/osdk-ts@refs/heads/main",
+                  "digest": {
+                    "gitCommit": "fb8ec172d540ef7819382ff036aa2a692614af75"
+                  }
+                }
+              ]
+            },
+            "runDetails": {
+              "builder": {
+                "id": "https://github.com/actions/runner/github-hosted"
+              },
+              "metadata": {
+                "invocationId": "https://github.com/palantir/osdk-ts/actions/runs/36603145053/attempts/1"
+              }
+            }
+          }
+        }
+      ],
+      "published": "2026-09-29T17:22:16.815Z",
+      "distTagsAtRetrieval": {
+        "next-next": "0.17.0-next-20240426195134",
+        "next-release__1.1.x": "0.16.2",
+        "rc-2.2.x": "2.2.0-rc.26",
+        "latest-2.2.x": "2.2.1",
+        "latest-2.3.x": "2.3.4",
+        "latest-2.5.x": "2.5.7",
+        "rc": "2.7.0-rc.15",
+        "beta": "2.23.1-beta.2",
+        "next-sj-object-type-alias-remapping": "2.53.0-sj-object-type-alias-remapping-f922b13c56bb00c60a987446fb29ceb5c45f5c1e",
+        "pr-zka": "2.58.0-pr-zka-777e77d07df73352290241cfc585d3e81e883a96",
+        "next-zka-make-client-branch-aware": "2.58.0-zka-make-client-branch-aware-0f0b7499d7b3df21db1ff80208f824ba492eebcd",
+        "next-zka-vite-plugin-branch": "2.60.0-zka-vite-plugin-branch-76fa7cfd38390c4b48569ea5ecc636fb6e0dea7a",
+        "next-ading-window": "2.66.1-ading-window-b5638eea96f7c833685e304505dad6f9e65e4d76",
+        "pr-jzhang": "2.68.0-pr-jzhang-c89656ed85ead18739e4ba0666ee91a06afacc01",
+        "next-amishshah-cw-vite-plugin-changes": "2.67.0-amishshah-cw-vite-plugin-changes-6a9dc14549fb96bcab149286122bb69234d40767",
+        "next-amishs-map-tile-layer-parameter": "2.69.0-amishs-map-tile-layer-parameter-68fb34261c2794e37dc945a6a01ac199597f9587",
+        "next-zeyadka-client-branch-query-param": "2.72.0-zeyadka-client-branch-query-param-782428ef372211d38221a3819133fb3482d97be5",
+        "latest": "2.75.0",
+        "next-main": "2.74.1-main-e5da5150e9db362ea94628ef4ff790271684ff36"
+      }
+    },
+    {
+      "name": "@osdk/generator",
+      "version": "2.75.0",
+      "license": "Apache-2.0",
+      "registry": "https://registry.npmjs.org/@osdk/generator/2.75.0",
+      "metadata": {
+        "bugs": {
+          "url": "https://github.com/palantir/osdk-ts/issues"
+        },
+        "dist": {
+          "shasum": "4ed7c8fc0dc7986289ff96b0bf22bf2bce33584e",
+          "tarball": "https://registry.npmjs.org/@osdk/generator/-/generator-2.75.0.tgz",
+          "fileCount": 281,
+          "integrity": "sha512-NATx2P//vA3mdhT/rqKnKBzxEzSyXGwmRPsmFvsIiwuaOR0Hck/vKY572tZzNr8HIfuTiZpR8oRY1dQDfbnPwQ==",
+          "signatures": [
+            {
+              "sig": "MEQCICkWnao77ztR8GQP1FB+rO8ySoYOt8k51T9omXS5dkXiAiBUrhWdainQxFmSk2YnTYYB5A67fkV3cvftOr+28trDwA==",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "sig": "MEQCIFAzGZA/RDKaaaYMYhIGxdZJ6FEOewm0CPBhezMHmJ9PAiAieDP2+hwB2H1bgoPS7cb6rd/QQTa0T01kY0JCUHcg3w==",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/@osdk%2fgenerator@2.75.0",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 1039646
+        },
+        "main": "./build/cjs/index.cjs",
+        "name": "@osdk/generator",
+        "type": "module",
+        "_from": "file:osdk-generator-2.75.0.tgz",
+        "types": "./build/cjs/index.d.cts",
+        "access": "public",
+        "module": "./build/esm/index.js",
+        "exports": {
+          ".": {
+            "import": {
+              "types": "./build/types/index.d.ts",
+              "default": "./build/esm/index.js"
+            },
+            "browser": "./build/browser/index.js",
+            "default": "./build/browser/index.js",
+            "require": "./build/cjs/index.cjs"
+          },
+          "./*": {
+            "import": {
+              "types": "./build/types/public/*.d.ts",
+              "default": "./build/esm/public/*.js"
+            },
+            "browser": "./build/browser/public/*.js",
+            "default": "./build/browser/public/*.js",
+            "require": "./build/cjs/public/*.cjs"
+          }
+        },
+        "license": "Apache-2.0",
+        "scripts": {
+          "lint": "eslint . && dprint check",
+          "test": "vitest run --pool=forks",
+          "clean": "rm -rf lib dist types build tsconfig.tsbuildinfo",
+          "fix-lint": "eslint . --fix && dprint fmt",
+          "typecheck": "tsc --noEmit --emitDeclarationOnly false",
+          "check-attw": "attw --pack .",
+          "test:watch": "vitest",
+          "transpileCjs": "monorepo.tool.transpile -f cjs -m bundle -t node",
+          "transpileEsm": "monorepo.tool.transpile -f esm -m normal -t node",
+          "check-spelling": "cspell --quiet .",
+          "transpileTypes": "monorepo.tool.transpile -f esm -m types -t node",
+          "transpileBrowser": "monorepo.tool.transpile -f esm -m normal -t browser"
+        },
+        "_npmUser": {
+          "name": "GitHub Actions",
+          "email": "npm-oidc-no-reply@github.com",
+          "trustedPublisher": {
+            "id": "github",
+            "oidcConfigId": "d6953f8e-33c9-416f-9472-85066ae52142"
+          }
+        },
+        "homepage": "https://github.com/palantir/osdk-ts#readme",
+        "keywords": [],
+        "_integrity": "sha512-NATx2P//vA3mdhT/rqKnKBzxEzSyXGwmRPsmFvsIiwuaOR0Hck/vKY572tZzNr8HIfuTiZpR8oRY1dQDfbnPwQ==",
+        "repository": {
+          "url": "git+https://github.com/palantir/osdk-ts.git",
+          "type": "git"
+        },
+        "_npmVersion": "11.19.0",
+        "description": "",
+        "directories": {},
+        "maintainers": [
+          {
+            "name": "palantir",
+            "email": "pt-vendor-npm@palantir.com"
+          }
+        ],
+        "_nodeVersion": "24.21.0",
+        "dependencies": {
+          "consola": "^3.4.2",
+          "prettier": "^3.6.2",
+          "@osdk/api": "~2.75.0",
+          "fetch-retry": "^6.0.0",
+          "tiny-invariant": "^1.3.3",
+          "fast-deep-equal": "^3.1.3",
+          "@osdk/foundry.ontologies": "2.78.0",
+          "@osdk/generator-converters": "~2.75.0"
+        },
+        "publishConfig": {
+          "access": "public"
+        },
+        "_hasShrinkwrap": false,
+        "devDependencies": {
+          "immer": "^10.1.3",
+          "vitest": "^3.2.4",
+          "ts-expect": "^1.3.0",
+          "typescript": "~5.5.4",
+          "@types/node": "^18.19.124",
+          "@osdk/monorepo.tsconfig": "~0.7.0",
+          "@osdk/monorepo.api-extractor": "~0.7.0"
+        },
+        "_npmOperationalInternal": {
+          "tmp": "tmp/generator_2.75.0_1790702407062_0.8952852110257683",
+          "host": "s3://npm-registry-packages-npm-production"
+        },
+        "_id": "@osdk/generator@2.75.0",
+        "version": "2.75.0"
+      },
+      "provenance": [
+        {
+          "_type": "https://in-toto.io/Statement/v0.1",
+          "subject": [
+            {
+              "name": "pkg:npm/%40osdk/generator@2.75.0",
+              "digest": {
+                "sha512": "3404f1d8ffffbc0de67614ffaea2a7281cf11334b25c6c2644fb2616fb088b0b9a391d07724fef298e7bdad67336bf0721fb93899a51f28458d5d4037db9cfc1"
+              }
+            }
+          ],
+          "predicateType": "https://github.com/npm/attestation/tree/main/specs/publish/v0.1",
+          "predicate": {
+            "name": "@osdk/generator",
+            "version": "2.75.0",
+            "registry": "https://registry.npmjs.org"
+          }
+        },
+        {
+          "_type": "https://in-toto.io/Statement/v1",
+          "subject": [
+            {
+              "name": "pkg:npm/%40osdk/generator@2.75.0",
+              "digest": {
+                "sha512": "3404f1d8ffffbc0de67614ffaea2a7281cf11334b25c6c2644fb2616fb088b0b9a391d07724fef298e7bdad67336bf0721fb93899a51f28458d5d4037db9cfc1"
+              }
+            }
+          ],
+          "predicateType": "https://slsa.dev/provenance/v1",
+          "predicate": {
+            "buildDefinition": {
+              "buildType": "https://slsa-framework.github.io/github-actions-buildtypes/workflow/v1",
+              "externalParameters": {
+                "workflow": {
+                  "ref": "refs/heads/main",
+                  "repository": "https://github.com/palantir/osdk-ts",
+                  "path": ".github/workflows/release.yml"
+                }
+              },
+              "internalParameters": {
+                "github": {
+                  "event_name": "push",
+                  "repository_id": "727788197",
+                  "repository_owner_id": "303157"
+                }
+              },
+              "resolvedDependencies": [
+                {
+                  "uri": "git+https://github.com/palantir/osdk-ts@refs/heads/main",
+                  "digest": {
+                    "gitCommit": "fb8ec172d540ef7819382ff036aa2a692614af75"
+                  }
+                }
+              ]
+            },
+            "runDetails": {
+              "builder": {
+                "id": "https://github.com/actions/runner/github-hosted"
+              },
+              "metadata": {
+                "invocationId": "https://github.com/palantir/osdk-ts/actions/runs/36603145053/attempts/1"
+              }
+            }
+          }
+        }
+      ],
+      "published": "2026-09-29T17:20:07.211Z",
+      "distTagsAtRetrieval": {
+        "next-next": "1.11.0-next-20240426195134",
+        "next-release__1.1.x": "1.10.2",
+        "rc-2.2.x": "2.2.0-rc.26",
+        "latest-2.2.x": "2.2.1",
+        "latest-2.3.x": "2.3.4",
+        "latest-2.5.x": "2.5.7",
+        "rc": "2.7.0-rc.15",
+        "beta": "2.23.1-beta.2",
+        "next-sj-object-type-alias-remapping": "2.53.0-sj-object-type-alias-remapping-f922b13c56bb00c60a987446fb29ceb5c45f5c1e",
+        "pr-zka": "2.58.0-pr-zka-777e77d07df73352290241cfc585d3e81e883a96",
+        "next-zka-make-client-branch-aware": "2.58.0-zka-make-client-branch-aware-0f0b7499d7b3df21db1ff80208f824ba492eebcd",
+        "next-zka-vite-plugin-branch": "2.60.0-zka-vite-plugin-branch-76fa7cfd38390c4b48569ea5ecc636fb6e0dea7a",
+        "next-ading-window": "2.66.1-ading-window-b5638eea96f7c833685e304505dad6f9e65e4d76",
+        "pr-jzhang": "2.68.0-pr-jzhang-c89656ed85ead18739e4ba0666ee91a06afacc01",
+        "next-amishshah-cw-vite-plugin-changes": "2.67.0-amishshah-cw-vite-plugin-changes-6a9dc14549fb96bcab149286122bb69234d40767",
+        "next-amishs-map-tile-layer-parameter": "2.69.0-amishs-map-tile-layer-parameter-68fb34261c2794e37dc945a6a01ac199597f9587",
+        "next-zeyadka-client-branch-query-param": "2.72.0-zeyadka-client-branch-query-param-782428ef372211d38221a3819133fb3482d97be5",
+        "latest": "2.75.0",
+        "next-main": "2.74.1-main-e5da5150e9db362ea94628ef4ff790271684ff36"
+      }
+    },
+    {
+      "name": "@osdk/oauth",
+      "version": "1.14.0",
+      "license": "Apache-2.0",
+      "registry": "https://registry.npmjs.org/@osdk/oauth/1.14.0",
+      "metadata": {
+        "bugs": {
+          "url": "https://github.com/palantir/osdk-ts/issues"
+        },
+        "dist": {
+          "shasum": "c3953126f8406773b7975e9d15e8bfafd9d67cdc",
+          "tarball": "https://registry.npmjs.org/@osdk/oauth/-/oauth-1.14.0.tgz",
+          "fileCount": 83,
+          "integrity": "sha512-DQJiAjozTBcY63Pr2JyQDyIJVeZEmmQQJQT28hB1TZSua6bv06ElHqTp6sM7NV5gSFJ2ayYD3XSdcZ+JUnceEA==",
+          "signatures": [
+            {
+              "sig": "MEUCIBIlVgUA6RfQp4B++XO/FB0e56exrpqYmDrudW0CjT7fAiEAx9u+YULzLOkhYWX+M3Dmf1ZfsOvNajWMEUkmW+2wYxA=",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "sig": "MEUCIF06V5PN1tTe9HFwicUMxU+stAmH0Kzv/wNwcU67oEUMAiEAudvZo3PBECJeKJWlJwPxMl2BQ/bbKN9k+rX4ffuIzWs=",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/@osdk%2foauth@1.14.0",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 361560
+        },
+        "main": "./build/cjs/index.cjs",
+        "name": "@osdk/oauth",
+        "type": "module",
+        "_from": "file:osdk-oauth-1.14.0.tgz",
+        "types": "./build/cjs/index.d.cts",
+        "module": "./build/esm/index.js",
+        "exports": {
+          ".": {
+            "import": {
+              "types": "./build/types/index.d.ts",
+              "default": "./build/esm/index.js"
+            },
+            "browser": "./build/browser/index.js",
+            "default": "./build/browser/index.js",
+            "require": "./build/cjs/index.cjs"
+          },
+          "./*": {
+            "import": {
+              "types": "./build/types/public/*.d.ts",
+              "default": "./build/esm/public/*.js"
+            },
+            "browser": "./build/browser/public/*.js",
+            "default": "./build/browser/public/*.js",
+            "require": "./build/cjs/public/*.cjs"
+          }
+        },
+        "license": "Apache-2.0",
+        "scripts": {
+          "lint": "oxlint -c ./oxlint.config.ts . && oxfmt -c ../../oxfmt.config.ts --check .",
+          "test": "vitest run --pool=forks",
+          "clean": "rm -rf lib dist types build tsconfig.tsbuildinfo",
+          "fix-lint": "oxlint -c ./oxlint.config.ts --fix . && oxfmt -c ../../oxfmt.config.ts .",
+          "typecheck": "tsc --noEmit --emitDeclarationOnly false",
+          "check-attw": "attw --pack .",
+          "transpileCjs": "monorepo.tool.transpile -f cjs -m bundle -t node",
+          "transpileEsm": "monorepo.tool.transpile -f esm -m normal -t node",
+          "check-spelling": "cspell --quiet .",
+          "transpileTypes": "monorepo.tool.transpile -f esm -m types -t node",
+          "transpileBrowser": "monorepo.tool.transpile -f esm -m normal -t browser"
+        },
+        "_npmUser": {
+          "name": "GitHub Actions",
+          "email": "npm-oidc-no-reply@github.com",
+          "trustedPublisher": {
+            "id": "github",
+            "oidcConfigId": "oidc:b55c75e0-3362-4096-b261-8c9ad8f549c6"
+          }
+        },
+        "homepage": "https://github.com/palantir/osdk-ts#readme",
+        "_integrity": "sha512-DQJiAjozTBcY63Pr2JyQDyIJVeZEmmQQJQT28hB1TZSua6bv06ElHqTp6sM7NV5gSFJ2ayYD3XSdcZ+JUnceEA==",
+        "repository": {
+          "url": "git+https://github.com/palantir/osdk-ts.git",
+          "type": "git"
+        },
+        "_npmVersion": "11.19.0",
+        "directories": {},
+        "maintainers": [
+          {
+            "name": "palantir",
+            "email": "pt-vendor-npm@palantir.com"
+          }
+        ],
+        "_nodeVersion": "24.20.0",
+        "dependencies": {
+          "oauth4webapi": "^2.17.0",
+          "tiny-invariant": "^1.3.3",
+          "typescript-event-target": "^1.1.1"
+        },
+        "publishConfig": {
+          "access": "public"
+        },
+        "_hasShrinkwrap": false,
+        "devDependencies": {
+          "typescript": "~5.5.4",
+          "@osdk/monorepo.tsconfig": "~0.7.0",
+          "@osdk/monorepo.api-extractor": "~0.7.0"
+        },
+        "_npmOperationalInternal": {
+          "tmp": "tmp/oauth_1.14.0_1789136235259_0.3089126020837336",
+          "host": "s3://npm-registry-packages-npm-production"
+        },
+        "_id": "@osdk/oauth@1.14.0",
+        "version": "1.14.0"
+      },
+      "provenance": [
+        {
+          "_type": "https://in-toto.io/Statement/v0.1",
+          "subject": [
+            {
+              "name": "pkg:npm/%40osdk/oauth@1.14.0",
+              "digest": {
+                "sha512": "0d0262023a334c1718eb73ebd89c900f220955e6449a64102504f6f210754d94ae6ba6efd3a1251ea4e9eac33b355e604852766b2603dd749d719f8952771e10"
+              }
+            }
+          ],
+          "predicateType": "https://github.com/npm/attestation/tree/main/specs/publish/v0.1",
+          "predicate": {
+            "name": "@osdk/oauth",
+            "version": "1.14.0",
+            "registry": "https://registry.npmjs.org"
+          }
+        },
+        {
+          "_type": "https://in-toto.io/Statement/v1",
+          "subject": [
+            {
+              "name": "pkg:npm/%40osdk/oauth@1.14.0",
+              "digest": {
+                "sha512": "0d0262023a334c1718eb73ebd89c900f220955e6449a64102504f6f210754d94ae6ba6efd3a1251ea4e9eac33b355e604852766b2603dd749d719f8952771e10"
+              }
+            }
+          ],
+          "predicateType": "https://slsa.dev/provenance/v1",
+          "predicate": {
+            "buildDefinition": {
+              "buildType": "https://slsa-framework.github.io/github-actions-buildtypes/workflow/v1",
+              "externalParameters": {
+                "workflow": {
+                  "ref": "refs/heads/main",
+                  "repository": "https://github.com/palantir/osdk-ts",
+                  "path": ".github/workflows/release.yml"
+                }
+              },
+              "internalParameters": {
+                "github": {
+                  "event_name": "push",
+                  "repository_id": "727788197",
+                  "repository_owner_id": "303157"
+                }
+              },
+              "resolvedDependencies": [
+                {
+                  "uri": "git+https://github.com/palantir/osdk-ts@refs/heads/main",
+                  "digest": {
+                    "gitCommit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8"
+                  }
+                }
+              ]
+            },
+            "runDetails": {
+              "builder": {
+                "id": "https://github.com/actions/runner/github-hosted"
+              },
+              "metadata": {
+                "invocationId": "https://github.com/palantir/osdk-ts/actions/runs/34608236349/attempts/1"
+              }
+            }
+          }
+        }
+      ],
+      "published": "2026-09-11T14:17:15.348Z",
+      "distTagsAtRetrieval": {
+        "latest-2.2.x": "1.2.0",
+        "rc": "1.7.0-rc.3",
+        "beta": "1.8.0-beta.5",
+        "next-ading-window": "1.13.1-ading-window-b5638eea96f7c833685e304505dad6f9e65e4d76",
+        "next-main": "1.13.1-main-aec9d54682aef9497dbbc593ddec50d345567702",
+        "pr-jzhang": "1.13.1-pr-jzhang-b5efd818fd7dd00cdf604e35ad0989fdd674e2c1",
+        "latest": "1.14.0",
+        "next-amishshah-cw-vite-plugin-changes": "1.13.1-amishshah-cw-vite-plugin-changes-6a9dc14549fb96bcab149286122bb69234d40767"
+      }
+    },
+    {
+      "name": "@osdk/shared.client.impl",
+      "version": "1.14.0",
+      "license": "Apache-2.0",
+      "registry": "https://registry.npmjs.org/@osdk/shared.client.impl/1.14.0",
+      "metadata": {
+        "bugs": {
+          "url": "https://github.com/palantir/osdk-ts/issues"
+        },
+        "dist": {
+          "shasum": "376dba33240589409072b5ef1589ab025f6b1c3f",
+          "tarball": "https://registry.npmjs.org/@osdk/shared.client.impl/-/shared.client.impl-1.14.0.tgz",
+          "fileCount": 17,
+          "integrity": "sha512-mTbB/H5g/yYRNgXurde6MorHBKJXMHabEuST+L4Wp2id0qYmJMxxy0xMdFDWzmjubQ9mBpKNgxjTAUy9XUmLow==",
+          "signatures": [
+            {
+              "sig": "MEQCIFE3Wbvjw7T9vXyOtN5M6gCpjgYVyHLXSBSw3vtYt3EOAiB5MPItI9KePzlJdzCvvL1jNeZbv86wVsbhBo6w5gNpsA==",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            },
+            {
+              "sig": "MEYCIQD+VB3Ek3c8LF4Rv1pUB3rq7GyLYY9ZoVi0EK5+1YgeYQIhAKvMFJ69V5jzL3qmI+yzL+tvbQ5qdGtywZE1qaoeYmTb",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/@osdk%2fshared.client.impl@1.14.0",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 40364
+        },
+        "main": "./build/cjs/index.cjs",
+        "name": "@osdk/shared.client.impl",
+        "type": "module",
+        "_from": "file:osdk-shared.client.impl-1.14.0.tgz",
+        "types": "./build/cjs/index.d.cts",
+        "module": "./build/esm/index.js",
+        "exports": {
+          ".": {
+            "import": {
+              "types": "./build/types/index.d.ts",
+              "default": "./build/esm/index.js"
+            },
+            "browser": "./build/browser/index.js",
+            "default": "./build/browser/index.js",
+            "require": "./build/cjs/index.cjs"
+          },
+          "./*": {
+            "import": {
+              "types": "./build/types/public/*.d.ts",
+              "default": "./build/esm/public/*.js"
+            },
+            "browser": "./build/browser/public/*.js",
+            "default": "./build/browser/public/*.js",
+            "require": "./build/cjs/public/*.cjs"
+          }
+        },
+        "license": "Apache-2.0",
+        "scripts": {
+          "lint": "oxlint -c ../../oxlint.config.ts . && oxfmt -c ../../oxfmt.config.ts --check .",
+          "clean": "rm -rf lib dist types build tsconfig.tsbuildinfo",
+          "fix-lint": "oxlint -c ../../oxlint.config.ts --fix . && oxfmt -c ../../oxfmt.config.ts .",
+          "typecheck": "tsc --noEmit --emitDeclarationOnly false",
+          "check-attw": "attw --pack .",
+          "transpileCjs": "monorepo.tool.transpile -f cjs -m bundle -t node",
+          "transpileEsm": "monorepo.tool.transpile -f esm -m normal -t node",
+          "check-spelling": "cspell --quiet .",
+          "transpileTypes": "monorepo.tool.transpile -f esm -m types -t node",
+          "transpileBrowser": "monorepo.tool.transpile -f esm -m normal -t browser"
+        },
+        "_npmUser": {
+          "name": "GitHub Actions",
+          "email": "npm-oidc-no-reply@github.com",
+          "trustedPublisher": {
+            "id": "github",
+            "oidcConfigId": "oidc:5ec68984-f9ef-4056-9237-2924cb75b9e7"
+          }
+        },
+        "homepage": "https://github.com/palantir/osdk-ts#readme",
+        "_integrity": "sha512-mTbB/H5g/yYRNgXurde6MorHBKJXMHabEuST+L4Wp2id0qYmJMxxy0xMdFDWzmjubQ9mBpKNgxjTAUy9XUmLow==",
+        "repository": {
+          "url": "git+https://github.com/palantir/osdk-ts.git",
+          "type": "git"
+        },
+        "_npmVersion": "11.19.0",
+        "directories": {},
+        "maintainers": [
+          {
+            "name": "palantir",
+            "email": "pt-vendor-npm@palantir.com"
+          }
+        ],
+        "_nodeVersion": "24.20.0",
+        "dependencies": {
+          "@osdk/shared.client": "^1.0.1",
+          "@osdk/shared.client2": "^1.0.0",
+          "@osdk/shared.net.fetch": "~1.13.0",
+          "@osdk/shared.net.errors": "~2.13.0"
+        },
+        "publishConfig": {
+          "access": "public"
+        },
+        "_hasShrinkwrap": false,
+        "devDependencies": {
+          "typescript": "~5.5.4",
+          "@osdk/monorepo.tsconfig": "~0.7.0",
+          "@osdk/monorepo.api-extractor": "~0.7.0"
+        },
+        "_npmOperationalInternal": {
+          "tmp": "tmp/shared.client.impl_1.14.0_1789136455032_0.049135202450699245",
+          "host": "s3://npm-registry-packages-npm-production"
+        },
+        "_id": "@osdk/shared.client.impl@1.14.0",
+        "version": "1.14.0"
+      },
+      "provenance": [
+        {
+          "_type": "https://in-toto.io/Statement/v0.1",
+          "subject": [
+            {
+              "name": "pkg:npm/%40osdk/shared.client.impl@1.14.0",
+              "digest": {
+                "sha512": "9936c1fc7e60ff26113605eeadd7ba328ac704a25730769b12e493f8be16a7689dd2a62624cc71cb4c4c7450d6ce68ee6d0f6606928d8318d3014cbd5d498ba3"
+              }
+            }
+          ],
+          "predicateType": "https://github.com/npm/attestation/tree/main/specs/publish/v0.1",
+          "predicate": {
+            "name": "@osdk/shared.client.impl",
+            "version": "1.14.0",
+            "registry": "https://registry.npmjs.org"
+          }
+        },
+        {
+          "_type": "https://in-toto.io/Statement/v1",
+          "subject": [
+            {
+              "name": "pkg:npm/%40osdk/shared.client.impl@1.14.0",
+              "digest": {
+                "sha512": "9936c1fc7e60ff26113605eeadd7ba328ac704a25730769b12e493f8be16a7689dd2a62624cc71cb4c4c7450d6ce68ee6d0f6606928d8318d3014cbd5d498ba3"
+              }
+            }
+          ],
+          "predicateType": "https://slsa.dev/provenance/v1",
+          "predicate": {
+            "buildDefinition": {
+              "buildType": "https://slsa-framework.github.io/github-actions-buildtypes/workflow/v1",
+              "externalParameters": {
+                "workflow": {
+                  "ref": "refs/heads/main",
+                  "repository": "https://github.com/palantir/osdk-ts",
+                  "path": ".github/workflows/release.yml"
+                }
+              },
+              "internalParameters": {
+                "github": {
+                  "event_name": "push",
+                  "repository_id": "727788197",
+                  "repository_owner_id": "303157"
+                }
+              },
+              "resolvedDependencies": [
+                {
+                  "uri": "git+https://github.com/palantir/osdk-ts@refs/heads/main",
+                  "digest": {
+                    "gitCommit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8"
+                  }
+                }
+              ]
+            },
+            "runDetails": {
+              "builder": {
+                "id": "https://github.com/actions/runner/github-hosted"
+              },
+              "metadata": {
+                "invocationId": "https://github.com/palantir/osdk-ts/actions/runs/34608236349/attempts/1"
+              }
+            }
+          }
+        }
+      ],
+      "published": "2026-09-11T14:20:55.110Z",
+      "distTagsAtRetrieval": {
+        "latest-2.2.x": "1.2.0",
+        "rc": "1.7.0-rc.2",
+        "beta": "1.8.0-beta.2",
+        "next-ading-window": "1.13.1-ading-window-b5638eea96f7c833685e304505dad6f9e65e4d76",
+        "next-main": "1.13.1-main-aec9d54682aef9497dbbc593ddec50d345567702",
+        "pr-jzhang": "1.13.1-pr-jzhang-b5efd818fd7dd00cdf604e35ad0989fdd674e2c1",
+        "latest": "1.14.0",
+        "next-amishshah-cw-vite-plugin-changes": "1.13.1-amishshah-cw-vite-plugin-changes-6a9dc14549fb96bcab149286122bb69234d40767"
+      }
+    },
+    {
+      "name": "@osdk/shared.net.fetch",
+      "version": "1.13.0",
+      "license": "Apache-2.0",
+      "registry": "https://registry.npmjs.org/@osdk/shared.net.fetch/1.13.0",
+      "metadata": {
+        "bugs": {
+          "url": "https://github.com/palantir/osdk-ts/issues"
+        },
+        "dist": {
+          "shasum": "da21dc98c5d7c4bea7af0613d62957cc308557b9",
+          "tarball": "https://registry.npmjs.org/@osdk/shared.net.fetch/-/shared.net.fetch-1.13.0.tgz",
+          "fileCount": 29,
+          "integrity": "sha512-Z5M9IJjeKMT6DYwyfB3mlTll1FqJgoQVJzt8b5AZg/1MpwYnFCW05piU+YBSCNSBuE1ZokkEYKcNwIZHIUFHEA==",
+          "signatures": [
+            {
+              "sig": "MEYCIQCr9Y5Lkp3I+26RaFYY3PEULqbsW1uUS36mEdq3VQxbQQIhANIV1ZJkx8UYuMTopML6S4TLHAF440xa5LmezH72mGtO",
+              "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+            }
+          ],
+          "attestations": {
+            "url": "https://registry.npmjs.org/-/npm/v1/attestations/@osdk%2fshared.net.fetch@1.13.0",
+            "provenance": {
+              "predicateType": "https://slsa.dev/provenance/v1"
+            }
+          },
+          "unpackedSize": 59958
+        },
+        "main": "./build/cjs/index.cjs",
+        "name": "@osdk/shared.net.fetch",
+        "type": "module",
+        "_from": "file:osdk-shared.net.fetch-1.13.0.tgz",
+        "types": "./build/cjs/index.d.cts",
+        "module": "./build/esm/index.js",
+        "exports": {
+          ".": {
+            "import": {
+              "types": "./build/types/index.d.ts",
+              "default": "./build/esm/index.js"
+            },
+            "browser": "./build/browser/index.js",
+            "default": "./build/browser/index.js",
+            "require": "./build/cjs/index.cjs"
+          },
+          "./*": {
+            "import": {
+              "types": "./build/types/public/*.d.ts",
+              "default": "./build/esm/public/*.js"
+            },
+            "browser": "./build/browser/public/*.js",
+            "default": "./build/browser/public/*.js",
+            "require": "./build/cjs/public/*.cjs"
+          }
+        },
+        "license": "Apache-2.0",
+        "scripts": {
+          "lint": "oxlint -c ../../oxlint.config.ts . && oxfmt -c ../../oxfmt.config.ts --check .",
+          "clean": "rm -rf lib dist types build tsconfig.tsbuildinfo",
+          "fix-lint": "oxlint -c ../../oxlint.config.ts --fix . && oxfmt -c ../../oxfmt.config.ts .",
+          "typecheck": "tsc --noEmit --emitDeclarationOnly false",
+          "check-attw": "attw --pack .",
+          "transpileCjs": "monorepo.tool.transpile -f cjs -m bundle -t node",
+          "transpileEsm": "monorepo.tool.transpile -f esm -m normal -t node",
+          "check-spelling": "cspell --quiet .",
+          "transpileTypes": "monorepo.tool.transpile -f esm -m types -t node",
+          "transpileBrowser": "monorepo.tool.transpile -f esm -m normal -t browser"
+        },
+        "_npmUser": {
+          "name": "GitHub Actions",
+          "email": "npm-oidc-no-reply@github.com",
+          "trustedPublisher": {
+            "id": "github",
+            "oidcConfigId": "oidc:1650cbab-c447-4a0f-8be5-e334b085ac0b"
+          }
+        },
+        "homepage": "https://github.com/palantir/osdk-ts#readme",
+        "_integrity": "sha512-Z5M9IJjeKMT6DYwyfB3mlTll1FqJgoQVJzt8b5AZg/1MpwYnFCW05piU+YBSCNSBuE1ZokkEYKcNwIZHIUFHEA==",
+        "repository": {
+          "url": "git+https://github.com/palantir/osdk-ts.git",
+          "type": "git"
+        },
+        "_npmVersion": "11.19.0",
+        "directories": {},
+        "maintainers": [
+          {
+            "name": "palantir",
+            "email": "pt-vendor-npm@palantir.com"
+          }
+        ],
+        "_nodeVersion": "24.20.0",
+        "dependencies": {
+          "fetch-retry": "^6.0.0",
+          "@osdk/shared.net.errors": "~2.13.0"
+        },
+        "publishConfig": {
+          "access": "public"
+        },
+        "_hasShrinkwrap": false,
+        "devDependencies": {
+          "typescript": "~5.5.4",
+          "@osdk/monorepo.tsconfig": "~0.7.0",
+          "@osdk/monorepo.api-extractor": "~0.7.0"
+        },
+        "_npmOperationalInternal": {
+          "tmp": "tmp/shared.net.fetch_1.13.0_1789136222720_0.7314660962326593",
+          "host": "s3://npm-registry-packages-npm-production"
+        },
+        "_id": "@osdk/shared.net.fetch@1.13.0",
+        "version": "1.13.0"
+      },
+      "provenance": [
+        {
+          "_type": "https://in-toto.io/Statement/v0.1",
+          "subject": [
+            {
+              "name": "pkg:npm/%40osdk/shared.net.fetch@1.13.0",
+              "digest": {
+                "sha512": "67933d2098de28c4fa0d8c327c1de6953965d45a89828415273b7c6f901983fd4ca706271425b4e69894f9805208d481b84d59a2490460a70dc0864721414710"
+              }
+            }
+          ],
+          "predicateType": "https://github.com/npm/attestation/tree/main/specs/publish/v0.1",
+          "predicate": {
+            "name": "@osdk/shared.net.fetch",
+            "version": "1.13.0",
+            "registry": "https://registry.npmjs.org"
+          }
+        },
+        {
+          "_type": "https://in-toto.io/Statement/v1",
+          "subject": [
+            {
+              "name": "pkg:npm/%40osdk/shared.net.fetch@1.13.0",
+              "digest": {
+                "sha512": "67933d2098de28c4fa0d8c327c1de6953965d45a89828415273b7c6f901983fd4ca706271425b4e69894f9805208d481b84d59a2490460a70dc0864721414710"
+              }
+            }
+          ],
+          "predicateType": "https://slsa.dev/provenance/v1",
+          "predicate": {
+            "buildDefinition": {
+              "buildType": "https://slsa-framework.github.io/github-actions-buildtypes/workflow/v1",
+              "externalParameters": {
+                "workflow": {
+                  "ref": "refs/heads/main",
+                  "repository": "https://github.com/palantir/osdk-ts",
+                  "path": ".github/workflows/release.yml"
+                }
+              },
+              "internalParameters": {
+                "github": {
+                  "event_name": "push",
+                  "repository_id": "727788197",
+                  "repository_owner_id": "303157"
+                }
+              },
+              "resolvedDependencies": [
+                {
+                  "uri": "git+https://github.com/palantir/osdk-ts@refs/heads/main",
+                  "digest": {
+                    "gitCommit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8"
+                  }
+                }
+              ]
+            },
+            "runDetails": {
+              "builder": {
+                "id": "https://github.com/actions/runner/github-hosted"
+              },
+              "metadata": {
+                "invocationId": "https://github.com/palantir/osdk-ts/actions/runs/34608236349/attempts/1"
+              }
+            }
+          }
+        }
+      ],
+      "published": "2026-09-11T14:17:02.869Z",
+      "distTagsAtRetrieval": {
+        "latest-2.2.x": "1.2.0",
+        "rc": "1.7.0-rc.2",
+        "beta": "1.8.0-beta.3",
+        "next-ading-window": "1.12.1-ading-window-b5638eea96f7c833685e304505dad6f9e65e4d76",
+        "next-main": "1.12.1-main-aec9d54682aef9497dbbc593ddec50d345567702",
+        "pr-jzhang": "1.12.1-pr-jzhang-b5efd818fd7dd00cdf604e35ad0989fdd674e2c1",
+        "latest": "1.13.0",
+        "next-amishshah-cw-vite-plugin-changes": "1.12.1-amishshah-cw-vite-plugin-changes-6a9dc14549fb96bcab149286122bb69234d40767"
+      }
+    }
+  ]
+}

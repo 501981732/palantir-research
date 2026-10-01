@@ -1,0 +1,233 @@
+{
+  "component_source_commit": "37cfd38676bf04edaef5847e929d914ea214c149",
+  "scope": "Direct dependency versions locked by upstream pnpm-lock.yaml; npm registry package license metadata only; not a transitive license audit",
+  "packages": [
+    {
+      "name": "@base-ui/react",
+      "version": "1.0.0",
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/mui/base-ui.git",
+        "type": "git",
+        "directory": "packages/react"
+      },
+      "source": "https://registry.npmjs.org/@base-ui%2Freact/1.0.0",
+      "retrieved_date": "2026-10-01"
+    },
+    {
+      "name": "@blueprintjs/icons",
+      "version": "6.8.0",
+      "license": "Apache-2.0",
+      "repository": {
+        "url": "git+ssh://git@github.com/palantir/blueprint.git",
+        "type": "git",
+        "directory": "packages/icons"
+      },
+      "source": "https://registry.npmjs.org/@blueprintjs%2Ficons/6.8.0",
+      "retrieved_date": "2026-10-01"
+    },
+    {
+      "name": "@dnd-kit/core",
+      "version": "6.3.1",
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/clauderic/dnd-kit.git",
+        "type": "git",
+        "directory": "packages/core"
+      },
+      "source": "https://registry.npmjs.org/@dnd-kit%2Fcore/6.3.1",
+      "retrieved_date": "2026-10-01"
+    },
+    {
+      "name": "@dnd-kit/sortable",
+      "version": "10.0.0",
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/clauderic/dnd-kit.git",
+        "type": "git",
+        "directory": "packages/sortable"
+      },
+      "source": "https://registry.npmjs.org/@dnd-kit%2Fsortable/10.0.0",
+      "retrieved_date": "2026-10-01"
+    },
+    {
+      "name": "@dnd-kit/utilities",
+      "version": "3.2.2",
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/clauderic/dnd-kit.git",
+        "type": "git",
+        "directory": "packages/utilities"
+      },
+      "source": "https://registry.npmjs.org/@dnd-kit%2Futilities/3.2.2",
+      "retrieved_date": "2026-10-01"
+    },
+    {
+      "name": "@tanstack/react-table",
+      "version": "8.21.3",
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/TanStack/table.git",
+        "type": "git",
+        "directory": "packages/react-table"
+      },
+      "source": "https://registry.npmjs.org/@tanstack%2Freact-table/8.21.3",
+      "retrieved_date": "2026-10-01"
+    },
+    {
+      "name": "@tanstack/react-virtual",
+      "version": "3.13.17",
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/TanStack/virtual.git",
+        "type": "git",
+        "directory": "packages/react-virtual"
+      },
+      "source": "https://registry.npmjs.org/@tanstack%2Freact-virtual/3.13.17",
+      "retrieved_date": "2026-10-01"
+    },
+    {
+      "name": "classnames",
+      "version": "2.5.1",
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/JedWatson/classnames.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/classnames/2.5.1",
+      "retrieved_date": "2026-10-01"
+    },
+    {
+      "name": "date-fns",
+      "version": "2.30.0",
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/date-fns/date-fns.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/date-fns/2.30.0",
+      "retrieved_date": "2026-10-01"
+    },
+    {
+      "name": "date-fns-tz",
+      "version": "2.0.1",
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/marnusw/date-fns-tz.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/date-fns-tz/2.0.1",
+      "retrieved_date": "2026-10-01"
+    },
+    {
+      "name": "fast-deep-equal",
+      "version": "3.1.3",
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/epoberezkin/fast-deep-equal.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/fast-deep-equal/3.1.3",
+      "retrieved_date": "2026-10-01"
+    },
+    {
+      "name": "lodash-es",
+      "version": "4.18.1",
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/lodash/lodash.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/lodash-es/4.18.1",
+      "retrieved_date": "2026-10-01"
+    },
+    {
+      "name": "pdfjs-dist",
+      "version": "4.8.69",
+      "license": "Apache-2.0",
+      "repository": {
+        "url": "git+https://github.com/mozilla/pdf.js.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/pdfjs-dist/4.8.69",
+      "retrieved_date": "2026-10-01"
+    },
+    {
+      "name": "postal-mime",
+      "version": "2.7.4",
+      "license": "MIT-0",
+      "repository": {
+        "url": "git+https://github.com/postalsys/postal-mime.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/postal-mime/2.7.4",
+      "retrieved_date": "2026-10-01"
+    },
+    {
+      "name": "react-day-picker",
+      "version": "8.10.1",
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/gpbl/react-day-picker.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/react-day-picker/8.10.1",
+      "retrieved_date": "2026-10-01"
+    },
+    {
+      "name": "react-hook-form",
+      "version": "7.71.2",
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/react-hook-form/react-hook-form.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/react-hook-form/7.71.2",
+      "retrieved_date": "2026-10-01"
+    },
+    {
+      "name": "react-markdown",
+      "version": "9.1.0",
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/remarkjs/react-markdown.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/react-markdown/9.1.0",
+      "retrieved_date": "2026-10-01"
+    },
+    {
+      "name": "remark-gfm",
+      "version": "4.0.1",
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/remarkjs/remark-gfm.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/remark-gfm/4.0.1",
+      "retrieved_date": "2026-10-01"
+    },
+    {
+      "name": "utif",
+      "version": "3.1.0",
+      "license": "MIT",
+      "repository": {
+        "url": "git+https://github.com/photopea/UTIF.js.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/utif/3.1.0",
+      "retrieved_date": "2026-10-01"
+    },
+    {
+      "name": "xlsx-republish",
+      "version": "0.20.3",
+      "license": "Apache-2.0",
+      "repository": {
+        "url": "git+https://github.com/NoNameProvided/xlsx-republish.git",
+        "type": "git"
+      },
+      "source": "https://registry.npmjs.org/xlsx-republish/0.20.3",
+      "retrieved_date": "2026-10-01"
+    }
+  ]
+}

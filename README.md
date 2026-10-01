@@ -8,6 +8,8 @@
 | --- | --- | --- |
 | [SuperRepo（2026-08）](research/superrepo-2026-08/) | 已完成 | Foundry 的 Ontology-first、pro-code 全栈单体仓库能力，当前 Beta 边界与工程启示 |
 | [Pilot（2026-09）](research/pilot-2026-09/) | 研究报告，待用户评审 | AI 生成 Ontology、设计与 React/OSDK；独立应用及 Workshop widget 交付，数据/权限边界与 EOS 验证计划 |
+| [OSDK React Components（2026-09）](research/osdk-react-components-2026-09/) | 研究报告，待用户评审 | 实际 npm 组件/API 图鉴、真实界面、Workshop 来源边界、AI 生成与 EOS 复用路线 |
+| [OSDK TypeScript（2026-09）](research/osdk-typescript-2026-09/) | 研究报告，待用户评审 | Ontology codegen、typed client、observable 缓存、React 订阅、发布与许可证边界 |
 | [AI FDE（2026-10）](research/ai-fde-2026-10/) | 深入研究，待用户评审 | Foundry 工程 Agent 的 Modes、上下文、工具与验证闭环；分支/审批/数据副作用边界、公开实践与 EOS 分期验证 |
 
 ## 目录约定
