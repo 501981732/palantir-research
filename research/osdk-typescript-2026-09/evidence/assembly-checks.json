@@ -1,0 +1,12 @@
+{
+  "dateUTC": "2026-10-01",
+  "topic": "osdk-typescript-2026-09",
+  "localMarkdownTargetsChecked": 25,
+  "referenceLinksChecked": 105,
+  "markdownTableRowsChecked": 267,
+  "uniquePinnedSourceLinksChecked": 253,
+  "externalLinksIndexed": 288,
+  "assetsVerified": 0,
+  "errors": [],
+  "scope": "Local links, reference definitions, Markdown table columns, fixed upstream file/range, JSON and asset integrity. HTTP reads and runtime probes separately recorded; no full upstream test run."
+}

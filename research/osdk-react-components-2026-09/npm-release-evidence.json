@@ -1,0 +1,359 @@
+{
+  "retrieved": "2026-10-01",
+  "name": "@osdk/react-components",
+  "version": "0.61.0",
+  "published": "2026-09-28T14:10:56.505Z",
+  "registryCreated": "2025-12-17T03:02:47.970Z",
+  "distTagsAtRetrieval": {
+    "rc": "0.1.0-rc.7",
+    "beta": "0.19.1-beta.0",
+    "next-sj-object-type-alias-remapping": "0.44.1-sj-object-type-alias-remapping-f922b13c56bb00c60a987446fb29ceb5c45f5c1e",
+    "pr-zka": "0.52.0-pr-zka-777e77d07df73352290241cfc585d3e81e883a96",
+    "next-zka-make-client-branch-aware": "0.52.0-zka-make-client-branch-aware-0f0b7499d7b3df21db1ff80208f824ba492eebcd",
+    "next-zka-vite-plugin-branch": "0.53.1-zka-vite-plugin-branch-76fa7cfd38390c4b48569ea5ecc636fb6e0dea7a",
+    "next-ading-window": "0.57.1-ading-window-b5638eea96f7c833685e304505dad6f9e65e4d76",
+    "pr-jzhang": "0.57.1-pr-jzhang-b5efd818fd7dd00cdf604e35ad0989fdd674e2c1",
+    "next-amishshah-cw-vite-plugin-changes": "0.57.1-amishshah-cw-vite-plugin-changes-6a9dc14549fb96bcab149286122bb69234d40767",
+    "latest": "0.61.0",
+    "next-main": "0.60.1-main-119ff0d606dd4b3402bfd9c1cc4626b6876969ee"
+  },
+  "gitHead": null,
+  "license": "Apache-2.0",
+  "peerDependencies": {
+    "react": "^17 || ^18 || ^19",
+    "@osdk/api": "^2.8.0",
+    "react-dom": "^17 || ^18 || ^19",
+    "classnames": "^2.0.0",
+    "@osdk/react": "^2.8.0",
+    "@osdk/client": "^2.8.0",
+    "@types/react": "^17 || ^18 || ^19"
+  },
+  "peerDependenciesMeta": null,
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./build/types/index.d.ts",
+        "default": "./build/esm/index.js"
+      },
+      "browser": "./build/browser/index.js",
+      "default": "./build/browser/index.js",
+      "require": "./build/cjs/index.cjs"
+    },
+    "./*": {
+      "import": {
+        "types": "./build/types/public/*.d.ts",
+        "default": "./build/esm/public/*.js"
+      },
+      "browser": "./build/browser/public/*.js",
+      "default": "./build/browser/public/*.js",
+      "require": "./build/cjs/public/*.cjs"
+    },
+    "./pdf-viewer": {
+      "import": {
+        "types": "./build/types/public/pdf-viewer.d.ts",
+        "default": "./build/esm/public/pdf-viewer.js"
+      },
+      "browser": "./build/browser/public/pdf-viewer.js",
+      "default": "./build/browser/public/pdf-viewer.js",
+      "require": "./build/cjs/public/pdf-viewer.cjs"
+    },
+    "./primitives": {
+      "import": {
+        "types": "./build/types/public/primitives.d.ts",
+        "default": "./build/esm/public/primitives.js"
+      },
+      "browser": "./build/browser/public/primitives.js",
+      "default": "./build/browser/public/primitives.js",
+      "require": "./build/cjs/public/primitives.cjs"
+    },
+    "./styles.css": "./build/browser/styles.css",
+    "./xml-viewer": {
+      "import": {
+        "types": "./build/types/public/xml-viewer.d.ts",
+        "default": "./build/esm/public/xml-viewer.js"
+      },
+      "browser": "./build/browser/public/xml-viewer.js",
+      "default": "./build/browser/public/xml-viewer.js",
+      "require": "./build/cjs/public/xml-viewer.cjs"
+    },
+    "./action-form": {
+      "import": {
+        "types": "./build/types/public/action-form.d.ts",
+        "default": "./build/esm/public/action-form.js"
+      },
+      "browser": "./build/browser/public/action-form.js",
+      "default": "./build/browser/public/action-form.js",
+      "require": "./build/cjs/public/action-form.cjs"
+    },
+    "./filter-list": {
+      "import": {
+        "types": "./build/types/public/filter-list.d.ts",
+        "default": "./build/esm/public/filter-list.js"
+      },
+      "browser": "./build/browser/public/filter-list.js",
+      "default": "./build/browser/public/filter-list.js",
+      "require": "./build/cjs/public/filter-list.cjs"
+    },
+    "./tiff-viewer": {
+      "import": {
+        "types": "./build/types/public/tiff-viewer.d.ts",
+        "default": "./build/esm/public/tiff-viewer.js"
+      },
+      "browser": "./build/browser/public/tiff-viewer.js",
+      "default": "./build/browser/public/tiff-viewer.js",
+      "require": "./build/cjs/public/tiff-viewer.cjs"
+    },
+    "./email-viewer": {
+      "import": {
+        "types": "./build/types/public/email-viewer.d.ts",
+        "default": "./build/esm/public/email-viewer.js"
+      },
+      "browser": "./build/browser/public/email-viewer.js",
+      "default": "./build/browser/public/email-viewer.js",
+      "require": "./build/cjs/public/email-viewer.cjs"
+    },
+    "./experimental": {
+      "import": {
+        "types": "./build/types/public/experimental.d.ts",
+        "default": "./build/esm/public/experimental.js"
+      },
+      "browser": "./build/browser/public/experimental.js",
+      "default": "./build/browser/public/experimental.js",
+      "require": "./build/cjs/public/experimental.cjs"
+    },
+    "./image-viewer": {
+      "import": {
+        "types": "./build/types/public/image-viewer.d.ts",
+        "default": "./build/esm/public/image-viewer.js"
+      },
+      "browser": "./build/browser/public/image-viewer.js",
+      "default": "./build/browser/public/image-viewer.js",
+      "require": "./build/cjs/public/image-viewer.cjs"
+    },
+    "./object-table": {
+      "import": {
+        "types": "./build/types/public/object-table.d.ts",
+        "default": "./build/esm/public/object-table.js"
+      },
+      "browser": "./build/browser/public/object-table.js",
+      "default": "./build/browser/public/object-table.js",
+      "require": "./build/cjs/public/object-table.cjs"
+    },
+    "./video-viewer": {
+      "import": {
+        "types": "./build/types/public/video-viewer.d.ts",
+        "default": "./build/esm/public/video-viewer.js"
+      },
+      "browser": "./build/browser/public/video-viewer.js",
+      "default": "./build/browser/public/video-viewer.js",
+      "require": "./build/cjs/public/video-viewer.cjs"
+    },
+    "./document-viewer": {
+      "import": {
+        "types": "./build/types/public/document-viewer.d.ts",
+        "default": "./build/esm/public/document-viewer.js"
+      },
+      "browser": "./build/browser/public/document-viewer.js",
+      "default": "./build/browser/public/document-viewer.js",
+      "require": "./build/cjs/public/document-viewer.cjs"
+    },
+    "./markdown-viewer": {
+      "import": {
+        "types": "./build/types/public/markdown-viewer.d.ts",
+        "default": "./build/esm/public/markdown-viewer.js"
+      },
+      "browser": "./build/browser/public/markdown-viewer.js",
+      "default": "./build/browser/public/markdown-viewer.js",
+      "require": "./build/cjs/public/markdown-viewer.cjs"
+    },
+    "./experimental/theme": {
+      "import": {
+        "types": "./build/types/public/experimental/theme.d.ts",
+        "default": "./build/esm/public/experimental/theme.js"
+      },
+      "browser": "./build/browser/public/experimental/theme.js",
+      "default": "./build/browser/public/experimental/theme.js",
+      "require": "./build/cjs/public/experimental/theme.cjs"
+    },
+    "./spreadsheet-viewer": {
+      "import": {
+        "types": "./build/types/public/spreadsheet-viewer.d.ts",
+        "default": "./build/esm/public/spreadsheet-viewer.js"
+      },
+      "browser": "./build/browser/public/spreadsheet-viewer.js",
+      "default": "./build/browser/public/spreadsheet-viewer.js",
+      "require": "./build/cjs/public/spreadsheet-viewer.cjs"
+    },
+    "./experimental/pdf-viewer": {
+      "import": {
+        "types": "./build/types/public/experimental/pdf-viewer.d.ts",
+        "default": "./build/esm/public/experimental/pdf-viewer.js"
+      },
+      "browser": "./build/browser/public/experimental/pdf-viewer.js",
+      "default": "./build/browser/public/experimental/pdf-viewer.js",
+      "require": "./build/cjs/public/experimental/pdf-viewer.cjs"
+    },
+    "./experimental/xml-viewer": {
+      "import": {
+        "types": "./build/types/public/experimental/xml-viewer.d.ts",
+        "default": "./build/esm/public/experimental/xml-viewer.js"
+      },
+      "browser": "./build/browser/public/experimental/xml-viewer.js",
+      "default": "./build/browser/public/experimental/xml-viewer.js",
+      "require": "./build/cjs/public/experimental/xml-viewer.cjs"
+    },
+    "./experimental/action-form": {
+      "import": {
+        "types": "./build/types/public/experimental/action-form.d.ts",
+        "default": "./build/esm/public/experimental/action-form.js"
+      },
+      "browser": "./build/browser/public/experimental/action-form.js",
+      "default": "./build/browser/public/experimental/action-form.js",
+      "require": "./build/cjs/public/experimental/action-form.cjs"
+    },
+    "./experimental/cbac-picker": {
+      "import": {
+        "types": "./build/types/public/experimental/cbac-picker.d.ts",
+        "default": "./build/esm/public/experimental/cbac-picker.js"
+      },
+      "browser": "./build/browser/public/experimental/cbac-picker.js",
+      "default": "./build/browser/public/experimental/cbac-picker.js",
+      "require": "./build/cjs/public/experimental/cbac-picker.cjs"
+    },
+    "./experimental/filter-list": {
+      "import": {
+        "types": "./build/types/public/experimental/filter-list.d.ts",
+        "default": "./build/esm/public/experimental/filter-list.js"
+      },
+      "browser": "./build/browser/public/experimental/filter-list.js",
+      "default": "./build/browser/public/experimental/filter-list.js",
+      "require": "./build/cjs/public/experimental/filter-list.cjs"
+    },
+    "./experimental/email-viewer": {
+      "import": {
+        "types": "./build/types/public/experimental/email-viewer.d.ts",
+        "default": "./build/esm/public/experimental/email-viewer.js"
+      },
+      "browser": "./build/browser/public/experimental/email-viewer.js",
+      "default": "./build/browser/public/experimental/email-viewer.js",
+      "require": "./build/cjs/public/experimental/email-viewer.cjs"
+    },
+    "./experimental/image-viewer": {
+      "import": {
+        "types": "./build/types/public/experimental/image-viewer.d.ts",
+        "default": "./build/esm/public/experimental/image-viewer.js"
+      },
+      "browser": "./build/browser/public/experimental/image-viewer.js",
+      "default": "./build/browser/public/experimental/image-viewer.js",
+      "require": "./build/cjs/public/experimental/image-viewer.cjs"
+    },
+    "./experimental/object-table": {
+      "import": {
+        "types": "./build/types/public/experimental/object-table.d.ts",
+        "default": "./build/esm/public/experimental/object-table.js"
+      },
+      "browser": "./build/browser/public/experimental/object-table.js",
+      "default": "./build/browser/public/experimental/object-table.js",
+      "require": "./build/cjs/public/experimental/object-table.cjs"
+    },
+    "./experimental/video-viewer": {
+      "import": {
+        "types": "./build/types/public/experimental/video-viewer.d.ts",
+        "default": "./build/esm/public/experimental/video-viewer.js"
+      },
+      "browser": "./build/browser/public/experimental/video-viewer.js",
+      "default": "./build/browser/public/experimental/video-viewer.js",
+      "require": "./build/cjs/public/experimental/video-viewer.cjs"
+    },
+    "./experimental/tiff-renderer": {
+      "import": {
+        "types": "./build/types/public/experimental/tiff-renderer.d.ts",
+        "default": "./build/esm/public/experimental/tiff-renderer.js"
+      },
+      "browser": "./build/browser/public/experimental/tiff-renderer.js",
+      "default": "./build/browser/public/experimental/tiff-renderer.js",
+      "require": "./build/cjs/public/experimental/tiff-renderer.cjs"
+    },
+    "./experimental/aip-agent-chat": {
+      "import": {
+        "types": "./build/types/public/experimental/aip-agent-chat.d.ts",
+        "default": "./build/esm/public/experimental/aip-agent-chat.js"
+      },
+      "browser": "./build/browser/public/experimental/aip-agent-chat.js",
+      "default": "./build/browser/public/experimental/aip-agent-chat.js",
+      "require": "./build/cjs/public/experimental/aip-agent-chat.cjs"
+    },
+    "./experimental/document-viewer": {
+      "import": {
+        "types": "./build/types/public/experimental/document-viewer.d.ts",
+        "default": "./build/esm/public/experimental/document-viewer.js"
+      },
+      "browser": "./build/browser/public/experimental/document-viewer.js",
+      "default": "./build/browser/public/experimental/document-viewer.js",
+      "require": "./build/cjs/public/experimental/document-viewer.cjs"
+    },
+    "./experimental/markdown-renderer": {
+      "import": {
+        "types": "./build/types/public/experimental/markdown-renderer.d.ts",
+        "default": "./build/esm/public/experimental/markdown-renderer.js"
+      },
+      "browser": "./build/browser/public/experimental/markdown-renderer.js",
+      "default": "./build/browser/public/experimental/markdown-renderer.js",
+      "require": "./build/cjs/public/experimental/markdown-renderer.cjs"
+    },
+    "./experimental/spreadsheet-viewer": {
+      "import": {
+        "types": "./build/types/public/experimental/spreadsheet-viewer.d.ts",
+        "default": "./build/esm/public/experimental/spreadsheet-viewer.js"
+      },
+      "browser": "./build/browser/public/experimental/spreadsheet-viewer.js",
+      "default": "./build/browser/public/experimental/spreadsheet-viewer.js",
+      "require": "./build/cjs/public/experimental/spreadsheet-viewer.cjs"
+    }
+  },
+  "dependencies": {
+    "utif": "^3.1.0",
+    "date-fns": "^2.28.0",
+    "lodash-es": "^4.17.21",
+    "pdfjs-dist": "~4.8.69",
+    "remark-gfm": "^4.0.1",
+    "date-fns-tz": "^2.0.0",
+    "postal-mime": "^2.7.4",
+    "@dnd-kit/core": "^6.3.1",
+    "@base-ui/react": ">=1.0.0 <1.4.0",
+    "@osdk/aip-core": "0.12.0",
+    "react-markdown": "^9.0.3",
+    "xlsx-republish": "0.20.3",
+    "fast-deep-equal": "^3.1.3",
+    "react-hook-form": "^7.54.0",
+    "react-day-picker": "^8.10.0",
+    "@dnd-kit/sortable": "^10.0.0",
+    "@blueprintjs/icons": "^6.7.0",
+    "@dnd-kit/utilities": "^3.2.2",
+    "@tanstack/react-table": "^8.21.3",
+    "@tanstack/react-virtual": "^3.13.13"
+  },
+  "dist": {
+    "shasum": "89a842b191fc1705a328c3ad886c3ac56cf0c839",
+    "tarball": "https://registry.npmjs.org/@osdk/react-components/-/react-components-0.61.0.tgz",
+    "fileCount": 2672,
+    "integrity": "sha512-J9SFPB5/wCTd28ZaCzQUXjwhrTl5Y0dk77s8X/uCKiap3yXEvZTKhdpW3nMvuFWVziDdS9SEriykOdoRczlGmg==",
+    "signatures": [
+      {
+        "sig": "MEUCIQCP3Ov3kC/IAWj+pPeNhiBgaeesWQB/D78QeyIZVNxq2QIgd0IEK7wCNJe5n9RyjcfGo3aWOJqVk+PiYBbssxPJmaY=",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      },
+      {
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+        "sig": "MEUCIQCywhLAnhBdMG5tK5cdINL25Et02p8ZjI9fpLjy3Kr0qwIgJjKVcjrOtpOCTJq5Z+BoqTVdcDv/ymjVVc2mY4nr/mQ="
+      }
+    ],
+    "attestations": {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/@osdk%2freact-components@0.61.0",
+      "provenance": {
+        "predicateType": "https://slsa.dev/provenance/v1"
+      }
+    },
+    "unpackedSize": 13590500
+  }
+}

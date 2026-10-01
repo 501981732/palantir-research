@@ -1,0 +1,47 @@
+{
+  "_type": "https://in-toto.io/Statement/v1",
+  "subject": [
+    {
+      "name": "pkg:npm/%40osdk/react@2.75.0",
+      "digest": {
+        "sha512": "955b52efe578fbb8c548204d9866d86fb6ca9a1967746632ee4e3efbc807d09286578814d10bd44f36a39499f28e59319b396b0a7c6df3e48025917688be6fe4"
+      }
+    }
+  ],
+  "predicateType": "https://slsa.dev/provenance/v1",
+  "predicate": {
+    "buildDefinition": {
+      "buildType": "https://slsa-framework.github.io/github-actions-buildtypes/workflow/v1",
+      "externalParameters": {
+        "workflow": {
+          "ref": "refs/heads/main",
+          "repository": "https://github.com/palantir/osdk-ts",
+          "path": ".github/workflows/release.yml"
+        }
+      },
+      "internalParameters": {
+        "github": {
+          "event_name": "push",
+          "repository_id": "727788197",
+          "repository_owner_id": "303157"
+        }
+      },
+      "resolvedDependencies": [
+        {
+          "uri": "git+https://github.com/palantir/osdk-ts@refs/heads/main",
+          "digest": {
+            "gitCommit": "fb8ec172d540ef7819382ff036aa2a692614af75"
+          }
+        }
+      ]
+    },
+    "runDetails": {
+      "builder": {
+        "id": "https://github.com/actions/runner/github-hosted"
+      },
+      "metadata": {
+        "invocationId": "https://github.com/palantir/osdk-ts/actions/runs/36603145053/attempts/1"
+      }
+    }
+  }
+}

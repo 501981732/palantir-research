@@ -1,0 +1,83 @@
+{
+  "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+  "files": [
+    {
+      "path": "CLAUDE.md",
+      "url": "https://raw.githubusercontent.com/palantir/osdk-ts/9b93e05b5edd8c2e424480afb8cd7b4452ce56b8/CLAUDE.md",
+      "sha256": "38149d8f8a462044d789aedc10e4db24d7695f9be6c5fc462220bac86f54b165",
+      "matchesCoreRelease": true
+    },
+    {
+      "path": "packages/oauth/package.json",
+      "url": "https://raw.githubusercontent.com/palantir/osdk-ts/9b93e05b5edd8c2e424480afb8cd7b4452ce56b8/packages/oauth/package.json",
+      "sha256": "e602aa12d02cdbc3fad4cbc0b2e00b3dcd1031c94c7f20a2324bde43bbe327e9",
+      "matchesCoreRelease": true
+    },
+    {
+      "path": "packages/oauth/src/createPublicOauthClient.ts",
+      "url": "https://raw.githubusercontent.com/palantir/osdk-ts/9b93e05b5edd8c2e424480afb8cd7b4452ce56b8/packages/oauth/src/createPublicOauthClient.ts",
+      "sha256": "ccdf0978655ae56c3cc2b0242303e04aa1e93406bcc224b31e237bef3b7ed525",
+      "matchesCoreRelease": true
+    },
+    {
+      "path": "packages/oauth/src/createConfidentialOauthClient.ts",
+      "url": "https://raw.githubusercontent.com/palantir/osdk-ts/9b93e05b5edd8c2e424480afb8cd7b4452ce56b8/packages/oauth/src/createConfidentialOauthClient.ts",
+      "sha256": "827b02d64642074315d2e438c731c2bb4dd7a0dbbdb498091a04b886d8548a1f",
+      "matchesCoreRelease": true
+    },
+    {
+      "path": "packages/oauth/src/createAuthlessClient.ts",
+      "url": "https://raw.githubusercontent.com/palantir/osdk-ts/9b93e05b5edd8c2e424480afb8cd7b4452ce56b8/packages/oauth/src/createAuthlessClient.ts",
+      "sha256": "411b33a620d2d59d3561eeaae61b7bb740e159721d6977d0bfc47b3f4edbdd63",
+      "matchesCoreRelease": true
+    },
+    {
+      "path": "packages/oauth/src/common.ts",
+      "url": "https://raw.githubusercontent.com/palantir/osdk-ts/9b93e05b5edd8c2e424480afb8cd7b4452ce56b8/packages/oauth/src/common.ts",
+      "sha256": "a84995cc3541cce601d9e6c5c1b107a084c0d6dc690973f766d1360a9cb1a2d4",
+      "matchesCoreRelease": true
+    },
+    {
+      "path": "packages/oauth/src/utils.ts",
+      "url": "https://raw.githubusercontent.com/palantir/osdk-ts/9b93e05b5edd8c2e424480afb8cd7b4452ce56b8/packages/oauth/src/utils.ts",
+      "sha256": "5e65463f47156601113589e9bf4c98b3f5e82b0ea2782bbab121276d3e83fb08",
+      "matchesCoreRelease": true
+    },
+    {
+      "path": "packages/oauth/src/publicOauth.test.ts",
+      "url": "https://raw.githubusercontent.com/palantir/osdk-ts/9b93e05b5edd8c2e424480afb8cd7b4452ce56b8/packages/oauth/src/publicOauth.test.ts",
+      "sha256": "b657d4778c50d922e855d88e6b173fcea680b7c2f40e3d6c4edb25b15fc61b84",
+      "matchesCoreRelease": true
+    },
+    {
+      "path": "packages/oauth/src/createAuthlessClient.test.ts",
+      "url": "https://raw.githubusercontent.com/palantir/osdk-ts/9b93e05b5edd8c2e424480afb8cd7b4452ce56b8/packages/oauth/src/createAuthlessClient.test.ts",
+      "sha256": "60d9e2265d42a28806dfe5d1ca8abd9c599daa829ddc2eb25841efb1ec98282e",
+      "matchesCoreRelease": true
+    },
+    {
+      "path": "packages/shared.client.impl/src/createSharedClientContext.ts",
+      "url": "https://raw.githubusercontent.com/palantir/osdk-ts/9b93e05b5edd8c2e424480afb8cd7b4452ce56b8/packages/shared.client.impl/src/createSharedClientContext.ts",
+      "sha256": "8e215f3ca11299ce49411c1c2b40c89f7bf8a9ccfd118d304506eba6534517a0",
+      "matchesCoreRelease": true
+    },
+    {
+      "path": "packages/shared.net.fetch/src/createRetryingFetch.ts",
+      "url": "https://raw.githubusercontent.com/palantir/osdk-ts/9b93e05b5edd8c2e424480afb8cd7b4452ce56b8/packages/shared.net.fetch/src/createRetryingFetch.ts",
+      "sha256": "6fba84ccb3fbf25a04d0018b57023c357b69846e9cc994298ee9c64057383ad0",
+      "matchesCoreRelease": true
+    },
+    {
+      "path": "packages/shared.net.fetch/src/createFetchOrThrow.ts",
+      "url": "https://raw.githubusercontent.com/palantir/osdk-ts/9b93e05b5edd8c2e424480afb8cd7b4452ce56b8/packages/shared.net.fetch/src/createFetchOrThrow.ts",
+      "sha256": "f0c1128b6e5b4dac4bde99431035a3fa0e17257b9056f05dd118a2938a5e4cc7",
+      "matchesCoreRelease": true
+    },
+    {
+      "path": "packages/shared.net.fetch/src/createFetchHeaderMutator.ts",
+      "url": "https://raw.githubusercontent.com/palantir/osdk-ts/9b93e05b5edd8c2e424480afb8cd7b4452ce56b8/packages/shared.net.fetch/src/createFetchHeaderMutator.ts",
+      "sha256": "94a9754ed20da5dde2592cc0cdc17ba936a8dcebf22184b0482053869db42634",
+      "matchesCoreRelease": true
+    }
+  ]
+}

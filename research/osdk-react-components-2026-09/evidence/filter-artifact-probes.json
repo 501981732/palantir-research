@@ -1,0 +1,55 @@
+{
+  "package": "@osdk/react-components",
+  "version": "0.61.0",
+  "sourceCommit": "37cfd38676bf04edaef5847e929d914ea214c149",
+  "node": "v22.17.0",
+  "generatedAt": "2026-10-01T01:42:19.322Z",
+  "scope": "Isolated utility modules; no React render, network, Ontology, or Actions.",
+  "sourceHashes": {
+    "serialization": {
+      "relativePath": "build/esm/filter-list/utils/filterStateSerialization.js",
+      "sha256": "92ffee3aa92b5b452d9ea214d57e6f74da447c10ebcd1c08ec661a8dff71c1dd"
+    },
+    "scopes": {
+      "relativePath": "build/esm/filter-list/utils/narrowObjectSet.js",
+      "sha256": "a7616c86e7fe9055ce1496b9923ac192eba52574ee5a5e983cbd985c2b5a9b81"
+    },
+    "values": {
+      "relativePath": "build/esm/filter-list/utils/filterValues.js",
+      "sha256": "d16b811508c0c53e71bde8e7555fabb8bd5fe6d426bdd6f852a9ca93525259b4"
+    }
+  },
+  "dateRoundTrip": {
+    "inputDate": "2026-09-01T00:00:00.000Z",
+    "serialized": "[[\"startDate\",{\"type\":\"DATE_RANGE\",\"minValue\":\"2026-09-01T00:00:00.000Z\"}]]",
+    "restoredType": "string",
+    "restoredIsDate": false,
+    "restoredValue": "2026-09-01T00:00:00.000Z"
+  },
+  "dualScopes": {
+    "withoutObjectSet": {
+      "scopedIsUndefined": true,
+      "emptySourceIsUndefined": true
+    },
+    "directOnlyWithShowFilteredOutValues": {
+      "whereCalls": [
+        {
+          "name": "Alice"
+        }
+      ],
+      "scoped": {
+        "kind": "narrowed"
+      },
+      "emptySourceIsUndefined": true
+    }
+  },
+  "zeroCountNoValue": {
+    "input": [
+      {
+        "value": "__NO_VALUE__",
+        "count": 0
+      }
+    ],
+    "output": []
+  }
+}

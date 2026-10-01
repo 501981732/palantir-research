@@ -1,0 +1,767 @@
+{
+  "retrieved_date": "2026-10-01",
+  "source_commit": "37cfd38676bf04edaef5847e929d914ea214c149",
+  "scope": "Package manifest SPDX declarations only. Does not license all repository assets or audit transitive dependencies.",
+  "packages": [
+    {
+      "name": "@osdk/agents",
+      "source_version": "0.2.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/agents/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/agents/package.json#L6"
+    },
+    {
+      "name": "@osdk/aip-core",
+      "source_version": "0.12.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/aip-core/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/aip-core/package.json#L6"
+    },
+    {
+      "name": "@osdk/aliases",
+      "source_version": "0.3.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/aliases/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/aliases/package.json#L4"
+    },
+    {
+      "name": "@osdk/api",
+      "source_version": "2.73.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/api/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/api/package.json#L6"
+    },
+    {
+      "name": "@osdk/cbac-components",
+      "source_version": "0.11.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/cbac-components/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/cbac-components/package.json#L4"
+    },
+    {
+      "name": "@osdk/cli",
+      "source_version": "0.99.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/cli/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/cli/package.json#L6"
+    },
+    {
+      "name": "@osdk/cli.cmd.typescript",
+      "source_version": "0.99.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/cli.cmd.typescript/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/cli.cmd.typescript/package.json#L5"
+    },
+    {
+      "name": "@osdk/cli.common",
+      "source_version": "0.99.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/cli.common/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/cli.common/package.json#L5"
+    },
+    {
+      "name": "@osdk/client",
+      "source_version": "2.73.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/client/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/client/package.json#L6"
+    },
+    {
+      "name": "@osdk/client.test.ontology",
+      "source_version": "2.73.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/client.test.ontology/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/client.test.ontology/package.json#L5"
+    },
+    {
+      "name": "@osdk/client.unstable",
+      "source_version": "2.73.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/client.unstable/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/client.unstable/package.json#L4"
+    },
+    {
+      "name": "@osdk/client.unstable.tpsa",
+      "source_version": "0.16.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/client.unstable.tpsa/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/client.unstable.tpsa/package.json#L4"
+    },
+    {
+      "name": "@osdk/create-app",
+      "source_version": "2.73.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/create-app/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/create-app/package.json#L6"
+    },
+    {
+      "name": "@osdk/create-app.react.beta.common",
+      "source_version": "2.24.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/create-app.react.beta.common/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/create-app.react.beta.common/package.json#L5"
+    },
+    {
+      "name": "@osdk/create-app.template-packager",
+      "source_version": "2.73.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/create-app.template-packager/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/create-app.template-packager/package.json#L5"
+    },
+    {
+      "name": "@osdk/create-app.template.expo.v2",
+      "source_version": "2.73.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/create-app.template.expo.v2/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/create-app.template.expo.v2/package.json#L5"
+    },
+    {
+      "name": "@osdk/create-app.template.react",
+      "source_version": "2.73.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/create-app.template.react/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/create-app.template.react/package.json#L5"
+    },
+    {
+      "name": "@osdk/create-app.template.react-public.beta",
+      "source_version": "2.73.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/create-app.template.react-public.beta/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/create-app.template.react-public.beta/package.json#L5"
+    },
+    {
+      "name": "@osdk/create-app.template.react.beta",
+      "source_version": "2.73.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/create-app.template.react.beta/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/create-app.template.react.beta/package.json#L5"
+    },
+    {
+      "name": "@osdk/create-app.template.tutorial-todo-aip-app",
+      "source_version": "2.73.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/create-app.template.tutorial-todo-aip-app/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/create-app.template.tutorial-todo-aip-app/package.json#L5"
+    },
+    {
+      "name": "@osdk/create-app.template.tutorial-todo-aip-app.beta",
+      "source_version": "2.73.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/create-app.template.tutorial-todo-aip-app.beta/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/create-app.template.tutorial-todo-aip-app.beta/package.json#L5"
+    },
+    {
+      "name": "@osdk/create-app.template.tutorial-todo-app",
+      "source_version": "2.73.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/create-app.template.tutorial-todo-app/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/create-app.template.tutorial-todo-app/package.json#L5"
+    },
+    {
+      "name": "@osdk/create-app.template.tutorial-todo-app.beta",
+      "source_version": "2.73.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/create-app.template.tutorial-todo-app.beta/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/create-app.template.tutorial-todo-app.beta/package.json#L5"
+    },
+    {
+      "name": "@osdk/create-app.template.typescript-library.beta",
+      "source_version": "2.73.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/create-app.template.typescript-library.beta/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/create-app.template.typescript-library.beta/package.json#L5"
+    },
+    {
+      "name": "@osdk/create-app.template.vue",
+      "source_version": "2.73.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/create-app.template.vue/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/create-app.template.vue/package.json#L5"
+    },
+    {
+      "name": "@osdk/create-app.template.vue.v2",
+      "source_version": "2.73.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/create-app.template.vue.v2/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/create-app.template.vue.v2/package.json#L5"
+    },
+    {
+      "name": "@osdk/create-widget",
+      "source_version": "3.72.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/create-widget/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/create-widget/package.json#L6"
+    },
+    {
+      "name": "@osdk/create-widget.template.react.v2",
+      "source_version": "3.72.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/create-widget.template.react.v2/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/create-widget.template.react.v2/package.json#L5"
+    },
+    {
+      "name": "@osdk/e2e.generated.1.1.x",
+      "source_version": "0.10.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/e2e.generated.1.1.x/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/e2e.generated.1.1.x/package.json#L6"
+    },
+    {
+      "name": "@osdk/e2e.generated.api-namespace.dep",
+      "source_version": "1.7.0-beta.1",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/e2e.generated.api-namespace.dep/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/e2e.generated.api-namespace.dep/package.json#L5"
+    },
+    {
+      "name": "@osdk/e2e.generated.api-namespace.local",
+      "source_version": "1.7.0-beta.1",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/e2e.generated.api-namespace.local/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/e2e.generated.api-namespace.local/package.json#L5"
+    },
+    {
+      "name": "@osdk/e2e.generated.catchall",
+      "source_version": "0.6.0-beta.1",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/e2e.generated.catchall/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/e2e.generated.catchall/package.json#L5"
+    },
+    {
+      "name": "@osdk/e2e.sandbox.catchall",
+      "source_version": "0.6.0-beta.1",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/e2e.sandbox.catchall/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/e2e.sandbox.catchall/package.json#L4"
+    },
+    {
+      "name": "@osdk/e2e.sandbox.oauth",
+      "source_version": "0.10.0-beta.1",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/e2e.sandbox.oauth/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/e2e.sandbox.oauth/package.json#L5"
+    },
+    {
+      "name": "@osdk/e2e.sandbox.oauth.public.react-router",
+      "source_version": "0.8.0-beta.1",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/e2e.sandbox.oauth.public.react-router/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/e2e.sandbox.oauth.public.react-router/package.json#L5"
+    },
+    {
+      "name": "@osdk/e2e.sandbox.officeassignment",
+      "source_version": "0.0.1",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/e2e.sandbox.officeassignment/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/e2e.sandbox.officeassignment/package.json#L5"
+    },
+    {
+      "name": "@osdk/e2e.sandbox.officenetwork",
+      "source_version": "0.0.1",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/e2e.sandbox.officenetwork/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/e2e.sandbox.officenetwork/package.json#L5"
+    },
+    {
+      "name": "@osdk/e2e.sandbox.peopleapp",
+      "source_version": "3.6.0-beta.1",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/e2e.sandbox.peopleapp/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/e2e.sandbox.peopleapp/package.json#L5"
+    },
+    {
+      "name": "@osdk/e2e.sandbox.todoapp",
+      "source_version": "3.7.0-beta.1",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/e2e.sandbox.todoapp/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/e2e.sandbox.todoapp/package.json#L5"
+    },
+    {
+      "name": "@osdk/e2e.sandbox.todowidget",
+      "source_version": "0.8.0-beta.1",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/e2e.sandbox.todowidget/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/e2e.sandbox.todowidget/package.json#L5"
+    },
+    {
+      "name": "@osdk/e2e.test.foundry-sdk-generator",
+      "source_version": "0.9.0-beta.1",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/e2e.test.foundry-sdk-generator/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/e2e.test.foundry-sdk-generator/package.json#L5"
+    },
+    {
+      "name": "@osdk/example-generator",
+      "source_version": "0.59.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/example-generator/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/example-generator/package.json#L5"
+    },
+    {
+      "name": "@osdk/faux",
+      "source_version": "0.54.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/faux/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/faux/package.json#L6"
+    },
+    {
+      "name": "@osdk/foundry-config-json",
+      "source_version": "1.13.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/foundry-config-json/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/foundry-config-json/package.json#L5"
+    },
+    {
+      "name": "@osdk/foundry-sdk-generator",
+      "source_version": "2.73.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/foundry-sdk-generator/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/foundry-sdk-generator/package.json#L6"
+    },
+    {
+      "name": "@osdk/functions",
+      "source_version": "1.26.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/functions/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/functions/package.json#L6"
+    },
+    {
+      "name": "@osdk/generator",
+      "source_version": "2.73.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/generator/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/generator/package.json#L6"
+    },
+    {
+      "name": "@osdk/generator-converters",
+      "source_version": "2.73.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/generator-converters/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/generator-converters/package.json#L6"
+    },
+    {
+      "name": "@osdk/generator-converters.ontologyir",
+      "source_version": "2.73.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/generator-converters.ontologyir/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/generator-converters.ontologyir/package.json#L6"
+    },
+    {
+      "name": "@osdk/generator-converters.preview",
+      "source_version": "0.51.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/generator-converters.preview/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/generator-converters.preview/package.json#L6"
+    },
+    {
+      "name": "@osdk/generator-utils",
+      "source_version": "2.73.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/generator-utils/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/generator-utils/package.json#L4"
+    },
+    {
+      "name": "@osdk/integration-testing",
+      "source_version": "0.7.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/integration-testing/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/integration-testing/package.json#L6"
+    },
+    {
+      "name": "@osdk/language-models",
+      "source_version": "0.11.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/language-models/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/language-models/package.json#L6"
+    },
+    {
+      "name": "@osdk/maker",
+      "source_version": "0.74.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/maker/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/maker/package.json#L4"
+    },
+    {
+      "name": "@osdk/maker-experimental",
+      "source_version": "0.67.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/maker-experimental/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/maker-experimental/package.json#L4"
+    },
+    {
+      "name": "@osdk/maker-import",
+      "source_version": "0.40.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/maker-import/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/maker-import/package.json#L4"
+    },
+    {
+      "name": "@osdk/monorepo.api-extractor",
+      "source_version": "0.7.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/monorepo.api-extractor/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/monorepo.api-extractor/package.json#L5"
+    },
+    {
+      "name": "@osdk/monorepo.cspell",
+      "source_version": "0.7.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/monorepo.cspell/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/monorepo.cspell/package.json#L6"
+    },
+    {
+      "name": "@osdk/monorepo.tool.check-bundle",
+      "source_version": "0.1.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/monorepo.tool.check-bundle/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/monorepo.tool.check-bundle/package.json#L5"
+    },
+    {
+      "name": "@osdk/monorepo.tool.transpile",
+      "source_version": "0.7.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/monorepo.tool.transpile/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/monorepo.tool.transpile/package.json#L5"
+    },
+    {
+      "name": "@osdk/monorepo.tsconfig",
+      "source_version": "0.7.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/monorepo.tsconfig/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/monorepo.tsconfig/package.json#L5"
+    },
+    {
+      "name": "@osdk/oauth",
+      "source_version": "1.14.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/oauth/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/oauth/package.json#L4"
+    },
+    {
+      "name": "@osdk/ontology-explorer-app",
+      "source_version": "0.1.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/ontology-explorer-app/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/ontology-explorer-app/package.json#L5"
+    },
+    {
+      "name": "@osdk/ontology-explorer-server",
+      "source_version": "0.2.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/ontology-explorer-server/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/ontology-explorer-server/package.json#L4"
+    },
+    {
+      "name": "@osdk/osdk-docs-context",
+      "source_version": "0.11.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/osdk-docs-context/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/osdk-docs-context/package.json#L5"
+    },
+    {
+      "name": "@osdk/osdk-docs-context-generator",
+      "source_version": "0.7.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/osdk-docs-context-generator/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/osdk-docs-context-generator/package.json#L5"
+    },
+    {
+      "name": "@osdk/react",
+      "source_version": "2.73.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/react/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/react/package.json#L4"
+    },
+    {
+      "name": "@osdk/react-components",
+      "source_version": "0.61.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/react-components/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/react-components/package.json#L4"
+    },
+    {
+      "name": "@osdk/react-components-storybook",
+      "source_version": "0.60.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/react-components-storybook/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/react-components-storybook/package.json#L5"
+    },
+    {
+      "name": "@osdk/react-devtools",
+      "source_version": "0.19.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/react-devtools/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/react-devtools/package.json#L5"
+    },
+    {
+      "name": "@osdk/react-sdk-docs",
+      "source_version": "0.20.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/react-sdk-docs/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/react-sdk-docs/package.json#L4"
+    },
+    {
+      "name": "@osdk/seed-compiler",
+      "source_version": "0.16.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/seed-compiler/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/seed-compiler/package.json#L4"
+    },
+    {
+      "name": "@osdk/seed-helpers",
+      "source_version": "0.31.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/seed-helpers/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/seed-helpers/package.json#L4"
+    },
+    {
+      "name": "@osdk/shared.client.impl",
+      "source_version": "1.14.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/shared.client.impl/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/shared.client.impl/package.json#L4"
+    },
+    {
+      "name": "@osdk/shared.net",
+      "source_version": "2.13.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/shared.net/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/shared.net/package.json#L6"
+    },
+    {
+      "name": "@osdk/shared.net.errors",
+      "source_version": "2.13.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/shared.net.errors/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/shared.net.errors/package.json#L4"
+    },
+    {
+      "name": "@osdk/shared.net.fetch",
+      "source_version": "1.13.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/shared.net.fetch/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/shared.net.fetch/package.json#L4"
+    },
+    {
+      "name": "@osdk/shared.test",
+      "source_version": "2.49.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/shared.test/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/shared.test/package.json#L7"
+    },
+    {
+      "name": "@osdk/shared.test.intellisense",
+      "source_version": "0.26.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/shared.test.intellisense/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/shared.test.intellisense/package.json#L7"
+    },
+    {
+      "name": "@osdk/tool.generate-with-mock-ontology",
+      "source_version": "0.48.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/tool.generate-with-mock-ontology/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/tool.generate-with-mock-ontology/package.json#L5"
+    },
+    {
+      "name": "@osdk/tool.release",
+      "source_version": "0.18.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/tool.release/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/tool.release/package.json#L5"
+    },
+    {
+      "name": "@osdk/typescript-docs-example-generator",
+      "source_version": "0.9.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/typescript-docs-example-generator/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/typescript-docs-example-generator/package.json#L5"
+    },
+    {
+      "name": "@osdk/typescript-sdk-docs",
+      "source_version": "0.25.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/typescript-sdk-docs/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/typescript-sdk-docs/package.json#L4"
+    },
+    {
+      "name": "@osdk/typescript-sdk-docs-examples",
+      "source_version": "0.8.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/typescript-sdk-docs-examples/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/typescript-sdk-docs-examples/package.json#L5"
+    },
+    {
+      "name": "@osdk/unit-testing",
+      "source_version": "0.26.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/unit-testing/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/unit-testing/package.json#L6"
+    },
+    {
+      "name": "@osdk/version-updater",
+      "source_version": "0.7.0",
+      "license_declaration": "Apache-2.0",
+      "private": true,
+      "source_path": "packages/version-updater/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/version-updater/package.json#L7"
+    },
+    {
+      "name": "@osdk/vite-plugin-branch",
+      "source_version": "2.73.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/vite-plugin-branch/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/vite-plugin-branch/package.json#L4"
+    },
+    {
+      "name": "@osdk/vite-plugin-code-workspace-preview",
+      "source_version": "0.2.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/vite-plugin-code-workspace-preview/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/vite-plugin-code-workspace-preview/package.json#L4"
+    },
+    {
+      "name": "@osdk/vite-plugin-oac",
+      "source_version": "0.73.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/vite-plugin-oac/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/vite-plugin-oac/package.json#L4"
+    },
+    {
+      "name": "@osdk/vite-plugin-status-reporter",
+      "source_version": "0.7.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/vite-plugin-status-reporter/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/vite-plugin-status-reporter/package.json#L4"
+    },
+    {
+      "name": "@osdk/vite-plugin-superrepo",
+      "source_version": "0.11.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/vite-plugin-superrepo/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/vite-plugin-superrepo/package.json#L4"
+    },
+    {
+      "name": "@osdk/widget.api",
+      "source_version": "3.72.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/widget.api/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/widget.api/package.json#L6"
+    },
+    {
+      "name": "@osdk/widget.client",
+      "source_version": "3.72.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/widget.client/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/widget.client/package.json#L6"
+    },
+    {
+      "name": "@osdk/widget.client-react",
+      "source_version": "3.72.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/widget.client-react/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/widget.client-react/package.json#L6"
+    },
+    {
+      "name": "@osdk/widget.vite-plugin",
+      "source_version": "3.72.0",
+      "license_declaration": "Apache-2.0",
+      "private": false,
+      "source_path": "packages/widget.vite-plugin/package.json",
+      "source_url": "https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/widget.vite-plugin/package.json#L6"
+    }
+  ]
+}
