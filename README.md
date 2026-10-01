@@ -12,6 +12,7 @@
 | [OSDK TypeScript（2026-09）](research/osdk-typescript-2026-09/) | 研究报告，待用户评审 | Ontology codegen、typed client、observable 缓存、React 订阅、发布与许可证边界 |
 | [AI FDE（2026-10）](research/ai-fde-2026-10/) | 深入研究，待用户评审 | Foundry 工程 Agent 的 Modes、上下文、工具与验证闭环；分支/审批/数据副作用边界、公开实践与 EOS 分期验证 |
 | [Custom Widgets / Widget Registry（2026-10）](research/custom-widgets-2026-10/) | 详尽研究报告 | 宿主协议、ObjectSet/React adapter、实际发布包与构建链、版本兼容、真实界面/视频证据及 EOS 实施建议 |
+| [Workshop Runtime（2026-10）](research/workshop-runtime-2026-10/) | 深入研究，待用户评审 | React/Pilot→OSDK→Widget Set/Registry→宿主变量与事件→Ontology读写→页面与版本；EOS当前实现、语义差异与验证范围 |
 
 ## 目录约定
 
