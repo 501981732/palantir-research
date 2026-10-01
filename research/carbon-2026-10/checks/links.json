@@ -1,0 +1,975 @@
+{
+  "checked_at_utc": "2026-10-01T14:05:09.326055+00:00",
+  "scope": "Public HTTP reachability only; no tenant or product behavior tested",
+  "links": [
+    {
+      "url": "https://community.palantir.com/t/add-all-foundry-applications-as-link-possibilities-in-carbon-workspace/4374",
+      "labels": [
+        "Links",
+        "原帖：Add all Foundry Applications as link possibilities in Carbon Workspace"
+      ],
+      "used_in": [
+        "README.md",
+        "notes/public-practice.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/add-all-foundry-applications-as-link-possibilities-in-carbon-workspace/4374",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed"
+    },
+    {
+      "url": "https://community.palantir.com/t/automatically-redirecting-users-to-updated-workshop-module/298",
+      "labels": [
+        "原帖：Automatically redirecting users to updated Workshop module"
+      ],
+      "used_in": [
+        "notes/public-practice.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/automatically-redirecting-users-to-updated-workshop-module/298",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed"
+    },
+    {
+      "url": "https://community.palantir.com/t/carbon-homepage-sidebar/3791",
+      "labels": [
+        "Sidebar",
+        "原帖：Carbon Homepage Sidebar"
+      ],
+      "used_in": [
+        "README.md",
+        "notes/public-practice.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/carbon-homepage-sidebar/3791",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed"
+    },
+    {
+      "url": "https://community.palantir.com/t/carbon-landing-page-in-workshop/3457",
+      "labels": [
+        "Landing page",
+        "原帖：Carbon landing page in Workshop"
+      ],
+      "used_in": [
+        "README.md",
+        "notes/public-practice.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/carbon-landing-page-in-workshop/3457",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed"
+    },
+    {
+      "url": "https://community.palantir.com/t/data-linage-present-carbon-workspaces-as-linkable-item/5795",
+      "labels": [
+        "Lineage",
+        "Lineage反馈",
+        "原帖：Data Linage - Present Carbon Workspaces as Linkable Item"
+      ],
+      "used_in": [
+        "README.md",
+        "notes/public-practice.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/data-linage-present-carbon-workspaces-as-linkable-item/5795",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed"
+    },
+    {
+      "url": "https://community.palantir.com/t/object-view-for-sets-of-objects/3749",
+      "labels": [
+        "Original discussion",
+        "原帖：Object View for sets of objects"
+      ],
+      "used_in": [
+        "README.md",
+        "notes/public-practice.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/object-view-for-sets-of-objects/3749",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed"
+    },
+    {
+      "url": "https://community.palantir.com/t/object-view-for-sets-of-objects/3749/11",
+      "labels": [
+        "原帖后续"
+      ],
+      "used_in": [
+        "notes/public-practice.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/object-view-for-sets-of-objects/3749/11",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed"
+    },
+    {
+      "url": "https://community.palantir.com/t/saved-module-states-in-carbon/5155",
+      "labels": [
+        "Saved states",
+        "Saved states原帖",
+        "原帖：Saved Module States in Carbon"
+      ],
+      "used_in": [
+        "README.md",
+        "notes/public-practice.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/saved-module-states-in-carbon/5155",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed"
+    },
+    {
+      "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.filesystem/src/v2/_components.ts",
+      "labels": [
+        "ResourceType，固定 commit"
+      ],
+      "used_in": [
+        "notes/public-practice.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.filesystem/src/v2/_components.ts",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/client.unstable/src/generated/ontology-metadata/api/__components.ts",
+      "labels": [
+        "生成 URL target 类型，固定 commit"
+      ],
+      "used_in": [
+        "notes/public-practice.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/client.unstable/src/generated/ontology-metadata/api/__components.ts",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed"
+    },
+    {
+      "url": "https://github.com/palantir/osdk-ts/blob/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/widget.api/src/config.ts",
+      "labels": [
+        "WidgetConfig公开源码",
+        "WidgetConfig源码"
+      ],
+      "used_in": [
+        "notes/module-navigation-evidence.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/widget.api/src/config.ts",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed"
+    },
+    {
+      "url": "https://medium.com/codestrap/the-codestrap-operating-model-for-palantir-foundry-c2e230b7f64a",
+      "labels": [
+        "The CodeStrap Operating Model for Palantir Foundry"
+      ],
+      "used_in": [
+        "notes/public-practice.md"
+      ],
+      "status": "unavailable",
+      "error": "HTTPError: HTTP Error 403: Forbidden"
+    },
+    {
+      "url": "https://www.linkedin.com/posts/connordeeks_end-to-end-branching-from-the-data-lake-to-activity-7401648835934285824-SEpH",
+      "labels": [
+        "原始 LinkedIn 帖与自带访谈转录"
+      ],
+      "used_in": [
+        "notes/public-practice.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.linkedin.com/posts/connordeeks_end-to-end-branching-from-the-data-lake-to-activity-7401648835934285824-SEpH",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/administration/configure-application-access",
+      "labels": [
+        "Configure application access"
+      ],
+      "used_in": [
+        "README.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/administration/configure-application-access",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/announcements/2026-09",
+      "labels": [
+        "Dated announcement",
+        "Insight公告",
+        "September 2026 announcement",
+        "September announcement",
+        "source",
+        "公告"
+      ],
+      "used_in": [
+        "README.md",
+        "notes/media-assets.md",
+        "notes/media-insight-evidence.md",
+        "notes/module-navigation-evidence.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/announcements/2026-09",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/app-building/operational-apps",
+      "labels": [
+        "Operational applications"
+      ],
+      "used_in": [
+        "README.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/app-building/operational-apps",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/carbon/code-example",
+      "labels": [
+        "Claim Portal YAML configuration example"
+      ],
+      "used_in": [
+        "notes/public-practice.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/carbon/code-example",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/carbon/code-reference",
+      "labels": [
+        "YAML reference"
+      ],
+      "used_in": [
+        "README.md",
+        "notes/module-navigation-evidence.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/carbon/code-reference",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/carbon/configuration-access",
+      "labels": [
+        "Access configuration"
+      ],
+      "used_in": [
+        "README.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/carbon/configuration-access",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/carbon/configuration-general",
+      "labels": [
+        "Enable AIP Assist",
+        "General configuration"
+      ],
+      "used_in": [
+        "README.md",
+        "notes/media-insight-evidence.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/carbon/configuration-general",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/carbon/configuration-home",
+      "labels": [
+        "Home configuration",
+        "source",
+        "来源"
+      ],
+      "used_in": [
+        "README.md",
+        "notes/media-assets.md",
+        "notes/media-insight-evidence.md",
+        "notes/public-practice.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/carbon/configuration-home",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/carbon/configuration-menu-bar",
+      "labels": [
+        "Menu bar",
+        "Menu bar configuration",
+        "Menu configuration",
+        "source",
+        "来源"
+      ],
+      "used_in": [
+        "README.md",
+        "notes/media-assets.md",
+        "notes/media-insight-evidence.md",
+        "notes/module-navigation-evidence.md",
+        "notes/public-practice.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/carbon/configuration-menu-bar",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/carbon/example-workspaces",
+      "labels": [
+        "Example workspaces",
+        "source",
+        "来源"
+      ],
+      "used_in": [
+        "README.md",
+        "notes/media-assets.md",
+        "notes/media-insight-evidence.md",
+        "notes/public-practice.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/carbon/example-workspaces",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/carbon/getting-started",
+      "labels": [
+        "Carbon getting started",
+        "Getting started"
+      ],
+      "used_in": [
+        "README.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/carbon/getting-started",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/carbon/marketplace-carbon-workspace",
+      "labels": [
+        "Marketplace Carbon workspace",
+        "Marketplace limitations",
+        "Marketplace support",
+        "Marketplace supported features"
+      ],
+      "used_in": [
+        "README.md",
+        "notes/module-navigation-evidence.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/carbon/marketplace-carbon-workspace",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/carbon/modules-discovery",
+      "labels": [
+        "Carbon Module discovery",
+        "Configure module discovery",
+        "Discovery behavior",
+        "Discovery configuration",
+        "Discovery scope",
+        "Module discovery",
+        "Quiver discovery",
+        "Slate discovery",
+        "Workshop discovery",
+        "source",
+        "来源"
+      ],
+      "used_in": [
+        "README.md",
+        "notes/media-assets.md",
+        "notes/media-insight-evidence.md",
+        "notes/module-navigation-evidence.md",
+        "notes/public-practice.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/carbon/modules-discovery",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/carbon/modules-navigation",
+      "labels": [
+        "Carbon Module navigation",
+        "Configure navigation between modules",
+        "Module integration",
+        "Modules navigation",
+        "Navigation",
+        "Navigation discovery behavior",
+        "Navigation examples",
+        "Navigation framework",
+        "Navigation integration",
+        "Navigation introduction",
+        "Slate input",
+        "Standalone discovery setup",
+        "Union steps",
+        "Workshop integration",
+        "Workshop limitations",
+        "source",
+        "来源"
+      ],
+      "used_in": [
+        "README.md",
+        "notes/media-assets.md",
+        "notes/media-insight-evidence.md",
+        "notes/module-navigation-evidence.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/carbon/modules-navigation",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/carbon/modules-overview",
+      "labels": [
+        "Carbon Modules overview",
+        "Modules",
+        "Modules overview"
+      ],
+      "used_in": [
+        "README.md",
+        "notes/module-navigation-evidence.md",
+        "notes/public-practice.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/carbon/modules-overview",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/carbon/overview",
+      "labels": [
+        "Carbon overview",
+        "source",
+        "来源"
+      ],
+      "used_in": [
+        "README.md",
+        "notes/media-assets.md",
+        "notes/media-insight-evidence.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/carbon/overview",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/carbon/permissions-configure",
+      "labels": [
+        "Carbon Permissions",
+        "Carbon permissions",
+        "Permissions",
+        "Viewer permissions"
+      ],
+      "used_in": [
+        "README.md",
+        "notes/module-navigation-evidence.md",
+        "notes/public-practice.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/carbon/permissions-configure",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/carbon/permissions-default-workspace",
+      "labels": [
+        "Default workspace"
+      ],
+      "used_in": [
+        "README.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/carbon/permissions-default-workspace",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/carbon/permissions-landing-page",
+      "labels": [
+        "Landing page"
+      ],
+      "used_in": [
+        "README.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/carbon/permissions-landing-page",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/carbon/restrict-workspace-nav",
+      "labels": [
+        "Restrict navigation",
+        "Restrict navigation out of a workspace",
+        "Restrict workspace navigation"
+      ],
+      "used_in": [
+        "README.md",
+        "notes/module-navigation-evidence.md",
+        "notes/public-practice.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/carbon/restrict-workspace-nav",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/carbon/workspaces-create",
+      "labels": [
+        "Create workspace"
+      ],
+      "used_in": [
+        "README.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/carbon/workspaces-create",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/carbon/workspaces-edit",
+      "labels": [
+        "Edit workspace"
+      ],
+      "used_in": [
+        "README.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/carbon/workspaces-edit",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/carbon/workspaces-history",
+      "labels": [
+        "History",
+        "Version history"
+      ],
+      "used_in": [
+        "README.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/carbon/workspaces-history",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/carbon/workspaces-navigation",
+      "labels": [
+        "Workspace navigation"
+      ],
+      "used_in": [
+        "README.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/carbon/workspaces-navigation",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/carbon/workspaces-overview",
+      "labels": [
+        "Carbon workspace overview",
+        "Workspace home",
+        "Workspace overview",
+        "Workspaces"
+      ],
+      "used_in": [
+        "README.md",
+        "notes/module-navigation-evidence.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/carbon/workspaces-overview",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/carbon/workspaces-updates",
+      "labels": [
+        "Workspace updates"
+      ],
+      "used_in": [
+        "README.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/carbon/workspaces-updates",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/overview",
+      "labels": [
+        "Custom Widgets overview",
+        "Custom widgets",
+        "Custom widgets overview"
+      ],
+      "used_in": [
+        "README.md",
+        "notes/module-navigation-evidence.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/custom-widgets/overview",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/developer-console/deploy-custom-application-on-foundry",
+      "labels": [
+        "Hosting OSDK application",
+        "Hosting application: CORS"
+      ],
+      "used_in": [
+        "notes/module-navigation-evidence.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/developer-console/deploy-custom-application-on-foundry",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/insight/overview",
+      "labels": [
+        "Insight overview"
+      ],
+      "used_in": [
+        "README.md",
+        "notes/media-insight-evidence.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/insight/overview",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/object-views/config-panel-views",
+      "labels": [
+        "Configured panel Object View"
+      ],
+      "used_in": [
+        "notes/public-practice.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/object-views/config-panel-views",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/workflow-lineage/overview",
+      "labels": [
+        "Workflow Lineage overview"
+      ],
+      "used_in": [
+        "notes/public-practice.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/workflow-lineage/overview",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/workshop/branching-integration",
+      "labels": [
+        "Branching Workshop modules"
+      ],
+      "used_in": [
+        "notes/public-practice.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/workshop/branching-integration",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/workshop/concepts-events",
+      "labels": [
+        "Workshop Applications events",
+        "Workshop Events",
+        "Workshop events"
+      ],
+      "used_in": [
+        "README.md",
+        "notes/module-navigation-evidence.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/workshop/concepts-events",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/workshop/embedding-workshop-modules-overview",
+      "labels": [
+        "In-place replacement"
+      ],
+      "used_in": [
+        "notes/public-practice.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/workshop/embedding-workshop-modules-overview",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/workshop/module-interface",
+      "labels": [
+        "Module interface",
+        "Module interface: Carbon navigation",
+        "Open module event / URL",
+        "Workshop Module interface"
+      ],
+      "used_in": [
+        "README.md",
+        "notes/module-navigation-evidence.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/workshop/module-interface",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/workshop/routing",
+      "labels": [
+        "Routing",
+        "Routing limitations",
+        "Workshop Routing"
+      ],
+      "used_in": [
+        "README.md",
+        "notes/module-navigation-evidence.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/workshop/routing",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/workshop/state-saving",
+      "labels": [
+        "State saving",
+        "Workshop state saving"
+      ],
+      "used_in": [
+        "README.md",
+        "notes/public-practice.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/workshop/state-saving",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/workshop/widgets-resource-list",
+      "labels": [
+        "Resource List"
+      ],
+      "used_in": [
+        "notes/public-practice.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/workshop/widgets-resource-list",
+      "content_type": "text/html",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/announcements/release-notes/2026-09-22-150112-carbon-carbon-insight-exploration-pn.png",
+      "labels": [
+        "original"
+      ],
+      "used_in": [
+        "notes/media-assets.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/announcements/release-notes/2026-09-22-150112-carbon-carbon-insight-exploration-pn.png",
+      "content_type": "image/png",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/announcements/release-notes/2026-09-22-150115-carbon-carbon-homepage-new-search-bar-pn.png",
+      "labels": [
+        "original"
+      ],
+      "used_in": [
+        "notes/media-assets.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/announcements/release-notes/2026-09-22-150115-carbon-carbon-homepage-new-search-bar-pn.png",
+      "content_type": "image/png",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/announcements/release-notes/2026-09-22-150118-carbon-carbon-new-search-page-pn.png",
+      "labels": [
+        "original"
+      ],
+      "used_in": [
+        "notes/media-assets.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/announcements/release-notes/2026-09-22-150118-carbon-carbon-new-search-page-pn.png",
+      "content_type": "image/png",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/announcements/release-notes/2026-09-22-150121-carbon-carbon-insight-workspace-settings-pn.png",
+      "labels": [
+        "original"
+      ],
+      "used_in": [
+        "notes/media-assets.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/announcements/release-notes/2026-09-22-150121-carbon-carbon-insight-workspace-settings-pn.png",
+      "content_type": "image/png",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/carbon/application-portal-carbon.png",
+      "labels": [
+        "original"
+      ],
+      "used_in": [
+        "notes/media-assets.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/carbon/application-portal-carbon.png",
+      "content_type": "image/png",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/carbon/carbon-workspace.png",
+      "labels": [
+        "original"
+      ],
+      "used_in": [
+        "notes/media-assets.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/carbon/carbon-workspace.png",
+      "content_type": "image/png",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/carbon/configure-workspace-anchored-modules.png",
+      "labels": [
+        "original"
+      ],
+      "used_in": [
+        "notes/media-assets.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/carbon/configure-workspace-anchored-modules.png",
+      "content_type": "image/png",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/carbon/configure-workspace-featured-items.png",
+      "labels": [
+        "original"
+      ],
+      "used_in": [
+        "notes/media-assets.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/carbon/configure-workspace-featured-items.png",
+      "content_type": "image/png",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/carbon/configure-workspace-new-tab-modules.png",
+      "labels": [
+        "original"
+      ],
+      "used_in": [
+        "notes/media-assets.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/carbon/configure-workspace-new-tab-modules.png",
+      "content_type": "image/png",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/carbon/configure-workspace-replace-home-page.png",
+      "labels": [
+        "original"
+      ],
+      "used_in": [
+        "notes/media-assets.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/carbon/configure-workspace-replace-home-page.png",
+      "content_type": "image/png",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/carbon/getting-started-end-state.png",
+      "labels": [
+        "original"
+      ],
+      "used_in": [
+        "notes/media-assets.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/carbon/getting-started-end-state.png",
+      "content_type": "image/png",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/carbon/module-discovery-workshop.png",
+      "labels": [
+        "original"
+      ],
+      "used_in": [
+        "notes/media-assets.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/carbon/module-discovery-workshop.png",
+      "content_type": "image/png",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/carbon/navigation-multi-step-3.png?width=500",
+      "labels": [
+        "original"
+      ],
+      "used_in": [
+        "notes/media-assets.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/carbon/navigation-multi-step-3.png?width=500",
+      "content_type": "image/png",
+      "status": "passed"
+    },
+    {
+      "url": "https://www.palantir.com/docs/resources/foundry/carbon/navigation-multi-step-5.png?width=500",
+      "labels": [
+        "original"
+      ],
+      "used_in": [
+        "notes/media-assets.md"
+      ],
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/resources/foundry/carbon/navigation-multi-step-5.png?width=500",
+      "content_type": "image/png",
+      "status": "passed"
+    }
+  ],
+  "summary": {
+    "passed": 64,
+    "failed": 0,
+    "unavailable": 1
+  }
+}

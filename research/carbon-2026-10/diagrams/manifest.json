@@ -1,0 +1,62 @@
+[
+  {
+    "file": "diagrams/01-workspace-model.svg",
+    "bytes": 9364,
+    "sha256": "cbe746f7720d29848448f78b350024dc51835a3fd1a94399cfbafd4d621da837",
+    "kind": "self-drawn conceptual diagram",
+    "source": "diagrams/01-workspace-model.dot",
+    "renderer": "Graphviz dot"
+  },
+  {
+    "file": "diagrams/01-workspace-model.png",
+    "bytes": 130620,
+    "sha256": "d330b24cbae75832d90e0929dd8acf375135efaf6544e914085ef82893cb69b9",
+    "kind": "self-drawn conceptual diagram",
+    "source": "diagrams/01-workspace-model.dot",
+    "renderer": "Graphviz dot",
+    "dimensions": [
+      859,
+      821
+    ]
+  },
+  {
+    "file": "diagrams/02-context-navigation.svg",
+    "bytes": 8331,
+    "sha256": "529cefb4117b0f9cc9d335d51d7e2dc7a1083c65393454a6234489a74e59a304",
+    "kind": "self-drawn conceptual diagram",
+    "source": "diagrams/02-context-navigation.dot",
+    "renderer": "Graphviz dot"
+  },
+  {
+    "file": "diagrams/02-context-navigation.png",
+    "bytes": 96699,
+    "sha256": "98eb7c3f095cc538606421f64aa1611940ba39bcfbcfaf14a0aea3350d1f31da",
+    "kind": "self-drawn conceptual diagram",
+    "source": "diagrams/02-context-navigation.dot",
+    "renderer": "Graphviz dot",
+    "dimensions": [
+      1732,
+      300
+    ]
+  },
+  {
+    "file": "diagrams/03-release-boundaries.svg",
+    "bytes": 7607,
+    "sha256": "1e8748a941bdf244190c577fed7e414277ef370ea47bfe58a2367b8a43d69333",
+    "kind": "self-drawn conceptual diagram",
+    "source": "diagrams/03-release-boundaries.dot",
+    "renderer": "Graphviz dot"
+  },
+  {
+    "file": "diagrams/03-release-boundaries.png",
+    "bytes": 96364,
+    "sha256": "c0b041a23e9d523c11b586650c7675b004054fcffd554f7572f9f55473a1bbb3",
+    "kind": "self-drawn conceptual diagram",
+    "source": "diagrams/03-release-boundaries.dot",
+    "renderer": "Graphviz dot",
+    "dimensions": [
+      1036,
+      472
+    ]
+  }
+]

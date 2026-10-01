@@ -1,0 +1,545 @@
+{
+  "retrieval_date": "2026-10-01",
+  "scope": "Carbon 公开社区原帖、作者文章/访谈文字与当前官方文档及固定 commit 源码；未登录租户、未读取 EOS 内部代码、未下载媒体、未观看视频",
+  "interpretation_rules": [
+    "社区问题中的运行现象是用户自述，未复现",
+    "账号提及内部 ticket 不等于员工身份或 GA 承诺",
+    "未由页面独立核实 evanj、helenq、Raghav 的雇主；jen 的 Object View Team 身份为原帖自述",
+    "官方在线文档无租户构建号，不反推历史年份功能",
+    "未找到源码是有界检索结论，不是全互联网不存在的证明"
+  ],
+  "sources": [
+    {
+      "id": "PP01",
+      "kind": "community_original_thread",
+      "title": "Saved Module States in Carbon",
+      "url": "https://community.palantir.com/t/saved-module-states-in-carbon/5155",
+      "published_date": "2025-10-01",
+      "reply_dates": [
+        "2025-10-01",
+        "2025-10-02"
+      ],
+      "authors": [
+        "mikewogden",
+        "evanj"
+      ],
+      "access": "公开正文已读取；图片未下载",
+      "claims": [
+        "用户希望在首页聚合 saved/shared states 防止书签绕过公告",
+        "作者称 Carbon 内复制的状态 URL 携带 workspace",
+        "指定 workspace 强制打开和动态 folder selection 的当时边界",
+        "saved state 遵循 folder permissions 的作者说明"
+      ],
+      "limits": [
+        "不是当前功能支持矩阵",
+        "内部动态资源列表 ticket 不作为发布证据",
+        "未核实作者雇主"
+      ]
+    },
+    {
+      "id": "PP02",
+      "kind": "community_original_thread",
+      "title": "Carbon Homepage Sidebar",
+      "url": "https://community.palantir.com/t/carbon-homepage-sidebar/3791",
+      "published_date": "2025-05-06",
+      "reply_dates": [
+        "2025-05-14"
+      ],
+      "authors": [
+        "43481928339c43a13234",
+        "evanj"
+      ],
+      "access": "公开正文已读取",
+      "claims": [
+        "用户自述 OSDK Workshop widget 首页与 Carbon sidebar 消失",
+        "作者定位 focused workflow",
+        "作者描述 iframe 丢 URL 更新以及独立 browser tabs 丢 shared caching 的取舍"
+      ],
+      "limits": [
+        "未测性能或复现 deep link",
+        "不是任意 OSDK 原生 module 接入证明",
+        "未核实作者雇主"
+      ]
+    },
+    {
+      "id": "PP03",
+      "kind": "community_original_thread",
+      "title": "Add all Foundry Applications as link possibilities in Carbon Workspace",
+      "url": "https://community.palantir.com/t/add-all-foundry-applications-as-link-possibilities-in-carbon-workspace/4374",
+      "published_date": "2025-07-03",
+      "reply_dates": [
+        "2026-03-12"
+      ],
+      "authors": [
+        "Flackermann",
+        "evanj"
+      ],
+      "access": "公开正文已读取；建议改名截图未下载",
+      "claims": [
+        "预设链接类型被作者解释为 shortcuts",
+        "不在预设清单的应用可填完整 URL",
+        "Link to custom URL 是作者提出的内部改名请求"
+      ],
+      "limits": [
+        "未确认改名已正式发布",
+        "URL 链接不等于 native Carbon module/discovery",
+        "未核实作者雇主"
+      ]
+    },
+    {
+      "id": "PP04",
+      "kind": "community_original_thread",
+      "title": "Data Linage - Present Carbon Workspaces as Linkable Item",
+      "url": "https://community.palantir.com/t/data-linage-present-carbon-workspaces-as-linkable-item/5795",
+      "published_date": "2026-01-08",
+      "reply_dates": [
+        "2026-01-09"
+      ],
+      "authors": [
+        "mikem",
+        "helenq"
+      ],
+      "access": "公开正文已读取",
+      "claims": [
+        "用户要求 Data Lineage Linked Items 显示 Carbon workspace",
+        "回复称跟踪 Workflow Lineage graph 的 FR"
+      ],
+      "limits": [
+        "Data Lineage 和 Workflow Lineage 不合并",
+        "FR 不等于发布",
+        "当前 Carbon lineage 支持矩阵未确认"
+      ]
+    },
+    {
+      "id": "PP05",
+      "kind": "community_original_thread",
+      "title": "Automatically redirecting users to updated Workshop module",
+      "url": "https://community.palantir.com/t/automatically-redirecting-users-to-updated-workshop-module/298",
+      "published_date": "2024-05-31",
+      "reply_dates": [
+        "2024-05-31",
+        "2025-04-10"
+      ],
+      "authors": [
+        "sharan",
+        "Raghav",
+        "evanj"
+      ],
+      "access": "公开原帖正文已读取",
+      "claims": [
+        "Marketplace 重构改变 module RID 后的旧书签问题",
+        "旧 module 包新 embedded module 的建议",
+        "逐层加载延迟的作者提醒",
+        "2025-04 作者指向正式 in-place replacement 文档",
+        "旧书签使用 /view/latest/ 而非固定版本是作者建议前提"
+      ],
+      "limits": [
+        "2024 没有 redirect 的答复不直接断言 2026 现状",
+        "未核实作者雇主"
+      ]
+    },
+    {
+      "id": "PP06",
+      "kind": "community_original_thread",
+      "title": "Carbon landing page in Workshop",
+      "url": "https://community.palantir.com/t/carbon-landing-page-in-workshop/3457",
+      "published_date": "2025-04-09",
+      "reply_dates": [
+        "2025-04-09"
+      ],
+      "authors": [
+        "haavard",
+        "evanj"
+      ],
+      "access": "公开正文已读取；媒体未下载",
+      "claims": [
+        "动态业务内容与 Carbon 首页入口组合诉求",
+        "作者推荐 Workshop Resource List 作为首页资源入口起点"
+      ],
+      "limits": [
+        "不能推出默认三栏局部 Workshop 插槽",
+        "未核实作者雇主"
+      ]
+    },
+    {
+      "id": "PP07",
+      "kind": "community_original_thread",
+      "title": "Object View for sets of objects",
+      "url": "https://community.palantir.com/t/object-view-for-sets-of-objects/3749",
+      "published_date": "2025-05-01",
+      "reply_dates": [
+        "2025-05-14",
+        "2025-05-15",
+        "2025-11-19"
+      ],
+      "authors": [
+        "SiggyTheViking",
+        "joshOntologize",
+        "evanj",
+        "lrhyne",
+        "jen"
+      ],
+      "access": "公开全文已读取；媒体未下载",
+      "claims": [
+        "2025-05 用 Workshop ObjectSet 接口及 Carbon discovery 的建议",
+        "当前 workspace 与外部 promoted 并集的原帖说明",
+        "registry 迁出 Carbon 是作者意见",
+        "2025-11 Object Set Panels 后续更新"
+      ],
+      "limits": [
+        "五月缺口不能当当前限制",
+        "jen 团队身份只记录自述",
+        "内部 Object Views 布局引用既有研究不重写"
+      ]
+    },
+    {
+      "id": "PD01",
+      "kind": "official_documentation",
+      "title": "Home configuration",
+      "url": "https://www.palantir.com/docs/foundry/carbon/configuration-home/",
+      "published_date": null,
+      "date_or_version": "2026-10-01 当前在线文档；无租户版本号",
+      "sections": [
+        "Featured items",
+        "Module-backed home pages"
+      ],
+      "claims": [
+        "默认三栏策展",
+        "Replace Home with Compass Resource 选择 module 与 parameters",
+        "恢复最后默认首页"
+      ]
+    },
+    {
+      "id": "PD02",
+      "kind": "official_documentation",
+      "title": "Resource List",
+      "url": "https://www.palantir.com/docs/foundry/workshop/widgets-resource-list/",
+      "published_date": null,
+      "date_or_version": "2026-10-01 当前在线文档",
+      "sections": [
+        "Files and Projects resources",
+        "Object types",
+        "Object sets",
+        "Integration with Workshop variable and eventing framework"
+      ],
+      "claims": [
+        "Recent/Favorite/Folders/Tags 动态资源列表",
+        "对象类型和对象集入口",
+        "能在 Carbon 打开的资源去 Carbon tab；dataset 去 Dataset Preview"
+      ],
+      "limits": [
+        "未确认动态 user-home-folder 选择或 saved-state 专用聚合"
+      ]
+    },
+    {
+      "id": "PD03",
+      "kind": "official_documentation",
+      "title": "Example workspaces",
+      "url": "https://www.palantir.com/docs/foundry/carbon/example-workspaces/",
+      "published_date": null,
+      "date_or_version": "2026-10-01 当前在线文档",
+      "claims": [
+        "streamlined operational user interface",
+        "Aviation Workspace 与 Claim Portal 官方实例"
+      ]
+    },
+    {
+      "id": "PD04",
+      "kind": "official_documentation",
+      "title": "Restrict navigation out of a workspace",
+      "url": "https://www.palantir.com/docs/foundry/carbon/restrict-workspace-nav/",
+      "published_date": null,
+      "date_or_version": "2026-10-01 当前在线文档",
+      "sections": [
+        "Disable navigation at the workspace level",
+        "Disable navigation at the module level"
+      ],
+      "claims": [
+        "workspace 导航禁用的界面范围",
+        "module 内出口可能仍存在",
+        "Control Panel application access 配合"
+      ]
+    },
+    {
+      "id": "PD05",
+      "kind": "official_documentation",
+      "title": "State saving",
+      "url": "https://www.palantir.com/docs/foundry/workshop/state-saving/",
+      "published_date": null,
+      "date_or_version": "2026-10-01 当前在线文档",
+      "claims": [
+        "显式保存选定变量和可选页面",
+        "不自动跨 session 持久化用户偏好"
+      ],
+      "limits": [
+        "变量机制详见既有 Workshop Runtime，不在本附录展开"
+      ]
+    },
+    {
+      "id": "PD06",
+      "kind": "official_documentation",
+      "title": "Configure module discovery",
+      "url": "https://www.palantir.com/docs/foundry/carbon/modules-discovery/",
+      "published_date": null,
+      "date_or_version": "2026-10-01 当前在线文档",
+      "sections": [
+        "Workshop modules",
+        "Quiver dashboards",
+        "Slate applications",
+        "Vertex graph",
+        "Module discovery behavior in Carbon and outside Carbon"
+      ],
+      "claims": [
+        "Workshop 接口 external ID 与类型约束",
+        "Carbon 内当前 workspace 清单",
+        "外部用户可访问 promoted workspaces 的并集"
+      ],
+      "limits": [
+        "不是任意应用注册API的证明"
+      ]
+    },
+    {
+      "id": "PD07",
+      "kind": "official_documentation",
+      "title": "Configured panel Object View",
+      "url": "https://www.palantir.com/docs/foundry/object-views/config-panel-views/",
+      "published_date": null,
+      "date_or_version": "2026-10-01 当前在线文档",
+      "claims": [
+        "object instance 与 object set panels 当前均支持"
+      ],
+      "limits": [
+        "内布局和变量行为仅引用既有研究"
+      ]
+    },
+    {
+      "id": "PD08",
+      "kind": "official_documentation",
+      "title": "Modules",
+      "url": "https://www.palantir.com/docs/foundry/carbon/modules-overview/",
+      "published_date": null,
+      "date_or_version": "2026-10-01 当前在线文档",
+      "claims": [
+        "参数化 application 在 Carbon tab 打开",
+        "受支持模块类型清单及输入输出组合"
+      ]
+    },
+    {
+      "id": "PD09",
+      "kind": "official_documentation",
+      "title": "Menu bar configuration",
+      "url": "https://www.palantir.com/docs/foundry/carbon/configuration-menu-bar/",
+      "published_date": null,
+      "date_or_version": "2026-10-01 当前在线文档",
+      "claims": [
+        "Anchored modules",
+        "New-tab modules 与 + 菜单"
+      ]
+    },
+    {
+      "id": "PD10",
+      "kind": "official_documentation",
+      "title": "Embed Workshop modules",
+      "url": "https://www.palantir.com/docs/foundry/workshop/embedding-workshop-modules-overview/",
+      "published_date": null,
+      "date_or_version": "2026-10-01 当前在线文档",
+      "sections": [
+        "In-place replacement of a Workshop module",
+        "Limitations"
+      ],
+      "claims": [
+        "旧 resource 的唯一 embedded widget 包新实现",
+        "子 module 的 routing/state saving 等设置不继承"
+      ],
+      "limits": [
+        "不是RID自动redirect服务"
+      ]
+    },
+    {
+      "id": "PD11",
+      "kind": "official_documentation",
+      "title": "Workflow Lineage overview",
+      "url": "https://www.palantir.com/docs/foundry/workflow-lineage/overview/",
+      "published_date": null,
+      "date_or_version": "2026-10-01 当前在线文档",
+      "claims": [
+        "Workflow Lineage 与 Data Lineage 互补定位",
+        "当前正文列举资源但未明确 Carbon 节点/关联支持"
+      ],
+      "limits": [
+        "没有列出不能证明绝对不支持Carbon"
+      ]
+    },
+    {
+      "id": "PD12",
+      "kind": "official_documentation",
+      "title": "Configure permissions",
+      "url": "https://www.palantir.com/docs/foundry/carbon/permissions-configure/",
+      "published_date": null,
+      "date_or_version": "2026-10-01 当前在线文档",
+      "claims": [
+        "workspace access 与底层 module/object/resource access 分离"
+      ]
+    },
+    {
+      "id": "PB01",
+      "kind": "author_original_technical_article",
+      "title": "The CodeStrap Operating Model for Palantir Foundry",
+      "url": "https://medium.com/codestrap/the-codestrap-operating-model-for-palantir-foundry-c2e230b7f64a",
+      "author": "Dorian Smiley",
+      "published_date": "2025-07-30",
+      "date_basis": "公开正文标题旁 Jul 30, 2025；不是 Codestrap publication 的 last-published 日期",
+      "sections": [
+        "SDLC, Observability, and Monitoring"
+      ],
+      "access": "公开正文完整可读；未下载配图",
+      "claims": [
+        "结合 branching、release groups 和 Carbon workspaces 作为受控发布渠道的作者建议"
+      ],
+      "limits": [
+        "非 Palantir 官方功能契约",
+        "无 Carbon canary 路由API或实现代码",
+        "不援用全文的商业效果承诺"
+      ]
+    },
+    {
+      "id": "PB02",
+      "kind": "author_original_post_with_interview_transcript",
+      "title": "Palantir's Foundry DevTools and Release Management Strategies",
+      "url": "https://www.linkedin.com/posts/connordeeks_end-to-end-branching-from-the-data-lake-to-activity-7401648835934285824-SEpH",
+      "author": "Connor Deeks",
+      "guest_described_by_post": "Nicolas Renkamp, Global Head of Platform Product Portfolio at Merck KGaA",
+      "published_date": null,
+      "date_display": "10mo",
+      "date_basis": "精确发布日期未核定；不把相对时间转换成确定日期",
+      "access": "公开原帖及自带文字转录已读取；未观看视频、未下载视频或关键帧",
+      "claims": [
+        "转录自述实验性发布做法：working groups + Carbon workspaces + Workshop feature branch + 最后合并及更新主线链接"
+      ],
+      "limits": [
+        "不作为画面证据",
+        "不由文字转录单独确定每句话说话者",
+        "不是 Carbon 内置灰度发布承诺"
+      ]
+    },
+    {
+      "id": "PD13",
+      "kind": "official_configuration_example",
+      "title": "YAML configuration example / Claim Portal",
+      "url": "https://www.palantir.com/docs/foundry/carbon/code-example/",
+      "published_date": null,
+      "date_or_version": "2026-10-01 当前在线文档",
+      "access": "公开正文和 YAML 已读取",
+      "claims": [
+        "discoverableModules",
+        "Workshop 与内置 search/exploration module RIDs",
+        "parameterValues",
+        "homePage"
+      ],
+      "limits": [
+        "是声明式配置示例，不是 shell 前端实现源码"
+      ]
+    },
+    {
+      "id": "PD14",
+      "kind": "official_documentation",
+      "title": "Branching Workshop modules",
+      "url": "https://www.palantir.com/docs/foundry/workshop/branching-integration/",
+      "published_date": null,
+      "date_or_version": "2026-10-01 当前在线文档",
+      "sections": [
+        "Adding Workshop modules to a branch"
+      ],
+      "access": "公开正文已读取",
+      "claims": [
+        "Workshop 集成 Global Branching",
+        "不支持 Global Branching 的非 Workshop 元素如 Quiver dashboard 不可在分支修改"
+      ],
+      "limits": [
+        "不确认 Carbon 原生灰度路由或 workspace 整体原子分支"
+      ]
+    },
+    {
+      "id": "PS01",
+      "kind": "official_public_source",
+      "title": "foundry-platform-typescript ResourceType",
+      "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.filesystem/src/v2/_components.ts#L665",
+      "commit": "4320149c31bcbcc2d176564d9259e343d9702d2b",
+      "published_date": null,
+      "access": "固定 commit 原始源码已读取",
+      "claims": [
+        "ResourceType 包含 CARBON_WORKSPACE"
+      ],
+      "limits": [
+        "资源枚举不等于 Carbon module host SDK"
+      ]
+    },
+    {
+      "id": "PS02",
+      "kind": "official_public_generated_source",
+      "title": "osdk-ts client.unstable CarbonWorkspaceUrlTarget",
+      "url": "https://github.com/palantir/osdk-ts/blob/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/client.unstable/src/generated/ontology-metadata/api/__components.ts#L2687",
+      "commit": "e53b94ecd5de7cdd7e864d0daa04363bdad4db4c",
+      "published_date": null,
+      "access": "固定 commit 原始源码已读取",
+      "claims": [
+        "CarbonWorkspaceUrlTarget 生成类型及可选 resource target"
+      ],
+      "limits": [
+        "路径属于 client.unstable",
+        "URL target 不是任意 OSDK 原生 module 注册协议"
+      ]
+    }
+  ],
+  "bounded_search": {
+    "retrieval_date": "2026-10-01",
+    "web_queries": [
+      "site:github.com/palantir Carbon workspace",
+      "\"Palantir Carbon\" workspace github",
+      "\"Carbon workspaces\" Palantir",
+      "\"Carbon Workspaces\" \"CodeStrap\"",
+      "site:community.palantir.com \"Automatically redirecting users to updated Workshop module\"",
+      "site:palantir.com/docs/foundry \"Carbon\" \"Lineage\"",
+      "site:palantir.com/docs/foundry \"saved state\" \"Carbon\"",
+      "site:palantir.com/docs/foundry \"Link to custom URL\""
+    ],
+    "github_queries": [
+      {
+        "kind": "code",
+        "query": "Carbon org:palantir",
+        "returned_count": 9,
+        "result": "相关项为 SDK 资源枚举与生成类型；其余无关"
+      },
+      {
+        "kind": "code",
+        "query": "\"Carbon Workspaces\" org:palantir",
+        "returned_count": 0,
+        "incomplete_results": false
+      },
+      {
+        "kind": "repository",
+        "query": "org:palantir carbon",
+        "returned_count": 0
+      },
+      {
+        "kind": "code",
+        "query": "\"carbon workspaces\" -repo:JeremyMeissner/palantir-docs",
+        "returned_count": 16,
+        "result": "以文档镜像、参考资料和架构评论为主；未识别高质量应用壳实现实例"
+      }
+    ],
+    "excluded_or_unread_candidates": [
+      {
+        "url": "https://github.com/doriansmiley/foundry-developer-foundations",
+        "status": "GitHub 读取返回 404",
+        "use": "不作为 Carbon 源码证据"
+      },
+      {
+        "kind": "carbon_emissions_same_name_materials",
+        "status": "排除",
+        "reason": "与 Palantir Carbon workspaces 无关"
+      }
+    ],
+    "conclusion": "本次有界检索未发现高质量可核验的 Carbon 应用壳源码实例；不据此声明不存在公开实现"
+  }
+}
