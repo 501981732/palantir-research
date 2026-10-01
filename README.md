@@ -7,6 +7,7 @@
 | 专题 | 状态 | 核心内容 |
 | --- | --- | --- |
 | [SuperRepo（2026-08）](research/superrepo-2026-08/) | 已完成 | Foundry 的 Ontology-first、pro-code 全栈单体仓库能力，当前 Beta 边界与工程启示 |
+| [Pilot（2026-09）](research/pilot-2026-09/) | 研究报告，待用户评审 | AI 生成 Ontology、设计与 React/OSDK；独立应用及 Workshop widget 交付，数据/权限边界与 EOS 验证计划 |
 
 ## 目录约定
 
