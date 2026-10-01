@@ -1,0 +1,16 @@
+digraph release {
+ graph [rankdir=TB, bgcolor="white", pad="0.25", nodesep="0.4", ranksep="0.5", fontname="PingFang SC", label="发布与回退需要分别识别治理边界", labelloc=t, fontsize=21];
+ node [shape=box, style="rounded,filled", fontname="PingFang SC", fontsize=14, margin="0.18,0.12", color="#8da0b1", fillcolor="#eaf2f7"];
+ edge [fontname="PingFang SC", fontsize=12, color="#58738a", arrowsize=0.7];
+ config [label="workspace 编辑\nSave 立即发布", fillcolor="#deeedf"];
+ history [label="workspace 历史\n预览旧版本 → 可修改 → 重发"];
+ modules [label="业务模块 / Object Views\n各自内容、权限与发布版本", fillcolor="#e8e1f4"];
+ org [label="组织推广 / 组默认\n入口分发，独立设置", fillcolor="#fff1dc"];
+ updates [label="workspace updates\n单独保存、归档与展示", fillcolor="#fff1dc"];
+ market [label="Marketplace 产品\n支持范围更窄；不是全部配置完整迁移"];
+ config -> history [label="版本记录与回退"];
+ config -> modules [style=dashed, label="引用资源；未证实原子版本锁定"];
+ org -> config [style=dashed, label="决定入口"];
+ updates -> config [style=dashed, label="通知变化"];
+ config -> market [label="可作为产品输出"];
+}

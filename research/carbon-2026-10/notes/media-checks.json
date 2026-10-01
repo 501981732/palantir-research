@@ -1,0 +1,132 @@
+{
+  "checked_utc": "2026-10-01T14:01:47.953459+00:00",
+  "all_passed": true,
+  "images": [
+    {
+      "id": "M01",
+      "path": "assets/media-claim-portal.png",
+      "bytes_match": true,
+      "sha256_match": true,
+      "dimensions_match": true,
+      "decode_ok": true,
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "M02",
+      "path": "assets/media-aviation-home.png",
+      "bytes_match": true,
+      "sha256_match": true,
+      "dimensions_match": true,
+      "decode_ok": true,
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "M03",
+      "path": "assets/media-application-portal.png",
+      "bytes_match": true,
+      "sha256_match": true,
+      "dimensions_match": true,
+      "decode_ok": true,
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "M04",
+      "path": "assets/media-home-featured-items.png",
+      "bytes_match": true,
+      "sha256_match": true,
+      "dimensions_match": true,
+      "decode_ok": true,
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "M05",
+      "path": "assets/media-module-home.png",
+      "bytes_match": true,
+      "sha256_match": true,
+      "dimensions_match": true,
+      "decode_ok": true,
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "M06",
+      "path": "assets/media-anchored-modules.png",
+      "bytes_match": true,
+      "sha256_match": true,
+      "dimensions_match": true,
+      "decode_ok": true,
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "M07",
+      "path": "assets/media-new-tab-modules.png",
+      "bytes_match": true,
+      "sha256_match": true,
+      "dimensions_match": true,
+      "decode_ok": true,
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "M08",
+      "path": "assets/media-workshop-discovery.png",
+      "bytes_match": true,
+      "sha256_match": true,
+      "dimensions_match": true,
+      "decode_ok": true,
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "M09",
+      "path": "assets/media-insight-tab.png",
+      "bytes_match": true,
+      "sha256_match": true,
+      "dimensions_match": true,
+      "decode_ok": true,
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "M10",
+      "path": "assets/media-modern-search-home.png",
+      "bytes_match": true,
+      "sha256_match": true,
+      "dimensions_match": true,
+      "decode_ok": true,
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "M11",
+      "path": "assets/media-modern-search-results.png",
+      "bytes_match": true,
+      "sha256_match": true,
+      "dimensions_match": true,
+      "decode_ok": true,
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "M12",
+      "path": "assets/media-insight-settings.png",
+      "bytes_match": true,
+      "sha256_match": true,
+      "dimensions_match": true,
+      "decode_ok": true,
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "M13",
+      "path": "assets/media-navigation-object-set.png",
+      "bytes_match": true,
+      "sha256_match": true,
+      "dimensions_match": true,
+      "decode_ok": true,
+      "visual_inspection": "passed"
+    },
+    {
+      "id": "M14",
+      "path": "assets/media-navigation-object-view.png",
+      "bytes_match": true,
+      "sha256_match": true,
+      "dimensions_match": true,
+      "decode_ok": true,
+      "visual_inspection": "passed"
+    }
+  ]
+}

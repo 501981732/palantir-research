@@ -1,0 +1,19 @@
+digraph navigation {
+ graph [rankdir=LR, bgcolor="white", pad="0.25", nodesep="0.4", ranksep="0.5", fontname="PingFang SC", label="对象上下文驱动新 tab；来源工作实例保留", labelloc=t, fontsize=21];
+ node [shape=box, style="rounded,filled", fontname="PingFang SC", fontsize=14, margin="0.15,0.12", color="#8096ad", fillcolor="#e6eff8"];
+ edge [fontname="PingFang SC", fontsize=12, color="#4f6c85", arrowsize=0.7];
+ search [label="Search tab\n输入 aircraft"];
+ explorer [label="探索 tab\nAircraft 类型 / 对象集"];
+ quiver [label="分析 tab A\n185 架 Aircraft"];
+ detail [label="详情 tab\nQ-AGM 单对象"];
+ second [label="分析 tab B\nQ-AGM 单对象", fillcolor="#dff0e5"];
+ origin [label="仍可回到来源 tabs\n原探索与分析状态", fillcolor="#fff0d7"];
+ search -> explorer [label="选择类型"];
+ explorer -> quiver [label="对象集 → 新 tab"];
+ quiver -> detail [label="单对象 → 新 tab"];
+ detail -> second [label="同模块不同输入"];
+ quiver -> origin [style=dashed, label="保留来源"];
+ explorer -> origin [style=dashed];
+ note [shape=note, label="旧 OE 示例；Insight 可按 workspace opt-in\n未证明全 tab 跨刷新恢复或持续双向同步", fillcolor="#f4f4f4", fontsize=12];
+ origin -> note [style=invis];
+}

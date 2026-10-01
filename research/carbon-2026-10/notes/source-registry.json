@@ -1,0 +1,944 @@
+[
+  {
+    "id": "S01",
+    "url": "https://community.palantir.com/t/add-all-foundry-applications-as-link-possibilities-in-carbon-workspace/4374",
+    "titles": [
+      "Links",
+      "原帖：Add all Foundry Applications as link possibilities in Carbon Workspace"
+    ],
+    "used_in": [
+      "README.md",
+      "notes/public-practice.md"
+    ],
+    "kind": "社区原帖",
+    "published_date": "2025-07-03",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": [
+      "未确认改名已正式发布",
+      "URL 链接不等于 native Carbon module/discovery",
+      "未核实作者雇主"
+    ]
+  },
+  {
+    "id": "S02",
+    "url": "https://community.palantir.com/t/automatically-redirecting-users-to-updated-workshop-module/298",
+    "titles": [
+      "原帖：Automatically redirecting users to updated Workshop module"
+    ],
+    "used_in": [
+      "notes/public-practice.md"
+    ],
+    "kind": "社区原帖",
+    "published_date": "2024-05-31",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": [
+      "2024 没有 redirect 的答复不直接断言 2026 现状",
+      "未核实作者雇主"
+    ]
+  },
+  {
+    "id": "S03",
+    "url": "https://community.palantir.com/t/carbon-homepage-sidebar/3791",
+    "titles": [
+      "Sidebar",
+      "原帖：Carbon Homepage Sidebar"
+    ],
+    "used_in": [
+      "README.md",
+      "notes/public-practice.md"
+    ],
+    "kind": "社区原帖",
+    "published_date": "2025-05-06",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": [
+      "未测性能或复现 deep link",
+      "不是任意 OSDK 原生 module 接入证明",
+      "未核实作者雇主"
+    ]
+  },
+  {
+    "id": "S04",
+    "url": "https://community.palantir.com/t/carbon-landing-page-in-workshop/3457",
+    "titles": [
+      "Landing page",
+      "原帖：Carbon landing page in Workshop"
+    ],
+    "used_in": [
+      "README.md",
+      "notes/public-practice.md"
+    ],
+    "kind": "社区原帖",
+    "published_date": "2025-04-09",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": [
+      "不能推出默认三栏局部 Workshop 插槽",
+      "未核实作者雇主"
+    ]
+  },
+  {
+    "id": "S05",
+    "url": "https://community.palantir.com/t/data-linage-present-carbon-workspaces-as-linkable-item/5795",
+    "titles": [
+      "Lineage",
+      "Lineage反馈",
+      "原帖：Data Linage - Present Carbon Workspaces as Linkable Item"
+    ],
+    "used_in": [
+      "README.md",
+      "notes/public-practice.md"
+    ],
+    "kind": "社区原帖",
+    "published_date": "2026-01-08",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": [
+      "Data Lineage 和 Workflow Lineage 不合并",
+      "FR 不等于发布",
+      "当前 Carbon lineage 支持矩阵未确认"
+    ]
+  },
+  {
+    "id": "S06",
+    "url": "https://community.palantir.com/t/object-view-for-sets-of-objects/3749",
+    "titles": [
+      "Original discussion",
+      "原帖：Object View for sets of objects"
+    ],
+    "used_in": [
+      "README.md",
+      "notes/public-practice.md"
+    ],
+    "kind": "社区原帖",
+    "published_date": "2025-05-01",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": [
+      "五月缺口不能当当前限制",
+      "jen 团队身份只记录自述",
+      "内部 Object Views 布局引用既有研究不重写"
+    ]
+  },
+  {
+    "id": "S07",
+    "url": "https://community.palantir.com/t/object-view-for-sets-of-objects/3749/11",
+    "titles": [
+      "原帖后续"
+    ],
+    "used_in": [
+      "notes/public-practice.md"
+    ],
+    "kind": "社区后续回复",
+    "published_date": "2025-11-19",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S08",
+    "url": "https://community.palantir.com/t/saved-module-states-in-carbon/5155",
+    "titles": [
+      "Saved states",
+      "Saved states原帖",
+      "原帖：Saved Module States in Carbon"
+    ],
+    "used_in": [
+      "README.md",
+      "notes/public-practice.md"
+    ],
+    "kind": "社区原帖",
+    "published_date": "2025-10-01",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": [
+      "不是当前功能支持矩阵",
+      "内部动态资源列表 ticket 不作为发布证据",
+      "未核实作者雇主"
+    ]
+  },
+  {
+    "id": "S09",
+    "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.filesystem/src/v2/_components.ts",
+    "titles": [
+      "ResourceType，固定 commit"
+    ],
+    "used_in": [
+      "notes/public-practice.md"
+    ],
+    "kind": "固定commit公开源码",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": [
+      "资源枚举不等于 Carbon module host SDK"
+    ]
+  },
+  {
+    "id": "S10",
+    "url": "https://github.com/palantir/osdk-ts/blob/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/client.unstable/src/generated/ontology-metadata/api/__components.ts",
+    "titles": [
+      "生成 URL target 类型，固定 commit"
+    ],
+    "used_in": [
+      "notes/public-practice.md"
+    ],
+    "kind": "固定commit公开源码",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": [
+      "路径属于 client.unstable",
+      "URL target 不是任意 OSDK 原生 module 注册协议"
+    ]
+  },
+  {
+    "id": "S11",
+    "url": "https://github.com/palantir/osdk-ts/blob/e53b94ecd5de7cdd7e864d0daa04363bdad4db4c/packages/widget.api/src/config.ts",
+    "titles": [
+      "WidgetConfig公开源码",
+      "WidgetConfig源码"
+    ],
+    "used_in": [
+      "notes/module-navigation-evidence.md"
+    ],
+    "kind": "固定commit公开源码",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S12",
+    "url": "https://medium.com/codestrap/the-codestrap-operating-model-for-palantir-foundry-c2e230b7f64a",
+    "titles": [
+      "The CodeStrap Operating Model for Palantir Foundry"
+    ],
+    "used_in": [
+      "notes/public-practice.md"
+    ],
+    "kind": "作者文章/公开文字",
+    "published_date": "2025-07-30",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": [
+      "非 Palantir 官方功能契约",
+      "无 Carbon canary 路由API或实现代码",
+      "不援用全文的商业效果承诺"
+    ]
+  },
+  {
+    "id": "S13",
+    "url": "https://www.linkedin.com/posts/connordeeks_end-to-end-branching-from-the-data-lake-to-activity-7401648835934285824-SEpH",
+    "titles": [
+      "原始 LinkedIn 帖与自带访谈转录"
+    ],
+    "used_in": [
+      "notes/public-practice.md"
+    ],
+    "kind": "作者文章/公开文字",
+    "published_date": "页面显示10mo；精确日期未核定",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": [
+      "不作为画面证据",
+      "不由文字转录单独确定每句话说话者",
+      "不是 Carbon 内置灰度发布承诺"
+    ]
+  },
+  {
+    "id": "S14",
+    "url": "https://www.palantir.com/docs/foundry/administration/configure-application-access",
+    "titles": [
+      "Configure application access"
+    ],
+    "used_in": [
+      "README.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S15",
+    "url": "https://www.palantir.com/docs/foundry/announcements/2026-09",
+    "titles": [
+      "Dated announcement",
+      "Insight公告",
+      "September 2026 announcement",
+      "September announcement",
+      "source",
+      "公告"
+    ],
+    "used_in": [
+      "README.md",
+      "notes/media-assets.md",
+      "notes/media-insight-evidence.md",
+      "notes/module-navigation-evidence.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "2026-09-21",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S16",
+    "url": "https://www.palantir.com/docs/foundry/app-building/operational-apps",
+    "titles": [
+      "Operational applications"
+    ],
+    "used_in": [
+      "README.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S17",
+    "url": "https://www.palantir.com/docs/foundry/carbon/code-example",
+    "titles": [
+      "Claim Portal YAML configuration example"
+    ],
+    "used_in": [
+      "notes/public-practice.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": [
+      "是声明式配置示例，不是 shell 前端实现源码"
+    ]
+  },
+  {
+    "id": "S18",
+    "url": "https://www.palantir.com/docs/foundry/carbon/code-reference",
+    "titles": [
+      "YAML reference"
+    ],
+    "used_in": [
+      "README.md",
+      "notes/module-navigation-evidence.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S19",
+    "url": "https://www.palantir.com/docs/foundry/carbon/configuration-access",
+    "titles": [
+      "Access configuration"
+    ],
+    "used_in": [
+      "README.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S20",
+    "url": "https://www.palantir.com/docs/foundry/carbon/configuration-general",
+    "titles": [
+      "Enable AIP Assist",
+      "General configuration"
+    ],
+    "used_in": [
+      "README.md",
+      "notes/media-insight-evidence.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S21",
+    "url": "https://www.palantir.com/docs/foundry/carbon/configuration-home",
+    "titles": [
+      "Home configuration",
+      "source",
+      "来源"
+    ],
+    "used_in": [
+      "README.md",
+      "notes/media-assets.md",
+      "notes/media-insight-evidence.md",
+      "notes/public-practice.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S22",
+    "url": "https://www.palantir.com/docs/foundry/carbon/configuration-menu-bar",
+    "titles": [
+      "Menu bar",
+      "Menu bar configuration",
+      "Menu configuration",
+      "source",
+      "来源"
+    ],
+    "used_in": [
+      "README.md",
+      "notes/media-assets.md",
+      "notes/media-insight-evidence.md",
+      "notes/module-navigation-evidence.md",
+      "notes/public-practice.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S23",
+    "url": "https://www.palantir.com/docs/foundry/carbon/example-workspaces",
+    "titles": [
+      "Example workspaces",
+      "source",
+      "来源"
+    ],
+    "used_in": [
+      "README.md",
+      "notes/media-assets.md",
+      "notes/media-insight-evidence.md",
+      "notes/public-practice.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S24",
+    "url": "https://www.palantir.com/docs/foundry/carbon/getting-started",
+    "titles": [
+      "Carbon getting started",
+      "Getting started"
+    ],
+    "used_in": [
+      "README.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S25",
+    "url": "https://www.palantir.com/docs/foundry/carbon/marketplace-carbon-workspace",
+    "titles": [
+      "Marketplace Carbon workspace",
+      "Marketplace limitations",
+      "Marketplace support",
+      "Marketplace supported features"
+    ],
+    "used_in": [
+      "README.md",
+      "notes/module-navigation-evidence.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S26",
+    "url": "https://www.palantir.com/docs/foundry/carbon/modules-discovery",
+    "titles": [
+      "Carbon Module discovery",
+      "Configure module discovery",
+      "Discovery behavior",
+      "Discovery configuration",
+      "Discovery scope",
+      "Module discovery",
+      "Quiver discovery",
+      "Slate discovery",
+      "Workshop discovery",
+      "source",
+      "来源"
+    ],
+    "used_in": [
+      "README.md",
+      "notes/media-assets.md",
+      "notes/media-insight-evidence.md",
+      "notes/module-navigation-evidence.md",
+      "notes/public-practice.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": [
+      "不是任意应用注册API的证明"
+    ]
+  },
+  {
+    "id": "S27",
+    "url": "https://www.palantir.com/docs/foundry/carbon/modules-navigation",
+    "titles": [
+      "Carbon Module navigation",
+      "Configure navigation between modules",
+      "Module integration",
+      "Modules navigation",
+      "Navigation",
+      "Navigation discovery behavior",
+      "Navigation examples",
+      "Navigation framework",
+      "Navigation integration",
+      "Navigation introduction",
+      "Slate input",
+      "Standalone discovery setup",
+      "Union steps",
+      "Workshop integration",
+      "Workshop limitations",
+      "Workshop参数映射",
+      "source",
+      "来源"
+    ],
+    "used_in": [
+      "README.md",
+      "notes/media-assets.md",
+      "notes/media-insight-evidence.md",
+      "notes/module-navigation-evidence.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S28",
+    "url": "https://www.palantir.com/docs/foundry/carbon/modules-overview",
+    "titles": [
+      "Carbon Modules overview",
+      "Modules",
+      "Modules overview"
+    ],
+    "used_in": [
+      "README.md",
+      "notes/module-navigation-evidence.md",
+      "notes/public-practice.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S29",
+    "url": "https://www.palantir.com/docs/foundry/carbon/overview",
+    "titles": [
+      "Carbon overview",
+      "source",
+      "来源"
+    ],
+    "used_in": [
+      "README.md",
+      "notes/media-assets.md",
+      "notes/media-insight-evidence.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S30",
+    "url": "https://www.palantir.com/docs/foundry/carbon/permissions-configure",
+    "titles": [
+      "Carbon Permissions",
+      "Carbon permissions",
+      "Permissions",
+      "Viewer permissions"
+    ],
+    "used_in": [
+      "README.md",
+      "notes/module-navigation-evidence.md",
+      "notes/public-practice.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S31",
+    "url": "https://www.palantir.com/docs/foundry/carbon/permissions-default-workspace",
+    "titles": [
+      "Default workspace"
+    ],
+    "used_in": [
+      "README.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S32",
+    "url": "https://www.palantir.com/docs/foundry/carbon/permissions-landing-page",
+    "titles": [
+      "Landing page"
+    ],
+    "used_in": [
+      "README.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S33",
+    "url": "https://www.palantir.com/docs/foundry/carbon/restrict-workspace-nav",
+    "titles": [
+      "Restrict navigation",
+      "Restrict navigation out of a workspace",
+      "Restrict workspace navigation"
+    ],
+    "used_in": [
+      "README.md",
+      "notes/module-navigation-evidence.md",
+      "notes/public-practice.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S34",
+    "url": "https://www.palantir.com/docs/foundry/carbon/workspaces-create",
+    "titles": [
+      "Create workspace"
+    ],
+    "used_in": [
+      "README.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S35",
+    "url": "https://www.palantir.com/docs/foundry/carbon/workspaces-edit",
+    "titles": [
+      "Edit workspace"
+    ],
+    "used_in": [
+      "README.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S36",
+    "url": "https://www.palantir.com/docs/foundry/carbon/workspaces-history",
+    "titles": [
+      "History",
+      "Version history"
+    ],
+    "used_in": [
+      "README.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S37",
+    "url": "https://www.palantir.com/docs/foundry/carbon/workspaces-navigation",
+    "titles": [
+      "Workspace navigation"
+    ],
+    "used_in": [
+      "README.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S38",
+    "url": "https://www.palantir.com/docs/foundry/carbon/workspaces-overview",
+    "titles": [
+      "Carbon workspace overview",
+      "Workspace home",
+      "Workspace overview",
+      "Workspaces"
+    ],
+    "used_in": [
+      "README.md",
+      "notes/module-navigation-evidence.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S39",
+    "url": "https://www.palantir.com/docs/foundry/carbon/workspaces-updates",
+    "titles": [
+      "Workspace updates"
+    ],
+    "used_in": [
+      "README.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S40",
+    "url": "https://www.palantir.com/docs/foundry/custom-widgets/overview",
+    "titles": [
+      "Custom Widgets overview",
+      "Custom widgets",
+      "Custom widgets overview"
+    ],
+    "used_in": [
+      "README.md",
+      "notes/module-navigation-evidence.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S41",
+    "url": "https://www.palantir.com/docs/foundry/developer-console/deploy-custom-application-on-foundry",
+    "titles": [
+      "Hosting OSDK application",
+      "Hosting application: CORS"
+    ],
+    "used_in": [
+      "notes/module-navigation-evidence.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S42",
+    "url": "https://www.palantir.com/docs/foundry/insight/overview",
+    "titles": [
+      "Insight overview"
+    ],
+    "used_in": [
+      "README.md",
+      "notes/media-insight-evidence.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S43",
+    "url": "https://www.palantir.com/docs/foundry/object-views/config-panel-views",
+    "titles": [
+      "Configured panel Object View"
+    ],
+    "used_in": [
+      "notes/public-practice.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": [
+      "内布局和变量行为仅引用既有研究"
+    ]
+  },
+  {
+    "id": "S44",
+    "url": "https://www.palantir.com/docs/foundry/workflow-lineage/overview",
+    "titles": [
+      "Workflow Lineage overview"
+    ],
+    "used_in": [
+      "notes/public-practice.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": [
+      "没有列出不能证明绝对不支持Carbon"
+    ]
+  },
+  {
+    "id": "S45",
+    "url": "https://www.palantir.com/docs/foundry/workshop/branching-integration",
+    "titles": [
+      "Branching Workshop modules"
+    ],
+    "used_in": [
+      "notes/public-practice.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": [
+      "不确认 Carbon 原生灰度路由或 workspace 整体原子分支"
+    ]
+  },
+  {
+    "id": "S46",
+    "url": "https://www.palantir.com/docs/foundry/workshop/concepts-events",
+    "titles": [
+      "Workshop Applications events",
+      "Workshop Events",
+      "Workshop events"
+    ],
+    "used_in": [
+      "README.md",
+      "notes/module-navigation-evidence.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S47",
+    "url": "https://www.palantir.com/docs/foundry/workshop/embedding-workshop-modules-overview",
+    "titles": [
+      "In-place replacement"
+    ],
+    "used_in": [
+      "notes/public-practice.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": [
+      "不是RID自动redirect服务"
+    ]
+  },
+  {
+    "id": "S48",
+    "url": "https://www.palantir.com/docs/foundry/workshop/module-interface",
+    "titles": [
+      "Module interface",
+      "Module interface: Carbon navigation",
+      "Open module event / URL",
+      "Workshop Module interface"
+    ],
+    "used_in": [
+      "README.md",
+      "notes/module-navigation-evidence.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S49",
+    "url": "https://www.palantir.com/docs/foundry/workshop/routing",
+    "titles": [
+      "Routing",
+      "Routing limitations",
+      "Workshop Routing"
+    ],
+    "used_in": [
+      "README.md",
+      "notes/module-navigation-evidence.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": []
+  },
+  {
+    "id": "S50",
+    "url": "https://www.palantir.com/docs/foundry/workshop/state-saving",
+    "titles": [
+      "State saving",
+      "Workshop state saving"
+    ],
+    "used_in": [
+      "README.md",
+      "notes/public-practice.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": [
+      "变量机制详见既有 Workshop Runtime，不在本附录展开"
+    ]
+  },
+  {
+    "id": "S51",
+    "url": "https://www.palantir.com/docs/foundry/workshop/widgets-resource-list",
+    "titles": [
+      "Resource List"
+    ],
+    "used_in": [
+      "notes/public-practice.md"
+    ],
+    "kind": "官方文档",
+    "published_date": "未披露",
+    "retrieval_date": "2026-10-01",
+    "content_read": "公开正文/源码已读取；视频转录不代表观看",
+    "limitations": [
+      "未确认动态 user-home-folder 选择或 saved-state 专用聚合"
+    ]
+  }
+]

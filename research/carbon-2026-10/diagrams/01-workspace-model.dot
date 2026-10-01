@@ -1,0 +1,19 @@
+digraph workspace {
+ graph [rankdir=TB, bgcolor="white", pad="0.3", nodesep="0.35", ranksep="0.55", fontname="PingFang SC", label="Carbon 工作台：公开产品契约的概念关系", labelloc=t, fontsize=22];
+ node [shape=box, style="rounded,filled", fontname="PingFang SC", fontsize=15, margin="0.16,0.12", color="#8ea0b3", fillcolor="#eef4fa"];
+ edge [fontname="PingFang SC", fontsize=12, color="#506981", arrowsize=0.7];
+ org [label="组织与角色入口\n推广 · 默认工作区 · 平台首页", fillcolor="#e6e0f5"];
+ shell [label="Carbon workspace 文件资源\n首页 · 固定 tabs · 按需 tabs · 发现清单", fillcolor="#dfeff7"];
+ directory [label="模块发现与输入匹配\n区内本区清单 / 区外推广工作区并集", fillcolor="#e1f0df"];
+ task [label="业务模块\nWorkshop / Slate / Quiver 等资源"];
+ object [label="对象入口\nObject View / Explorer / Insight"];
+ auth [label="分别授权\nworkspace · 模块资源 · 对象数据 · Action", fillcolor="#fff1dc"];
+ org -> shell [label="入口分发"];
+ shell -> directory [label="策展"];
+ directory -> task [label="可接受参数"];
+ directory -> object [label="内置入口 / 能力开关"];
+ task -> object [label="对象与集合导航", dir=both];
+ auth -> shell [style=dashed, label="工作区权限"];
+ auth -> task [style=dashed, label="资源权限"];
+ auth -> object [style=dashed, label="数据与操作权限"];
+}

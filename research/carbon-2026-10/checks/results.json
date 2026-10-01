@@ -1,0 +1,779 @@
+{
+  "checked_at_utc": "2026-10-01T14:22:40.592171+00:00",
+  "scope": "Deliverable integrity only; no tenant/product/runtime tests",
+  "baseline_commit": "6f2ef0eefdc5e0f2c0604eff75ed4095f582ace2",
+  "checks": [
+    {
+      "check": "required deliverable",
+      "status": "passed",
+      "file": "README.md"
+    },
+    {
+      "check": "required deliverable",
+      "status": "passed",
+      "file": "sources.md"
+    },
+    {
+      "check": "required deliverable",
+      "status": "passed",
+      "file": "assets.md"
+    },
+    {
+      "check": "required deliverable",
+      "status": "passed",
+      "file": "checks.md"
+    },
+    {
+      "check": "required deliverable",
+      "status": "passed",
+      "file": "notes/module-navigation-evidence.md"
+    },
+    {
+      "check": "required deliverable",
+      "status": "passed",
+      "file": "notes/public-practice.md"
+    },
+    {
+      "check": "required deliverable",
+      "status": "passed",
+      "file": "notes/public-practice-sources.json"
+    },
+    {
+      "check": "required deliverable",
+      "status": "passed",
+      "file": "notes/media-insight-evidence.md"
+    },
+    {
+      "check": "required deliverable",
+      "status": "passed",
+      "file": "notes/media-manifest.json"
+    },
+    {
+      "check": "required deliverable",
+      "status": "passed",
+      "file": "notes/media-checks.json"
+    },
+    {
+      "check": "required deliverable",
+      "status": "passed",
+      "file": "notes/source-registry.json"
+    },
+    {
+      "check": "required deliverable",
+      "status": "passed",
+      "file": "diagrams/manifest.json"
+    },
+    {
+      "check": "required deliverable",
+      "status": "passed",
+      "file": "checks/links.json"
+    },
+    {
+      "check": "privacy and secret patterns",
+      "status": "passed",
+      "file": "research/carbon-2026-10/README.md",
+      "findings": []
+    },
+    {
+      "check": "balanced Markdown code fences",
+      "status": "passed",
+      "file": "research/carbon-2026-10/README.md"
+    },
+    {
+      "check": "local links exist",
+      "status": "passed",
+      "file": "research/carbon-2026-10/README.md",
+      "missing": [],
+      "outside_repository": []
+    },
+    {
+      "check": "local heading anchors",
+      "status": "passed",
+      "file": "research/carbon-2026-10/README.md",
+      "invalid": []
+    },
+    {
+      "check": "public sources registered",
+      "status": "passed",
+      "file": "research/carbon-2026-10/README.md",
+      "unregistered": []
+    },
+    {
+      "check": "privacy and secret patterns",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets.md",
+      "findings": []
+    },
+    {
+      "check": "balanced Markdown code fences",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets.md"
+    },
+    {
+      "check": "local links exist",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets.md",
+      "missing": [],
+      "outside_repository": []
+    },
+    {
+      "check": "local heading anchors",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets.md",
+      "invalid": []
+    },
+    {
+      "check": "public sources registered",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets.md",
+      "unregistered": []
+    },
+    {
+      "check": "privacy and secret patterns",
+      "status": "passed",
+      "file": "research/carbon-2026-10/checks/check_links.py",
+      "findings": []
+    },
+    {
+      "check": "privacy and secret patterns",
+      "status": "passed",
+      "file": "research/carbon-2026-10/checks/links.json",
+      "findings": []
+    },
+    {
+      "check": "privacy and secret patterns",
+      "status": "passed",
+      "file": "research/carbon-2026-10/checks/results.json",
+      "findings": []
+    },
+    {
+      "check": "privacy and secret patterns",
+      "status": "passed",
+      "file": "research/carbon-2026-10/checks/validate.py",
+      "findings": []
+    },
+    {
+      "check": "privacy and secret patterns",
+      "status": "passed",
+      "file": "research/carbon-2026-10/checks.md",
+      "findings": []
+    },
+    {
+      "check": "balanced Markdown code fences",
+      "status": "passed",
+      "file": "research/carbon-2026-10/checks.md"
+    },
+    {
+      "check": "local links exist",
+      "status": "passed",
+      "file": "research/carbon-2026-10/checks.md",
+      "missing": [],
+      "outside_repository": []
+    },
+    {
+      "check": "local heading anchors",
+      "status": "passed",
+      "file": "research/carbon-2026-10/checks.md",
+      "invalid": []
+    },
+    {
+      "check": "public sources registered",
+      "status": "passed",
+      "file": "research/carbon-2026-10/checks.md",
+      "unregistered": []
+    },
+    {
+      "check": "privacy and secret patterns",
+      "status": "passed",
+      "file": "research/carbon-2026-10/diagrams/01-workspace-model.dot",
+      "findings": []
+    },
+    {
+      "check": "privacy and secret patterns",
+      "status": "passed",
+      "file": "research/carbon-2026-10/diagrams/01-workspace-model.svg",
+      "findings": []
+    },
+    {
+      "check": "privacy and secret patterns",
+      "status": "passed",
+      "file": "research/carbon-2026-10/diagrams/02-context-navigation.dot",
+      "findings": []
+    },
+    {
+      "check": "privacy and secret patterns",
+      "status": "passed",
+      "file": "research/carbon-2026-10/diagrams/02-context-navigation.svg",
+      "findings": []
+    },
+    {
+      "check": "privacy and secret patterns",
+      "status": "passed",
+      "file": "research/carbon-2026-10/diagrams/03-release-boundaries.dot",
+      "findings": []
+    },
+    {
+      "check": "privacy and secret patterns",
+      "status": "passed",
+      "file": "research/carbon-2026-10/diagrams/03-release-boundaries.svg",
+      "findings": []
+    },
+    {
+      "check": "privacy and secret patterns",
+      "status": "passed",
+      "file": "research/carbon-2026-10/diagrams/manifest.json",
+      "findings": []
+    },
+    {
+      "check": "privacy and secret patterns",
+      "status": "passed",
+      "file": "research/carbon-2026-10/notes/media-assets.md",
+      "findings": []
+    },
+    {
+      "check": "balanced Markdown code fences",
+      "status": "passed",
+      "file": "research/carbon-2026-10/notes/media-assets.md"
+    },
+    {
+      "check": "local links exist",
+      "status": "passed",
+      "file": "research/carbon-2026-10/notes/media-assets.md",
+      "missing": [],
+      "outside_repository": []
+    },
+    {
+      "check": "local heading anchors",
+      "status": "passed",
+      "file": "research/carbon-2026-10/notes/media-assets.md",
+      "invalid": []
+    },
+    {
+      "check": "public sources registered",
+      "status": "passed",
+      "file": "research/carbon-2026-10/notes/media-assets.md",
+      "unregistered": []
+    },
+    {
+      "check": "privacy and secret patterns",
+      "status": "passed",
+      "file": "research/carbon-2026-10/notes/media-checks.json",
+      "findings": []
+    },
+    {
+      "check": "privacy and secret patterns",
+      "status": "passed",
+      "file": "research/carbon-2026-10/notes/media-insight-evidence.md",
+      "findings": []
+    },
+    {
+      "check": "balanced Markdown code fences",
+      "status": "passed",
+      "file": "research/carbon-2026-10/notes/media-insight-evidence.md"
+    },
+    {
+      "check": "local links exist",
+      "status": "passed",
+      "file": "research/carbon-2026-10/notes/media-insight-evidence.md",
+      "missing": [],
+      "outside_repository": []
+    },
+    {
+      "check": "local heading anchors",
+      "status": "passed",
+      "file": "research/carbon-2026-10/notes/media-insight-evidence.md",
+      "invalid": []
+    },
+    {
+      "check": "public sources registered",
+      "status": "passed",
+      "file": "research/carbon-2026-10/notes/media-insight-evidence.md",
+      "unregistered": []
+    },
+    {
+      "check": "privacy and secret patterns",
+      "status": "passed",
+      "file": "research/carbon-2026-10/notes/media-manifest.json",
+      "findings": []
+    },
+    {
+      "check": "privacy and secret patterns",
+      "status": "passed",
+      "file": "research/carbon-2026-10/notes/module-navigation-evidence.md",
+      "findings": []
+    },
+    {
+      "check": "balanced Markdown code fences",
+      "status": "passed",
+      "file": "research/carbon-2026-10/notes/module-navigation-evidence.md"
+    },
+    {
+      "check": "local links exist",
+      "status": "passed",
+      "file": "research/carbon-2026-10/notes/module-navigation-evidence.md",
+      "missing": [],
+      "outside_repository": []
+    },
+    {
+      "check": "local heading anchors",
+      "status": "passed",
+      "file": "research/carbon-2026-10/notes/module-navigation-evidence.md",
+      "invalid": []
+    },
+    {
+      "check": "public sources registered",
+      "status": "passed",
+      "file": "research/carbon-2026-10/notes/module-navigation-evidence.md",
+      "unregistered": []
+    },
+    {
+      "check": "privacy and secret patterns",
+      "status": "passed",
+      "file": "research/carbon-2026-10/notes/public-practice-sources.json",
+      "findings": []
+    },
+    {
+      "check": "privacy and secret patterns",
+      "status": "passed",
+      "file": "research/carbon-2026-10/notes/public-practice.md",
+      "findings": []
+    },
+    {
+      "check": "balanced Markdown code fences",
+      "status": "passed",
+      "file": "research/carbon-2026-10/notes/public-practice.md"
+    },
+    {
+      "check": "local links exist",
+      "status": "passed",
+      "file": "research/carbon-2026-10/notes/public-practice.md",
+      "missing": [],
+      "outside_repository": []
+    },
+    {
+      "check": "local heading anchors",
+      "status": "passed",
+      "file": "research/carbon-2026-10/notes/public-practice.md",
+      "invalid": []
+    },
+    {
+      "check": "public sources registered",
+      "status": "passed",
+      "file": "research/carbon-2026-10/notes/public-practice.md",
+      "unregistered": []
+    },
+    {
+      "check": "privacy and secret patterns",
+      "status": "passed",
+      "file": "research/carbon-2026-10/notes/source-registry.json",
+      "findings": []
+    },
+    {
+      "check": "privacy and secret patterns",
+      "status": "passed",
+      "file": "research/carbon-2026-10/sources.md",
+      "findings": []
+    },
+    {
+      "check": "balanced Markdown code fences",
+      "status": "passed",
+      "file": "research/carbon-2026-10/sources.md"
+    },
+    {
+      "check": "local links exist",
+      "status": "passed",
+      "file": "research/carbon-2026-10/sources.md",
+      "missing": [],
+      "outside_repository": []
+    },
+    {
+      "check": "local heading anchors",
+      "status": "passed",
+      "file": "research/carbon-2026-10/sources.md",
+      "invalid": []
+    },
+    {
+      "check": "public sources registered",
+      "status": "passed",
+      "file": "research/carbon-2026-10/sources.md",
+      "unregistered": []
+    },
+    {
+      "check": "asset bytes and SHA256",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-claim-portal.png"
+    },
+    {
+      "check": "PNG decodes and dimensions",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-claim-portal.png",
+      "dimensions": [
+        2015,
+        1333
+      ]
+    },
+    {
+      "check": "asset bytes and SHA256",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-aviation-home.png"
+    },
+    {
+      "check": "PNG decodes and dimensions",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-aviation-home.png",
+      "dimensions": [
+        1920,
+        1081
+      ]
+    },
+    {
+      "check": "asset bytes and SHA256",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-application-portal.png"
+    },
+    {
+      "check": "PNG decodes and dimensions",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-application-portal.png",
+      "dimensions": [
+        1800,
+        1044
+      ]
+    },
+    {
+      "check": "asset bytes and SHA256",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-home-featured-items.png"
+    },
+    {
+      "check": "PNG decodes and dimensions",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-home-featured-items.png",
+      "dimensions": [
+        1457,
+        732
+      ]
+    },
+    {
+      "check": "asset bytes and SHA256",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-module-home.png"
+    },
+    {
+      "check": "PNG decodes and dimensions",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-module-home.png",
+      "dimensions": [
+        2950,
+        1726
+      ]
+    },
+    {
+      "check": "asset bytes and SHA256",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-anchored-modules.png"
+    },
+    {
+      "check": "PNG decodes and dimensions",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-anchored-modules.png",
+      "dimensions": [
+        1500,
+        720
+      ]
+    },
+    {
+      "check": "asset bytes and SHA256",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-new-tab-modules.png"
+    },
+    {
+      "check": "PNG decodes and dimensions",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-new-tab-modules.png",
+      "dimensions": [
+        1500,
+        721
+      ]
+    },
+    {
+      "check": "asset bytes and SHA256",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-workshop-discovery.png"
+    },
+    {
+      "check": "PNG decodes and dimensions",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-workshop-discovery.png",
+      "dimensions": [
+        1272,
+        857
+      ]
+    },
+    {
+      "check": "asset bytes and SHA256",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-insight-tab.png"
+    },
+    {
+      "check": "PNG decodes and dimensions",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-insight-tab.png",
+      "dimensions": [
+        2550,
+        1373
+      ]
+    },
+    {
+      "check": "asset bytes and SHA256",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-modern-search-home.png"
+    },
+    {
+      "check": "PNG decodes and dimensions",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-modern-search-home.png",
+      "dimensions": [
+        2550,
+        1280
+      ]
+    },
+    {
+      "check": "asset bytes and SHA256",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-modern-search-results.png"
+    },
+    {
+      "check": "PNG decodes and dimensions",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-modern-search-results.png",
+      "dimensions": [
+        2550,
+        1395
+      ]
+    },
+    {
+      "check": "asset bytes and SHA256",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-insight-settings.png"
+    },
+    {
+      "check": "PNG decodes and dimensions",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-insight-settings.png",
+      "dimensions": [
+        1352,
+        1624
+      ]
+    },
+    {
+      "check": "asset bytes and SHA256",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-navigation-object-set.png"
+    },
+    {
+      "check": "PNG decodes and dimensions",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-navigation-object-set.png",
+      "dimensions": [
+        2267,
+        1872
+      ]
+    },
+    {
+      "check": "asset bytes and SHA256",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-navigation-object-view.png"
+    },
+    {
+      "check": "PNG decodes and dimensions",
+      "status": "passed",
+      "file": "research/carbon-2026-10/assets/media-navigation-object-view.png",
+      "dimensions": [
+        2262,
+        1878
+      ]
+    },
+    {
+      "check": "asset bytes and SHA256",
+      "status": "passed",
+      "file": "research/carbon-2026-10/diagrams/01-workspace-model.svg"
+    },
+    {
+      "check": "asset bytes and SHA256",
+      "status": "passed",
+      "file": "research/carbon-2026-10/diagrams/01-workspace-model.png"
+    },
+    {
+      "check": "PNG decodes and dimensions",
+      "status": "passed",
+      "file": "research/carbon-2026-10/diagrams/01-workspace-model.png",
+      "dimensions": [
+        859,
+        821
+      ]
+    },
+    {
+      "check": "asset bytes and SHA256",
+      "status": "passed",
+      "file": "research/carbon-2026-10/diagrams/02-context-navigation.svg"
+    },
+    {
+      "check": "asset bytes and SHA256",
+      "status": "passed",
+      "file": "research/carbon-2026-10/diagrams/02-context-navigation.png"
+    },
+    {
+      "check": "PNG decodes and dimensions",
+      "status": "passed",
+      "file": "research/carbon-2026-10/diagrams/02-context-navigation.png",
+      "dimensions": [
+        1732,
+        300
+      ]
+    },
+    {
+      "check": "asset bytes and SHA256",
+      "status": "passed",
+      "file": "research/carbon-2026-10/diagrams/03-release-boundaries.svg"
+    },
+    {
+      "check": "asset bytes and SHA256",
+      "status": "passed",
+      "file": "research/carbon-2026-10/diagrams/03-release-boundaries.png"
+    },
+    {
+      "check": "PNG decodes and dimensions",
+      "status": "passed",
+      "file": "research/carbon-2026-10/diagrams/03-release-boundaries.png",
+      "dimensions": [
+        1036,
+        472
+      ]
+    },
+    {
+      "check": "rendered diagram with editable source",
+      "status": "passed",
+      "diagram": "01-workspace-model"
+    },
+    {
+      "check": "rendered diagram with editable source",
+      "status": "passed",
+      "diagram": "02-context-navigation"
+    },
+    {
+      "check": "rendered diagram with editable source",
+      "status": "passed",
+      "diagram": "03-release-boundaries"
+    },
+    {
+      "check": "individual image inspection recorded",
+      "status": "passed",
+      "asset": "M01"
+    },
+    {
+      "check": "individual image inspection recorded",
+      "status": "passed",
+      "asset": "M02"
+    },
+    {
+      "check": "individual image inspection recorded",
+      "status": "passed",
+      "asset": "M03"
+    },
+    {
+      "check": "individual image inspection recorded",
+      "status": "passed",
+      "asset": "M04"
+    },
+    {
+      "check": "individual image inspection recorded",
+      "status": "passed",
+      "asset": "M05"
+    },
+    {
+      "check": "individual image inspection recorded",
+      "status": "passed",
+      "asset": "M06"
+    },
+    {
+      "check": "individual image inspection recorded",
+      "status": "passed",
+      "asset": "M07"
+    },
+    {
+      "check": "individual image inspection recorded",
+      "status": "passed",
+      "asset": "M08"
+    },
+    {
+      "check": "individual image inspection recorded",
+      "status": "passed",
+      "asset": "M09"
+    },
+    {
+      "check": "individual image inspection recorded",
+      "status": "passed",
+      "asset": "M10"
+    },
+    {
+      "check": "individual image inspection recorded",
+      "status": "passed",
+      "asset": "M11"
+    },
+    {
+      "check": "individual image inspection recorded",
+      "status": "passed",
+      "asset": "M12"
+    },
+    {
+      "check": "individual image inspection recorded",
+      "status": "passed",
+      "asset": "M13"
+    },
+    {
+      "check": "individual image inspection recorded",
+      "status": "passed",
+      "asset": "M14"
+    },
+    {
+      "check": "exact media files inventoried",
+      "status": "passed"
+    },
+    {
+      "check": "all previous topic index links retained",
+      "status": "passed",
+      "file": "README.md",
+      "baseline_topics": [
+        "research/ai-fde-2026-10/",
+        "research/custom-widgets-2026-10/",
+        "research/object-views-2026-10/",
+        "research/osdk-react-components-2026-09/",
+        "research/osdk-typescript-2026-09/",
+        "research/pilot-2026-09/",
+        "research/superrepo-2026-08/",
+        "research/workshop-runtime-2026-10/"
+      ]
+    },
+    {
+      "check": "all previous topic index links retained",
+      "status": "passed",
+      "file": "research/README.md",
+      "baseline_topics": [
+        "ai-fde-2026-10/",
+        "custom-widgets-2026-10/",
+        "object-views-2026-10/",
+        "osdk-react-components-2026-09/",
+        "osdk-typescript-2026-09/",
+        "pilot-2026-09/",
+        "superrepo-2026-08/",
+        "workshop-runtime-2026-10/"
+      ]
+    }
+  ],
+  "summary": {
+    "checks": 125,
+    "passed": 125,
+    "failed": 0
+  }
+}
