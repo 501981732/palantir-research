@@ -1,0 +1,610 @@
+{
+  "sourceLinksChecked": 74,
+  "results": [
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/WireOntologyDefinition.ts",
+      "first": 17,
+      "last": 20,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/generateClientSdkPackage.ts",
+      "first": 29,
+      "last": 85,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/v2.0/generateClientSdkVersionTwoPointZero.ts",
+      "first": 32,
+      "last": 98,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/GenerateContext/EnhancedOntologyDefinition.ts",
+      "first": 43,
+      "last": 125,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/v2.0/generatePerObjectDataFiles.ts",
+      "first": 26,
+      "last": 74,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/v2.0/generatePerInterfaceDataFiles.ts",
+      "first": 25,
+      "last": 79,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/v2.0/generatePerActionDataFiles.ts",
+      "first": 62,
+      "last": 121,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/v2.0/generatePerActionDataFiles.ts",
+      "first": 205,
+      "last": 258,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/v2.0/generatePerQueryDataFiles.ts",
+      "first": 130,
+      "last": 241,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/v2.0/generateClientSdkVersionTwoPointZero.ts",
+      "first": 47,
+      "last": 54,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/v2.0/wireObjectTypeV2ToSdkObjectConstV2.ts",
+      "first": 106,
+      "last": 146,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/v2.0/wireObjectTypeV2ToSdkObjectConstV2.ts",
+      "first": 295,
+      "last": 342,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/v2.0/generateMetadata.ts",
+      "first": 22,
+      "last": 55,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/v2.0/generateMetadata.ts",
+      "first": 80,
+      "last": 103,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/generateClientSdkPackage.ts",
+      "first": 150,
+      "last": 167,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/generateClientSdkPackage.ts",
+      "first": 101,
+      "last": 137,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/generateClientSdkPackage.ts",
+      "first": 189,
+      "last": 247,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/v2.0/generateClientSdkVersionTwoPointZero.test.ts",
+      "first": 2156,
+      "last": 2301,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/v2.0/generateClientSdkVersionTwoPointZero.test.ts",
+      "first": 3035,
+      "last": 3098,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/api/src/__quickinfo_snapshot__/README.md",
+      "first": 3,
+      "last": 18,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/api/src/index.ts",
+      "first": 17,
+      "last": 62,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/api/src/index.ts",
+      "first": 158,
+      "last": 200,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/api/src/ontology/ObjectTypeDefinition.ts",
+      "first": 27,
+      "last": 28,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/api/src/ontology/ObjectTypeDefinition.ts",
+      "first": 179,
+      "last": 186,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/api/src/ontology/ActionDefinition.ts",
+      "first": 118,
+      "last": 125,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/api/src/ontology/QueryDefinition.ts",
+      "first": 37,
+      "last": 44,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/createClient.ts",
+      "first": 109,
+      "last": 158,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/createClient.ts",
+      "first": 164,
+      "last": 203,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/createClient.ts",
+      "first": 442,
+      "last": 471,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/createMinimalClient.ts",
+      "first": 72,
+      "last": 98,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/objectSet/createObjectSet.ts",
+      "first": 95,
+      "last": 181,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/objectSet/createObjectSet.ts",
+      "first": 200,
+      "last": 228,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/api/src/objectSet/ObjectSet.ts",
+      "first": 117,
+      "last": 128,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/api/src/objectSet/ObjectSet.ts",
+      "first": 160,
+      "last": 210,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/fetchMetadata.ts",
+      "first": 32,
+      "last": 70,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/ontology/StandardOntologyProvider.ts",
+      "first": 43,
+      "last": 127,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/object/Cache.ts",
+      "first": 65,
+      "last": 101,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/object/Cache.ts",
+      "first": 116,
+      "last": 154,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/ontology/loadFullObjectMetadata.ts",
+      "first": 22,
+      "last": 35,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/ontology/loadActionMetadata.ts",
+      "first": 22,
+      "last": 35,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/ontology/loadQueryMetadata.ts",
+      "first": 22,
+      "last": 41,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/queries/applyQuery.ts",
+      "first": 48,
+      "last": 116,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/queries/applyQuery.ts",
+      "first": 127,
+      "last": 140,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/queries/applyQuery.ts",
+      "first": 168,
+      "last": 220,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/shared.client.impl/src/createSharedClientContext.ts",
+      "first": 29,
+      "last": 108,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/shared.net.fetch/src/createFetchOrThrow.ts",
+      "first": 27,
+      "last": 77,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/shared.net.fetch/src/createRetryingFetch.ts",
+      "first": 21,
+      "last": 66,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/shared.net.fetch/src/createFetchHeaderMutator.ts",
+      "first": 25,
+      "last": 36,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/ontology/StandardOntologyProvider.test.ts",
+      "first": 17,
+      "last": 64,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/ontology/loadQueryMetadata.test.ts",
+      "first": 23,
+      "last": 63,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/queries/queries.test.ts",
+      "first": 67,
+      "last": 81,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/queries/queries.test.ts",
+      "first": 501,
+      "last": 527,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/actions/applyAction.ts",
+      "first": 101,
+      "last": 201,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/actions/applyAction.ts",
+      "first": 121,
+      "last": 154,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/actions/actions.test.ts",
+      "first": 55,
+      "last": 207,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/src/createPublicOauthClient.ts",
+      "first": 191,
+      "last": 209,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/src/createPublicOauthClient.ts",
+      "first": 290,
+      "last": 331,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/src/createPublicOauthClient.ts",
+      "first": 348,
+      "last": 367,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/src/createConfidentialOauthClient.ts",
+      "first": 37,
+      "last": 84,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/src/createAuthlessClient.ts",
+      "first": 17,
+      "last": 27,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/src/utils.ts",
+      "first": 66,
+      "last": 85,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/src/createPublicOauthClient.ts",
+      "first": 222,
+      "last": 287,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/src/common.ts",
+      "first": 176,
+      "last": 202,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/src/createPublicOauthClient.ts",
+      "first": 354,
+      "last": 367,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/src/common.ts",
+      "first": 205,
+      "last": 280,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/src/createConfidentialOauthClient.ts",
+      "first": 55,
+      "last": 64,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/src/publicOauth.test.ts",
+      "first": 214,
+      "last": 290,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/src/publicOauth.test.ts",
+      "first": 522,
+      "last": 655,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/api/package.json",
+      "first": 1,
+      "last": 12,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/package.json",
+      "first": 1,
+      "last": 12,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/package.json",
+      "first": 1,
+      "last": 12,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/package.json",
+      "first": 1,
+      "last": 12,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/react-components/package.json",
+      "first": 307,
+      "last": 337,
+      "exists": true,
+      "withinFile": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/generateClientSdkPackage.ts",
+      "first": 189,
+      "last": 247,
+      "exists": true,
+      "withinFile": true
+    }
+  ],
+  "npmAuthlessSmoke": {
+    "package": "@osdk/oauth@1.14.0",
+    "entry": "build/browser/createAuthlessClient.js",
+    "checks": [
+      "returns Promise",
+      "returns PUBLIC",
+      "repeat call PUBLIC"
+    ],
+    "status": "PASS",
+    "usesNetwork": false
+  },
+  "upstreamTests": "read only, not executed",
+  "noteSha256": "7b28b41584fb5c6ba63b297402ef443bf0e4efc7616d67ed6f2592836e50ec64"
+}

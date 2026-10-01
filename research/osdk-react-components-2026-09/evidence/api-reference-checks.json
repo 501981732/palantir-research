@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-01",
+  "package": "@osdk/react-components",
+  "version": "0.61.0",
+  "commit": "37cfd38676bf04edaef5847e929d914ea214c149",
+  "sourceLinkCount": 492,
+  "sourceLinkErrors": [],
+  "tableColumnErrors": [],
+  "entryCount": 30,
+  "runtimeSymbols": 98,
+  "explicitTypeSymbols": 170,
+  "allSourceSymbolSetsMatch": true,
+  "allRuntimeSymbolSetsMatch": true,
+  "nonViewerSchemaCount": 35,
+  "nonViewerParameterRows": 376,
+  "allSchemaNamesAndTypesMatch": true,
+  "viewerFamilyCount": 9,
+  "viewerMainBaseSchemaCount": 17,
+  "viewerMainBaseParameterRows": 97,
+  "pdfBuildingBlockSchemaCount": 7,
+  "pdfBuildingBlockParameterRows": 58,
+  "totalTabulatedParameterRows": 531,
+  "scope": "Declaration/runtime export AST comparison and source path/line check; no React 19 full test run or Ontology/Action integration test",
+  "artifacts": [
+    {
+      "path": "api-reference.md",
+      "bytes": 219578,
+      "sha256": "07ccc31c990bfd174914f81e55e5aec27a7d58dd0299fc52b70b189dbf39544a",
+      "stage": "original_input_before_assembly"
+    },
+    {
+      "path": "public-export-inventory.json",
+      "bytes": 826419,
+      "sha256": "10bbef6b6d6af846198539052b9ce77d3e1729f22385b7f1d461bdc4fa00f639",
+      "stage": "original_input_before_assembly"
+    },
+    {
+      "path": "api-viewers.md",
+      "bytes": 55423,
+      "sha256": "7a6fb491e1bcae858d20de7e7f0e9677efb5f2bf88f36c00e2f4c31c56796e28",
+      "stage": "original_input_before_assembly"
+    }
+  ],
+  "artifactHashScope": "Input artifacts before report assembly; viewer duplication split and description corrections occur in final Markdown."
+}

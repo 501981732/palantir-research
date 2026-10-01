@@ -1,0 +1,127 @@
+[
+  {
+    "name": "@osdk/oauth",
+    "version": "1.14.0",
+    "license": "Apache-2.0",
+    "gitHead": null,
+    "repository": {
+      "url": "git+https://github.com/palantir/osdk-ts.git",
+      "type": "git"
+    },
+    "url": "https://registry.npmjs.org/@osdk/oauth/1.14.0"
+  },
+  {
+    "name": "@osdk/shared.client.impl",
+    "version": "1.14.0",
+    "license": "Apache-2.0",
+    "gitHead": null,
+    "repository": {
+      "url": "git+https://github.com/palantir/osdk-ts.git",
+      "type": "git"
+    },
+    "url": "https://registry.npmjs.org/@osdk/shared.client.impl/1.14.0"
+  },
+  {
+    "name": "@osdk/shared.net.fetch",
+    "version": "1.13.0",
+    "license": "Apache-2.0",
+    "gitHead": null,
+    "repository": {
+      "url": "git+https://github.com/palantir/osdk-ts.git",
+      "type": "git"
+    },
+    "url": "https://registry.npmjs.org/@osdk/shared.net.fetch/1.13.0"
+  },
+  {
+    "name": "@base-ui/react",
+    "version": "1.2.0",
+    "license": "MIT",
+    "gitHead": null,
+    "repository": {
+      "url": "git+https://github.com/mui/base-ui.git",
+      "type": "git",
+      "directory": "packages/react"
+    },
+    "url": "https://registry.npmjs.org/@base-ui/react/1.2.0"
+  },
+  {
+    "name": "@blueprintjs/icons",
+    "version": "6.7.0",
+    "license": "Apache-2.0",
+    "gitHead": null,
+    "repository": {
+      "url": "git+ssh://git@github.com/palantir/blueprint.git",
+      "type": "git",
+      "directory": "packages/icons"
+    },
+    "url": "https://registry.npmjs.org/@blueprintjs/icons/6.7.0"
+  },
+  {
+    "name": "@tanstack/react-table",
+    "version": "8.21.3",
+    "license": "MIT",
+    "gitHead": null,
+    "repository": {
+      "url": "git+https://github.com/TanStack/table.git",
+      "type": "git",
+      "directory": "packages/react-table"
+    },
+    "url": "https://registry.npmjs.org/@tanstack/react-table/8.21.3"
+  },
+  {
+    "name": "@tanstack/react-virtual",
+    "version": "3.13.13",
+    "license": "MIT",
+    "gitHead": null,
+    "repository": {
+      "url": "git+https://github.com/TanStack/virtual.git",
+      "type": "git",
+      "directory": "packages/react-virtual"
+    },
+    "url": "https://registry.npmjs.org/@tanstack/react-virtual/3.13.13"
+  },
+  {
+    "name": "pdfjs-dist",
+    "version": "4.8.69",
+    "license": "Apache-2.0",
+    "gitHead": "3634dab10ca7dbaf0ca536f645465b231c88f862",
+    "repository": {
+      "url": "git+https://github.com/mozilla/pdf.js.git",
+      "type": "git"
+    },
+    "url": "https://registry.npmjs.org/pdfjs-dist/4.8.69"
+  },
+  {
+    "name": "utif",
+    "version": "3.1.0",
+    "license": "MIT",
+    "gitHead": "27f1098a67c3cfd4348c9b8fd887fcd8cd171095",
+    "repository": {
+      "url": "git+https://github.com/photopea/UTIF.js.git",
+      "type": "git"
+    },
+    "url": "https://registry.npmjs.org/utif/3.1.0"
+  },
+  {
+    "name": "xlsx-republish",
+    "version": "0.20.3",
+    "license": "Apache-2.0",
+    "gitHead": null,
+    "repository": {
+      "url": "git+https://github.com/NoNameProvided/xlsx-republish.git",
+      "type": "git"
+    },
+    "url": "https://registry.npmjs.org/xlsx-republish/0.20.3"
+  },
+  {
+    "name": "oauth4webapi",
+    "version": "2.17.0",
+    "license": "MIT",
+    "gitHead": "eedb247cdc36c0651a91af2a130d48bb9f5ca7e7",
+    "repository": {
+      "url": "git+https://github.com/panva/oauth4webapi.git",
+      "type": "git"
+    },
+    "url": "https://registry.npmjs.org/oauth4webapi/2.17.0"
+  }
+]

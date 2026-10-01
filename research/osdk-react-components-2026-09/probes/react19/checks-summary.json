@@ -1,0 +1,78 @@
+{
+  "dateUTC": "2026-10-01",
+  "sourceCommit": "37cfd38676bf04edaef5847e929d914ea214c149",
+  "environment": {
+    "node": "v22.17.0",
+    "pnpm": "11.24.0",
+    "runner": "Vitest + Happy DOM",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-hook-form": "7.71.2",
+    "@base-ui/react": "1.3.0"
+  },
+  "pinnedDependencies": {
+    "@osdk/api": "2.75.0",
+    "@osdk/client": "2.75.0",
+    "@osdk/react": "2.75.0",
+    "@osdk/react-components": "0.61.0",
+    "classnames": "2.5.1",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-hook-form": "7.71.2"
+  },
+  "pinnedDevDependencies": {
+    "@testing-library/react": "16.3.3",
+    "happy-dom": "20.14.5",
+    "vite": "8.3.1",
+    "vitest": "5.0.3"
+  },
+  "componentTests": {
+    "passed": 4,
+    "failed": 0,
+    "success": true,
+    "cases": [
+      {
+        "title": "renders normal fields and submits valid text",
+        "status": "passed"
+      },
+      {
+        "title": "blocks an empty required text field",
+        "status": "passed"
+      },
+      {
+        "title": "reproduces required boolean False rejection and permits True after change",
+        "status": "passed"
+      },
+      {
+        "title": "submits optional boolean False unchanged",
+        "status": "passed"
+      }
+    ]
+  },
+  "pureNpmUtils": {
+    "package": "@osdk/react-components",
+    "version": "0.61.0",
+    "assertions": 6,
+    "passed": 6,
+    "failed": 0,
+    "network": false,
+    "actions": false
+  },
+  "productionBuild": {
+    "exitCode": 0,
+    "vite": "8.3.1",
+    "warnings": [
+      "Base UI use client directives not preserved by client bundler",
+      "Chunk size above 500 kB"
+    ]
+  },
+  "scope": {
+    "mock": true,
+    "osdkProvider": false,
+    "productionOntology": false,
+    "networkInComponentTests": "global fetch stub throws and verified unused",
+    "foundryActions": false,
+    "licenseAudit": "not performed by runtime probe"
+  },
+  "limitation": "Limited React19 BaseForm plain-field smoke/validation checks; not comprehensive React19, OSDK, backend permission, object picker, viewer or SSR validation."
+}

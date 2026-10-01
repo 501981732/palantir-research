@@ -1,0 +1,923 @@
+{
+  "source_commits": [
+    "37cfd38676bf04edaef5847e929d914ea214c149",
+    "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+    "fb8ec172d540ef7819382ff036aa2a692614af75"
+  ],
+  "draft_bytes": 74133,
+  "source_link_count": 129,
+  "line_anchor_or_missing_file_errors": [],
+  "undefined_markdown_references": [],
+  "audit": "源码与现有测试审阅；未运行monorepo测试。仅运行无网Authless发行JS smoke",
+  "external_primary_docs": [
+    "https://tanstack.com/query/latest/docs/framework/react/guides/query-invalidation",
+    "https://zustand.docs.pmnd.rs/learn/getting-started/introduction",
+    "https://jotai.org/docs/core/atom",
+    "https://www.palantir.com/docs/foundry/ontology-sdk/overview",
+    "https://www.palantir.com/docs/foundry/developer-console/permissions",
+    "https://www.palantir.com/docs/foundry/developer-console/how-to-bootstrapping-server-side-typescript",
+    "https://www.apache.org/licenses/LICENSE-2.0"
+  ],
+  "retrieval_date": "2026-10-01",
+  "draft_sha256": "a55f7bf8c558a1951a7244895ea277d2cf937192569435bbefa155981f464f5e",
+  "provenance_scope": "Commit/tarball digest/integrity/source-content matching; no independent cryptographic trust-chain verification",
+  "source_link_results": [
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/WireOntologyDefinition.ts",
+      "anchor": "L17-L20",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/generateClientSdkPackage.ts",
+      "anchor": "L29-L85",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/v2.0/generateClientSdkVersionTwoPointZero.ts",
+      "anchor": "L32-L98",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/GenerateContext/EnhancedOntologyDefinition.ts",
+      "anchor": "L43-L125",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/v2.0/generatePerObjectDataFiles.ts",
+      "anchor": "L26-L74",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/v2.0/generatePerInterfaceDataFiles.ts",
+      "anchor": "L25-L79",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/v2.0/generatePerActionDataFiles.ts",
+      "anchor": "L62-L121",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/v2.0/generatePerActionDataFiles.ts",
+      "anchor": "L205-L258",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/v2.0/generatePerQueryDataFiles.ts",
+      "anchor": "L130-L241",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/v2.0/generateClientSdkVersionTwoPointZero.ts",
+      "anchor": "L47-L54",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/v2.0/wireObjectTypeV2ToSdkObjectConstV2.ts",
+      "anchor": "L106-L146",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/v2.0/wireObjectTypeV2ToSdkObjectConstV2.ts",
+      "anchor": "L295-L342",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/v2.0/generateMetadata.ts",
+      "anchor": "L22-L55",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/v2.0/generateMetadata.ts",
+      "anchor": "L80-L103",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/generateClientSdkPackage.ts",
+      "anchor": "L150-L167",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/generateClientSdkPackage.ts",
+      "anchor": "L101-L137",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/generateClientSdkPackage.ts",
+      "anchor": "L189-L247",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/v2.0/generateClientSdkVersionTwoPointZero.test.ts",
+      "anchor": "L2156-L2301",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/v2.0/generateClientSdkVersionTwoPointZero.test.ts",
+      "anchor": "L3035-L3098",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/api/src/__quickinfo_snapshot__/README.md",
+      "anchor": "L3-L18",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/api/src/index.ts",
+      "anchor": "L17-L62",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/api/src/index.ts",
+      "anchor": "L158-L200",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/api/src/ontology/ObjectTypeDefinition.ts",
+      "anchor": "L179-L186",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/api/src/ontology/ActionDefinition.ts",
+      "anchor": "L118-L125",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/api/src/ontology/QueryDefinition.ts",
+      "anchor": "L37-L44",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/createClient.ts",
+      "anchor": "L109-L158",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/createClient.ts",
+      "anchor": "L164-L203",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/createClient.ts",
+      "anchor": "L442-L471",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/createMinimalClient.ts",
+      "anchor": "L72-L98",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/objectSet/createObjectSet.ts",
+      "anchor": "L95-L181",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/objectSet/createObjectSet.ts",
+      "anchor": "L200-L228",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/api/src/objectSet/ObjectSet.ts",
+      "anchor": "L117-L128",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/api/src/objectSet/ObjectSet.ts",
+      "anchor": "L160-L210",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/fetchMetadata.ts",
+      "anchor": "L32-L70",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/ontology/StandardOntologyProvider.ts",
+      "anchor": "L43-L127",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/object/Cache.ts",
+      "anchor": "L65-L101",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/object/Cache.ts",
+      "anchor": "L116-L154",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/ontology/loadFullObjectMetadata.ts",
+      "anchor": "L22-L35",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/ontology/loadActionMetadata.ts",
+      "anchor": "L22-L35",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/ontology/loadQueryMetadata.ts",
+      "anchor": "L22-L41",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/queries/applyQuery.ts",
+      "anchor": "L48-L116",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/queries/applyQuery.ts",
+      "anchor": "L127-L140",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/queries/applyQuery.ts",
+      "anchor": "L168-L220",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/shared.client.impl/src/createSharedClientContext.ts",
+      "anchor": "L29-L108",
+      "verified_from": "archived official raw source",
+      "within_file": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/shared.net.fetch/src/createFetchOrThrow.ts",
+      "anchor": "L27-L77",
+      "verified_from": "archived official raw source",
+      "within_file": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/shared.net.fetch/src/createRetryingFetch.ts",
+      "anchor": "L21-L66",
+      "verified_from": "archived official raw source",
+      "within_file": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/shared.net.fetch/src/createFetchHeaderMutator.ts",
+      "anchor": "L25-L36",
+      "verified_from": "archived official raw source",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/ontology/StandardOntologyProvider.test.ts",
+      "anchor": "L17-L64",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/ontology/loadQueryMetadata.test.ts",
+      "anchor": "L23-L63",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/queries/queries.test.ts",
+      "anchor": "L67-L81",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/queries/queries.test.ts",
+      "anchor": "L501-L527",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/src/createPublicOauthClient.ts",
+      "anchor": "L191-L209",
+      "verified_from": "archived official raw source",
+      "within_file": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/src/createPublicOauthClient.ts",
+      "anchor": "L290-L331",
+      "verified_from": "archived official raw source",
+      "within_file": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/src/createPublicOauthClient.ts",
+      "anchor": "L348-L367",
+      "verified_from": "archived official raw source",
+      "within_file": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/src/createConfidentialOauthClient.ts",
+      "anchor": "L37-L84",
+      "verified_from": "archived official raw source",
+      "within_file": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/src/createAuthlessClient.ts",
+      "anchor": "L17-L27",
+      "verified_from": "archived official raw source",
+      "within_file": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/src/utils.ts",
+      "anchor": "L66-L85",
+      "verified_from": "archived official raw source",
+      "within_file": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/src/createPublicOauthClient.ts",
+      "anchor": "L222-L287",
+      "verified_from": "archived official raw source",
+      "within_file": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/src/common.ts",
+      "anchor": "L176-L202",
+      "verified_from": "archived official raw source",
+      "within_file": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/src/createPublicOauthClient.ts",
+      "anchor": "L354-L367",
+      "verified_from": "archived official raw source",
+      "within_file": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/src/common.ts",
+      "anchor": "L205-L280",
+      "verified_from": "archived official raw source",
+      "within_file": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/src/createConfidentialOauthClient.ts",
+      "anchor": "L55-L64",
+      "verified_from": "archived official raw source",
+      "within_file": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/src/publicOauth.test.ts",
+      "anchor": "L214-L290",
+      "verified_from": "archived official raw source",
+      "within_file": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/src/publicOauth.test.ts",
+      "anchor": "L522-L655",
+      "verified_from": "archived official raw source",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/actions/applyAction.ts",
+      "anchor": "L101-L201",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/actions/applyAction.ts",
+      "anchor": "L121-L154",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/actions/actions.test.ts",
+      "anchor": "L55-L207",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/api/package.json",
+      "anchor": "L1-L12",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/package.json",
+      "anchor": "L1-L12",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/package.json",
+      "anchor": "L1-L12",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "9b93e05b5edd8c2e424480afb8cd7b4452ce56b8",
+      "path": "packages/oauth/package.json",
+      "anchor": "L1-L12",
+      "verified_from": "archived official raw source",
+      "within_file": true
+    },
+    {
+      "commit": "37cfd38676bf04edaef5847e929d914ea214c149",
+      "path": "packages/react-components/package.json",
+      "anchor": "L307-L337",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/generator/src/generateClientSdkPackage.ts",
+      "anchor": "L189-L247",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/createClient.ts",
+      "anchor": "",
+      "verified_from": "git object"
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/package.json",
+      "anchor": "",
+      "verified_from": "git object"
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/react/package.json",
+      "anchor": "L102-L139",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/react/AGENTS.md",
+      "anchor": "L3-L22",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/react/src/index.ts",
+      "anchor": "L21-L55",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/react/CONTRIBUTING.md",
+      "anchor": "",
+      "verified_from": "git object"
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/react/src/new/OsdkProvider.tsx",
+      "anchor": "L17-L99",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/react/src/new/makeExternalStore.ts",
+      "anchor": "L69-L194",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/react/src/new/useOsdkObjects.ts",
+      "anchor": "L235-L407",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/public/observable.ts",
+      "anchor": "L17-L37",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/ObservableClientImpl.ts",
+      "anchor": "L78-L409",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/Store.ts",
+      "anchor": "L92-L723",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/Subjects.ts",
+      "anchor": "L26-L74",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/base-list/BaseCollectionQuery.ts",
+      "anchor": "L28-L68",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/base-list/createCollectionConnectable.ts",
+      "anchor": "L45-L101",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/object/ObjectCacheKey.ts",
+      "anchor": "L25-L45",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/object/ObjectQuery.ts",
+      "anchor": "L95-L256",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/object/ObjectsHelper.ts",
+      "anchor": "L79-L315",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/list/ListCacheKey.ts",
+      "anchor": "L25-L59",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/list/ListsHelper.ts",
+      "anchor": "L73-L179",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/objectset/ObjectSetHelper.ts",
+      "anchor": "L67-L175",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/aggregation/AggregationCacheKey.ts",
+      "anchor": "",
+      "verified_from": "git object"
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/CacheKeys.ts",
+      "anchor": "L27-L177",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/Query.ts",
+      "anchor": "L119-L269",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/Queries.ts",
+      "anchor": "L20-L50",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/ListQueryView.ts",
+      "anchor": "L40-L178",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/base-list/BaseListQuery.ts",
+      "anchor": "L386-L828",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/BulkObjectLoader.ts",
+      "anchor": "L69-L209",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/AbstractHelper.ts",
+      "anchor": "L82-L173",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/RefCounts.ts",
+      "anchor": "L17-L102",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/Layer.ts",
+      "anchor": "L31-L92",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/Layers.ts",
+      "anchor": "L58-L207",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/evaluateFilter.ts",
+      "anchor": "L24-L69",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/list/ListQuery.ts",
+      "anchor": "L409-L698",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/objectset/ObjectSetQuery.ts",
+      "anchor": "L97-L340",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/actions/ActionApplication.ts",
+      "anchor": "L30-L185",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/react/src/new/useOsdkAction.ts",
+      "anchor": "L82-L218",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/actions/OptimisticJob.ts",
+      "anchor": "L29-L152",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/function/FunctionsHelper.ts",
+      "anchor": "L59-L142",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/function/FunctionQuery.ts",
+      "anchor": "L84-L244",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/react/src/new/useOsdkFunction.ts",
+      "anchor": "L34-L74",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/objectSet/createObjectSet.ts",
+      "anchor": "L105-L277",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/objectSet/ObjectSetListenerWebsocket.ts",
+      "anchor": "L85-L223",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/objectSet/SubscriptionWebsocket.ts",
+      "anchor": "L57-L220",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "docs/react/cache-management.md",
+      "anchor": "",
+      "verified_from": "git object"
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "docs/react/actions.md",
+      "anchor": "",
+      "verified_from": "git object"
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/Store.test.ts",
+      "anchor": "L1533-L1614",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/Store.test.ts",
+      "anchor": "L908-L1149",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/Store.test.ts",
+      "anchor": "L1766-L1881",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/Store.invalidation.test.ts",
+      "anchor": "L58-L807",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/AbstractHelper.test.ts",
+      "anchor": "L26-L106",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/actions/ActionApplication.test.ts",
+      "anchor": "L108-L532",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/function/FunctionQuery.test.ts",
+      "anchor": "L157-L449",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/observable/internal/list/ListQuery.test.ts",
+      "anchor": "L1272-L1557",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/react/test/useOsdkObjects.test.tsx",
+      "anchor": "L60-L328",
+      "verified_from": "git object",
+      "within_file": true
+    },
+    {
+      "commit": "fb8ec172d540ef7819382ff036aa2a692614af75",
+      "path": "packages/client/src/objectSet/ObjectSetListenerWebsocket.test.ts",
+      "anchor": "L199-L567",
+      "verified_from": "git object",
+      "within_file": true
+    }
+  ]
+}

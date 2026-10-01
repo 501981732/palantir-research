@@ -1,0 +1,118 @@
+{
+  "dateUTC": "2026-10-01",
+  "scope": "HTTP GET of cited official narrative/documentation URLs; fixed GitHub files verified against pinned local trees separately",
+  "results": [
+    {
+      "url": "https://react.dev/blog/2022/03/29/react-v18",
+      "status": 200,
+      "finalURL": "https://react.dev/blog/2022/03/29/react-v18",
+      "title": "React v18.0 – React",
+      "looksLikeSoft404": false
+    },
+    {
+      "url": "https://react.dev/reference/react/useRef",
+      "status": 200,
+      "finalURL": "https://react.dev/reference/react/useRef",
+      "title": "useRef – React",
+      "looksLikeSoft404": false
+    },
+    {
+      "url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "status": 200,
+      "finalURL": "https://www.apache.org/licenses/LICENSE-2.0",
+      "title": "",
+      "looksLikeSoft404": false
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/ai-fde/modes-and-capabilities",
+      "status": 200,
+      "finalURL": "https://www.palantir.com/docs/foundry/ai-fde/modes-and-capabilities",
+      "title": "AI FDE • Modes and capabilities • Palantir",
+      "looksLikeSoft404": false
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/announcements/2026-09",
+      "status": 200,
+      "finalURL": "https://www.palantir.com/docs/foundry/announcements/2026-09",
+      "title": "September 2026 • Announcements • Palantir",
+      "looksLikeSoft404": false
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/core-concepts",
+      "status": 200,
+      "finalURL": "https://www.palantir.com/docs/foundry/custom-widgets/core-concepts",
+      "title": "Custom widgets • Core concepts • Palantir",
+      "looksLikeSoft404": false
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/custom-widgets/parameters-and-events",
+      "status": 200,
+      "finalURL": "https://www.palantir.com/docs/foundry/custom-widgets/parameters-and-events",
+      "title": "Custom widgets • Parameters and events • Palantir",
+      "looksLikeSoft404": false
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/developer-console/how-to-bootstrapping-server-side-typescript",
+      "status": 200,
+      "finalURL": "https://www.palantir.com/docs/foundry/developer-console/how-to-bootstrapping-server-side-typescript",
+      "title": "Developer Console • How-to guides • Bootstrap a back-end TypeScript application • Palantir",
+      "looksLikeSoft404": false
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/developer-console/permissions",
+      "status": 200,
+      "finalURL": "https://www.palantir.com/docs/foundry/developer-console/permissions",
+      "title": "Developer Console • Core concepts • Permissions • Palantir",
+      "looksLikeSoft404": false
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/ontology-sdk/overview",
+      "status": 200,
+      "finalURL": "https://www.palantir.com/docs/foundry/ontology-sdk/overview",
+      "title": "Ontology SDK • Overview • Palantir",
+      "looksLikeSoft404": false
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/palantir-mcp/available-tools",
+      "status": 200,
+      "finalURL": "https://www.palantir.com/docs/foundry/palantir-mcp/available-tools",
+      "title": "Palantir MCP • Available tools • Palantir",
+      "looksLikeSoft404": false
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/pilot/build-a-widget",
+      "status": 200,
+      "finalURL": "https://www.palantir.com/docs/foundry/pilot/build-a-widget",
+      "title": "Pilot • How-to guides • Build a custom widget • Palantir",
+      "looksLikeSoft404": false
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/pilot/build-an-application",
+      "status": 200,
+      "finalURL": "https://www.palantir.com/docs/foundry/pilot/build-an-application",
+      "title": "Pilot • How-to guides • Build an application • Palantir",
+      "looksLikeSoft404": false
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/superrepo/core-concepts",
+      "status": 200,
+      "finalURL": "https://www.palantir.com/docs/foundry/superrepo/core-concepts",
+      "title": "SuperRepo • Core concepts • Palantir",
+      "looksLikeSoft404": false
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/superrepo/tutorial-develop-with-a-superrepo",
+      "status": 200,
+      "finalURL": "https://www.palantir.com/docs/foundry/superrepo/tutorial-develop-with-a-superrepo",
+      "title": "SuperRepo • Tutorial: Develop with a SuperRepo • Palantir",
+      "looksLikeSoft404": false
+    },
+    {
+      "url": "https://www.w3.org/TR/css-cascade-5/",
+      "status": 200,
+      "finalURL": "https://www.w3.org/TR/css-cascade-5/",
+      "title": "CSS Cascading and Inheritance Level 5",
+      "looksLikeSoft404": false
+    }
+  ]
+}

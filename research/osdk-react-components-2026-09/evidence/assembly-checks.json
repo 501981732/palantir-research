@@ -1,0 +1,12 @@
+{
+  "dateUTC": "2026-10-01",
+  "topic": "osdk-react-components-2026-09",
+  "localMarkdownTargetsChecked": 131,
+  "referenceLinksChecked": 220,
+  "markdownTableRowsChecked": 1444,
+  "uniquePinnedSourceLinksChecked": 966,
+  "externalLinksIndexed": 1067,
+  "assetsVerified": 16,
+  "errors": [],
+  "scope": "Local links, reference definitions, Markdown table columns, fixed upstream file/range, JSON and asset integrity. HTTP reads and runtime probes separately recorded; no full upstream test run."
+}
