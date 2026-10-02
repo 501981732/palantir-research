@@ -1,0 +1,29 @@
+digraph system {
+ graph [rankdir=TB,bgcolor="white",pad="0.35",nodesep="0.32",ranksep="0.52",fontname="PingFang SC",label="AIP Chatbot Studio：从助手定义到应用运行的公开契约",labelloc=t,fontsize=23];
+ node [shape=box,style="rounded,filled",fontname="PingFang SC",fontsize=15,margin="0.18,0.12",color="#7c93a8",fillcolor="#eef4fa"];
+ edge [fontname="PingFang SC",fontsize=12,color="#4e647a",arrowsize=0.7];
+ definition [label="助手定义与保存 / 发布\n模型 · prompt · retrieval · tools · application state",fillcolor="#e8e2f7"];
+ delivery [label="交付\nWorkshop widget / Threads / API 应用 / Function",fillcolor="#e3eff9"];
+ session [label="会话\n用户输入 · 历史 · 创建时解析的 agentVersion"];
+ context [label="每条用户消息的 retrieval\nOntology / 文档媒体 / Function / Assist 知识",fillcolor="#e5f3e3"];
+ loop [label="LLM 推理与工具选择\nprompted 串行 / native 可并行（有支持范围）",fillcolor="#e5f3e3"];
+ backend [label="后端工具\nObject query / Action / Function（含 Logic）"];
+ client [label="客户端 Command 工具配置（Beta）\n应用配对 · payload 审批 · 应用当前状态"];
+ state [label="宿主状态回投与呈现\nstring / ObjectSet · 参数更新 · 引用选择"];
+ auth [label="授权分别生效\n助手资源 · 用户 / Function execution mode\n对象与属性 · Action criteria · Markings",fillcolor="#fff0dc"];
+ logging [label="治理与证据出口\n可选共享 session logging\nFunction → Evals · 版本 · Marketplace",fillcolor="#fff0dc"];
+ definition -> delivery;
+ delivery -> session;
+ session -> context [label="新消息"];
+ context -> loop;
+ loop -> backend [label="模型选择 + 受控输入"];
+ backend -> loop [label="工具结果",constraint=false];
+ loop -> client [label="Command 支持的宿主"];
+ client -> loop [label="客户端结果",constraint=false];
+ loop -> state [label="输出 / 流结束"];
+ state -> session [label="下一轮输入快照",style=dashed,constraint=false];
+ auth -> backend [style=dashed];
+ auth -> client [style=dashed,label="应用自身仍需鉴权"];
+ definition -> logging [style=dashed];
+ session -> logging [style=dashed,label="配置的记录路径"];
+}

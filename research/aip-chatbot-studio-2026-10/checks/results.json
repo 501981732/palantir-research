@@ -1,0 +1,1407 @@
+{
+  "checked_at_utc": "2026-10-02T00:22:49.780337+00:00",
+  "baseline_main": "e64916da0d781652d5a337ce77f05a579ff49ef8",
+  "scope": "Deliverable integrity only; no tenant, EOS runtime or CI execution",
+  "checks": [
+    {
+      "check": "required deliverable",
+      "status": "passed",
+      "file": "README.md"
+    },
+    {
+      "check": "required deliverable",
+      "status": "passed",
+      "file": "build-context-tools.md"
+    },
+    {
+      "check": "required deliverable",
+      "status": "passed",
+      "file": "application-integration.md"
+    },
+    {
+      "check": "required deliverable",
+      "status": "passed",
+      "file": "governance-and-lifecycle.md"
+    },
+    {
+      "check": "required deliverable",
+      "status": "passed",
+      "file": "public-practice.md"
+    },
+    {
+      "check": "required deliverable",
+      "status": "passed",
+      "file": "eos-architecture.md"
+    },
+    {
+      "check": "required deliverable",
+      "status": "passed",
+      "file": "media-evidence.md"
+    },
+    {
+      "check": "required deliverable",
+      "status": "passed",
+      "file": "sources.md"
+    },
+    {
+      "check": "required deliverable",
+      "status": "passed",
+      "file": "assets.md"
+    },
+    {
+      "check": "required deliverable",
+      "status": "passed",
+      "file": "checks.md"
+    },
+    {
+      "check": "required deliverable",
+      "status": "passed",
+      "file": "notes/source-registry.json"
+    },
+    {
+      "check": "required deliverable",
+      "status": "passed",
+      "file": "notes/media-manifest.json"
+    },
+    {
+      "check": "required deliverable",
+      "status": "passed",
+      "file": "diagrams/manifest.json"
+    },
+    {
+      "check": "required deliverable",
+      "status": "passed",
+      "file": "checks/links.json"
+    },
+    {
+      "check": "privacy and credential patterns",
+      "status": "passed",
+      "file": "README.md",
+      "findings": []
+    },
+    {
+      "check": "balanced code fences",
+      "status": "passed",
+      "file": "README.md"
+    },
+    {
+      "check": "local links exist",
+      "status": "passed",
+      "file": "README.md",
+      "missing": [],
+      "outside": []
+    },
+    {
+      "check": "local heading anchors",
+      "status": "passed",
+      "file": "README.md",
+      "invalid": []
+    },
+    {
+      "check": "sources registered",
+      "status": "passed",
+      "file": "README.md",
+      "unregistered": []
+    },
+    {
+      "check": "privacy and credential patterns",
+      "status": "passed",
+      "file": "application-integration.md",
+      "findings": []
+    },
+    {
+      "check": "balanced code fences",
+      "status": "passed",
+      "file": "application-integration.md"
+    },
+    {
+      "check": "local links exist",
+      "status": "passed",
+      "file": "application-integration.md",
+      "missing": [],
+      "outside": []
+    },
+    {
+      "check": "local heading anchors",
+      "status": "passed",
+      "file": "application-integration.md",
+      "invalid": []
+    },
+    {
+      "check": "sources registered",
+      "status": "passed",
+      "file": "application-integration.md",
+      "unregistered": []
+    },
+    {
+      "check": "privacy and credential patterns",
+      "status": "passed",
+      "file": "assets.md",
+      "findings": []
+    },
+    {
+      "check": "balanced code fences",
+      "status": "passed",
+      "file": "assets.md"
+    },
+    {
+      "check": "local links exist",
+      "status": "passed",
+      "file": "assets.md",
+      "missing": [],
+      "outside": []
+    },
+    {
+      "check": "local heading anchors",
+      "status": "passed",
+      "file": "assets.md",
+      "invalid": []
+    },
+    {
+      "check": "sources registered",
+      "status": "passed",
+      "file": "assets.md",
+      "unregistered": []
+    },
+    {
+      "check": "privacy and credential patterns",
+      "status": "passed",
+      "file": "build-context-tools.md",
+      "findings": []
+    },
+    {
+      "check": "balanced code fences",
+      "status": "passed",
+      "file": "build-context-tools.md"
+    },
+    {
+      "check": "local links exist",
+      "status": "passed",
+      "file": "build-context-tools.md",
+      "missing": [],
+      "outside": []
+    },
+    {
+      "check": "local heading anchors",
+      "status": "passed",
+      "file": "build-context-tools.md",
+      "invalid": []
+    },
+    {
+      "check": "sources registered",
+      "status": "passed",
+      "file": "build-context-tools.md",
+      "unregistered": []
+    },
+    {
+      "check": "privacy and credential patterns",
+      "status": "passed",
+      "file": "checks/links.json",
+      "findings": []
+    },
+    {
+      "check": "privacy and credential patterns",
+      "status": "passed",
+      "file": "checks/results.json",
+      "findings": []
+    },
+    {
+      "check": "privacy and credential patterns",
+      "status": "passed",
+      "file": "checks.md",
+      "findings": []
+    },
+    {
+      "check": "balanced code fences",
+      "status": "passed",
+      "file": "checks.md"
+    },
+    {
+      "check": "local links exist",
+      "status": "passed",
+      "file": "checks.md",
+      "missing": [],
+      "outside": []
+    },
+    {
+      "check": "local heading anchors",
+      "status": "passed",
+      "file": "checks.md",
+      "invalid": []
+    },
+    {
+      "check": "sources registered",
+      "status": "passed",
+      "file": "checks.md",
+      "unregistered": []
+    },
+    {
+      "check": "privacy and credential patterns",
+      "status": "passed",
+      "file": "diagrams/01-system.dot",
+      "findings": []
+    },
+    {
+      "check": "privacy and credential patterns",
+      "status": "passed",
+      "file": "diagrams/01-system.svg",
+      "findings": []
+    },
+    {
+      "check": "privacy and credential patterns",
+      "status": "passed",
+      "file": "diagrams/02-turn-sequence.dot",
+      "findings": []
+    },
+    {
+      "check": "privacy and credential patterns",
+      "status": "passed",
+      "file": "diagrams/02-turn-sequence.svg",
+      "findings": []
+    },
+    {
+      "check": "privacy and credential patterns",
+      "status": "passed",
+      "file": "diagrams/03-write-boundaries.dot",
+      "findings": []
+    },
+    {
+      "check": "privacy and credential patterns",
+      "status": "passed",
+      "file": "diagrams/03-write-boundaries.svg",
+      "findings": []
+    },
+    {
+      "check": "privacy and credential patterns",
+      "status": "passed",
+      "file": "diagrams/04-release.dot",
+      "findings": []
+    },
+    {
+      "check": "privacy and credential patterns",
+      "status": "passed",
+      "file": "diagrams/04-release.svg",
+      "findings": []
+    },
+    {
+      "check": "privacy and credential patterns",
+      "status": "passed",
+      "file": "diagrams/manifest.json",
+      "findings": []
+    },
+    {
+      "check": "privacy and credential patterns",
+      "status": "passed",
+      "file": "eos-architecture.md",
+      "findings": []
+    },
+    {
+      "check": "balanced code fences",
+      "status": "passed",
+      "file": "eos-architecture.md"
+    },
+    {
+      "check": "local links exist",
+      "status": "passed",
+      "file": "eos-architecture.md",
+      "missing": [],
+      "outside": []
+    },
+    {
+      "check": "local heading anchors",
+      "status": "passed",
+      "file": "eos-architecture.md",
+      "invalid": []
+    },
+    {
+      "check": "sources registered",
+      "status": "passed",
+      "file": "eos-architecture.md",
+      "unregistered": []
+    },
+    {
+      "check": "privacy and credential patterns",
+      "status": "passed",
+      "file": "governance-and-lifecycle.md",
+      "findings": []
+    },
+    {
+      "check": "balanced code fences",
+      "status": "passed",
+      "file": "governance-and-lifecycle.md"
+    },
+    {
+      "check": "local links exist",
+      "status": "passed",
+      "file": "governance-and-lifecycle.md",
+      "missing": [],
+      "outside": []
+    },
+    {
+      "check": "local heading anchors",
+      "status": "passed",
+      "file": "governance-and-lifecycle.md",
+      "invalid": []
+    },
+    {
+      "check": "sources registered",
+      "status": "passed",
+      "file": "governance-and-lifecycle.md",
+      "unregistered": []
+    },
+    {
+      "check": "privacy and credential patterns",
+      "status": "passed",
+      "file": "media-evidence.md",
+      "findings": []
+    },
+    {
+      "check": "balanced code fences",
+      "status": "passed",
+      "file": "media-evidence.md"
+    },
+    {
+      "check": "local links exist",
+      "status": "passed",
+      "file": "media-evidence.md",
+      "missing": [],
+      "outside": []
+    },
+    {
+      "check": "local heading anchors",
+      "status": "passed",
+      "file": "media-evidence.md",
+      "invalid": []
+    },
+    {
+      "check": "sources registered",
+      "status": "passed",
+      "file": "media-evidence.md",
+      "unregistered": []
+    },
+    {
+      "check": "privacy and credential patterns",
+      "status": "passed",
+      "file": "notes/core-sources.json",
+      "findings": []
+    },
+    {
+      "check": "privacy and credential patterns",
+      "status": "passed",
+      "file": "notes/governance-sources.json",
+      "findings": []
+    },
+    {
+      "check": "privacy and credential patterns",
+      "status": "passed",
+      "file": "notes/integration-sources.json",
+      "findings": []
+    },
+    {
+      "check": "privacy and credential patterns",
+      "status": "passed",
+      "file": "notes/media-manifest.json",
+      "findings": []
+    },
+    {
+      "check": "privacy and credential patterns",
+      "status": "passed",
+      "file": "notes/practice-sources.json",
+      "findings": []
+    },
+    {
+      "check": "privacy and credential patterns",
+      "status": "passed",
+      "file": "notes/source-registry.json",
+      "findings": []
+    },
+    {
+      "check": "privacy and credential patterns",
+      "status": "passed",
+      "file": "public-practice.md",
+      "findings": []
+    },
+    {
+      "check": "balanced code fences",
+      "status": "passed",
+      "file": "public-practice.md"
+    },
+    {
+      "check": "local links exist",
+      "status": "passed",
+      "file": "public-practice.md",
+      "missing": [],
+      "outside": []
+    },
+    {
+      "check": "local heading anchors",
+      "status": "passed",
+      "file": "public-practice.md",
+      "invalid": []
+    },
+    {
+      "check": "sources registered",
+      "status": "passed",
+      "file": "public-practice.md",
+      "unregistered": []
+    },
+    {
+      "check": "privacy and credential patterns",
+      "status": "passed",
+      "file": "sources.md",
+      "findings": []
+    },
+    {
+      "check": "balanced code fences",
+      "status": "passed",
+      "file": "sources.md"
+    },
+    {
+      "check": "local links exist",
+      "status": "passed",
+      "file": "sources.md",
+      "missing": [],
+      "outside": []
+    },
+    {
+      "check": "local heading anchors",
+      "status": "passed",
+      "file": "sources.md",
+      "invalid": []
+    },
+    {
+      "check": "sources registered",
+      "status": "passed",
+      "file": "sources.md",
+      "unregistered": []
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-studio-overview.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-studio-overview.png",
+      "dimensions": [
+        2550,
+        1755
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-studio-overview.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-workshop-overview.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-workshop-overview.png",
+      "dimensions": [
+        3352,
+        1800
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-workshop-overview.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-model-selection.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-model-selection.png",
+      "dimensions": [
+        2468,
+        1896
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-model-selection.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-system-prompt.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-system-prompt.png",
+      "dimensions": [
+        2466,
+        1880
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-system-prompt.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-conversation-starters.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-conversation-starters.png",
+      "dimensions": [
+        2476,
+        1838
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-conversation-starters.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-save-view-publish.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-save-view-publish.png",
+      "dimensions": [
+        3340,
+        1910
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-save-view-publish.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-usage-tab.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-usage-tab.png",
+      "dimensions": [
+        3344,
+        1912
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-usage-tab.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-application-state.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-application-state.png",
+      "dimensions": [
+        2910,
+        1868
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-application-state.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-deterministic-inputs.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-deterministic-inputs.png",
+      "dimensions": [
+        3590,
+        2328
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-deterministic-inputs.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-query-output-variable.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-query-output-variable.png",
+      "dimensions": [
+        2910,
+        1868
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-query-output-variable.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-update-variable-tool.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-update-variable-tool.png",
+      "dimensions": [
+        2910,
+        1868
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-update-variable-tool.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-workshop-variable-binding.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-workshop-variable-binding.png",
+      "dimensions": [
+        3228,
+        1850
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-workshop-variable-binding.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-ontology-context-properties.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-ontology-context-properties.png",
+      "dimensions": [
+        2374,
+        1794
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-ontology-context-properties.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-document-context.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-document-context.png",
+      "dimensions": [
+        3344,
+        1912
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-document-context.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-function-context-mapping.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-function-context-mapping.png",
+      "dimensions": [
+        3333,
+        1827
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-function-context-mapping.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-function-media-citations.jpg"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-function-media-citations.jpg",
+      "dimensions": [
+        3350,
+        1870
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-function-media-citations.jpg"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-citation-workshop-overlay.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-citation-workshop-overlay.png",
+      "dimensions": [
+        3346,
+        1914
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-citation-workshop-overlay.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-tools-ontology-action.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-tools-ontology-action.png",
+      "dimensions": [
+        3338,
+        1908
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-tools-ontology-action.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-tool-mode.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-tool-mode.png",
+      "dimensions": [
+        892,
+        652
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-tool-mode.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-tool-execution-inspection.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-tool-execution-inspection.png",
+      "dimensions": [
+        3340,
+        1792
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-tool-execution-inspection.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-command-configuration.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-command-configuration.png",
+      "dimensions": [
+        1828,
+        1466
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-command-configuration.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-command-confirmation.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-command-confirmation.png",
+      "dimensions": [
+        510,
+        623
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-command-confirmation.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-command-gaia-pairing.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-command-gaia-pairing.png",
+      "dimensions": [
+        2336,
+        1638
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-command-gaia-pairing.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-command-multi-pairing.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-command-multi-pairing.png",
+      "dimensions": [
+        1776,
+        504
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-command-multi-pairing.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-assist-deployment.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-assist-deployment.png",
+      "dimensions": [
+        2090,
+        780
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-assist-deployment.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-publish-function-settings.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-publish-function-settings.png",
+      "dimensions": [
+        1220,
+        1436
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-publish-function-settings.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-evaluation-suite.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-evaluation-suite.png",
+      "dimensions": [
+        2436,
+        848
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-evaluation-suite.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-evaluation-sessionrid.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-evaluation-sessionrid.png",
+      "dimensions": [
+        3030,
+        670
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-evaluation-sessionrid.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-api-project-access.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-api-project-access.png",
+      "dimensions": [
+        837,
+        423
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-api-project-access.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-api-allowed-operations.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-api-allowed-operations.png",
+      "dimensions": [
+        2224,
+        946
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-api-allowed-operations.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-ontologize-react-connection-error-1048.jpg"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-ontologize-react-connection-error-1048.jpg",
+      "dimensions": [
+        1470,
+        775
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-ontologize-react-connection-error-1048.jpg"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "assets/media-ontologize-react-oauth-consent-1113.jpg"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "assets/media-ontologize-react-oauth-consent-1113.jpg",
+      "dimensions": [
+        1470,
+        775
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "assets/media-ontologize-react-oauth-consent-1113.jpg"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "diagrams/01-system.svg"
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "diagrams/01-system.svg"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "diagrams/01-system.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "diagrams/01-system.png",
+      "dimensions": [
+        1451,
+        991
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "diagrams/01-system.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "diagrams/02-turn-sequence.svg"
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "diagrams/02-turn-sequence.svg"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "diagrams/02-turn-sequence.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "diagrams/02-turn-sequence.png",
+      "dimensions": [
+        1407,
+        1636
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "diagrams/02-turn-sequence.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "diagrams/03-write-boundaries.svg"
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "diagrams/03-write-boundaries.svg"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "diagrams/03-write-boundaries.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "diagrams/03-write-boundaries.png",
+      "dimensions": [
+        1903,
+        424
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "diagrams/03-write-boundaries.png"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "diagrams/04-release.svg"
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "diagrams/04-release.svg"
+    },
+    {
+      "check": "asset hash and bytes",
+      "status": "passed",
+      "file": "diagrams/04-release.png"
+    },
+    {
+      "check": "media decodes and dimensions",
+      "status": "passed",
+      "file": "diagrams/04-release.png",
+      "dimensions": [
+        1391,
+        619
+      ]
+    },
+    {
+      "check": "visual inspection recorded",
+      "status": "passed",
+      "file": "diagrams/04-release.png"
+    },
+    {
+      "check": "exact media file inventory",
+      "status": "passed"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-studio-overview.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-workshop-overview.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-model-selection.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-system-prompt.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-conversation-starters.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-save-view-publish.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-usage-tab.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-application-state.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-deterministic-inputs.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-query-output-variable.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-update-variable-tool.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-workshop-variable-binding.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-ontology-context-properties.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-document-context.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-function-context-mapping.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-function-media-citations.jpg"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-citation-workshop-overlay.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-tools-ontology-action.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-tool-mode.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-tool-execution-inspection.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-command-configuration.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-command-confirmation.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-command-gaia-pairing.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-command-multi-pairing.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-assist-deployment.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-publish-function-settings.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-evaluation-suite.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-evaluation-sessionrid.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-api-project-access.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-api-allowed-operations.png"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-ontologize-react-connection-error-1048.jpg"
+    },
+    {
+      "check": "every media used",
+      "status": "passed",
+      "file": "assets/media-ontologize-react-oauth-consent-1113.jpg"
+    },
+    {
+      "check": "editable rendered diagram",
+      "status": "passed",
+      "source": "01-system.dot"
+    },
+    {
+      "check": "editable rendered diagram",
+      "status": "passed",
+      "source": "02-turn-sequence.dot"
+    },
+    {
+      "check": "editable rendered diagram",
+      "status": "passed",
+      "source": "03-write-boundaries.dot"
+    },
+    {
+      "check": "editable rendered diagram",
+      "status": "passed",
+      "source": "04-release.dot"
+    },
+    {
+      "check": "original index content retained",
+      "status": "passed",
+      "file": "README.md"
+    },
+    {
+      "check": "original index content retained",
+      "status": "passed",
+      "file": "research/README.md"
+    },
+    {
+      "check": "old topics unchanged",
+      "status": "passed",
+      "unexpected": []
+    }
+  ],
+  "summary": {
+    "checks": 237,
+    "passed": 237,
+    "failed": 0
+  }
+}

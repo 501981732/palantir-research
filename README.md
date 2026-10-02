@@ -15,6 +15,7 @@
 | [Workshop Runtime（2026-10）](research/workshop-runtime-2026-10/) | 深入研究，待用户评审 | React/Pilot→OSDK→Widget Set/Registry→宿主变量与事件→Ontology读写→页面与版本；EOS当前实现、语义差异与验证范围 |
 | [Object Views / Object Explorer / Workshop（2026-10）](research/object-views-2026-10/) | 深入研究，待用户评审 | 对象中心入口、Standard/Configured/Legacy沿革、Full/Panel与对象上下文、探索到操作、配置版本与发布治理，以及EOS架构取舍 |
 | [Carbon（2026-10）](research/carbon-2026-10/) | 深入研究，待用户评审 | 角色工作台、首页与tab实例、模块发现/对象导航、权限与发布边界、Insight入口演进及EOS验证建议 |
+| [应用内 AI 助手 / AIP Chatbot Studio（2026-10）](research/aip-chatbot-studio-2026-10/) | 研究报告，待用户评审 | 模型/知识/检索/会话与工具、Workshop/Commands/API/OSDK接入、权限/确认/日志/Evals/版本/Marketplace及EOS验证 |
 
 ## 目录约定
 

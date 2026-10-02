@@ -1,0 +1,477 @@
+{
+  "retrieved_window_utc": "2026-10-01T23:40:48Z/2026-10-01T23:48:53Z",
+  "followup_verification_window_utc": "2026-10-01T23:53:02Z/2026-10-01T23:54:36Z",
+  "method": "web.run direct open/click/find/search of public official documentation; no authenticated tenant execution",
+  "sources": [
+    {
+      "id": "CORE01",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/overview/",
+      "title": "AIP Chatbot Studio — Overview",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "Agent Studio rename",
+        "enterprise assistants resource",
+        "Ontology/documents/tools and internal/external deployment"
+      ],
+      "limitations": [
+        "positioning, no runtime test or universal availability guarantee"
+      ]
+    },
+    {
+      "id": "CORE02",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/core-concepts/",
+      "title": "AIP Chatbot Studio — Core concepts",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "compiled instructions/tool/variable descriptions",
+        "retrieval flow",
+        "context-window constituents and overflow",
+        "chatbots as functions"
+      ],
+      "limitations": [
+        "no automatic compaction guarantee",
+        "general conceptual description"
+      ]
+    },
+    {
+      "id": "CORE03",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/getting-started/",
+      "title": "AIP Chatbot Studio — Getting started",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "filesystem resource and access control",
+        "model subset",
+        "prompt refs and temperature",
+        "save/view/publish",
+        "feedback and usage"
+      ],
+      "limitations": [
+        "model availability enrollment-dependent",
+        "UI instructions not authenticated observation"
+      ]
+    },
+    {
+      "id": "CORE04",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/application-state/",
+      "title": "AIP Chatbot Studio — Application state",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "string/object set variables",
+        "value visibility",
+        "initial object sets",
+        "deterministic variable outputs at stream end",
+        "loop-start deterministic inputs",
+        "citation variable updates"
+      ],
+      "limitations": [
+        "no complete intra-loop scheduling contract",
+        "visibility is not stated as an authorization boundary"
+      ]
+    },
+    {
+      "id": "CORE05",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/retrieval-context/",
+      "title": "AIP Chatbot Studio — Retrieval context",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "every-message retrieval",
+        "Ontology fixed N or semantic K",
+        "document full text/relevant chunks Beta",
+        "TSv1 function-backed interface",
+        "retrievedPrompt",
+        "optional state arguments",
+        "Logic retrieval future wording"
+      ],
+      "limitations": [
+        "relevant chunks Beta enrollment-dependent",
+        "TSv2 does not support this interface",
+        "no built-in hybrid retrieval promise"
+      ]
+    },
+    {
+      "id": "CORE06",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/citations/",
+      "title": "AIP Chatbot Studio — Citations",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "default citations for Ontology/document context",
+        "formats for object/PDF/URL",
+        "custom citations for tools/functions",
+        "click override and output variable"
+      ],
+      "limitations": [
+        "format rendering does not establish factual support",
+        "not automatically available for every tool result"
+      ]
+    },
+    {
+      "id": "CORE07",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/tools/",
+      "title": "AIP Chatbot Studio — Tools",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "six current tools plus legacy semantic tool",
+        "query filter/aggregate/inspect/link traversal",
+        "Action confirmation",
+        "Function latest/pinned",
+        "prompted single vs native parallel calling",
+        "native model/tool subset"
+      ],
+      "limitations": [
+        "no detailed model tool schema or result limits",
+        "no whole-loop transaction promise",
+        "native eligibility not all provider models"
+      ]
+    },
+    {
+      "id": "CORE08",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/chatbots-as-functions/",
+      "title": "AIP Chatbot Studio — Chatbots as Functions",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "optional sessionRid omission for new conversation",
+        "application inputs/outputs and defaults",
+        "only updated variables output",
+        "save/publish Function versions",
+        "Evals and Automate consumption"
+      ],
+      "limitations": [
+        "no claim that confirmation UI is identical in headless function execution"
+      ]
+    },
+    {
+      "id": "CORE09",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/session-logging/",
+      "title": "AIP Chatbot Studio — Session logging",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "message execution and trace correlation",
+        "compiled system/native tool fields",
+        "parsed tool input",
+        "llm_value separate from variable_updates",
+        "client tool call final result",
+        "schemas may change"
+      ],
+      "limitations": [
+        "log exports require roles and careful access",
+        "schema not stable contract",
+        "no export performed"
+      ]
+    },
+    {
+      "id": "CORE10",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/foundry-apis/",
+      "title": "AIP Chatbot Studio — Use AIP Chatbots through Foundry APIs",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "multi-shot API session interaction",
+        "parameterInputs/Updates",
+        "single Ontology for OSDK application",
+        "required declared resource projects/types",
+        "Developer Console resources not auto updated"
+      ],
+      "limitations": [
+        "overview API guide",
+        "headless confirmation handshake not explained"
+      ]
+    },
+    {
+      "id": "CORE11",
+      "url": "https://www.palantir.com/docs/foundry/api/aip-agents-v2-resources/sessions/create-session",
+      "title": "API v2 — Create Session",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "preview endpoint",
+        "calling-user conversation",
+        "agentVersion defaults latest published at creation",
+        "returned session version",
+        "unpublished/model/type dependency errors"
+      ],
+      "limitations": [
+        "preview may change/remove",
+        "version is configuration association not data snapshot"
+      ]
+    },
+    {
+      "id": "CORE12",
+      "url": "https://www.palantir.com/docs/foundry/api/aip-agents-v2-resources/sessions/blocking-continue-session",
+      "title": "API v2 — Blocking Continue Session",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "parameter inputs/READ_WRITE updates",
+        "contextsOverride skips automatic retrieval",
+        "sessionTraceId request field",
+        "exact blockingContinue path and OAuth scope",
+        "context-size/model/permission/dependency errors"
+      ],
+      "limitations": [
+        "preview",
+        "no full structured confirmation child schema inspected"
+      ]
+    },
+    {
+      "id": "CORE13",
+      "url": "https://www.palantir.com/docs/foundry/api/aip-agents-v2-resources/sessions/streaming-continue-session",
+      "title": "API v2 — Streaming Continue Session",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "Markdown text stream",
+        "read full exchange after stream",
+        "no concurrent same-session continue",
+        "cancellation messageId",
+        "context override"
+      ],
+      "limitations": [
+        "preview",
+        "text stream not assumed SSE or full event stream"
+      ]
+    },
+    {
+      "id": "CORE14",
+      "url": "https://www.palantir.com/docs/foundry/functions/overview/",
+      "title": "Functions — Overview",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "isolated server-side execution",
+        "Ontology-aware logic"
+      ],
+      "limitations": [
+        "not specific Chatbot tool implementation"
+      ]
+    },
+    {
+      "id": "CORE15",
+      "url": "https://www.palantir.com/docs/foundry/logic/core-concepts/",
+      "title": "AIP Logic — Core concepts",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "inputs/blocks/outputs",
+        "ordinary Logic write caller requires published function from Action",
+        "user/project scoped distinction"
+      ],
+      "limitations": [
+        "generic statement must be qualified by dedicated Automate legacy Logic effect pathway",
+        "not chatbot-wide transaction guarantee"
+      ]
+    },
+    {
+      "id": "CORE16",
+      "url": "https://www.palantir.com/docs/foundry/logic/blocks/",
+      "title": "AIP Logic — Blocks",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "LLM tool vs deterministic Apply action block",
+        "LLM asks runtime to execute",
+        "Action caller context required for actual write",
+        "read-only enforcement limits",
+        "Function composition"
+      ],
+      "limitations": [
+        "not equivalent to Chatbot native mode eligibility",
+        "generic underlying runtime"
+      ]
+    },
+    {
+      "id": "CORE17",
+      "url": "https://www.palantir.com/docs/foundry/logic/execution-mode-settings/",
+      "title": "AIP Logic — Execution mode settings",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "user-scoped default",
+        "project-scoped permissions/imports/markings",
+        "log visibility differences"
+      ],
+      "limitations": [
+        "nested call combinations not runtime-tested"
+      ]
+    },
+    {
+      "id": "CORE18",
+      "url": "https://www.palantir.com/docs/foundry/functions/permissions/",
+      "title": "Functions — Permissions",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "repository Viewer for published functions",
+        "function-backed Action permission exception",
+        "end-user object loading",
+        "output not automatically covered by row/column policies",
+        "extended execution may call Actions and obtain tokens subject to allowlists"
+      ],
+      "limitations": [
+        "rules vary by capability and caller",
+        "does not guarantee Chatbot confirmation on all Function side effects",
+        "no tenant permission audit"
+      ]
+    },
+    {
+      "id": "CORE19",
+      "url": "https://www.palantir.com/docs/foundry/action-types/submission-criteria/",
+      "title": "Action types — Submission criteria",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "user/group/parameter/object context criteria",
+        "criteria separate from type editing permissions"
+      ],
+      "limitations": [
+        "criteria must be configured by application builder"
+      ]
+    },
+    {
+      "id": "CORE20",
+      "url": "https://www.palantir.com/docs/foundry/action-types/permissions/",
+      "title": "Action types — Permissions",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "type/link/datasource/submission gates",
+        "row/column controls do not extend to writes",
+        "read/write authorizations",
+        "actions-only Read permission case",
+        "possible create unreadable objects"
+      ],
+      "limitations": [
+        "not a universal CRUD ACL model",
+        "no tenant test"
+      ]
+    },
+    {
+      "id": "CORE21",
+      "url": "https://www.palantir.com/docs/foundry/logic/staged-writes/",
+      "title": "AIP Logic — Staged writes",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "Beta staged execution",
+        "nested calls/read-after-write",
+        "temporary edits applied at completion",
+        "changed return/version semantics"
+      ],
+      "limitations": [
+        "Beta enrollment-dependent",
+        "not chat-wide or external-system transaction"
+      ]
+    },
+    {
+      "id": "CORE22",
+      "url": "https://www.palantir.com/docs/foundry/functions/typescript-v2-staged-writes/",
+      "title": "Functions TypeScript v2 — Staged writes [Beta]",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "staged writes read-after-write",
+        "nested edits join action context",
+        "successful atomic commit/exception discard",
+        "preview environment limits"
+      ],
+      "limitations": [
+        "Beta",
+        "no external side-effect rollback guarantee",
+        "not chatbot-loop contract"
+      ]
+    },
+    {
+      "id": "CORE23",
+      "url": "https://www.palantir.com/docs/foundry/model-catalog/model-deprecation/",
+      "title": "AIP Model Catalog — Model deprecation",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "brownout and deprecation failures",
+        "upstream model resource migration",
+        "Chatbot model save/publish",
+        "Evals before substitution"
+      ],
+      "limitations": [
+        "no per-tenant current model inventory obtained"
+      ]
+    },
+    {
+      "id": "CORE24",
+      "url": "https://www.palantir.com/docs/foundry/ontology/document-processing/",
+      "title": "Semantic search — Document processing",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "PDF media/text extraction/chunking",
+        "chunk size/overlap/separators",
+        "chunk objects link to original",
+        "original PDF cross-check"
+      ],
+      "limitations": [
+        "illustrative pipeline",
+        "not all Studio document context implementations shown"
+      ]
+    },
+    {
+      "id": "CORE25",
+      "url": "https://www.palantir.com/docs/foundry/ontology/overview-semantic-search/",
+      "title": "Semantic search — Overview",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "embedding semantic similarity",
+        "link embedding text to objects",
+        "official video/blog pointers"
+      ],
+      "limitations": [
+        "not model quality guarantee"
+      ]
+    },
+    {
+      "id": "CORE26",
+      "url": "https://www.palantir.com/docs/foundry/ontology/using-palantir-provided-models-to-create-a-semantic-search-workflow/",
+      "title": "Semantic search — Use Palantir-provided models to create a semantic search workflow",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "generate embeddings/store vector then consume",
+        "Chatbot/Workshop/function choices",
+        "TSv1 explicit query embedding vs TSv2/Python text query",
+        "language-version distinctions"
+      ],
+      "limitations": [
+        "not same as Chatbot retrieval function-interface support",
+        "illustrative model choice not recommendation"
+      ]
+    },
+    {
+      "id": "CORE27",
+      "url": "https://www.palantir.com/docs/foundry/functions/edits-overview/",
+      "title": "Functions — Ontology edits",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "regular edit functions return edits for action consumer",
+        "functions helper does not apply actual edits",
+        "regular search vs pending materialized object distinction"
+      ],
+      "limitations": [
+        "regular edits contract not staged-write contract",
+        "do not generalize only-way wording over extended function capabilities or Automate Logic effects"
+      ]
+    },
+    {
+      "id": "CORE28",
+      "url": "https://www.palantir.com/docs/foundry/logic/aip-logic-integration-automate/",
+      "title": "AIP Logic integration with Automate",
+      "retrieved_date_utc": "2026-10-01",
+      "supports": [
+        "legacy Logic with staged writes disabled may directly use Logic effect",
+        "staged-write Logic requires Action effect",
+        "special consumer pathway for returned edits",
+        "mode change major-version migration"
+      ],
+      "limitations": [
+        "does not imply ordinary Chatbot Function tool applies edits",
+        "legacy and staged consumers differ"
+      ]
+    }
+  ],
+  "failed_retrievals": [
+    {
+      "attempted_direct_url": "https://www.palantir.com/docs/foundry/action-types/consistency-isolation/",
+      "initial_reference": "Functions overview navigation link labeled Consistency and isolation; tool did not return target URL",
+      "method": "web.run click followed by one same-purpose direct open",
+      "result": "Internal Error on both attempts; direct path not verified as valid",
+      "consequence": "not cited as verified; staged-write claims use other readable official pages"
+    },
+    {
+      "attempted_direct_url": "https://www.palantir.com/docs/foundry/logic/automate-logic/",
+      "method": "web.run direct open of unverified candidate path",
+      "result": "Internal Error; navigation click resolved actual page to /logic/aip-logic-integration-automate/ successfully",
+      "consequence": "candidate not cited as valid; CORE28 uses verified actual path"
+    }
+  ]
+}

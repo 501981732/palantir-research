@@ -1,0 +1,1355 @@
+{
+  "checked_at_utc": "2026-10-02T00:21:16.373780+00:00",
+  "scope": "Public HTTP reachability only; not source accuracy, video viewing, tenant ability or CI",
+  "links": [
+    {
+      "id": "S001",
+      "url": "https://blog.palantir.com/connecting-ai-to-decisions-with-the-palantir-ontology-c73f7b0a1a72",
+      "title": "Connecting AI to Decisions with the Palantir Ontology",
+      "status": "unavailable",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S002",
+      "url": "https://blog.palantir.com/reducing-hallucinations-with-the-ontology-in-palantir-aip-288552477383",
+      "title": "Reducing Hallucinations with the Ontology in Palantir AIP (Engineering Responsible AI, #1)",
+      "status": "unavailable",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S003",
+      "url": "https://community.palantir.com/t/agent-studio-issue-with-session-variable/2795",
+      "title": "Agent Studio Issue with Session Variable",
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/agent-studio-issue-with-session-variable/2795",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S004",
+      "url": "https://community.palantir.com/t/agentic-workflows-in-foundry-questions-answered/6973",
+      "title": "Agentic Workflows in Foundry: Questions, Answered",
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/agentic-workflows-in-foundry-questions-answered/6973",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S005",
+      "url": "https://community.palantir.com/t/ai-fde-ai-chatbot-studio/6904",
+      "title": "Ai-fde: ai chatbot studio",
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/ai-fde-ai-chatbot-studio/6904",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S006",
+      "url": "https://community.palantir.com/t/aip-agent-calling-other-agents-are-extremely-slow/4529",
+      "title": "AIP agent calling other agents are extremely slow",
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/aip-agent-calling-other-agents-are-extremely-slow/4529",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S007",
+      "url": "https://community.palantir.com/t/aip-agent-store-chat-log-and-feedback-automatically/5646",
+      "title": "Aip agent - store chat log and feedback automatically",
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/aip-agent-store-chat-log-and-feedback-automatically/5646",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S008",
+      "url": "https://community.palantir.com/t/aip-agent-streaming-api-not-sending-progressive-chunks-in-react-native/5514",
+      "title": "AIP Agent Streaming API Not Sending Progressive Chunks in React Native",
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/aip-agent-streaming-api-not-sending-progressive-chunks-in-react-native/5514",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S009",
+      "url": "https://community.palantir.com/t/aip-agent-studio-does-not-support-compute-module-functions-as-tools/4448",
+      "title": "AIP Agent Studio does not support compute module functions as tools - Ask the Community - Palantir Developer Community",
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/aip-agent-studio-does-not-support-compute-module-functions-as-tools/4448",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S010",
+      "url": "https://community.palantir.com/t/aip-agent-studio-missing-native-vega-tool-but-its-available-in-aip-analyst/6501",
+      "title": "AIP Agent Studio Missing Native Vega Tool (but it's available in AIP Analyst)",
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/aip-agent-studio-missing-native-vega-tool-but-its-available-in-aip-analyst/6501",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S011",
+      "url": "https://community.palantir.com/t/aip-agent-studio-ontology-context/2833",
+      "title": "AIP Agent Studio - Ontology Context",
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/aip-agent-studio-ontology-context/2833",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S012",
+      "url": "https://community.palantir.com/t/aip-studio-agent-ad-hoc-tool/4953",
+      "title": "AIP Studio Agent Ad-Hoc Tool",
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/aip-studio-agent-ad-hoc-tool/4953",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S013",
+      "url": "https://community.palantir.com/t/application-state-variable-from-agent-studio-not-being-retained/4721",
+      "title": "Application state variable from Agent Studio not being retained",
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/application-state-variable-from-agent-studio-not-being-retained/4721",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S014",
+      "url": "https://community.palantir.com/t/application-variable-as-input-for-function-for-my-aip-agent/4838",
+      "title": "Application Variable as input for function for my AIP agent",
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/application-variable-as-input-for-function-for-my-aip-agent/4838",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S015",
+      "url": "https://community.palantir.com/t/automatically-store-aip-chats/2250",
+      "title": "Automatically store AIP chats?",
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/automatically-store-aip-chats/2250",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S016",
+      "url": "https://community.palantir.com/t/can-an-agent-prefill-an-action-in-workshop-for-a-user/4211",
+      "title": "Can an Agent prefill an action in Workshop for a user?",
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/can-an-agent-prefill-an-action-in-workshop-for-a-user/4211",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S017",
+      "url": "https://community.palantir.com/t/can-i-pass-a-dynamically-pass-a-media-as-context-for-an-aip-agent-from-workshop/4116",
+      "title": "Can I pass a dynamically pass a media as context for an AIP Agent from Workshop?",
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/can-i-pass-a-dynamically-pass-a-media-as-context-for-an-aip-agent-from-workshop/4116",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S018",
+      "url": "https://community.palantir.com/t/does-aip-agent-studio-support-scanned-document/2663",
+      "title": "Does AIP Agent Studio support Scanned document?",
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/does-aip-agent-studio-support-scanned-document/2663",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S019",
+      "url": "https://community.palantir.com/t/getting-agentnotfound-errors-in-trying-to-access-an-agent-in-osdk/4963",
+      "title": "Getting AgentNotFound errors in trying to access an agent in OSDK",
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/getting-agentnotfound-errors-in-trying-to-access-an-agent-in-osdk/4963",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S020",
+      "url": "https://community.palantir.com/t/how-to-compact-history-of-the-session-in-aip-agent/5466",
+      "title": "How to compact history of the session in AIP Agent?",
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/how-to-compact-history-of-the-session-in-aip-agent/5466",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S021",
+      "url": "https://community.palantir.com/t/is-it-possible-to-run-evals-in-the-same-session/4539",
+      "title": "Is it possible to run Evals in the same session?",
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/is-it-possible-to-run-evals-in-the-same-session/4539",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S022",
+      "url": "https://community.palantir.com/t/leveling-up-your-aip-agents-with-the-palantir-api/2956",
+      "title": "Leveling up your AIP agents with the Palantir API",
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/leveling-up-your-aip-agents-with-the-palantir-api/2956",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S023",
+      "url": "https://community.palantir.com/t/monitoring-aip-agents-with-production-load/5711",
+      "title": "Monitoring AIP Agents with production load",
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/monitoring-aip-agents-with-production-load/5711",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S024",
+      "url": "https://community.palantir.com/t/object-query-used-by-aip-agent-is-limited-to-6-results/4718",
+      "title": "Object Query used by AIP Agent is limited to 6 results",
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/object-query-used-by-aip-agent-is-limited-to-6-results/4718",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S025",
+      "url": "https://community.palantir.com/t/osdk-agent-stuido-strreaming-api-invalidjson-error-when-passing-string-parameters-via-streaming-api/5497",
+      "title": "OSDK Agent Stuido strreaming API - InvalidJson Error When Passing String Parameters via Streaming API",
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/osdk-agent-stuido-strreaming-api-invalidjson-error-when-passing-string-parameters-via-streaming-api/5497",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S026",
+      "url": "https://community.palantir.com/t/osdk-with-aip-agent-studio/3556",
+      "title": "OSDK with AIP Agent Studio",
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/osdk-with-aip-agent-studio/3556",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S027",
+      "url": "https://community.palantir.com/t/questions-regarding-aip-threads-and-aip-agent-studio/3816",
+      "title": "Questions regarding AIP Threads and AIP Agent Studio - Ask the Community - Palantir Developer Community",
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/questions-regarding-aip-threads-and-aip-agent-studio/3816",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S028",
+      "url": "https://community.palantir.com/t/sub-agent-sessions-are-not-getting-established-when-called-via-osdk/5103",
+      "title": "Sub agent sessions are not getting established when called via OSDK",
+      "http_status": 200,
+      "final_url": "https://community.palantir.com/t/sub-agent-sessions-are-not-getting-established-when-called-via-osdk/5103",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S029",
+      "url": "https://github.com/501981732/palantir-research/blob/048108bf2f01cacac40f6ef72bf96e37dca686f4/research/workshop-runtime-2026-10/eos-comparison/README.md",
+      "title": "已公开 EOS 历史静态对照（固定048108bf提交）",
+      "checked_at_utc": "2026-10-02T00:21:15.171014+00:00",
+      "http_status": 200,
+      "final_url": "https://github.com/501981732/palantir-research/blob/048108bf2f01cacac40f6ef72bf96e37dca686f4/research/workshop-runtime-2026-10/eos-comparison/README.md",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed"
+    },
+    {
+      "id": "S030",
+      "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/package.json",
+      "title": "Platform SDK — @osdk/foundry.aipagents package",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/package.json",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S031",
+      "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/_components.ts",
+      "title": "Platform SDK — AIP Agents v2 components",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/_components.ts",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S032",
+      "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/_errors.ts",
+      "title": "Platform SDK — AIP Agents v2 errors",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/_errors.ts",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S033",
+      "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/index.ts",
+      "title": "Platform SDK — aipagents v2 exports",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/index.ts",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S034",
+      "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/Agent.ts",
+      "title": "Platform SDK — Agent.get",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/Agent.ts",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S035",
+      "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/Content.ts",
+      "title": "Platform SDK — Content.get",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/Content.ts",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S036",
+      "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/Session.ts",
+      "title": "Platform SDK — Session methods",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/Session.ts",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S037",
+      "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/SessionTrace.ts",
+      "title": "Platform SDK — SessionTrace.get",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/SessionTrace.ts",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S038",
+      "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.ontologies/src/v2/_components.ts",
+      "title": "Platform SDK — Ontology ObjectSet wire types",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.ontologies/src/v2/_components.ts",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S039",
+      "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/shared.net.platformapi/src/foundryPlatformFetch.test.ts",
+      "title": "Platform SDK — URL parser tests",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/shared.net.platformapi/src/foundryPlatformFetch.test.ts",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S040",
+      "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/shared.net.platformapi/src/foundryPlatformFetch.ts",
+      "title": "Platform SDK — foundryPlatformFetch",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/shared.net.platformapi/src/foundryPlatformFetch.ts",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S041",
+      "url": "https://github.com/palantir/foundry-platform-typescript/pull/391",
+      "title": "add Agents namespace",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/foundry-platform-typescript/pull/391",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S042",
+      "url": "https://github.com/palantir/foundry-platform-typescript/tree/4320149c31bcbcc2d176564d9259e343d9702d2b",
+      "title": "foundry-platform-typescript",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/foundry-platform-typescript/tree/4320149c31bcbcc2d176564d9259e343d9702d2b",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S043",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/package.json",
+      "title": "OSDK — @osdk/client package",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/package.json",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S044",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/Client.ts",
+      "title": "OSDK — Client interface",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/Client.ts",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S045",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/createClient.test.ts",
+      "title": "OSDK — createClient tests",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/createClient.test.ts",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S046",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/createClient.ts",
+      "title": "OSDK — createClient",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/createClient.ts",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S047",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/createPlatformClient.ts",
+      "title": "OSDK — createPlatformClient",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/createPlatformClient.ts",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S048",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/queries/queries.test.ts",
+      "title": "OSDK — Query tests",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/queries/queries.test.ts",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S049",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/queries/types.ts",
+      "title": "OSDK — QuerySignatureFromDef",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/queries/types.ts",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S050",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/oauth/src/createPublicOauthClient.ts",
+      "title": "OSDK — createPublicOauthClient",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/oauth/src/createPublicOauthClient.ts",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S051",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react-components/src/aip-agent-chat/AipAgentChat.tsx",
+      "title": "OSDK React — AipAgentChat",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react-components/src/aip-agent-chat/AipAgentChat.tsx",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S052",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react-components/src/aip-agent-chat/AipAgentChatApi.ts",
+      "title": "OSDK React — AipAgentChat props",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react-components/src/aip-agent-chat/AipAgentChatApi.ts",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S053",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react-components/src/aip-agent-chat/BaseAipAgentChat.tsx",
+      "title": "OSDK React — BaseAipAgentChat",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react-components/src/aip-agent-chat/BaseAipAgentChat.tsx",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S054",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react-components/src/aip-agent-chat/__tests__/AipAgentChat.test.tsx",
+      "title": "OSDK React — AipAgentChat wrapper tests",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react-components/src/aip-agent-chat/__tests__/AipAgentChat.test.tsx",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S055",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react/src/aip/chatStream.ts",
+      "title": "OSDK React — chatStream",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react/src/aip/chatStream.ts",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S056",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react/src/aip/useChat.test.tsx",
+      "title": "OSDK React — useChat tests",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react/src/aip/useChat.test.tsx",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S057",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react/src/aip/useChat.ts",
+      "title": "OSDK React — useChat",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react/src/aip/useChat.ts",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S058",
+      "url": "https://github.com/palantir/osdk-ts/pull/320",
+      "title": "Foundry SDK Improvements",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/pull/320",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S059",
+      "url": "https://github.com/palantir/osdk-ts/pull/380",
+      "title": "Introduce createPlatformClient",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/pull/380",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S060",
+      "url": "https://github.com/palantir/osdk-ts/pull/3932",
+      "title": "Bump @osdk/foundry.* to 2.75.0 + Add support for streaming queries w/ SSE",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/pull/3932",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S061",
+      "url": "https://github.com/palantir/osdk-ts/tree/dec2ee4b637a23e1b7e56fb0f50599386301c930",
+      "title": "osdk-ts",
+      "http_status": 200,
+      "final_url": "https://github.com/palantir/osdk-ts/tree/dec2ee4b637a23e1b7e56fb0f50599386301c930",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S062",
+      "url": "https://helmguard.ai/resources/aip-agents-x-helmguard-ai",
+      "title": "AIP Agents x HelmGuard AI: Function-Backed Agent Context | DevCon 2",
+      "http_status": 200,
+      "final_url": "https://helmguard.ai/resources/aip-agents-x-helmguard-ai",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S063",
+      "url": "https://medium.com/@andrea-zanette00/unlock-next-level-customer-insights-with-palantir-foundry-and-aip-05478620b6e8",
+      "title": "Unlock Next-Level Customer Insights with Palantir Foundry and AIP",
+      "status": "unavailable",
+      "error": "HTTPError: HTTP Error 403: Forbidden",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S064",
+      "url": "https://www.linkedin.com/posts/jack-w-miller_aip-agents-x-helmguard-ai-function-backed-activity-7305163422877306880-qJlM",
+      "title": "AIP Agents x HelmGuard AI: Function-Backed Agent Context | DevCon 2 — Jack Miller original post",
+      "checked_at_utc": "2026-10-02T00:03:14.786994+00:00",
+      "http_status": 200,
+      "final_url": "https://www.linkedin.com/posts/jack-w-miller_aip-agents-x-helmguard-ai-function-backed-activity-7305163422877306880-qJlM",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed"
+    },
+    {
+      "id": "S065",
+      "url": "https://www.linkedin.com/posts/rahgarg_palantir-aip-chatbot-and-aip-analyst-build-activity-7500183297256398849-mccp",
+      "title": "Palantir Foundry: AIP Chatbot, AIP Analyst and Model Layer Explained",
+      "http_status": 200,
+      "final_url": "https://www.linkedin.com/posts/rahgarg_palantir-aip-chatbot-and-aip-analyst-build-activity-7500183297256398849-mccp",
+      "content_type": "text/html; charset=utf-8",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S066",
+      "url": "https://www.palantir.com/docs/foundry/action-types/action-log",
+      "title": "Action types • Action log • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/action-types/action-log",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S067",
+      "url": "https://www.palantir.com/docs/foundry/action-types/permissions",
+      "title": "Action types — Permissions",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/action-types/permissions",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S068",
+      "url": "https://www.palantir.com/docs/foundry/action-types/submission-criteria",
+      "title": "Action types — Submission criteria",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/action-types/submission-criteria",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S069",
+      "url": "https://www.palantir.com/docs/foundry/administration/configure-logging",
+      "title": "Organization settings • Configure logging [Beta] • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/administration/configure-logging",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S070",
+      "url": "https://www.palantir.com/docs/foundry/ai-fde/overview",
+      "title": "AI FDE • Overview • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/ai-fde/overview",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S071",
+      "url": "https://www.palantir.com/docs/foundry/ai-fde/security-and-governance",
+      "title": "AI FDE • Security and governance • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/ai-fde/security-and-governance",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S072",
+      "url": "https://www.palantir.com/docs/foundry/aip-analyst/capabilities",
+      "title": "AIP Analyst • Capabilities • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/aip-analyst/capabilities",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S073",
+      "url": "https://www.palantir.com/docs/foundry/aip-analyst/overview",
+      "title": "AIP Analyst • Overview • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/aip-analyst/overview",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S074",
+      "url": "https://www.palantir.com/docs/foundry/aip-evals/create-suite",
+      "title": "AIP Evals • Create an evaluation suite • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/aip-evals/create-suite",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S075",
+      "url": "https://www.palantir.com/docs/foundry/aip-evals/ontology-edits",
+      "title": "AIP Evals • Evaluate Ontology edits • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/aip-evals/ontology-edits",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S076",
+      "url": "https://www.palantir.com/docs/foundry/aip-evals/overview",
+      "title": "AIP Evals • Overview • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/aip-evals/overview",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S077",
+      "url": "https://www.palantir.com/docs/foundry/aip-evals/results-dataset",
+      "title": "AIP Evals • Write run results to a dataset • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/aip-evals/results-dataset",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S078",
+      "url": "https://www.palantir.com/docs/foundry/aip-evals/run-suite",
+      "title": "AIP Evals • Run an evaluation suite • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/aip-evals/run-suite",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S079",
+      "url": "https://www.palantir.com/docs/foundry/aip-evolve/overview",
+      "title": "AIP Evolve • Overview • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/aip-evolve/overview",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S080",
+      "url": "https://www.palantir.com/docs/foundry/aip-observability/log-permissioning",
+      "title": "Ontology and AIP observability • Log permissions • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/aip-observability/log-permissioning",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S081",
+      "url": "https://www.palantir.com/docs/foundry/aip-observability/overview",
+      "title": "Ontology and AIP observability • Overview • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/aip-observability/overview",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S082",
+      "url": "https://www.palantir.com/docs/foundry/aip-observability/service-logs-and-debugging",
+      "title": "Ontology and AIP observability • Logging and debugging • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/aip-observability/service-logs-and-debugging",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S083",
+      "url": "https://www.palantir.com/docs/foundry/aip/aip-security",
+      "title": "AIP security and privacy • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/aip/aip-security",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S084",
+      "url": "https://www.palantir.com/docs/foundry/aip/control-llm-data-access-with-markings",
+      "title": "Administration • Control LLM data access with Markings • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/aip/control-llm-data-access-with-markings",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S085",
+      "url": "https://www.palantir.com/docs/foundry/announcements/2025-05",
+      "title": "May 2025 — Indefinite conversation retention in AIP Agent Studio and AIP Threads",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/announcements/2025-05",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S086",
+      "url": "https://www.palantir.com/docs/foundry/api/aip-agents-v2-resources/contents/get-content",
+      "title": "API v2 — Get Content",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/api/aip-agents-v2-resources/contents/get-content",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S087",
+      "url": "https://www.palantir.com/docs/foundry/api/aip-agents-v2-resources/sessions/blocking-continue-session",
+      "title": "API v2 — Blocking Continue Session",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/api/aip-agents-v2-resources/sessions/blocking-continue-session",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S088",
+      "url": "https://www.palantir.com/docs/foundry/api/aip-agents-v2-resources/sessions/create-session",
+      "title": "API v2 — Create Session",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/api/aip-agents-v2-resources/sessions/create-session",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S089",
+      "url": "https://www.palantir.com/docs/foundry/api/aip-agents-v2-resources/sessions/get-session",
+      "title": "API v2 — Get Session",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/api/aip-agents-v2-resources/sessions/get-session",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S090",
+      "url": "https://www.palantir.com/docs/foundry/api/aip-agents-v2-resources/sessions/streaming-continue-session",
+      "title": "API v2 — Streaming Continue Session",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/api/aip-agents-v2-resources/sessions/streaming-continue-session",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S091",
+      "url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/agent-versions/agent-version-basics",
+      "title": "Agent Version • API Reference • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/agent-versions/agent-version-basics",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S092",
+      "url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/session-traces/get-session-trace",
+      "title": "API v2 — Get Session Trace",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/session-traces/get-session-trace",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S093",
+      "url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/blocking-continue-session",
+      "title": "Blocking Continue Session • API Reference • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/blocking-continue-session",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S094",
+      "url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/cancel-session",
+      "title": "API v2 — Cancel Session",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/cancel-session",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S095",
+      "url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/create-session",
+      "title": "Create Session • API Reference • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/create-session",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S096",
+      "url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/delete-session",
+      "title": "Delete Session • API Reference • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/delete-session",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S097",
+      "url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/get-session",
+      "title": "Get Session • API Reference • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/get-session",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S098",
+      "url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/session-basics",
+      "title": "Session • API Reference • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/session-basics",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S099",
+      "url": "https://www.palantir.com/docs/foundry/api/v2/general/overview/authentication",
+      "title": "Authentication • API Reference • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/api/v2/general/overview/authentication",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S100",
+      "url": "https://www.palantir.com/docs/foundry/assist/agents-in-aip-assist",
+      "title": "AIP Assist • Power AIP Assist with custom content sources • Deploy custom source-backed AIP Chatbots • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/assist/agents-in-aip-assist",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S101",
+      "url": "https://www.palantir.com/docs/foundry/assist/aip-assist-suggested-actions",
+      "title": "AIP Assist • Suggested actions in AIP Assist • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/assist/aip-assist-suggested-actions",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S102",
+      "url": "https://www.palantir.com/docs/foundry/assist/overview",
+      "title": "AIP Assist • Overview • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/assist/overview",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S103",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/application-state",
+      "title": "AIP Chatbot Studio — Application state",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/chatbot-studio/application-state",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S104",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/chatbots-as-functions",
+      "title": "AIP Chatbot Studio — Chatbots as Functions",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/chatbot-studio/chatbots-as-functions",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S105",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/citations",
+      "title": "AIP Chatbot Studio — Citations",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/chatbot-studio/citations",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S106",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/commands-as-tools",
+      "title": "AIP Chatbot Studio • Tools • Use commands as tools in AIP Chatbot Studio • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/chatbot-studio/commands-as-tools",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S107",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/core-concepts",
+      "title": "AIP Chatbot Studio — Core concepts",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/chatbot-studio/core-concepts",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S108",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/foundry-apis",
+      "title": "AIP Chatbot Studio — Use AIP Chatbots through Foundry APIs",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/chatbot-studio/foundry-apis",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S109",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/getting-started",
+      "title": "AIP Chatbot Studio — Getting started",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/chatbot-studio/getting-started",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S110",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/marketplace",
+      "title": "AIP Chatbot Studio • Distribute AIP Chatbots using Marketplace • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/chatbot-studio/marketplace",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S111",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/overview",
+      "title": "AIP Chatbot Studio — Overview",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/chatbot-studio/overview",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S112",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/retrieval-context",
+      "title": "AIP Chatbot Studio — Retrieval context",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/chatbot-studio/retrieval-context",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S113",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/session-logging",
+      "title": "AIP Chatbot Studio — Session logging",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/chatbot-studio/session-logging",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S114",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/tools",
+      "title": "AIP Chatbot Studio — Tools",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/chatbot-studio/tools",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S115",
+      "url": "https://www.palantir.com/docs/foundry/cross-app-interactivity/commands-overview",
+      "title": "Cross-application interactivity — Commands",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/cross-app-interactivity/commands-overview",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S116",
+      "url": "https://www.palantir.com/docs/foundry/developer-console/permissions",
+      "title": "Developer Console — Permissions",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/developer-console/permissions",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S117",
+      "url": "https://www.palantir.com/docs/foundry/functions/edits-overview",
+      "title": "Functions — Ontology edits",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/functions/edits-overview",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S118",
+      "url": "https://www.palantir.com/docs/foundry/functions/overview",
+      "title": "Functions — Overview",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/functions/overview",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S119",
+      "url": "https://www.palantir.com/docs/foundry/functions/permissions",
+      "title": "Functions — Permissions",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/functions/permissions",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S120",
+      "url": "https://www.palantir.com/docs/foundry/functions/typescript-v2-staged-writes",
+      "title": "Functions TypeScript v2 — Staged writes [Beta]",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/functions/typescript-v2-staged-writes",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S121",
+      "url": "https://www.palantir.com/docs/foundry/logic/aip-logic-integration-automate",
+      "title": "AIP Logic integration with Automate",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/logic/aip-logic-integration-automate",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S122",
+      "url": "https://www.palantir.com/docs/foundry/logic/blocks",
+      "title": "AIP Logic — Blocks",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/logic/blocks",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S123",
+      "url": "https://www.palantir.com/docs/foundry/logic/core-concepts",
+      "title": "AIP Logic — Core concepts",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/logic/core-concepts",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S124",
+      "url": "https://www.palantir.com/docs/foundry/logic/execution-mode-settings",
+      "title": "AIP Logic — Execution mode settings",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/logic/execution-mode-settings",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S125",
+      "url": "https://www.palantir.com/docs/foundry/logic/staged-writes",
+      "title": "AIP Logic — Staged writes",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/logic/staged-writes",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S126",
+      "url": "https://www.palantir.com/docs/foundry/model-catalog/model-deprecation",
+      "title": "AIP Model Catalog — Model deprecation",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/model-catalog/model-deprecation",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S127",
+      "url": "https://www.palantir.com/docs/foundry/ontology/document-processing",
+      "title": "Semantic search — Document processing",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/ontology/document-processing",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S128",
+      "url": "https://www.palantir.com/docs/foundry/ontology/overview-semantic-search",
+      "title": "Semantic search — Overview",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/ontology/overview-semantic-search",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S129",
+      "url": "https://www.palantir.com/docs/foundry/ontology/using-palantir-provided-models-to-create-a-semantic-search-workflow",
+      "title": "Semantic search — Use Palantir-provided models to create a semantic search workflow",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/ontology/using-palantir-provided-models-to-create-a-semantic-search-workflow",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S130",
+      "url": "https://www.palantir.com/docs/foundry/pilot/overview",
+      "title": "Pilot • Overview • Palantir",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/pilot/overview",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S131",
+      "url": "https://www.palantir.com/docs/foundry/workshop/widgets-aip-chatbot",
+      "title": "Workshop — AIP Chatbot widget",
+      "http_status": 200,
+      "final_url": "https://www.palantir.com/docs/foundry/workshop/widgets-aip-chatbot",
+      "content_type": "text/html",
+      "status": "passed",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S132",
+      "url": "https://www.youtube.com/playlist?list=PLqTLGbLI0CvmMHECC332k__5HyjTHAMWL",
+      "title": "DevCon 2 official playlist",
+      "checked_at_utc": "2026-10-02T00:03:14.786222+00:00",
+      "status": "unavailable",
+      "error": "URLError: <urlopen error [Errno 65] No route to host>"
+    },
+    {
+      "id": "S133",
+      "url": "https://www.youtube.com/watch?v=U6Hxj6NB3us",
+      "title": "Rahul Garg Chatbot / Analyst demo video referral",
+      "checked_at_utc": "2026-10-02T00:03:14.786682+00:00",
+      "status": "unavailable",
+      "error": "URLError: <urlopen error [Errno 65] No route to host>"
+    },
+    {
+      "id": "S134",
+      "url": "https://www.youtube.com/watch?v=rya3gIntUNY",
+      "title": "Deploy an AIP Chatbot in a Custom React App: Palantir Foundry OSDK",
+      "status": "unavailable",
+      "error": "URLError: <urlopen error [Errno 65] No route to host>",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    },
+    {
+      "id": "S135",
+      "url": "https://www.youtube.com/watch?v=tbvEftV0YN0",
+      "title": "AIP Agents x HelmGuard AI: Function-Backed Agent Context | DevCon 2",
+      "checked_at_utc": "2026-10-02T00:03:14.786830+00:00",
+      "status": "unavailable",
+      "error": "URLError: <urlopen error [Errno 65] No route to host>"
+    },
+    {
+      "id": "S136",
+      "url": "https://zerofuturetech.substack.com/p/palantir-aip-agent-ontology-interaction",
+      "title": "Palantir AIP Agent-Ontology Interaction: A Deep Dive into the Five-Layer Enterprise AI Architecture",
+      "status": "unavailable",
+      "error": "URLError: <urlopen error [Errno 65] No route to host>",
+      "checked_at_utc": "2026-10-02T00:01:22.048584+00:00"
+    }
+  ],
+  "summary": {
+    "passed": 128,
+    "failed": 0,
+    "unavailable": 8
+  }
+}
