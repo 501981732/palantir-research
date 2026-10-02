@@ -1,0 +1,946 @@
+{
+  "schema_version": 1,
+  "topic": "AIP Chatbot Studio公开实践与开发者问题",
+  "retrieved_date_utc": "2026-10-01至2026-10-02",
+  "scope": "公开来源；无租户运行、无完整视频观看声明、无新EOS内部代码访问",
+  "relationship_policy": "用户昵称与未核雇佣关系不推定为官方身份；平台技术事实优先当前官方文档/源码",
+  "sources": [
+    {
+      "id": "PRA01",
+      "title": "Automatically store AIP chats?",
+      "url": "https://community.palantir.com/t/automatically-store-aip-chats/2250",
+      "type": "community_original_thread",
+      "author": "lxia",
+      "publication_date": "2024-12-17",
+      "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+      "replies": [
+        {
+          "author": "narmbrust",
+          "date": "2024-12-19",
+          "relationship": "以产品团队口吻答复"
+        }
+      ],
+      "retrieved_date": "2026-10-01",
+      "verification": "公开原帖正文已读；未进行租户重现",
+      "resolution_status": "历史workaround；当前已出现新日志文档",
+      "supports": "prompt要求每次Save Chat但未稳定调用；产品答复指出日志工具不确定",
+      "limitations": "不能证明2026仍无日志",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA02",
+      "title": "Aip agent - store chat log and feedback automatically",
+      "url": "https://community.palantir.com/t/aip-agent-store-chat-log-and-feedback-automatically/5646",
+      "type": "community_original_thread",
+      "author": "e5b2ec5eb14b5d2897c5",
+      "publication_date": "2025-12-09",
+      "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+      "replies": [
+        {
+          "author": "ClaireR",
+          "date": "2025-12-10",
+          "relationship": "产品开发/roadmap答复"
+        },
+        {
+          "author": "ClaireR",
+          "date": "2026-07-14",
+          "relationship": "发布答复并链接官方文档"
+        }
+      ],
+      "retrieved_date": "2026-10-01",
+      "verification": "公开原帖正文已读；未进行租户重现",
+      "resolution_status": "产品答复已发布；未租户验证",
+      "supports": "2025年延期与2026-07发布日志的演进",
+      "limitations": "不等同全部enrollment已配置导出",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA03",
+      "title": "AIP Agent Studio - Ontology Context",
+      "url": "https://community.palantir.com/t/aip-agent-studio-ontology-context/2833",
+      "type": "community_original_thread",
+      "author": "7b34cce42469c527d52d",
+      "publication_date": "2025-02-09",
+      "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+      "replies": [
+        {
+          "author": "lrhyne",
+          "date": "2025-02-10",
+          "relationship": "明确说是推测"
+        },
+        {
+          "author": "ClaireR",
+          "date": "2025-02-10",
+          "relationship": "产品配置答复"
+        }
+      ],
+      "retrieved_date": "2026-10-01",
+      "verification": "公开原帖正文已读；未进行租户重现",
+      "resolution_status": "无原作者最终确认",
+      "supports": "5个长文档对象耗尽token；选属性/分块建议",
+      "limitations": "vector打印的猜测不是现行文档事实",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA04",
+      "title": "Does AIP Agent Studio support Scanned document?",
+      "url": "https://community.palantir.com/t/does-aip-agent-studio-support-scanned-document/2663",
+      "type": "community_original_thread",
+      "author": "Mouhcin",
+      "publication_date": "2025-01-28",
+      "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+      "replies": [
+        {
+          "author": "narmbrust",
+          "date": "2025-01-28/29/31",
+          "relationship": "产品实现与预处理路线答复"
+        }
+      ],
+      "retrieved_date": "2026-10-01",
+      "verification": "公开原帖正文已读；未进行租户重现",
+      "resolution_status": "给出方案；未端到端确认",
+      "supports": "OCR解析与chunk embedding上游；新Function-backed context历史界面",
+      "limitations": "当时token/格式限制需当前复核",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA05",
+      "title": "Can I pass a dynamically pass a media as context for an AIP Agent from Workshop?",
+      "url": "https://community.palantir.com/t/can-i-pass-a-dynamically-pass-a-media-as-context-for-an-aip-agent-from-workshop/4116",
+      "type": "community_original_thread",
+      "author": "VincentF",
+      "publication_date": "2025-06-05",
+      "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+      "replies": [
+        {
+          "author": "ssaxena",
+          "date": "2025-06-05",
+          "relationship": "产品配置答复"
+        }
+      ],
+      "retrieved_date": "2026-10-01",
+      "verification": "公开原帖正文已读；未进行租户重现",
+      "resolution_status": "方案未回报结果",
+      "supports": "媒体内容在对象属性→object set state→Ontology context",
+      "limitations": "不是传media reference就自动读内容",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA06",
+      "title": "Agent Studio Issue with Session Variable",
+      "url": "https://community.palantir.com/t/agent-studio-issue-with-session-variable/2795",
+      "type": "community_original_thread",
+      "author": "jackmiller2003",
+      "publication_date": "2025-02-06",
+      "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+      "replies": [
+        {
+          "author": "jackmiller2003",
+          "date": "2025-02-06",
+          "relationship": "作者自解"
+        },
+        {
+          "author": "ClaireR",
+          "date": "2025-02-06",
+          "relationship": "确认ParameterValue类型"
+        }
+      ],
+      "retrieved_date": "2026-10-01",
+      "verification": "公开原帖正文已读；未进行租户重现",
+      "resolution_status": "作者确认已解决",
+      "supports": "string ParameterValue的type/value同层",
+      "limitations": "历史调用；当前签名参见integration源码",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA07",
+      "title": "OSDK Agent Stuido strreaming API - InvalidJson Error When Passing String Parameters via Streaming API",
+      "url": "https://community.palantir.com/t/osdk-agent-stuido-strreaming-api-invalidjson-error-when-passing-string-parameters-via-streaming-api/5497",
+      "type": "community_original_thread",
+      "author": "maddyAWS",
+      "publication_date": "2025-11-21",
+      "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+      "replies": [
+        {
+          "author": "d801127d29eec26b19b4",
+          "date": "2025-11-21",
+          "relationship": "以后端实现口吻答复并自我更正"
+        }
+      ],
+      "retrieved_date": "2026-10-01",
+      "verification": "公开原帖正文已读；未进行租户重现",
+      "resolution_status": "回复更正；无提问者最终确认",
+      "supports": "React Native nested string错例；正确同层格式",
+      "limitations": "不能引用回复初始错误代码；不能推出READ_ONLY根因",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA08",
+      "title": "OSDK with AIP Agent Studio",
+      "url": "https://community.palantir.com/t/osdk-with-aip-agent-studio/3556",
+      "type": "community_original_thread",
+      "author": "jpa",
+      "publication_date": "2025-04-16",
+      "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+      "replies": [
+        {
+          "author": "narmbrust",
+          "date": "2025-04-16",
+          "relationship": "指向官方API与示例"
+        },
+        {
+          "author": "jpa",
+          "date": "2025-04-17",
+          "relationship": "作者解释原问题"
+        }
+      ],
+      "retrieved_date": "2026-10-01",
+      "verification": "公开原帖正文已读；未进行租户重现",
+      "resolution_status": "原函数发布问题自解；ingress猜测未解",
+      "supports": "语音bot/API入口发现成本",
+      "limitations": "客户端export function不是session API必需条件的普遍证明",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA09",
+      "title": "Getting AgentNotFound errors in trying to access an agent in OSDK",
+      "url": "https://community.palantir.com/t/getting-agentnotfound-errors-in-trying-to-access-an-agent-in-osdk/4963",
+      "type": "community_original_thread",
+      "author": "JulioM",
+      "publication_date": "2025-09-05",
+      "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+      "replies": [
+        {
+          "author": "tompp",
+          "date": "2025-09-05/08",
+          "relationship": "资源授权/scopes/Issues排查答复"
+        }
+      ],
+      "retrieved_date": "2026-10-01",
+      "verification": "公开原帖正文已读；未进行租户重现",
+      "resolution_status": "公开未解决；提内部Issues",
+      "supports": "scopes+viewer不一定足以定位AgentNotFound",
+      "limitations": "启用应用无效；不可认定根因",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA10",
+      "title": "Sub agent sessions are not getting established when called via OSDK",
+      "url": "https://community.palantir.com/t/sub-agent-sessions-are-not-getting-established-when-called-via-osdk/5103",
+      "type": "community_original_thread",
+      "author": "RajKarri",
+      "publication_date": "2025-09-24",
+      "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+      "replies": [
+        {
+          "author": "cosmin",
+          "date": "2025-09-26/29",
+          "relationship": "产品实现答复"
+        },
+        {
+          "author": "ClaireR",
+          "date": "2025-10-02",
+          "relationship": "修复滚出通知"
+        }
+      ],
+      "retrieved_date": "2026-10-01",
+      "verification": "公开原帖正文已读；未进行租户重现",
+      "resolution_status": "已加修复并通知次周滚出；无租户复验",
+      "supports": "历史client credentials路径、子session workaround及修复",
+      "limitations": "不得继续写所有client credentials调用不支持",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA11",
+      "title": "Is it possible to run Evals in the same session?",
+      "url": "https://community.palantir.com/t/is-it-possible-to-run-evals-in-the-same-session/4539",
+      "type": "community_original_thread",
+      "author": "RajKarri",
+      "publication_date": "2025-07-19",
+      "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+      "replies": [
+        {
+          "author": "comew",
+          "date": "2025-07-21",
+          "relationship": "wrapper方案"
+        },
+        {
+          "author": "RajKarri",
+          "date": "2025-07-21",
+          "relationship": "确认方案有效"
+        }
+      ],
+      "retrieved_date": "2026-10-01",
+      "verification": "公开原帖正文已读；未进行租户重现",
+      "resolution_status": "作者确认wrapper有效",
+      "supports": "parallelization=1不等于续会话；保留RID做多轮eval",
+      "limitations": "未证明今天无其他多轮eval产品能力",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA12",
+      "title": "How to compact history of the session in AIP Agent?",
+      "url": "https://community.palantir.com/t/how-to-compact-history-of-the-session-in-aip-agent/5466",
+      "type": "community_original_thread",
+      "author": "VincentF",
+      "publication_date": "2025-11-17",
+      "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+      "replies": [
+        {
+          "author": "VincentF",
+          "date": "2025-11-17",
+          "relationship": "作者提出多层方案"
+        }
+      ],
+      "retrieved_date": "2026-10-01",
+      "verification": "公开原帖正文已读；未进行租户重现",
+      "resolution_status": "仅自拟方案；无官方发布",
+      "supports": "长会话问题与summary变量/Function思路",
+      "limitations": "旧消息被丢弃是用户观察，与current docs超窗错误不能合并成保证",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA13",
+      "title": "AIP Agent Streaming API Not Sending Progressive Chunks in React Native",
+      "url": "https://community.palantir.com/t/aip-agent-streaming-api-not-sending-progressive-chunks-in-react-native/5514",
+      "type": "community_original_thread",
+      "author": "maddyAWS",
+      "publication_date": "2025-11-23",
+      "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+      "replies": [
+        {
+          "author": "maddyAWS",
+          "date": "2025-11-24",
+          "relationship": "Flutter测试结果"
+        },
+        {
+          "author": "jason",
+          "date": "2025-11-25",
+          "relationship": "产品实现/trace/延迟答复"
+        }
+      ],
+      "retrieved_date": "2026-10-01",
+      "verification": "公开原帖正文已读；未进行租户重现",
+      "resolution_status": "无统一根因；提问者最后仍问trace",
+      "supports": "XHR单chunk与Flutter逐块但TTFB长的不同问题",
+      "limitations": "14.8s仅该作者2025测试，不是SLA；provider prompt cache说法有时间边界",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA14",
+      "title": "Monitoring AIP Agents with production load",
+      "url": "https://community.palantir.com/t/monitoring-aip-agents-with-production-load/5711",
+      "type": "community_original_thread",
+      "author": "peterkrauss",
+      "publication_date": "2025-12-18",
+      "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+      "replies": [
+        {
+          "author": "ssaxena",
+          "date": "2025-12-19",
+          "relationship": "部署扩容/缓存/日志答复"
+        }
+      ],
+      "retrieved_date": "2026-10-01",
+      "verification": "公开原帖正文已读；未进行租户重现",
+      "resolution_status": "公开未给容量结论",
+      "supports": "生产并发、日志、缓存需求",
+      "limitations": "大于5慢不是固定并发限制；temperature=0缓存不是provider prompt caching",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA15",
+      "title": "Object Query used by AIP Agent is limited to 6 results",
+      "url": "https://community.palantir.com/t/object-query-used-by-aip-agent-is-limited-to-6-results/4718",
+      "type": "community_original_thread",
+      "author": "TieCrowdfarming; ddgcarbayo-cf",
+      "publication_date": "2025-08-08",
+      "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+      "replies": [
+        {
+          "author": "ssaxena",
+          "date": "2025-08-15",
+          "relationship": "无法复现并索要配置"
+        },
+        {
+          "author": "TieCrowdfarming",
+          "date": "2025-08-26",
+          "relationship": "仍称有问题且数量变为2/34"
+        }
+      ],
+      "retrieved_date": "2026-10-01",
+      "verification": "公开原帖正文已读；未进行租户重现",
+      "resolution_status": "公开未解决",
+      "supports": "查询/打印/链接对象集合数量核对",
+      "limitations": "标题数字不是当前产品规范",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA16",
+      "title": "Application state variable from Agent Studio not being retained",
+      "url": "https://community.palantir.com/t/application-state-variable-from-agent-studio-not-being-retained/4721",
+      "type": "community_original_thread",
+      "author": "RajKarri",
+      "publication_date": "2025-08-08",
+      "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+      "replies": [
+        {
+          "author": "psangvong",
+          "date": "2025-08-11",
+          "relationship": "已提交修复答复"
+        }
+      ],
+      "retrieved_date": "2026-10-01",
+      "verification": "公开原帖正文已读；未进行租户重现",
+      "resolution_status": "修复通知；无用户最终确认",
+      "supports": "Marketplace安装后变量重映射验收线索",
+      "limitations": "不得当今天必现问题",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA17",
+      "title": "AIP Agent Studio does not support compute module functions as tools",
+      "url": "https://community.palantir.com/t/aip-agent-studio-does-not-support-compute-module-functions-as-tools/4448",
+      "type": "community_original_thread",
+      "author": "CodeStrap",
+      "publication_date": "2025-07-10",
+      "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+      "replies": [
+        {
+          "author": "jason",
+          "date": "2025-07-10",
+          "relationship": "scope/retention答复"
+        },
+        {
+          "author": "CodeStrap",
+          "date": "2025-07-10",
+          "relationship": "作者确认resolved并指出UI混淆"
+        }
+      ],
+      "retrieved_date": "2026-10-01",
+      "verification": "公开原帖正文已读；未进行租户重现",
+      "resolution_status": "作者确认resolved",
+      "supports": "stateful function与indefinite scope组合历史界线",
+      "limitations": "不可泛化所有compute functions不支持",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA18",
+      "title": "AIP Studio Agent Ad-Hoc Tool",
+      "url": "https://community.palantir.com/t/aip-studio-agent-ad-hoc-tool/4953",
+      "type": "community_original_thread",
+      "author": "AtWorkDS",
+      "publication_date": "2025-09-04",
+      "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+      "replies": [
+        {
+          "author": "ClaireR",
+          "date": "2025-09-04",
+          "relationship": "Ontology edit function须Action type答复"
+        },
+        {
+          "author": "AtWorkDS",
+          "date": "2025-09-05",
+          "relationship": "作者确认成功"
+        }
+      ],
+      "retrieved_date": "2026-10-01",
+      "verification": "公开原帖正文已读；未进行租户重现",
+      "resolution_status": "作者确认解决",
+      "supports": "2025-09历史案例：TS v1 OntologyEditFunction直接接Function tool受限，改Action type/tool后作者确认成功",
+      "limitations": "当前技术机制仍需官方Action docs验证",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA19",
+      "title": "AIP Agent Studio Missing Native Vega Tool (but it's available in AIP Analyst)",
+      "url": "https://community.palantir.com/t/aip-agent-studio-missing-native-vega-tool-but-its-available-in-aip-analyst/6501",
+      "type": "community_original_thread",
+      "author": "bj8462",
+      "publication_date": "2026-04-27",
+      "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+      "replies": [
+        {
+          "author": "db1234",
+          "date": "2026-04-27",
+          "relationship": "SQL输出路径答复"
+        },
+        {
+          "author": "bj8462",
+          "date": "2026-04-28",
+          "relationship": "Commands not found"
+        }
+      ],
+      "retrieved_date": "2026-10-01",
+      "verification": "公开原帖正文已读；未进行租户重现",
+      "resolution_status": "公开未解决",
+      "supports": "视频界面和当前配置/Commands依赖差异",
+      "limitations": "不证明Analyst/Chatbot可互换",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA20",
+      "title": "AIP agent calling other agents are extremely slow",
+      "url": "https://community.palantir.com/t/aip-agent-calling-other-agents-are-extremely-slow/4529",
+      "type": "community_original_thread",
+      "author": "RajKarri",
+      "publication_date": "2025-07-18",
+      "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+      "replies": [
+        {
+          "author": "jakehop",
+          "date": "2025-09-12/23/24",
+          "relationship": "个人实现/native/wrapper建议"
+        },
+        {
+          "author": "RajKarri",
+          "date": "2025-09-24",
+          "relationship": "称延迟已大幅改善"
+        }
+      ],
+      "retrieved_date": "2026-10-01",
+      "verification": "公开原帖正文已读；未进行租户重现",
+      "resolution_status": "原作者称改善；原因仅推测",
+      "supports": "父子编排成本和函数发布操作",
+      "limitations": "60s/7s不是现行性能测试",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA21",
+      "title": "Ai-fde: ai chatbot studio",
+      "url": "https://community.palantir.com/t/ai-fde-ai-chatbot-studio/6904",
+      "type": "community_original_thread",
+      "author": "AmineBF",
+      "publication_date": "2026-07-07",
+      "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+      "replies": [
+        {
+          "author": "NicolasDaveau",
+          "date": "2026-07-08",
+          "relationship": "追问需求"
+        },
+        {
+          "author": "AmineBF",
+          "date": "2026-09-07",
+          "relationship": "进一步说明自然语言配置目标"
+        }
+      ],
+      "retrieved_date": "2026-10-01",
+      "verification": "公开原帖正文已读；未进行租户重现",
+      "resolution_status": "无支持/roadmap承诺",
+      "supports": "AI FDE与Chatbot编辑能力边界待核",
+      "limitations": "不能因同属AIP推定功能已支持",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA22",
+      "title": "Can an Agent prefill an action in Workshop for a user?",
+      "url": "https://community.palantir.com/t/can-an-agent-prefill-an-action-in-workshop-for-a-user/4211",
+      "type": "community_original_thread",
+      "author": "VincentF",
+      "publication_date": "2025-06-13",
+      "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+      "replies": [
+        {
+          "author": "db1234",
+          "date": "2025-06-13",
+          "relationship": "当时工具输入能力未支持的产品答复"
+        },
+        {
+          "author": "jakehop",
+          "date": "2025-06-13",
+          "relationship": "个人struct/diff实现"
+        }
+      ],
+      "retrieved_date": "2026-10-01",
+      "verification": "公开原帖正文已读；未进行租户重现",
+      "resolution_status": "工具输入现有官方文档；原大型表单问题未确认",
+      "supports": "结构化proposal与Markdown diff人工审核实践",
+      "limitations": "工具确定输入不等于任意Workshop表单prefill",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA23",
+      "title": "Application Variable as input for function for my AIP agent",
+      "url": "https://community.palantir.com/t/application-variable-as-input-for-function-for-my-aip-agent/4838",
+      "type": "community_original_thread",
+      "author": "tortue",
+      "publication_date": "2025-08-21",
+      "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+      "replies": [
+        {
+          "author": "jason",
+          "date": "2025-08-21",
+          "relationship": "近期发布确定性输入的产品答复"
+        }
+      ],
+      "retrieved_date": "2026-10-01",
+      "verification": "公开原帖正文已读；未进行租户重现",
+      "resolution_status": "当时roadmap；现文档有确定性输入",
+      "supports": "不把用户ID交模型重构的真实需求",
+      "limitations": "用户ID变量仍不是认证主体",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA24",
+      "title": "Leveling up your AIP agents with the Palantir API",
+      "url": "https://community.palantir.com/t/leveling-up-your-aip-agents-with-the-palantir-api/2956",
+      "type": "community_original_thread",
+      "author": "ClaireR",
+      "publication_date": "2025-02-21",
+      "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+      "replies": [
+        {
+          "author": "ClaireR",
+          "date": "2025-02-24",
+          "relationship": "原创Streamlit示例"
+        }
+      ],
+      "retrieved_date": "2026-10-01",
+      "verification": "公开原帖正文已读；未进行租户重现",
+      "resolution_status": "历史官方社区介绍",
+      "supports": "Session API、自定义state、streaming完读Content的原作者Python范例",
+      "limitations": "当时 Beta、通用24h和two clients条件须按现行文档分别核对；含Commands会话当前仍有24h inactivity，不意味这一限制整体取消",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA25",
+      "title": "Agentic Workflows in Foundry: Questions, Answered",
+      "url": "https://community.palantir.com/t/agentic-workflows-in-foundry-questions-answered/6973",
+      "type": "community_original_thread",
+      "author": "Rsenior",
+      "publication_date": "2026-07-21",
+      "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+      "replies": [],
+      "retrieved_date": "2026-10-01",
+      "verification": "公开原帖正文已读；未进行租户重现",
+      "resolution_status": "公开实践解释；未重现",
+      "supports": "函数入口不等于无状态纯函数；区分Agent Flow/FCS/部署Functions",
+      "limitations": "包含新Agents/Agent Flow而非仅Chatbot Studio；不用于宣布Studio runtime实现",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA26",
+      "title": "AIP Chatbot Studio — Retrieval context",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/retrieval-context/",
+      "type": "official_documentation",
+      "author": "Palantir",
+      "author_relationship": "产品供应商官方文档",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification": "正文已读",
+      "supports": "Ontology/Document/Function context，全文/Top-K/Beta/TS v1接口",
+      "limitations": "不是租户可用性证明",
+      "current_version_verified": "仅当前公开网页契约，未验证租户"
+    },
+    {
+      "id": "PRA27",
+      "title": "AIP Chatbot Studio — Application state",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/application-state/",
+      "type": "official_documentation",
+      "author": "Palantir",
+      "author_relationship": "产品供应商官方文档",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification": "正文已读",
+      "supports": "确定性输入、string/objectset类型、loop初值pin、stream后自动更新",
+      "limitations": "状态变量不是认证身份；技术事实经公开文档核实",
+      "current_version_verified": "仅当前公开网页契约，未验证租户"
+    },
+    {
+      "id": "PRA28",
+      "title": "AIP Chatbot Studio — Core concepts",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/core-concepts/",
+      "type": "official_documentation",
+      "author": "Palantir",
+      "author_relationship": "产品供应商官方文档",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification": "正文已读",
+      "supports": "超context window错误/新session提示",
+      "limitations": "与用户截断观察分开",
+      "current_version_verified": "仅当前公开网页契约，未验证租户"
+    },
+    {
+      "id": "PRA29",
+      "title": "AIP Chatbot Studio — Chatbots as Functions",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/chatbots-as-functions/",
+      "type": "official_documentation",
+      "author": "Palantir",
+      "author_relationship": "产品供应商官方文档",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification": "正文已读",
+      "supports": "sessionRid输入输出、Evals null与objectset输入要求",
+      "limitations": "未测试租户执行",
+      "current_version_verified": "仅当前公开网页契约，未验证租户"
+    },
+    {
+      "id": "PRA30",
+      "title": "AIP Chatbot Studio — Tools",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/tools/",
+      "type": "official_documentation",
+      "author": "Palantir",
+      "author_relationship": "产品供应商官方文档",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification": "正文已读",
+      "supports": "Action确认、Function/AIP Logic/版本和tool mode",
+      "limitations": "模型/工具支持子集仍需部署核验",
+      "current_version_verified": "仅当前公开网页契约，未验证租户"
+    },
+    {
+      "id": "PRA31",
+      "title": "AIP Chatbot Studio — Commands as tools",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/commands-as-tools/",
+      "type": "official_documentation",
+      "author": "Palantir",
+      "author_relationship": "产品供应商官方文档",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification": "正文已读",
+      "supports": "执行在用户应用、确认、Beta、retention/Automate忽略",
+      "limitations": "不能自动推广至任意React调用",
+      "current_version_verified": "仅当前公开网页契约，未验证租户"
+    },
+    {
+      "id": "PRA32",
+      "title": "AIP Chatbot Studio — Session logging",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/session-logging/",
+      "type": "official_documentation",
+      "author": "Palantir",
+      "author_relationship": "产品供应商官方文档",
+      "publication_date": null,
+      "retrieved_date": "2026-10-01",
+      "verification": "正文已读",
+      "supports": "结构化事件、导出权限/markings、prompt/context和schema演进",
+      "limitations": "未配置导出，无租户实测",
+      "current_version_verified": "仅当前公开网页契约，未验证租户"
+    },
+    {
+      "id": "PRA33",
+      "title": "Foundry SDK Improvements",
+      "url": "https://github.com/palantir/osdk-ts/pull/320",
+      "type": "official_source_pull_request",
+      "author": "ericanderson",
+      "author_relationship": "Palantir官方公开仓库贡献者；任职身份未独立核验",
+      "publication_date": null,
+      "merged_at": "2024-05-14T14:05:49Z",
+      "merge_commit_sha": "978ecd528dde16a6d5dd4614e3ed0d1a8153d90b",
+      "retrieved_date": "2026-10-01",
+      "verification": "gh api读取PR元数据与相关files diff；未运行源码测试",
+      "supports": "SharedClientContext分离/tokenProvider Promise<string>",
+      "limitations": "PR发布不等于租户运行行为；源代码为SDK而非服务端",
+      "resolution_status": "merged"
+    },
+    {
+      "id": "PRA34",
+      "title": "Introduce createPlatformClient",
+      "url": "https://github.com/palantir/osdk-ts/pull/380",
+      "type": "official_source_pull_request",
+      "author": "ericanderson",
+      "author_relationship": "Palantir官方公开仓库贡献者；任职身份未独立核验",
+      "publication_date": null,
+      "merged_at": "2024-06-07T12:08:24Z",
+      "merge_commit_sha": "dd6033a473d5e8bb364630eb68e3dfe4272d31bb",
+      "retrieved_date": "2026-10-01",
+      "verification": "gh api读取PR元数据与相关files diff；未运行源码测试",
+      "supports": "独立Platform client；已有createClient支持平台API",
+      "limitations": "PR发布不等于租户运行行为；源代码为SDK而非服务端",
+      "resolution_status": "merged"
+    },
+    {
+      "id": "PRA35",
+      "title": "Bump @osdk/foundry.* to 2.75.0 + Add support for streaming queries w/ SSE",
+      "url": "https://github.com/palantir/osdk-ts/pull/3932",
+      "type": "official_source_pull_request",
+      "author": "williamhe723",
+      "author_relationship": "Palantir官方公开仓库贡献者；任职身份未独立核验",
+      "publication_date": null,
+      "merged_at": "2026-08-24T21:53:50Z",
+      "merge_commit_sha": "bbbeca8daa36d158648c037b93e496936d1f0730",
+      "retrieved_date": "2026-10-01",
+      "verification": "gh api读取PR元数据与相关files diff；未运行源码测试",
+      "supports": "Query streamingExecute SSE及单event/数组/error/break测试",
+      "limitations": "PR发布不等于租户运行行为；源代码为SDK而非服务端",
+      "resolution_status": "merged"
+    },
+    {
+      "id": "PRA36",
+      "title": "add Agents namespace",
+      "url": "https://github.com/palantir/foundry-platform-typescript/pull/391",
+      "type": "official_source_pull_request",
+      "author": "rkhanwani10",
+      "author_relationship": "Palantir官方公开仓库贡献者；任职身份未独立核验",
+      "publication_date": null,
+      "merged_at": "2026-09-21T22:38:09Z",
+      "merge_commit_sha": "db1525c20b6c2daa725e7be65aae122062371fd7",
+      "retrieved_date": "2026-10-01",
+      "verification": "gh api读取PR元数据与相关files diff；未运行源码测试",
+      "supports": "namespace映射保留AipAgents新增Agents；非Chatbot renaming证明",
+      "limitations": "PR发布不等于租户运行行为；源代码为SDK而非服务端",
+      "resolution_status": "merged"
+    },
+    {
+      "id": "PRA37",
+      "title": "Unlock Next-Level Customer Insights with Palantir Foundry and AIP",
+      "url": "https://medium.com/@andrea-zanette00/unlock-next-level-customer-insights-with-palantir-foundry-and-aip-05478620b6e8",
+      "type": "practitioner_original_blog",
+      "author": "Andrea Zanette",
+      "author_relationship": "自述项目原作者；雇佣关系未知",
+      "publication_date": "2025-10-01",
+      "supports": "评论数据与Ontology、过滤/linked查询/语义检索、TS wrapper/Logic、state/Workshop/Vertex项目描述",
+      "limitations": "92%作者自报，未提供公开全量评估数据；非平台benchmark",
+      "retrieved_date": "2026-10-01",
+      "verification": "公开正文已读；未进行租户重现",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA38",
+      "title": "AIP Agents x HelmGuard AI: Function-Backed Agent Context | DevCon 2",
+      "url": "https://helmguard.ai/resources/aip-agents-x-helmguard-ai",
+      "type": "partner_original_demo_page",
+      "author": "Jack Miller",
+      "author_relationship": "HelmGuard官方页面；与Palantir软件工程师Natasha Armbrust共同演示",
+      "publication_date": "2025-03-10",
+      "supports": "演示的主题、发布者、参与关系与eval反馈方向",
+      "limitations": "仅读页面，未声称观看；视频帧由media清单记录",
+      "retrieved_date": "2026-10-01",
+      "verification": "公开正文已读；未进行租户重现",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA39",
+      "title": "Reducing Hallucinations with the Ontology in Palantir AIP (Engineering Responsible AI, #1)",
+      "url": "https://blog.palantir.com/reducing-hallucinations-with-the-ontology-in-palantir-aip-288552477383",
+      "type": "official_technical_blog",
+      "author": "Palantir",
+      "author_relationship": "官方出版物",
+      "publication_date": "2024-07-09",
+      "supports": "受控业务查询/确定性计算函数/行动提案人审三种减幻觉设计",
+      "limitations": "虚构Titan Industries演示；非Chatbot运行时源码或实际客户benchmark",
+      "retrieved_date": "2026-10-01",
+      "verification": "公开正文已读；未进行租户重现",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA40",
+      "title": "Connecting AI to Decisions with the Palantir Ontology",
+      "url": "https://blog.palantir.com/connecting-ai-to-decisions-with-the-palantir-ontology-c73f7b0a1a72",
+      "type": "official_technical_blog",
+      "author": "Akshay Krishnaswamy",
+      "author_relationship": "原文署名Palantir Chief Architect，2024年身份",
+      "publication_date": "2024-01-04",
+      "supports": "数据/逻辑/行动的决策架构背景",
+      "limitations": "背景阅读，未用于证明具体Chatbot API",
+      "retrieved_date": "2026-10-01",
+      "verification": "公开正文已读；未进行租户重现",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA41",
+      "title": "Palantir Foundry: AIP Chatbot, AIP Analyst and Model Layer Explained",
+      "url": "https://www.linkedin.com/posts/rahgarg_palantir-aip-chatbot-and-aip-analyst-build-activity-7500183297256398849-mccp",
+      "type": "original_public_social_post",
+      "author": "Rahul Garg",
+      "author_relationship": "原作者公开培训/演示发帖；平台关系未知",
+      "publication_date": null,
+      "publication_date_displayed": "1mo（检索日页面仅相对日期）",
+      "supports": "作者描述专用Chatbot嵌入Workshop与Analyst开放探索的两种演示",
+      "limitations": "未核精确日期/未完整观看；视频URL U6Hxj6NB3us仅解析原帖链接",
+      "retrieved_date": "2026-10-01",
+      "verification": "公开正文已读；未进行租户重现",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA42",
+      "title": "Palantir AIP Agent-Ontology Interaction: A Deep Dive into the Five-Layer Enterprise AI Architecture",
+      "url": "https://zerofuturetech.substack.com/p/palantir-aip-agent-ontology-interaction",
+      "type": "secondary_original_analysis",
+      "author": "zerofuturetech",
+      "author_relationship": "个人技术分析作者，关系未知",
+      "publication_date": "2026-07-04",
+      "supports": "外部架构解释和问题线索",
+      "limitations": "不提供独立租户实测；不能用作平台API/权限事实来源",
+      "retrieved_date": "2026-10-01",
+      "verification": "公开正文已读；未进行租户重现",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA43",
+      "title": "AIP Agents x HelmGuard AI: Function-Backed Agent Context | DevCon 2",
+      "url": "https://www.youtube.com/watch?v=tbvEftV0YN0",
+      "type": "official_public_video_metadata",
+      "author": "Palantir Developers；讲者Jack Miller/Natasha Armbrust",
+      "author_relationship": "官方频道与合作方共同演示；合作方页面及讲者原帖相互核对",
+      "publication_date": null,
+      "partner_page_date": "2025-03-10",
+      "supports": "视频主题、官方播放列表列示与频道归属；不能证明未观察的具体操作",
+      "limitations": "video正文抓取失败；无完整观看、无转写或帧、无可复现实验；合作方页面日期不是上传日期",
+      "retrieved_date": "2026-10-02",
+      "verification": "Web搜索官方playlist索引可见Palantir Developers；原作者页面/LinkedIn指向同主题视频",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA44",
+      "title": "DevCon 2 official playlist",
+      "url": "https://www.youtube.com/playlist?list=PLqTLGbLI0CvmMHECC332k__5HyjTHAMWL",
+      "type": "official_video_playlist_index",
+      "author": "Palantir Developers",
+      "author_relationship": "官方频道播放列表",
+      "publication_date": null,
+      "supports": "公开索引列出HelmGuard Function-Backed Agent Context及Palantir Developers频道",
+      "limitations": "直接打开正文只返回页脚；仅用搜索结果中的该一手列表索引，不据此复述视频机制",
+      "retrieved_date": "2026-10-02",
+      "verification": "Web search和open均已尝试，正文限制明确登记",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA45",
+      "title": "Deploy an AIP Chatbot in a Custom React App: Palantir Foundry OSDK",
+      "url": "https://www.youtube.com/watch?v=rya3gIntUNY",
+      "related_urls": [
+        "https://www.youtube.com/watch?v=rya3gIntUNY&t=648s",
+        "https://www.youtube.com/watch?v=rya3gIntUNY&t=673s"
+      ],
+      "type": "partner_public_video_partial_observation",
+      "author": "Ontologize",
+      "author_relationship": "视频说明自称official Palantir Partner；商业培训关系，非Palantir自有频道",
+      "publication_date": "2026-05-27",
+      "supports": "00:13/10:48/11:13局部观察；连接错误与OAuth consent实际页面",
+      "limitations": "非完整观看；无transcript；11:31播放器失败；无之后成功回答、性能或rootcause证明；未授予权限",
+      "retrieved_date": "2026-10-01",
+      "verification": "媒体agent普通播放器截图；notes/media-manifest.json PV01/V01/V02登记1470x775、字节与hash",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA46",
+      "title": "AIP Agents x HelmGuard AI: Function-Backed Agent Context | DevCon 2 — Jack Miller original post",
+      "url": "https://www.linkedin.com/posts/jack-w-miller_aip-agents-x-helmguard-ai-function-backed-activity-7305163422877306880-qJlM",
+      "type": "original_public_social_post",
+      "author": "Jack Miller",
+      "author_relationship": "讲者自述HelmGuard基于Palantir developer platform，与平台有业务关系；不是独立评测",
+      "publication_date": null,
+      "publication_date_displayed": "1y（检索日相对显示）",
+      "supports": "作者说明在DevCon2演讲、使用平台、提供视频原始传播路径",
+      "limitations": "精确日期未知；帖子安全/ZDR等主张未复核，不作为产品安全证据；无视频完整观看",
+      "retrieved_date": "2026-10-02",
+      "verification": "公开原帖完整可读，仅读与短摘要",
+      "current_version_verified": false
+    },
+    {
+      "id": "PRA47",
+      "title": "Rahul Garg Chatbot / Analyst demo video referral",
+      "url": "https://www.youtube.com/watch?v=U6Hxj6NB3us",
+      "type": "original_social_video_referral",
+      "author": "Rahul Garg",
+      "author_relationship": "LinkedIn原作者演示视频；平台雇佣或合作关系未知",
+      "publication_date": null,
+      "supports": "原帖指向的视频URL，未用作视频行为证据",
+      "limitations": "未观看/未转写/未独立核上传日或性能",
+      "retrieved_date": "2026-10-01",
+      "verification": "原帖公开链接解析",
+      "current_version_verified": false
+    }
+  ]
+}

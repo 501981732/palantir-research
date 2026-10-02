@@ -1,0 +1,4320 @@
+[
+  {
+    "url": "https://blog.palantir.com/connecting-ai-to-decisions-with-the-palantir-ontology-c73f7b0a1a72",
+    "title": "Connecting AI to Decisions with the Palantir Ontology",
+    "type": "official_technical_blog",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "数据/逻辑/行动的决策架构背景"
+    ],
+    "limitations": [
+      "背景阅读，未用于证明具体Chatbot API"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA40"
+      }
+    ],
+    "used_in": [],
+    "exact_citations": [],
+    "author": "Akshay Krishnaswamy",
+    "publication_date": "2024-01-04",
+    "author_relationship": "原文署名Palantir Chief Architect，2024年身份",
+    "verification": "公开正文已读；未进行租户重现",
+    "current_version_verified": false,
+    "id": "S001"
+  },
+  {
+    "url": "https://blog.palantir.com/reducing-hallucinations-with-the-ontology-in-palantir-aip-288552477383",
+    "title": "Reducing Hallucinations with the Ontology in Palantir AIP (Engineering Responsible AI, #1)",
+    "type": "official_technical_blog",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "受控业务查询/确定性计算函数/行动提案人审三种减幻觉设计"
+    ],
+    "limitations": [
+      "虚构Titan Industries演示；非Chatbot运行时源码或实际客户benchmark"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA39"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://blog.palantir.com/reducing-hallucinations-with-the-ontology-in-palantir-aip-288552477383"
+    ],
+    "author": "Palantir",
+    "publication_date": "2024-07-09",
+    "author_relationship": "官方出版物",
+    "verification": "公开正文已读；未进行租户重现",
+    "current_version_verified": false,
+    "id": "S002"
+  },
+  {
+    "url": "https://community.palantir.com/t/agent-studio-issue-with-session-variable/2795",
+    "title": "Agent Studio Issue with Session Variable",
+    "type": "community_original_thread",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "string ParameterValue的type/value同层"
+    ],
+    "limitations": [
+      "历史调用；当前签名参见integration源码"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA06"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://community.palantir.com/t/agent-studio-issue-with-session-variable/2795"
+    ],
+    "author": "jackmiller2003",
+    "publication_date": "2025-02-06",
+    "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+    "verification": "公开原帖正文已读；未进行租户重现",
+    "resolution_status": "作者确认已解决",
+    "current_version_verified": false,
+    "id": "S003"
+  },
+  {
+    "url": "https://community.palantir.com/t/agentic-workflows-in-foundry-questions-answered/6973",
+    "title": "Agentic Workflows in Foundry: Questions, Answered",
+    "type": "community_original_thread",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "函数入口不等于无状态纯函数；区分Agent Flow/FCS/部署Functions"
+    ],
+    "limitations": [
+      "包含新Agents/Agent Flow而非仅Chatbot Studio；不用于宣布Studio runtime实现"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA25"
+      }
+    ],
+    "used_in": [],
+    "exact_citations": [],
+    "author": "Rsenior",
+    "publication_date": "2026-07-21",
+    "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+    "verification": "公开原帖正文已读；未进行租户重现",
+    "resolution_status": "公开实践解释；未重现",
+    "current_version_verified": false,
+    "id": "S004"
+  },
+  {
+    "url": "https://community.palantir.com/t/ai-fde-ai-chatbot-studio/6904",
+    "title": "Ai-fde: ai chatbot studio",
+    "type": "community_original_thread",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "AI FDE与Chatbot编辑能力边界待核"
+    ],
+    "limitations": [
+      "不能因同属AIP推定功能已支持"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA21"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://community.palantir.com/t/ai-fde-ai-chatbot-studio/6904"
+    ],
+    "author": "AmineBF",
+    "publication_date": "2026-07-07",
+    "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+    "verification": "公开原帖正文已读；未进行租户重现",
+    "resolution_status": "无支持/roadmap承诺",
+    "current_version_verified": false,
+    "id": "S005"
+  },
+  {
+    "url": "https://community.palantir.com/t/aip-agent-calling-other-agents-are-extremely-slow/4529",
+    "title": "AIP agent calling other agents are extremely slow",
+    "type": "community_original_thread",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "父子编排成本和函数发布操作"
+    ],
+    "limitations": [
+      "60s/7s不是现行性能测试"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA20"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://community.palantir.com/t/aip-agent-calling-other-agents-are-extremely-slow/4529"
+    ],
+    "author": "RajKarri",
+    "publication_date": "2025-07-18",
+    "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+    "verification": "公开原帖正文已读；未进行租户重现",
+    "resolution_status": "原作者称改善；原因仅推测",
+    "current_version_verified": false,
+    "id": "S006"
+  },
+  {
+    "url": "https://community.palantir.com/t/aip-agent-store-chat-log-and-feedback-automatically/5646",
+    "title": "Aip agent - store chat log and feedback automatically",
+    "type": "community_original_thread",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "2025年延期与2026-07发布日志的演进"
+    ],
+    "limitations": [
+      "不等同全部enrollment已配置导出"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA02"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://community.palantir.com/t/aip-agent-store-chat-log-and-feedback-automatically/5646"
+    ],
+    "author": "e5b2ec5eb14b5d2897c5",
+    "publication_date": "2025-12-09",
+    "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+    "verification": "公开原帖正文已读；未进行租户重现",
+    "resolution_status": "产品答复已发布；未租户验证",
+    "current_version_verified": false,
+    "id": "S007"
+  },
+  {
+    "url": "https://community.palantir.com/t/aip-agent-streaming-api-not-sending-progressive-chunks-in-react-native/5514",
+    "title": "AIP Agent Streaming API Not Sending Progressive Chunks in React Native",
+    "type": "community_original_thread",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "XHR单chunk与Flutter逐块但TTFB长的不同问题"
+    ],
+    "limitations": [
+      "14.8s仅该作者2025测试，不是SLA；provider prompt cache说法有时间边界"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA13"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://community.palantir.com/t/aip-agent-streaming-api-not-sending-progressive-chunks-in-react-native/5514"
+    ],
+    "author": "maddyAWS",
+    "publication_date": "2025-11-23",
+    "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+    "verification": "公开原帖正文已读；未进行租户重现",
+    "resolution_status": "无统一根因；提问者最后仍问trace",
+    "current_version_verified": false,
+    "id": "S008"
+  },
+  {
+    "url": "https://community.palantir.com/t/aip-agent-studio-does-not-support-compute-module-functions-as-tools/4448",
+    "title": "AIP Agent Studio does not support compute module functions as tools - Ask the Community - Palantir Developer Community",
+    "type": "historical_community_thread",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "stateful function与indefinite scope组合历史界线"
+    ],
+    "limitations": [
+      "不可泛化所有compute functions不支持"
+    ],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-39"
+      },
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA17"
+      }
+    ],
+    "used_in": [
+      "governance-and-lifecycle.md",
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://community.palantir.com/t/aip-agent-studio-does-not-support-compute-module-functions-as-tools/4448"
+    ],
+    "publication_date": "2025-07-10",
+    "author": "CodeStrap",
+    "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+    "verification": "公开原帖正文已读；未进行租户重现",
+    "resolution_status": "作者确认resolved",
+    "current_version_verified": false,
+    "id": "S009"
+  },
+  {
+    "url": "https://community.palantir.com/t/aip-agent-studio-missing-native-vega-tool-but-its-available-in-aip-analyst/6501",
+    "title": "AIP Agent Studio Missing Native Vega Tool (but it's available in AIP Analyst)",
+    "type": "community_original_thread",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "视频界面和当前配置/Commands依赖差异"
+    ],
+    "limitations": [
+      "不证明Analyst/Chatbot可互换"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA19"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://community.palantir.com/t/aip-agent-studio-missing-native-vega-tool-but-its-available-in-aip-analyst/6501"
+    ],
+    "author": "bj8462",
+    "publication_date": "2026-04-27",
+    "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+    "verification": "公开原帖正文已读；未进行租户重现",
+    "resolution_status": "公开未解决",
+    "current_version_verified": false,
+    "id": "S010"
+  },
+  {
+    "url": "https://community.palantir.com/t/aip-agent-studio-ontology-context/2833",
+    "title": "AIP Agent Studio - Ontology Context",
+    "type": "community_original_thread",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "5个长文档对象耗尽token；选属性/分块建议"
+    ],
+    "limitations": [
+      "vector打印的猜测不是现行文档事实"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA03"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://community.palantir.com/t/aip-agent-studio-ontology-context/2833"
+    ],
+    "author": "7b34cce42469c527d52d",
+    "publication_date": "2025-02-09",
+    "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+    "verification": "公开原帖正文已读；未进行租户重现",
+    "resolution_status": "无原作者最终确认",
+    "current_version_verified": false,
+    "id": "S011"
+  },
+  {
+    "url": "https://community.palantir.com/t/aip-studio-agent-ad-hoc-tool/4953",
+    "title": "AIP Studio Agent Ad-Hoc Tool",
+    "type": "community_original_thread",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "2025-09历史案例：TS v1 OntologyEditFunction直接接Function tool受限，改Action type/tool后作者确认成功"
+    ],
+    "limitations": [
+      "当前技术机制仍需官方Action docs验证"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA18"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://community.palantir.com/t/aip-studio-agent-ad-hoc-tool/4953"
+    ],
+    "author": "AtWorkDS",
+    "publication_date": "2025-09-04",
+    "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+    "verification": "公开原帖正文已读；未进行租户重现",
+    "resolution_status": "作者确认解决",
+    "current_version_verified": false,
+    "id": "S012"
+  },
+  {
+    "url": "https://community.palantir.com/t/application-state-variable-from-agent-studio-not-being-retained/4721",
+    "title": "Application state variable from Agent Studio not being retained",
+    "type": "community_original_thread",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "Marketplace安装后变量重映射验收线索"
+    ],
+    "limitations": [
+      "不得当今天必现问题"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA16"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://community.palantir.com/t/application-state-variable-from-agent-studio-not-being-retained/4721"
+    ],
+    "author": "RajKarri",
+    "publication_date": "2025-08-08",
+    "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+    "verification": "公开原帖正文已读；未进行租户重现",
+    "resolution_status": "修复通知；无用户最终确认",
+    "current_version_verified": false,
+    "id": "S013"
+  },
+  {
+    "url": "https://community.palantir.com/t/application-variable-as-input-for-function-for-my-aip-agent/4838",
+    "title": "Application Variable as input for function for my AIP agent",
+    "type": "community_original_thread",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "不把用户ID交模型重构的真实需求"
+    ],
+    "limitations": [
+      "用户ID变量仍不是认证主体"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA23"
+      }
+    ],
+    "used_in": [],
+    "exact_citations": [],
+    "author": "tortue",
+    "publication_date": "2025-08-21",
+    "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+    "verification": "公开原帖正文已读；未进行租户重现",
+    "resolution_status": "当时roadmap；现文档有确定性输入",
+    "current_version_verified": false,
+    "id": "S014"
+  },
+  {
+    "url": "https://community.palantir.com/t/automatically-store-aip-chats/2250",
+    "title": "Automatically store AIP chats?",
+    "type": "community_original_thread",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "prompt要求每次Save Chat但未稳定调用；产品答复指出日志工具不确定"
+    ],
+    "limitations": [
+      "不能证明2026仍无日志"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA01"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://community.palantir.com/t/automatically-store-aip-chats/2250"
+    ],
+    "author": "lxia",
+    "publication_date": "2024-12-17",
+    "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+    "verification": "公开原帖正文已读；未进行租户重现",
+    "resolution_status": "历史workaround；当前已出现新日志文档",
+    "current_version_verified": false,
+    "id": "S015"
+  },
+  {
+    "url": "https://community.palantir.com/t/can-an-agent-prefill-an-action-in-workshop-for-a-user/4211",
+    "title": "Can an Agent prefill an action in Workshop for a user?",
+    "type": "community_original_thread",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "结构化proposal与Markdown diff人工审核实践"
+    ],
+    "limitations": [
+      "工具确定输入不等于任意Workshop表单prefill"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA22"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://community.palantir.com/t/can-an-agent-prefill-an-action-in-workshop-for-a-user/4211"
+    ],
+    "author": "VincentF",
+    "publication_date": "2025-06-13",
+    "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+    "verification": "公开原帖正文已读；未进行租户重现",
+    "resolution_status": "工具输入现有官方文档；原大型表单问题未确认",
+    "current_version_verified": false,
+    "id": "S016"
+  },
+  {
+    "url": "https://community.palantir.com/t/can-i-pass-a-dynamically-pass-a-media-as-context-for-an-aip-agent-from-workshop/4116",
+    "title": "Can I pass a dynamically pass a media as context for an AIP Agent from Workshop?",
+    "type": "community_original_thread",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "媒体内容在对象属性→object set state→Ontology context"
+    ],
+    "limitations": [
+      "不是传media reference就自动读内容"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA05"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://community.palantir.com/t/can-i-pass-a-dynamically-pass-a-media-as-context-for-an-aip-agent-from-workshop/4116"
+    ],
+    "author": "VincentF",
+    "publication_date": "2025-06-05",
+    "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+    "verification": "公开原帖正文已读；未进行租户重现",
+    "resolution_status": "方案未回报结果",
+    "current_version_verified": false,
+    "id": "S017"
+  },
+  {
+    "url": "https://community.palantir.com/t/does-aip-agent-studio-support-scanned-document/2663",
+    "title": "Does AIP Agent Studio support Scanned document?",
+    "type": "community_original_thread",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "OCR解析与chunk embedding上游；新Function-backed context历史界面"
+    ],
+    "limitations": [
+      "当时token/格式限制需当前复核"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA04"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://community.palantir.com/t/does-aip-agent-studio-support-scanned-document/2663"
+    ],
+    "author": "Mouhcin",
+    "publication_date": "2025-01-28",
+    "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+    "verification": "公开原帖正文已读；未进行租户重现",
+    "resolution_status": "给出方案；未端到端确认",
+    "current_version_verified": false,
+    "id": "S018"
+  },
+  {
+    "url": "https://community.palantir.com/t/getting-agentnotfound-errors-in-trying-to-access-an-agent-in-osdk/4963",
+    "title": "Getting AgentNotFound errors in trying to access an agent in OSDK",
+    "type": "community_original_thread",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "scopes+viewer不一定足以定位AgentNotFound"
+    ],
+    "limitations": [
+      "启用应用无效；不可认定根因"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA09"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://community.palantir.com/t/getting-agentnotfound-errors-in-trying-to-access-an-agent-in-osdk/4963"
+    ],
+    "author": "JulioM",
+    "publication_date": "2025-09-05",
+    "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+    "verification": "公开原帖正文已读；未进行租户重现",
+    "resolution_status": "公开未解决；提内部Issues",
+    "current_version_verified": false,
+    "id": "S019"
+  },
+  {
+    "url": "https://community.palantir.com/t/how-to-compact-history-of-the-session-in-aip-agent/5466",
+    "title": "How to compact history of the session in AIP Agent?",
+    "type": "community_original_thread",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "长会话问题与summary变量/Function思路"
+    ],
+    "limitations": [
+      "旧消息被丢弃是用户观察，与current docs超窗错误不能合并成保证"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA12"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://community.palantir.com/t/how-to-compact-history-of-the-session-in-aip-agent/5466"
+    ],
+    "author": "VincentF",
+    "publication_date": "2025-11-17",
+    "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+    "verification": "公开原帖正文已读；未进行租户重现",
+    "resolution_status": "仅自拟方案；无官方发布",
+    "current_version_verified": false,
+    "id": "S020"
+  },
+  {
+    "url": "https://community.palantir.com/t/is-it-possible-to-run-evals-in-the-same-session/4539",
+    "title": "Is it possible to run Evals in the same session?",
+    "type": "community_original_thread",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "parallelization=1不等于续会话；保留RID做多轮eval"
+    ],
+    "limitations": [
+      "未证明今天无其他多轮eval产品能力"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA11"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://community.palantir.com/t/is-it-possible-to-run-evals-in-the-same-session/4539"
+    ],
+    "author": "RajKarri",
+    "publication_date": "2025-07-19",
+    "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+    "verification": "公开原帖正文已读；未进行租户重现",
+    "resolution_status": "作者确认wrapper有效",
+    "current_version_verified": false,
+    "id": "S021"
+  },
+  {
+    "url": "https://community.palantir.com/t/leveling-up-your-aip-agents-with-the-palantir-api/2956",
+    "title": "Leveling up your AIP agents with the Palantir API",
+    "type": "community_original_thread",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "Session API、自定义state、streaming完读Content的原作者Python范例"
+    ],
+    "limitations": [
+      "当时 Beta、通用24h和two clients条件须按现行文档分别核对；含Commands会话当前仍有24h inactivity，不意味这一限制整体取消"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA24"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://community.palantir.com/t/leveling-up-your-aip-agents-with-the-palantir-api/2956"
+    ],
+    "author": "ClaireR",
+    "publication_date": "2025-02-21",
+    "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+    "verification": "公开原帖正文已读；未进行租户重现",
+    "resolution_status": "历史官方社区介绍",
+    "current_version_verified": false,
+    "id": "S022"
+  },
+  {
+    "url": "https://community.palantir.com/t/monitoring-aip-agents-with-production-load/5711",
+    "title": "Monitoring AIP Agents with production load",
+    "type": "community_original_thread",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "生产并发、日志、缓存需求"
+    ],
+    "limitations": [
+      "大于5慢不是固定并发限制；temperature=0缓存不是provider prompt caching"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA14"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://community.palantir.com/t/monitoring-aip-agents-with-production-load/5711"
+    ],
+    "author": "peterkrauss",
+    "publication_date": "2025-12-18",
+    "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+    "verification": "公开原帖正文已读；未进行租户重现",
+    "resolution_status": "公开未给容量结论",
+    "current_version_verified": false,
+    "id": "S023"
+  },
+  {
+    "url": "https://community.palantir.com/t/object-query-used-by-aip-agent-is-limited-to-6-results/4718",
+    "title": "Object Query used by AIP Agent is limited to 6 results",
+    "type": "community_original_thread",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "查询/打印/链接对象集合数量核对"
+    ],
+    "limitations": [
+      "标题数字不是当前产品规范"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA15"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://community.palantir.com/t/object-query-used-by-aip-agent-is-limited-to-6-results/4718"
+    ],
+    "author": "TieCrowdfarming; ddgcarbayo-cf",
+    "publication_date": "2025-08-08",
+    "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+    "verification": "公开原帖正文已读；未进行租户重现",
+    "resolution_status": "公开未解决",
+    "current_version_verified": false,
+    "id": "S024"
+  },
+  {
+    "url": "https://community.palantir.com/t/osdk-agent-stuido-strreaming-api-invalidjson-error-when-passing-string-parameters-via-streaming-api/5497",
+    "title": "OSDK Agent Stuido strreaming API - InvalidJson Error When Passing String Parameters via Streaming API",
+    "type": "community_original_thread",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "React Native nested string错例；正确同层格式"
+    ],
+    "limitations": [
+      "不能引用回复初始错误代码；不能推出READ_ONLY根因"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA07"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://community.palantir.com/t/osdk-agent-stuido-strreaming-api-invalidjson-error-when-passing-string-parameters-via-streaming-api/5497"
+    ],
+    "author": "maddyAWS",
+    "publication_date": "2025-11-21",
+    "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+    "verification": "公开原帖正文已读；未进行租户重现",
+    "resolution_status": "回复更正；无提问者最终确认",
+    "current_version_verified": false,
+    "id": "S025"
+  },
+  {
+    "url": "https://community.palantir.com/t/osdk-with-aip-agent-studio/3556",
+    "title": "OSDK with AIP Agent Studio",
+    "type": "community_original_thread",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "语音bot/API入口发现成本"
+    ],
+    "limitations": [
+      "客户端export function不是session API必需条件的普遍证明"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA08"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://community.palantir.com/t/osdk-with-aip-agent-studio/3556"
+    ],
+    "author": "jpa",
+    "publication_date": "2025-04-16",
+    "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+    "verification": "公开原帖正文已读；未进行租户重现",
+    "resolution_status": "原函数发布问题自解；ingress猜测未解",
+    "current_version_verified": false,
+    "id": "S026"
+  },
+  {
+    "url": "https://community.palantir.com/t/questions-regarding-aip-threads-and-aip-agent-studio/3816",
+    "title": "Questions regarding AIP Threads and AIP Agent Studio - Ask the Community - Palantir Developer Community",
+    "type": "historical_community_thread",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-40"
+      }
+    ],
+    "used_in": [],
+    "exact_citations": [],
+    "publication_date": "2025-05-08",
+    "id": "S027"
+  },
+  {
+    "url": "https://community.palantir.com/t/sub-agent-sessions-are-not-getting-established-when-called-via-osdk/5103",
+    "title": "Sub agent sessions are not getting established when called via OSDK",
+    "type": "community_original_thread",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "历史client credentials路径、子session workaround及修复"
+    ],
+    "limitations": [
+      "不得继续写所有client credentials调用不支持"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA10"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://community.palantir.com/t/sub-agent-sessions-are-not-getting-established-when-called-via-osdk/5103"
+    ],
+    "author": "RajKarri",
+    "publication_date": "2025-09-24",
+    "author_relationship": "原帖作者的公开实践；真实身份及平台雇佣关系未独立核验",
+    "verification": "公开原帖正文已读；未进行租户重现",
+    "resolution_status": "已加修复并通知次周滚出；无租户复验",
+    "current_version_verified": false,
+    "id": "S028"
+  },
+  {
+    "url": "https://github.com/501981732/palantir-research/blob/048108bf2f01cacac40f6ef72bf96e37dca686f4/research/workshop-runtime-2026-10/eos-comparison/README.md",
+    "title": "已公开 EOS 历史静态对照（固定048108bf提交）",
+    "type": "public_historical_research",
+    "retrieved_dates": [
+      "2026-10-02"
+    ],
+    "supports": [
+      "EOS历史静态基线与建议边界"
+    ],
+    "limitations": [
+      "非当前内部代码或部署实测"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "I-fixed-eos-baseline"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "eos-architecture.md"
+    ],
+    "exact_citations": [
+      "https://github.com/501981732/palantir-research/blob/048108bf2f01cacac40f6ef72bf96e37dca686f4/research/workshop-runtime-2026-10/eos-comparison/README.md"
+    ],
+    "id": "S029"
+  },
+  {
+    "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/package.json",
+    "title": "Platform SDK — @osdk/foundry.aipagents package",
+    "type": "official_public_source",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "2.82.0",
+      "API gateway generated baseline",
+      "browser/v2 exports"
+    ],
+    "limitations": [
+      "no npm install verification"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT24"
+      }
+    ],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/package.json#L2-L3"
+    ],
+    "id": "S030"
+  },
+  {
+    "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/_components.ts",
+    "title": "Platform SDK — AIP Agents v2 components",
+    "type": "official_public_source",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "maps required in TS",
+      "no confirmation/paused/resume in checked request/results",
+      "parameter discriminated unions",
+      "session version/content/trace metadata"
+    ],
+    "limitations": [
+      "absence bounded to fixed public schema"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT19"
+      }
+    ],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/_components.ts#L112-L117",
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/_components.ts#L112-L125",
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/_components.ts#L137-L139",
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/_components.ts#L229-L301",
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/_components.ts#L28-L33",
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/_components.ts#L336-L363",
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/_components.ts#L357-L363",
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/_components.ts#L370-L376",
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/_components.ts#L388-L406",
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/_components.ts#L411-L417",
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/_components.ts#L431-L433"
+    ],
+    "id": "S031"
+  },
+  {
+    "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/_errors.ts",
+    "title": "Platform SDK — AIP Agents v2 errors",
+    "type": "official_public_source",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "cancel race conditions",
+      "context/token/iteration/rate/retry errors",
+      "variable/version mismatch"
+    ],
+    "limitations": [
+      "error definitions are not observed incidents"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT20"
+      }
+    ],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/_errors.ts",
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/_errors.ts#L112-L131",
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/_errors.ts#L284-L321"
+    ],
+    "id": "S032"
+  },
+  {
+    "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/index.ts",
+    "title": "Platform SDK — aipagents v2 exports",
+    "type": "official_public_source",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "Agents/Sessions/Contents/SessionTraces"
+    ],
+    "limitations": [
+      "no renaming to foundry.agents"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT25"
+      }
+    ],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/index.ts"
+    ],
+    "id": "S033"
+  },
+  {
+    "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/Agent.ts",
+    "title": "Platform SDK — Agent.get",
+    "type": "official_public_source",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "versioned configuration and parameters retrieval"
+    ],
+    "limitations": [
+      "preserved Agent resource name for Chatbot API"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT22"
+      }
+    ],
+    "used_in": [],
+    "exact_citations": [],
+    "id": "S034"
+  },
+  {
+    "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/Content.ts",
+    "title": "Platform SDK — Content.get",
+    "type": "official_public_source",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "content signature/route/read scope"
+    ],
+    "limitations": [
+      "no session runtime test"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT21"
+      }
+    ],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/Content.ts#L32-L57",
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/Content.ts#L48-L57"
+    ],
+    "id": "S035"
+  },
+  {
+    "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/Session.ts",
+    "title": "Platform SDK — Session methods",
+    "type": "official_public_source",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "Response octet stream",
+      "cancel",
+      "exact signatures/routes/scopes",
+      "list excludes other-client sessions",
+      "ragContext"
+    ],
+    "limitations": [
+      "generated public API client only; no tenant execution"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT18"
+      }
+    ],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/Session.ts#L100-L123",
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/Session.ts#L176-L186",
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/Session.ts#L188-L227",
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/Session.ts#L217-L227",
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/Session.ts#L248-L258",
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/Session.ts#L260-L287",
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/Session.ts#L32-L317",
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/Session.ts#L32-L58",
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/Session.ts#L49-L58"
+    ],
+    "id": "S036"
+  },
+  {
+    "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/SessionTrace.ts",
+    "title": "Platform SDK — SessionTrace.get",
+    "type": "official_public_source",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "trace polling signature/route/read scope"
+    ],
+    "limitations": [
+      "not approve/resume endpoint"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT23"
+      }
+    ],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/SessionTrace.ts#L32-L61"
+    ],
+    "id": "S037"
+  },
+  {
+    "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.ontologies/src/v2/_components.ts",
+    "title": "Platform SDK — Ontology ObjectSet wire types",
+    "type": "official_public_source",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "ObjectSet RID distinct from client builder",
+      "ObjectSet definition union",
+      "reference vs base/static"
+    ],
+    "limitations": [
+      "not generated OSDK builder serialization promise"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT26"
+      }
+    ],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.ontologies/src/v2/_components.ts#L4407-L4424"
+    ],
+    "id": "S038"
+  },
+  {
+    "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/shared.net.platformapi/src/foundryPlatformFetch.test.ts",
+    "title": "Platform SDK — URL parser tests",
+    "type": "official_public_source",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "context path/trailing slash test cases"
+    ],
+    "limitations": [
+      "read only; not executed; not chatbot e2e"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT28"
+      }
+    ],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/shared.net.platformapi/src/foundryPlatformFetch.test.ts#L20-L60"
+    ],
+    "id": "S039"
+  },
+  {
+    "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/shared.net.platformapi/src/foundryPlatformFetch.ts",
+    "title": "Platform SDK — foundryPlatformFetch",
+    "type": "official_public_source",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "JSON/Response/SSE branches",
+      "accept media",
+      "no signal method input",
+      "shared context adapter"
+    ],
+    "limitations": [
+      "network wrapper details only"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT27"
+      }
+    ],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/shared.net.platformapi/src/foundryPlatformFetch.ts#L118-L143",
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/shared.net.platformapi/src/foundryPlatformFetch.ts#L176-L184",
+      "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/shared.net.platformapi/src/foundryPlatformFetch.ts#L78-L88"
+    ],
+    "id": "S040"
+  },
+  {
+    "url": "https://github.com/palantir/foundry-platform-typescript/pull/391",
+    "title": "add Agents namespace",
+    "type": "official_source_pull_request",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "namespace映射保留AipAgents新增Agents；非Chatbot renaming证明"
+    ],
+    "limitations": [
+      "PR发布不等于租户运行行为；源代码为SDK而非服务端"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA36"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/foundry-platform-typescript/pull/391"
+    ],
+    "author": "rkhanwani10",
+    "publication_date": null,
+    "author_relationship": "Palantir官方公开仓库贡献者；任职身份未独立核验",
+    "verification": "gh api读取PR元数据与相关files diff；未运行源码测试",
+    "resolution_status": "merged",
+    "id": "S041"
+  },
+  {
+    "url": "https://github.com/palantir/foundry-platform-typescript/tree/4320149c31bcbcc2d176564d9259e343d9702d2b",
+    "title": "foundry-platform-typescript",
+    "type": "source_or_original_pr",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [
+      "未单独构成能力实测；具体支持与使用边界见正文及原始来源记录"
+    ],
+    "original_records": [],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/foundry-platform-typescript/tree/4320149c31bcbcc2d176564d9259e343d9702d2b"
+    ],
+    "id": "S042"
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/package.json",
+    "title": "OSDK — @osdk/client package",
+    "type": "official_public_source",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "2.75.0 public source version"
+    ],
+    "limitations": [
+      "no npm install"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT31"
+      }
+    ],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/package.json#L2-L3"
+    ],
+    "id": "S043"
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/Client.ts",
+    "title": "OSDK — Client interface",
+    "type": "official_public_source",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "extends SharedClient new/old",
+      "generated Query executeFunction"
+    ],
+    "limitations": [
+      "not all versions compatibility"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT29"
+      }
+    ],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/Client.ts#L105-L113",
+      "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/Client.ts#L35-L54"
+    ],
+    "id": "S044"
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/createClient.test.ts",
+    "title": "OSDK — createClient tests",
+    "type": "official_public_source",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "URL/client metadata test assets"
+    ],
+    "limitations": [
+      "read only not executed"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT34"
+      }
+    ],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/createClient.test.ts#L120-L156"
+    ],
+    "id": "S045"
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/createClient.ts",
+    "title": "OSDK — createClient",
+    "type": "official_public_source",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "SharedClient context wiring",
+      "tokenProvider and signatures"
+    ],
+    "limitations": [
+      "no tenant run"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT30"
+      }
+    ],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/createClient.ts#L383-L398",
+      "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/createClient.ts#L442-L464"
+    ],
+    "id": "S046"
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/createPlatformClient.ts",
+    "title": "OSDK — createPlatformClient",
+    "type": "official_public_source",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "reuse existing OSDK client",
+      "standalone PlatformClient signature"
+    ],
+    "limitations": [
+      "not an authorization bypass"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT36"
+      }
+    ],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/createPlatformClient.ts#L22-L38"
+    ],
+    "id": "S047"
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/queries/queries.test.ts",
+    "title": "OSDK — Query tests",
+    "type": "official_public_source",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "faux Foundry executeFunction coverage"
+    ],
+    "limitations": [
+      "not Chatbot or real permission tests; not run"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT35"
+      }
+    ],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/queries/queries.test.ts#L67-L106"
+    ],
+    "id": "S048"
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/queries/types.ts",
+    "title": "OSDK — QuerySignatureFromDef",
+    "type": "official_public_source",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "generated executeFunction signatures"
+    ],
+    "limitations": [
+      "specific chatbot Function signature unavailable without generated tenant SDK"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT33"
+      }
+    ],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/queries/types.ts#L32-L43"
+    ],
+    "id": "S049"
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/oauth/src/createPublicOauthClient.ts",
+    "title": "OSDK — createPublicOauthClient",
+    "type": "official_public_source",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "default scopes omit aip-agents scopes",
+      "options overload",
+      "public client token provider"
+    ],
+    "limitations": [
+      "no credential read / auth execution"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT32"
+      }
+    ],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/oauth/src/createPublicOauthClient.ts#L123-L128",
+      "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/oauth/src/createPublicOauthClient.ts#L55-L79"
+    ],
+    "id": "S050"
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react-components/src/aip-agent-chat/AipAgentChat.tsx",
+    "title": "OSDK React — AipAgentChat",
+    "type": "official_public_source",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "foundryModel/useChat LMS transport",
+      "no Studio Sessions invocation"
+    ],
+    "limitations": [
+      "experimental component name does not imply Studio Chatbot"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT37"
+      }
+    ],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react-components/src/aip-agent-chat/AipAgentChat.tsx#L17-L86"
+    ],
+    "id": "S051"
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react-components/src/aip-agent-chat/AipAgentChatApi.ts",
+    "title": "OSDK React — AipAgentChat props",
+    "type": "official_public_source",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "PlatformClient/model rather than Chatbot RID/session params"
+    ],
+    "limitations": [
+      "experimental"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT38"
+      }
+    ],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react-components/src/aip-agent-chat/AipAgentChatApi.ts#L42-L53"
+    ],
+    "id": "S052"
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react-components/src/aip-agent-chat/BaseAipAgentChat.tsx",
+    "title": "OSDK React — BaseAipAgentChat",
+    "type": "official_public_source",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "state and callback props can host custom adapter"
+    ],
+    "limitations": [
+      "adapter recommendation not implemented/tested"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT41"
+      }
+    ],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react-components/src/aip-agent-chat/BaseAipAgentChat.tsx#L29-L84"
+    ],
+    "id": "S053"
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react-components/src/aip-agent-chat/__tests__/AipAgentChat.test.tsx",
+    "title": "OSDK React — AipAgentChat wrapper tests",
+    "type": "official_public_source",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "wrapper behavior remains it.todo"
+    ],
+    "limitations": [
+      "not executed; not Chatbot test"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT42"
+      }
+    ],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react-components/src/aip-agent-chat/__tests__/AipAgentChat.test.tsx#L19-L31"
+    ],
+    "id": "S054"
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react/src/aip/chatStream.ts",
+    "title": "OSDK React — chatStream",
+    "type": "official_public_source",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "transport abortSignal handling"
+    ],
+    "limitations": [
+      "distinct from Studio Sessions.cancel"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT40"
+      }
+    ],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react/src/aip/chatStream.ts#L45-L65"
+    ],
+    "id": "S055"
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react/src/aip/useChat.test.tsx",
+    "title": "OSDK React — useChat tests",
+    "type": "official_public_source",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "mock transport stream/error/stop/resume test assets"
+    ],
+    "limitations": [
+      "not executed; not Studio tools/auth test"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT43"
+      }
+    ],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react/src/aip/useChat.test.tsx"
+    ],
+    "id": "S056"
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react/src/aip/useChat.ts",
+    "title": "OSDK React — useChat",
+    "type": "official_public_source",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "custom transport",
+      "no tools/multi-step loops/stream resume",
+      "text-only v0"
+    ],
+    "limitations": [
+      "not out-of-box Studio Session adapter"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT39"
+      }
+    ],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react/src/aip/useChat.ts#L40-L108"
+    ],
+    "id": "S057"
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/pull/320",
+    "title": "Foundry SDK Improvements",
+    "type": "official_public_pr",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "SharedClient compatibility",
+      "SharedClientContext分离/tokenProvider Promise<string>",
+      "tokenProvider Promise contract"
+    ],
+    "limitations": [
+      "PR发布不等于租户运行行为；源代码为SDK而非服务端",
+      "historical PR; current code authoritative"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT44"
+      },
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA33"
+      }
+    ],
+    "used_in": [
+      "application-integration.md",
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/osdk-ts/pull/320"
+    ],
+    "author": "ericanderson",
+    "publication_date": null,
+    "author_relationship": "Palantir官方公开仓库贡献者；任职身份未独立核验",
+    "verification": "gh api读取PR元数据与相关files diff；未运行源码测试",
+    "resolution_status": "merged",
+    "id": "S058"
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/pull/380",
+    "title": "Introduce createPlatformClient",
+    "type": "official_public_pr",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "standalone platform client history",
+      "独立Platform client；已有createClient支持平台API"
+    ],
+    "limitations": [
+      "PR发布不等于租户运行行为；源代码为SDK而非服务端",
+      "historical PR"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT45"
+      },
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA34"
+      }
+    ],
+    "used_in": [
+      "application-integration.md",
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/osdk-ts/pull/380"
+    ],
+    "author": "ericanderson",
+    "publication_date": null,
+    "author_relationship": "Palantir官方公开仓库贡献者；任职身份未独立核验",
+    "verification": "gh api读取PR元数据与相关files diff；未运行源码测试",
+    "resolution_status": "merged",
+    "id": "S059"
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/pull/3932",
+    "title": "Bump @osdk/foundry.* to 2.75.0 + Add support for streaming queries w/ SSE",
+    "type": "official_public_pr",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "Query streamingExecute SSE及单event/数组/error/break测试",
+      "SSE streaming Function queries history"
+    ],
+    "limitations": [
+      "PR发布不等于租户运行行为；源代码为SDK而非服务端",
+      "not Chatbot streamingContinue; author tests not our tests"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT46"
+      },
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA35"
+      }
+    ],
+    "used_in": [
+      "application-integration.md",
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/osdk-ts/pull/3932"
+    ],
+    "author": "williamhe723",
+    "publication_date": null,
+    "author_relationship": "Palantir官方公开仓库贡献者；任职身份未独立核验",
+    "verification": "gh api读取PR元数据与相关files diff；未运行源码测试",
+    "resolution_status": "merged",
+    "id": "S060"
+  },
+  {
+    "url": "https://github.com/palantir/osdk-ts/tree/dec2ee4b637a23e1b7e56fb0f50599386301c930",
+    "title": "osdk-ts",
+    "type": "source_or_original_pr",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [
+      "未单独构成能力实测；具体支持与使用边界见正文及原始来源记录"
+    ],
+    "original_records": [],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://github.com/palantir/osdk-ts/tree/dec2ee4b637a23e1b7e56fb0f50599386301c930"
+    ],
+    "id": "S061"
+  },
+  {
+    "url": "https://helmguard.ai/resources/aip-agents-x-helmguard-ai",
+    "title": "AIP Agents x HelmGuard AI: Function-Backed Agent Context | DevCon 2",
+    "type": "partner_original_demo_page",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "演示的主题、发布者、参与关系与eval反馈方向"
+    ],
+    "limitations": [
+      "仅读页面，未声称观看；视频帧由media清单记录"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA38"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://helmguard.ai/resources/aip-agents-x-helmguard-ai"
+    ],
+    "author": "Jack Miller",
+    "publication_date": "2025-03-10",
+    "author_relationship": "HelmGuard官方页面；与Palantir软件工程师Natasha Armbrust共同演示",
+    "verification": "公开正文已读；未进行租户重现",
+    "current_version_verified": false,
+    "id": "S062"
+  },
+  {
+    "url": "https://medium.com/@andrea-zanette00/unlock-next-level-customer-insights-with-palantir-foundry-and-aip-05478620b6e8",
+    "title": "Unlock Next-Level Customer Insights with Palantir Foundry and AIP",
+    "type": "practitioner_original_blog",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "评论数据与Ontology、过滤/linked查询/语义检索、TS wrapper/Logic、state/Workshop/Vertex项目描述"
+    ],
+    "limitations": [
+      "92%作者自报，未提供公开全量评估数据；非平台benchmark"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA37"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://medium.com/@andrea-zanette00/unlock-next-level-customer-insights-with-palantir-foundry-and-aip-05478620b6e8"
+    ],
+    "author": "Andrea Zanette",
+    "publication_date": "2025-10-01",
+    "author_relationship": "自述项目原作者；雇佣关系未知",
+    "verification": "公开正文已读；未进行租户重现",
+    "current_version_verified": false,
+    "id": "S063"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/jack-w-miller_aip-agents-x-helmguard-ai-function-backed-activity-7305163422877306880-qJlM",
+    "title": "AIP Agents x HelmGuard AI: Function-Backed Agent Context | DevCon 2 — Jack Miller original post",
+    "type": "original_public_social_post",
+    "retrieved_dates": [
+      "2026-10-02"
+    ],
+    "supports": [
+      "作者说明在DevCon2演讲、使用平台、提供视频原始传播路径"
+    ],
+    "limitations": [
+      "精确日期未知；帖子安全/ZDR等主张未复核，不作为产品安全证据；无视频完整观看"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA46"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://www.linkedin.com/posts/jack-w-miller_aip-agents-x-helmguard-ai-function-backed-activity-7305163422877306880-qJlM"
+    ],
+    "author": "Jack Miller",
+    "publication_date": null,
+    "author_relationship": "讲者自述HelmGuard基于Palantir developer platform，与平台有业务关系；不是独立评测",
+    "verification": "公开原帖完整可读，仅读与短摘要",
+    "current_version_verified": false,
+    "id": "S064"
+  },
+  {
+    "url": "https://www.linkedin.com/posts/rahgarg_palantir-aip-chatbot-and-aip-analyst-build-activity-7500183297256398849-mccp",
+    "title": "Palantir Foundry: AIP Chatbot, AIP Analyst and Model Layer Explained",
+    "type": "original_public_social_post",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "作者描述专用Chatbot嵌入Workshop与Analyst开放探索的两种演示"
+    ],
+    "limitations": [
+      "未核精确日期/未完整观看；视频URL U6Hxj6NB3us仅解析原帖链接"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA41"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://www.linkedin.com/posts/rahgarg_palantir-aip-chatbot-and-aip-analyst-build-activity-7500183297256398849-mccp"
+    ],
+    "author": "Rahul Garg",
+    "publication_date": null,
+    "author_relationship": "原作者公开培训/演示发帖；平台关系未知",
+    "verification": "公开正文已读；未进行租户重现",
+    "current_version_verified": false,
+    "id": "S065"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/action-types/action-log",
+    "title": "Action types • Action log • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-44"
+      }
+    ],
+    "used_in": [
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/action-types/action-log"
+    ],
+    "publication_date": null,
+    "id": "S066"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/action-types/permissions",
+    "title": "Action types — Permissions",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "actions-only Read permission case",
+      "back-end edit/data/submission/side-effect permissions",
+      "possible create unreadable objects",
+      "read/write authorizations",
+      "row/column controls do not extend to writes",
+      "type/link/datasource/submission gates"
+    ],
+    "limitations": [
+      "no tenant test",
+      "not a Command protocol",
+      "not a universal CRUD ACL model"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE20"
+      },
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-37"
+      },
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT16"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "application-integration.md",
+      "build-context-tools.md",
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/action-types/permissions",
+      "https://www.palantir.com/docs/foundry/action-types/permissions/"
+    ],
+    "publication_date": null,
+    "id": "S067"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/action-types/submission-criteria",
+    "title": "Action types — Submission criteria",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "criteria separate from type editing permissions",
+      "submission criteria separate from edit-type permissions",
+      "user/group/parameter/object context criteria"
+    ],
+    "limitations": [
+      "criteria must be configured by application builder",
+      "requires builder configuration"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE19"
+      },
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-38"
+      },
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT17"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "application-integration.md",
+      "build-context-tools.md",
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/action-types/submission-criteria",
+      "https://www.palantir.com/docs/foundry/action-types/submission-criteria/"
+    ],
+    "publication_date": null,
+    "id": "S068"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/administration/configure-logging",
+    "title": "Organization settings • Configure logging [Beta] • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-12"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "eos-architecture.md",
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/administration/configure-logging#export-foundry-logs",
+      "https://www.palantir.com/docs/foundry/administration/configure-logging#in-platform-log-access-for-ontology-and-aip-workflows",
+      "https://www.palantir.com/docs/foundry/administration/configure-logging#log-guarantees",
+      "https://www.palantir.com/docs/foundry/administration/configure-logging/"
+    ],
+    "publication_date": null,
+    "id": "S069"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/ai-fde/overview",
+    "title": "AI FDE • Overview • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-26"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/ai-fde/overview",
+      "https://www.palantir.com/docs/foundry/ai-fde/overview/"
+    ],
+    "publication_date": null,
+    "id": "S070"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/ai-fde/security-and-governance",
+    "title": "AI FDE • Security and governance • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-27"
+      }
+    ],
+    "used_in": [
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/ai-fde/security-and-governance"
+    ],
+    "publication_date": null,
+    "id": "S071"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/aip-analyst/capabilities",
+    "title": "AIP Analyst • Capabilities • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-22"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/aip-analyst/capabilities",
+      "https://www.palantir.com/docs/foundry/aip-analyst/capabilities#functions",
+      "https://www.palantir.com/docs/foundry/aip-analyst/capabilities/"
+    ],
+    "publication_date": null,
+    "id": "S072"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/aip-analyst/overview",
+    "title": "AIP Analyst • Overview • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-21"
+      }
+    ],
+    "used_in": [
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/aip-analyst/overview"
+    ],
+    "publication_date": null,
+    "id": "S073"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/aip-evals/create-suite",
+    "title": "AIP Evals • Create an evaluation suite • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-31"
+      }
+    ],
+    "used_in": [
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/aip-evals/create-suite"
+    ],
+    "publication_date": null,
+    "id": "S074"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/aip-evals/ontology-edits",
+    "title": "AIP Evals • Evaluate Ontology edits • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-33"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "eos-architecture.md",
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/aip-evals/ontology-edits",
+      "https://www.palantir.com/docs/foundry/aip-evals/ontology-edits/"
+    ],
+    "publication_date": null,
+    "id": "S075"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/aip-evals/overview",
+    "title": "AIP Evals • Overview • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-30"
+      }
+    ],
+    "used_in": [
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/aip-evals/overview"
+    ],
+    "publication_date": null,
+    "id": "S076"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/aip-evals/results-dataset",
+    "title": "AIP Evals • Write run results to a dataset • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-34"
+      }
+    ],
+    "used_in": [
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/aip-evals/results-dataset"
+    ],
+    "publication_date": null,
+    "id": "S077"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/aip-evals/run-suite",
+    "title": "AIP Evals • Run an evaluation suite • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-32"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/aip-evals/run-suite",
+      "https://www.palantir.com/docs/foundry/aip-evals/run-suite#execution-mode",
+      "https://www.palantir.com/docs/foundry/aip-evals/run-suite/"
+    ],
+    "publication_date": null,
+    "id": "S078"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/aip-evolve/overview",
+    "title": "AIP Evolve • Overview • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-29"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/aip-evolve/overview",
+      "https://www.palantir.com/docs/foundry/aip-evolve/overview/"
+    ],
+    "publication_date": null,
+    "id": "S079"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/aip-observability/log-permissioning",
+    "title": "Ontology and AIP observability • Log permissions • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-15"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/aip-observability/log-permissioning",
+      "https://www.palantir.com/docs/foundry/aip-observability/log-permissioning#required-roles",
+      "https://www.palantir.com/docs/foundry/aip-observability/log-permissioning/"
+    ],
+    "publication_date": null,
+    "id": "S080"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/aip-observability/overview",
+    "title": "Ontology and AIP observability • Overview • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-13"
+      }
+    ],
+    "used_in": [],
+    "exact_citations": [],
+    "publication_date": null,
+    "id": "S081"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/aip-observability/service-logs-and-debugging",
+    "title": "Ontology and AIP observability • Logging and debugging • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-14"
+      }
+    ],
+    "used_in": [],
+    "exact_citations": [],
+    "publication_date": null,
+    "id": "S082"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/aip/aip-security",
+    "title": "AIP security and privacy • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-11"
+      }
+    ],
+    "used_in": [
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/aip/aip-security"
+    ],
+    "publication_date": null,
+    "id": "S083"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/aip/control-llm-data-access-with-markings",
+    "title": "Administration • Control LLM data access with Markings • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-10"
+      }
+    ],
+    "used_in": [
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/aip/control-llm-data-access-with-markings"
+    ],
+    "publication_date": null,
+    "id": "S084"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/announcements/2025-05",
+    "title": "May 2025 — Indefinite conversation retention in AIP Agent Studio and AIP Threads",
+    "type": "official_dated_announcement",
+    "retrieved_dates": [
+      "2026-10-02"
+    ],
+    "supports": [
+      "Studio opt-in retention by assistant/version",
+      "Threads model mode versus Chatbot mode",
+      "current annotation of rename week 2026-04-27",
+      "not retroactive to old unconfigured versions",
+      "restricted-view exclusion as dated announcement"
+    ],
+    "limitations": [
+      "historical release/configuration evidence, not current tenant default or universal retention SLA"
+    ],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV45"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/announcements/2025-05/"
+    ],
+    "publication_date": "2025-05-06",
+    "verification": "directly read current official page and indefinite section",
+    "id": "S085"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/api/aip-agents-v2-resources/contents/get-content",
+    "title": "API v2 — Get Content",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "exchange history / structured result"
+    ],
+    "limitations": [
+      "preview"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT13"
+      }
+    ],
+    "used_in": [],
+    "exact_citations": [],
+    "publication_date": null,
+    "id": "S086"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/api/aip-agents-v2-resources/sessions/blocking-continue-session",
+    "title": "API v2 — Blocking Continue Session",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "READ_WRITE output requirement",
+      "context-size/model/permission/dependency errors",
+      "contextOverride replace retrieval",
+      "contextsOverride skips automatic retrieval",
+      "exact blockingContinue path and OAuth scope",
+      "optional maps in REST",
+      "parameter inputs/READ_WRITE updates",
+      "request values",
+      "sessionTraceId request field",
+      "single-session no concurrency"
+    ],
+    "limitations": [
+      "no full structured confirmation child schema inspected",
+      "preview",
+      "preview; no approval/resume protocol"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE12"
+      },
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT09"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "application-integration.md",
+      "build-context-tools.md",
+      "eos-architecture.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/api/aip-agents-v2-resources/sessions/blocking-continue-session"
+    ],
+    "publication_date": null,
+    "id": "S087"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/api/aip-agents-v2-resources/sessions/create-session",
+    "title": "API v2 — Create Session",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "AIP write scope",
+      "POST route",
+      "agentVersion defaults latest published at creation",
+      "calling-user conversation",
+      "preview endpoint",
+      "preview true",
+      "returned session version",
+      "unpublished/model/type dependency errors",
+      "version defaults latest published at session creation"
+    ],
+    "limitations": [
+      "preview may change/remove",
+      "version is configuration association not data snapshot"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE11"
+      },
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT08"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "application-integration.md",
+      "build-context-tools.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/api/aip-agents-v2-resources/sessions/create-session"
+    ],
+    "publication_date": null,
+    "id": "S088"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/api/aip-agents-v2-resources/sessions/get-session",
+    "title": "API v2 — Get Session",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "session metadata and fixed version"
+    ],
+    "limitations": [
+      "preview"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT12"
+      }
+    ],
+    "used_in": [],
+    "exact_citations": [],
+    "publication_date": null,
+    "id": "S089"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/api/aip-agents-v2-resources/sessions/streaming-continue-session",
+    "title": "API v2 — Streaming Continue Session",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "Markdown text stream",
+      "cancellation messageId",
+      "context override",
+      "markdown response text stream",
+      "messageId cancellation",
+      "no concurrent same-session continue",
+      "poststream getContent",
+      "read full exchange after stream",
+      "single-session no concurrent continue"
+    ],
+    "limitations": [
+      "preview",
+      "preview; not SSE event contract",
+      "text stream not assumed SSE or full event stream"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE13"
+      },
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT10"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "application-integration.md",
+      "build-context-tools.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/api/aip-agents-v2-resources/sessions/streaming-continue-session"
+    ],
+    "publication_date": null,
+    "id": "S090"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/agent-versions/agent-version-basics",
+    "title": "Agent Version • API Reference • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-42"
+      }
+    ],
+    "used_in": [],
+    "exact_citations": [],
+    "publication_date": null,
+    "id": "S091"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/session-traces/get-session-trace",
+    "title": "API v2 — Get Session Trace",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "trace polling / context/tool-call sequence"
+    ],
+    "limitations": [
+      "preview; not a writable approval protocol"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT14"
+      }
+    ],
+    "used_in": [],
+    "exact_citations": [],
+    "publication_date": null,
+    "id": "S092"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/blocking-continue-session",
+    "title": "Blocking Continue Session • API Reference • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-17"
+      }
+    ],
+    "used_in": [
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/blocking-continue-session"
+    ],
+    "publication_date": null,
+    "id": "S093"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/cancel-session",
+    "title": "API v2 — Cancel Session",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "cancel does not close stream",
+      "response omission vs replacement exchange",
+      "same messageId"
+    ],
+    "limitations": [
+      "no Action/external side-effect rollback guarantee"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT11"
+      }
+    ],
+    "used_in": [
+      "application-integration.md",
+      "eos-architecture.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/cancel-session/"
+    ],
+    "publication_date": null,
+    "id": "S094"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/create-session",
+    "title": "Create Session • API Reference • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-16"
+      }
+    ],
+    "used_in": [
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/create-session"
+    ],
+    "publication_date": null,
+    "id": "S095"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/delete-session",
+    "title": "Delete Session • API Reference • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-19"
+      }
+    ],
+    "used_in": [
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/delete-session"
+    ],
+    "publication_date": null,
+    "id": "S096"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/get-session",
+    "title": "Get Session • API Reference • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-18"
+      }
+    ],
+    "used_in": [
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/get-session"
+    ],
+    "publication_date": null,
+    "id": "S097"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/session-basics",
+    "title": "Session • API Reference • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-41"
+      }
+    ],
+    "used_in": [],
+    "exact_citations": [],
+    "publication_date": null,
+    "id": "S098"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/api/v2/general/overview/authentication",
+    "title": "Authentication • API Reference • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-20"
+      }
+    ],
+    "used_in": [
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/api/v2/general/overview/authentication"
+    ],
+    "publication_date": null,
+    "id": "S099"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/assist/agents-in-aip-assist",
+    "title": "AIP Assist • Power AIP Assist with custom content sources • Deploy custom source-backed AIP Chatbots • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-24"
+      }
+    ],
+    "used_in": [
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/assist/agents-in-aip-assist"
+    ],
+    "publication_date": null,
+    "id": "S100"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/assist/aip-assist-suggested-actions",
+    "title": "AIP Assist • Suggested actions in AIP Assist • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-25"
+      }
+    ],
+    "used_in": [
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/assist/aip-assist-suggested-actions"
+    ],
+    "publication_date": null,
+    "id": "S101"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/assist/overview",
+    "title": "AIP Assist • Overview • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-23"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/assist/overview",
+      "https://www.palantir.com/docs/foundry/assist/overview/"
+    ],
+    "publication_date": null,
+    "id": "S102"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/chatbot-studio/application-state",
+    "title": "AIP Chatbot Studio — Application state",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "citation variable update",
+      "citation variable updates",
+      "deterministic stream-end outputs",
+      "deterministic variable outputs at stream end",
+      "initial object sets",
+      "loop-start deterministic inputs",
+      "loop-start pinned input",
+      "string/ObjectSet mapping",
+      "string/object set variables",
+      "value visibility",
+      "visibility separate from input",
+      "确定性输入、string/objectset类型、loop初值pin、stream后自动更新"
+    ],
+    "limitations": [
+      "no complete intra-loop scheduling contract",
+      "no whole-loop transaction or universal output scheduling promise",
+      "visibility is not stated as an authorization boundary",
+      "状态变量不是认证身份；技术事实经公开文档核实"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE04"
+      },
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT03"
+      },
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA27"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "application-integration.md",
+      "assets.md",
+      "build-context-tools.md",
+      "eos-architecture.md",
+      "media-evidence.md",
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/chatbot-studio/application-state/",
+      "https://www.palantir.com/docs/foundry/chatbot-studio/application-state/#deterministic-tool-inputs",
+      "https://www.palantir.com/docs/foundry/chatbot-studio/application-state/#update-application-variables-with-chatbots"
+    ],
+    "publication_date": null,
+    "author": "Palantir",
+    "author_relationship": "产品供应商官方文档",
+    "verification": "正文已读",
+    "current_version_verified": "仅当前公开网页契约，未验证租户",
+    "id": "S103"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/chatbot-studio/chatbots-as-functions",
+    "title": "AIP Chatbot Studio — Chatbots as Functions",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "Evals",
+      "Evals and Automate consumption",
+      "OSDK function consumption",
+      "application input/output/default",
+      "application inputs/outputs and defaults",
+      "only updated variables output",
+      "optional sessionRID",
+      "optional sessionRid omission for new conversation",
+      "publish vs saved Function versions",
+      "save/publish Function versions",
+      "sessionRid输入输出、Evals null与objectset输入要求"
+    ],
+    "limitations": [
+      "generated Function signature must be inspected in actual SDK",
+      "no claim that confirmation UI is identical in headless function execution",
+      "未测试租户执行"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE08"
+      },
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-05"
+      },
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT07"
+      },
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA29"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "application-integration.md",
+      "assets.md",
+      "build-context-tools.md",
+      "eos-architecture.md",
+      "governance-and-lifecycle.md",
+      "media-evidence.md",
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/chatbot-studio/chatbots-as-functions",
+      "https://www.palantir.com/docs/foundry/chatbot-studio/chatbots-as-functions#evaluate-chatbots-with-aip-evals",
+      "https://www.palantir.com/docs/foundry/chatbot-studio/chatbots-as-functions/",
+      "https://www.palantir.com/docs/foundry/chatbot-studio/chatbots-as-functions/#function-inputs",
+      "https://www.palantir.com/docs/foundry/chatbot-studio/chatbots-as-functions/#publish-a-chatbot-as-a-function"
+    ],
+    "publication_date": null,
+    "author": "Palantir",
+    "author_relationship": "产品供应商官方文档",
+    "verification": "正文已读",
+    "current_version_verified": "仅当前公开网页契约，未验证租户",
+    "id": "S104"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/chatbot-studio/citations",
+    "title": "AIP Chatbot Studio — Citations",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "click override and output variable",
+      "custom citations for tools/functions",
+      "default citations for Ontology/document context",
+      "formats for object/PDF/URL"
+    ],
+    "limitations": [
+      "format rendering does not establish factual support",
+      "not automatically available for every tool result"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE06"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "assets.md",
+      "build-context-tools.md",
+      "eos-architecture.md",
+      "media-evidence.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/chatbot-studio/citations/"
+    ],
+    "id": "S105"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/chatbot-studio/commands-as-tools",
+    "title": "AIP Chatbot Studio • Tools • Use commands as tools in AIP Chatbot Studio • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "Beta config",
+      "commands Chatbot inactivity24h retention",
+      "current app/state/screen execution",
+      "default payload user approval",
+      "headless function ignores unsupported commands",
+      "pairing",
+      "parameter overrides",
+      "执行在用户应用、确认、Beta、retention/Automate忽略"
+    ],
+    "limitations": [
+      "no server Action authorization bypass; retention not generalized to all chatbots",
+      "不能自动推广至任意React调用"
+    ],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-09"
+      },
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT05"
+      },
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA31"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "application-integration.md",
+      "assets.md",
+      "eos-architecture.md",
+      "governance-and-lifecycle.md",
+      "media-evidence.md",
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/chatbot-studio/commands-as-tools",
+      "https://www.palantir.com/docs/foundry/chatbot-studio/commands-as-tools#asks-for-user-approval-before-execution",
+      "https://www.palantir.com/docs/foundry/chatbot-studio/commands-as-tools#publish-your-chatbot-to-aip-assist",
+      "https://www.palantir.com/docs/foundry/chatbot-studio/commands-as-tools#test-an-aip-chatbots-ability-to-use-commands-as-tools",
+      "https://www.palantir.com/docs/foundry/chatbot-studio/commands-as-tools/",
+      "https://www.palantir.com/docs/foundry/chatbot-studio/commands-as-tools/#embed-your-chatbot-in-aip-assist-or-workshop"
+    ],
+    "publication_date": null,
+    "author": "Palantir",
+    "author_relationship": "产品供应商官方文档",
+    "verification": "正文已读",
+    "current_version_verified": "仅当前公开网页契约，未验证租户",
+    "id": "S106"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/chatbot-studio/core-concepts",
+    "title": "AIP Chatbot Studio — Core concepts",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "chatbots as functions",
+      "compiled instructions/tool/variable descriptions",
+      "context-window constituents and overflow",
+      "retrieval flow",
+      "超context window错误/新session提示"
+    ],
+    "limitations": [
+      "general conceptual description",
+      "no automatic compaction guarantee",
+      "与用户截断观察分开"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE02"
+      },
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-02"
+      },
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA28"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "build-context-tools.md",
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/chatbot-studio/core-concepts/"
+    ],
+    "publication_date": null,
+    "author": "Palantir",
+    "author_relationship": "产品供应商官方文档",
+    "verification": "正文已读",
+    "current_version_verified": "仅当前公开网页契约，未验证租户",
+    "id": "S107"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/chatbot-studio/foundry-apis",
+    "title": "AIP Chatbot Studio — Use AIP Chatbots through Foundry APIs",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "Developer Console resource/project coverage",
+      "Developer Console resources not auto updated",
+      "multi-shot API session interaction",
+      "multi-turn session APIs",
+      "one Ontology requirement",
+      "parameterInput/output handling",
+      "parameterInputs/Updates",
+      "required declared resource projects/types",
+      "resource changes not auto updated",
+      "single Ontology for OSDK application",
+      "traceID use"
+    ],
+    "limitations": [
+      "API overview; interactive approval handshake absent",
+      "headless confirmation handshake not explained",
+      "overview API guide"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE10"
+      },
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-08"
+      },
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT06"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "application-integration.md",
+      "assets.md",
+      "governance-and-lifecycle.md",
+      "media-evidence.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/chatbot-studio/foundry-apis",
+      "https://www.palantir.com/docs/foundry/chatbot-studio/foundry-apis/",
+      "https://www.palantir.com/docs/foundry/chatbot-studio/foundry-apis/#deploy-an-aip-chatbot-to-a-developer-console-application"
+    ],
+    "publication_date": null,
+    "id": "S108"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/chatbot-studio/getting-started",
+    "title": "AIP Chatbot Studio — Getting started",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "feedback and usage",
+      "filesystem resource and access control",
+      "model subset",
+      "prompt refs and temperature",
+      "save/view/publish"
+    ],
+    "limitations": [
+      "UI instructions not authenticated observation",
+      "model availability enrollment-dependent"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE03"
+      },
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-03"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "assets.md",
+      "build-context-tools.md",
+      "governance-and-lifecycle.md",
+      "media-evidence.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/chatbot-studio/getting-started",
+      "https://www.palantir.com/docs/foundry/chatbot-studio/getting-started#create-an-aip-chatbot",
+      "https://www.palantir.com/docs/foundry/chatbot-studio/getting-started#save-view-and-publish-an-aip-chatbot",
+      "https://www.palantir.com/docs/foundry/chatbot-studio/getting-started#track-aip-chatbot-feedback-and-usage",
+      "https://www.palantir.com/docs/foundry/chatbot-studio/getting-started/"
+    ],
+    "publication_date": null,
+    "id": "S109"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/chatbot-studio/marketplace",
+    "title": "AIP Chatbot Studio • Distribute AIP Chatbots using Marketplace • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-07"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/chatbot-studio/marketplace",
+      "https://www.palantir.com/docs/foundry/chatbot-studio/marketplace/"
+    ],
+    "publication_date": null,
+    "id": "S110"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/chatbot-studio/overview",
+    "title": "AIP Chatbot Studio — Overview",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "Agent Studio rename",
+      "Ontology/documents/tools and internal/external deployment",
+      "Studio/Agent rename",
+      "application integration with read/write workflows",
+      "enterprise assistants resource"
+    ],
+    "limitations": [
+      "overview only, no tenant validation",
+      "positioning, no runtime test or universal availability guarantee"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE01"
+      },
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-01"
+      },
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT01"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "application-integration.md",
+      "assets.md",
+      "build-context-tools.md",
+      "governance-and-lifecycle.md",
+      "media-evidence.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/chatbot-studio/overview",
+      "https://www.palantir.com/docs/foundry/chatbot-studio/overview/"
+    ],
+    "publication_date": null,
+    "id": "S111"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/chatbot-studio/retrieval-context",
+    "title": "AIP Chatbot Studio — Retrieval context",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "Logic retrieval future wording",
+      "Ontology fixed N or semantic K",
+      "Ontology/Document/Function context，全文/Top-K/Beta/TS v1接口",
+      "TSv1 function-backed interface",
+      "document full text/relevant chunks Beta",
+      "every-message retrieval",
+      "optional state arguments",
+      "retrievedPrompt"
+    ],
+    "limitations": [
+      "TSv2 does not support this interface",
+      "no built-in hybrid retrieval promise",
+      "relevant chunks Beta enrollment-dependent",
+      "不是租户可用性证明"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE05"
+      },
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA26"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "assets.md",
+      "build-context-tools.md",
+      "media-evidence.md",
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/chatbot-studio/retrieval-context/",
+      "https://www.palantir.com/docs/foundry/chatbot-studio/retrieval-context/#function-backed-context"
+    ],
+    "author": "Palantir",
+    "publication_date": null,
+    "author_relationship": "产品供应商官方文档",
+    "verification": "正文已读",
+    "current_version_verified": "仅当前公开网页契约，未验证租户",
+    "id": "S112"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/chatbot-studio/session-logging",
+    "title": "AIP Chatbot Studio — Session logging",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "client tool call final result",
+      "compiled system/native tool fields",
+      "llm_value separate from variable_updates",
+      "message execution and trace correlation",
+      "parsed tool input",
+      "schemas may change",
+      "结构化事件、导出权限/markings、prompt/context和schema演进"
+    ],
+    "limitations": [
+      "log exports require roles and careful access",
+      "no export performed",
+      "schema not stable contract",
+      "未配置导出，无租户实测"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE09"
+      },
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-06"
+      },
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA32"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "build-context-tools.md",
+      "governance-and-lifecycle.md",
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/chatbot-studio/session-logging",
+      "https://www.palantir.com/docs/foundry/chatbot-studio/session-logging#prerequisites",
+      "https://www.palantir.com/docs/foundry/chatbot-studio/session-logging/"
+    ],
+    "publication_date": null,
+    "author": "Palantir",
+    "author_relationship": "产品供应商官方文档",
+    "verification": "正文已读",
+    "current_version_verified": "仅当前公开网页契约，未验证租户",
+    "id": "S113"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/chatbot-studio/tools",
+    "title": "AIP Chatbot Studio — Tools",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "Action confirmation",
+      "Action确认、Function/AIP Logic/版本和tool mode",
+      "Function latest/pinned",
+      "native model/tool subset",
+      "prompted single vs native parallel calling",
+      "query filter/aggregate/inspect/link traversal",
+      "six current tools plus legacy semantic tool"
+    ],
+    "limitations": [
+      "native eligibility not all provider models",
+      "no detailed model tool schema or result limits",
+      "no whole-loop transaction promise",
+      "模型/工具支持子集仍需部署核验"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE07"
+      },
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-04"
+      },
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA30"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "assets.md",
+      "build-context-tools.md",
+      "eos-architecture.md",
+      "governance-and-lifecycle.md",
+      "media-evidence.md",
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/chatbot-studio/tools",
+      "https://www.palantir.com/docs/foundry/chatbot-studio/tools#view-reasoning",
+      "https://www.palantir.com/docs/foundry/chatbot-studio/tools/",
+      "https://www.palantir.com/docs/foundry/chatbot-studio/tools/#tool-mode"
+    ],
+    "publication_date": null,
+    "author": "Palantir",
+    "author_relationship": "产品供应商官方文档",
+    "verification": "正文已读",
+    "current_version_verified": "仅当前公开网页契约，未验证租户",
+    "id": "S114"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/cross-app-interactivity/commands-overview",
+    "title": "Cross-application interactivity — Commands",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "Workshop Button/Metric/AppPairing triggers",
+      "declared client-side operations",
+      "target selection and output mapping"
+    ],
+    "limitations": [
+      "no complete arbitrary React Command producer SDK contract"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT04"
+      }
+    ],
+    "used_in": [
+      "application-integration.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/cross-app-interactivity/commands-overview/"
+    ],
+    "publication_date": null,
+    "id": "S115"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/developer-console/permissions",
+    "title": "Developer Console — Permissions",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "configuration vs linked OAuth access",
+      "frontend LMS-backed Action viewer requirement"
+    ],
+    "limitations": [
+      "enrollment-dependent Compass-managed roles"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT15"
+      }
+    ],
+    "used_in": [],
+    "exact_citations": [],
+    "publication_date": null,
+    "id": "S116"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/functions/edits-overview",
+    "title": "Functions — Ontology edits",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "functions helper does not apply actual edits",
+      "regular edit functions return edits for action consumer",
+      "regular search vs pending materialized object distinction"
+    ],
+    "limitations": [
+      "do not generalize only-way wording over extended function capabilities or Automate Logic effects",
+      "regular edits contract not staged-write contract"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE27"
+      }
+    ],
+    "used_in": [
+      "build-context-tools.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/functions/edits-overview/"
+    ],
+    "id": "S117"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/functions/overview",
+    "title": "Functions — Overview",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "Ontology-aware logic",
+      "isolated server-side execution"
+    ],
+    "limitations": [
+      "not specific Chatbot tool implementation"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE14"
+      }
+    ],
+    "used_in": [
+      "build-context-tools.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/functions/overview/"
+    ],
+    "id": "S118"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/functions/permissions",
+    "title": "Functions — Permissions",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "end-user object loading",
+      "extended execution may call Actions and obtain tokens subject to allowlists",
+      "function-backed Action permission exception",
+      "output not automatically covered by row/column policies",
+      "repository Viewer for published functions"
+    ],
+    "limitations": [
+      "does not guarantee Chatbot confirmation on all Function side effects",
+      "no tenant permission audit",
+      "rules vary by capability and caller"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE18"
+      },
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-43"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "build-context-tools.md",
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/functions/permissions",
+      "https://www.palantir.com/docs/foundry/functions/permissions/",
+      "https://www.palantir.com/docs/foundry/functions/permissions/#extended-function-execution"
+    ],
+    "publication_date": null,
+    "id": "S119"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/functions/typescript-v2-staged-writes",
+    "title": "Functions TypeScript v2 — Staged writes [Beta]",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "nested edits join action context",
+      "preview environment limits",
+      "staged writes read-after-write",
+      "successful atomic commit/exception discard"
+    ],
+    "limitations": [
+      "Beta",
+      "no external side-effect rollback guarantee",
+      "not chatbot-loop contract"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE22"
+      }
+    ],
+    "used_in": [
+      "build-context-tools.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/functions/typescript-v2-staged-writes/#execution-lifecycle"
+    ],
+    "id": "S120"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/logic/aip-logic-integration-automate",
+    "title": "AIP Logic integration with Automate",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "legacy Logic with staged writes disabled may directly use Logic effect",
+      "mode change major-version migration",
+      "special consumer pathway for returned edits",
+      "staged-write Logic requires Action effect"
+    ],
+    "limitations": [
+      "does not imply ordinary Chatbot Function tool applies edits",
+      "legacy and staged consumers differ"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE28"
+      }
+    ],
+    "used_in": [
+      "build-context-tools.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/logic/aip-logic-integration-automate/"
+    ],
+    "id": "S121"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/logic/blocks",
+    "title": "AIP Logic — Blocks",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "Action caller context required for actual write",
+      "Function composition",
+      "LLM asks runtime to execute",
+      "LLM tool vs deterministic Apply action block",
+      "read-only enforcement limits"
+    ],
+    "limitations": [
+      "generic underlying runtime",
+      "not equivalent to Chatbot native mode eligibility"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE16"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "build-context-tools.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/logic/blocks/#apply-action"
+    ],
+    "id": "S122"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/logic/core-concepts",
+    "title": "AIP Logic — Core concepts",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "inputs/blocks/outputs",
+      "ordinary Logic write caller requires published function from Action",
+      "user/project scoped distinction"
+    ],
+    "limitations": [
+      "generic statement must be qualified by dedicated Automate legacy Logic effect pathway",
+      "not chatbot-wide transaction guarantee"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE15"
+      }
+    ],
+    "used_in": [
+      "build-context-tools.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/logic/core-concepts/"
+    ],
+    "id": "S123"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/logic/execution-mode-settings",
+    "title": "AIP Logic — Execution mode settings",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "log visibility differences",
+      "project-scoped permissions/imports/markings",
+      "user-scoped default"
+    ],
+    "limitations": [
+      "nested call combinations not runtime-tested"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE17"
+      },
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-35"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "build-context-tools.md",
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/logic/execution-mode-settings",
+      "https://www.palantir.com/docs/foundry/logic/execution-mode-settings/"
+    ],
+    "publication_date": null,
+    "id": "S124"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/logic/staged-writes",
+    "title": "AIP Logic — Staged writes",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "Beta staged execution",
+      "changed return/version semantics",
+      "nested calls/read-after-write",
+      "temporary edits applied at completion"
+    ],
+    "limitations": [
+      "Beta enrollment-dependent",
+      "not chat-wide or external-system transaction"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE21"
+      },
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-36"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "build-context-tools.md",
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/logic/staged-writes",
+      "https://www.palantir.com/docs/foundry/logic/staged-writes/"
+    ],
+    "publication_date": null,
+    "id": "S125"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/model-catalog/model-deprecation",
+    "title": "AIP Model Catalog — Model deprecation",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "Chatbot model save/publish",
+      "Evals before substitution",
+      "brownout and deprecation failures",
+      "upstream model resource migration"
+    ],
+    "limitations": [
+      "no per-tenant current model inventory obtained"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE23"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "build-context-tools.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/model-catalog/model-deprecation/"
+    ],
+    "id": "S126"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/ontology/document-processing",
+    "title": "Semantic search — Document processing",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "PDF media/text extraction/chunking",
+      "chunk objects link to original",
+      "chunk size/overlap/separators",
+      "original PDF cross-check"
+    ],
+    "limitations": [
+      "illustrative pipeline",
+      "not all Studio document context implementations shown"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE24"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "build-context-tools.md",
+      "eos-architecture.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/ontology/document-processing/"
+    ],
+    "id": "S127"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/ontology/overview-semantic-search",
+    "title": "Semantic search — Overview",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "embedding semantic similarity",
+      "link embedding text to objects",
+      "official video/blog pointers"
+    ],
+    "limitations": [
+      "not model quality guarantee"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE25"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "build-context-tools.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/ontology/overview-semantic-search/"
+    ],
+    "id": "S128"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/ontology/using-palantir-provided-models-to-create-a-semantic-search-workflow",
+    "title": "Semantic search — Use Palantir-provided models to create a semantic search workflow",
+    "type": "official_documentation_or_announcement",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "Chatbot/Workshop/function choices",
+      "TSv1 explicit query embedding vs TSv2/Python text query",
+      "generate embeddings/store vector then consume",
+      "language-version distinctions"
+    ],
+    "limitations": [
+      "illustrative model choice not recommendation",
+      "not same as Chatbot retrieval function-interface support"
+    ],
+    "original_records": [
+      {
+        "file": "notes/core-sources.json",
+        "source_id": "CORE26"
+      }
+    ],
+    "used_in": [
+      "build-context-tools.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/ontology/using-palantir-provided-models-to-create-a-semantic-search-workflow/"
+    ],
+    "id": "S129"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/pilot/overview",
+    "title": "Pilot • Overview • Palantir",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [],
+    "limitations": [],
+    "original_records": [
+      {
+        "file": "notes/governance-sources.json",
+        "source_id": "GOV-28"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "governance-and-lifecycle.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/pilot/overview",
+      "https://www.palantir.com/docs/foundry/pilot/overview/"
+    ],
+    "publication_date": null,
+    "id": "S130"
+  },
+  {
+    "url": "https://www.palantir.com/docs/foundry/workshop/widgets-aip-chatbot",
+    "title": "Workshop — AIP Chatbot widget",
+    "type": "official_documentation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "application state mapping",
+      "modern Studio vs deprecated Legacy",
+      "published version selection",
+      "textbox external change auto-send"
+    ],
+    "limitations": [
+      "Prompt/Tools sections are Legacy; no session lifecycle experiment"
+    ],
+    "original_records": [
+      {
+        "file": "notes/integration-sources.json",
+        "source_id": "INT02"
+      }
+    ],
+    "used_in": [
+      "README.md",
+      "application-integration.md",
+      "eos-architecture.md"
+    ],
+    "exact_citations": [
+      "https://www.palantir.com/docs/foundry/workshop/widgets-aip-chatbot/",
+      "https://www.palantir.com/docs/foundry/workshop/widgets-aip-chatbot/#base-configuration-aip-chatbot",
+      "https://www.palantir.com/docs/foundry/workshop/widgets-aip-chatbot/#base-configuration-legacy"
+    ],
+    "publication_date": null,
+    "id": "S131"
+  },
+  {
+    "url": "https://www.youtube.com/playlist?list=PLqTLGbLI0CvmMHECC332k__5HyjTHAMWL",
+    "title": "DevCon 2 official playlist",
+    "type": "official_video_playlist_index",
+    "retrieved_dates": [
+      "2026-10-02"
+    ],
+    "supports": [
+      "公开索引列出HelmGuard Function-Backed Agent Context及Palantir Developers频道"
+    ],
+    "limitations": [
+      "直接打开正文只返回页脚；仅用搜索结果中的该一手列表索引，不据此复述视频机制"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA44"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://www.youtube.com/playlist?list=PLqTLGbLI0CvmMHECC332k__5HyjTHAMWL"
+    ],
+    "author": "Palantir Developers",
+    "publication_date": null,
+    "author_relationship": "官方频道播放列表",
+    "verification": "Web search和open均已尝试，正文限制明确登记",
+    "current_version_verified": false,
+    "id": "S132"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=U6Hxj6NB3us",
+    "title": "Rahul Garg Chatbot / Analyst demo video referral",
+    "type": "original_social_video_referral",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "原帖指向的视频URL，未用作视频行为证据"
+    ],
+    "limitations": [
+      "未观看/未转写/未独立核上传日或性能"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA47"
+      }
+    ],
+    "used_in": [],
+    "exact_citations": [],
+    "author": "Rahul Garg",
+    "publication_date": null,
+    "author_relationship": "LinkedIn原作者演示视频；平台雇佣或合作关系未知",
+    "verification": "原帖公开链接解析",
+    "current_version_verified": false,
+    "id": "S133"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=rya3gIntUNY",
+    "title": "Deploy an AIP Chatbot in a Custom React App: Palantir Foundry OSDK",
+    "type": "partner_public_video_partial_observation",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "00:13/10:48/11:13局部观察；连接错误与OAuth consent实际页面"
+    ],
+    "limitations": [
+      "非完整观看；无transcript；11:31播放器失败；无之后成功回答、性能或rootcause证明；未授予权限"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA45"
+      }
+    ],
+    "used_in": [
+      "assets.md",
+      "media-evidence.md",
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://www.youtube.com/watch?v=rya3gIntUNY"
+    ],
+    "author": "Ontologize",
+    "publication_date": "2026-05-27",
+    "author_relationship": "视频说明自称official Palantir Partner；商业培训关系，非Palantir自有频道",
+    "verification": "媒体agent普通播放器截图；notes/media-manifest.json PV01/V01/V02登记1470x775、字节与hash",
+    "current_version_verified": false,
+    "id": "S134"
+  },
+  {
+    "url": "https://www.youtube.com/watch?v=tbvEftV0YN0",
+    "title": "AIP Agents x HelmGuard AI: Function-Backed Agent Context | DevCon 2",
+    "type": "official_public_video_metadata",
+    "retrieved_dates": [
+      "2026-10-02"
+    ],
+    "supports": [
+      "视频主题、官方播放列表列示与频道归属；不能证明未观察的具体操作"
+    ],
+    "limitations": [
+      "video正文抓取失败；无完整观看、无转写或帧、无可复现实验；合作方页面日期不是上传日期"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA43"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://www.youtube.com/watch?v=tbvEftV0YN0"
+    ],
+    "author": "Palantir Developers；讲者Jack Miller/Natasha Armbrust",
+    "publication_date": null,
+    "author_relationship": "官方频道与合作方共同演示；合作方页面及讲者原帖相互核对",
+    "verification": "Web搜索官方playlist索引可见Palantir Developers；原作者页面/LinkedIn指向同主题视频",
+    "current_version_verified": false,
+    "id": "S135"
+  },
+  {
+    "url": "https://zerofuturetech.substack.com/p/palantir-aip-agent-ontology-interaction",
+    "title": "Palantir AIP Agent-Ontology Interaction: A Deep Dive into the Five-Layer Enterprise AI Architecture",
+    "type": "secondary_original_analysis",
+    "retrieved_dates": [
+      "2026-10-01"
+    ],
+    "supports": [
+      "外部架构解释和问题线索"
+    ],
+    "limitations": [
+      "不提供独立租户实测；不能用作平台API/权限事实来源"
+    ],
+    "original_records": [
+      {
+        "file": "notes/practice-sources.json",
+        "source_id": "PRA42"
+      }
+    ],
+    "used_in": [
+      "public-practice.md"
+    ],
+    "exact_citations": [
+      "https://zerofuturetech.substack.com/p/palantir-aip-agent-ontology-interaction"
+    ],
+    "author": "zerofuturetech",
+    "publication_date": "2026-07-04",
+    "author_relationship": "个人技术分析作者，关系未知",
+    "verification": "公开正文已读；未进行租户重现",
+    "current_version_verified": false,
+    "id": "S136"
+  }
+]

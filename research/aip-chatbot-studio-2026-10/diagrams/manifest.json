@@ -1,0 +1,114 @@
+[
+  {
+    "path": "diagrams/01-system.svg",
+    "kind": "researcher_conceptual_diagram",
+    "source": "diagrams/01-system.dot",
+    "renderer": "Graphviz dot",
+    "rendered_at_utc": "2026-10-02T00:21:03.918240+00:00",
+    "bytes": 15186,
+    "sha256": "86e92edcd2284dcba68d388b307bfa9ecf33732599f0074a0c6cb21b88bfee63",
+    "visual_inspection": {
+      "status": "passed",
+      "observation": "2026-10-02重新视检；配置Beta标签、中文及箭头可读，Command业务API边为条件路径；概念图非产品UI或内部trace"
+    }
+  },
+  {
+    "path": "diagrams/01-system.png",
+    "kind": "researcher_conceptual_diagram",
+    "source": "diagrams/01-system.dot",
+    "renderer": "Graphviz dot",
+    "rendered_at_utc": "2026-10-02T00:21:04.011415+00:00",
+    "bytes": 217615,
+    "sha256": "1ebb23bcd7e89e242513dd8105986d88e474e0adde29aae9d94b030835c5f71e",
+    "visual_inspection": {
+      "status": "passed",
+      "observation": "2026-10-02重新视检；配置Beta标签、中文及箭头可读，Command业务API边为条件路径；概念图非产品UI或内部trace"
+    },
+    "width": 1451,
+    "height": 991
+  },
+  {
+    "path": "diagrams/02-turn-sequence.svg",
+    "kind": "researcher_conceptual_diagram",
+    "source": "diagrams/02-turn-sequence.dot",
+    "renderer": "Graphviz neato fixed-position sequence",
+    "rendered_at_utc": "2026-10-01T23:56:49.931483+00:00",
+    "bytes": 23141,
+    "sha256": "e83a45852fea6bb3ba95fd85f8ac0578c62adfff01b9f4fc4cda727866e99af1",
+    "visual_inspection": {
+      "status": "passed",
+      "observation": "已逐图检查中文与箭头可读，概念图明确标注，非产品UI或内部trace"
+    }
+  },
+  {
+    "path": "diagrams/02-turn-sequence.png",
+    "kind": "researcher_conceptual_diagram",
+    "source": "diagrams/02-turn-sequence.dot",
+    "renderer": "Graphviz neato fixed-position sequence",
+    "rendered_at_utc": "2026-10-01T23:56:50.023261+00:00",
+    "bytes": 136477,
+    "sha256": "7eaf284ec1bb04f6cc075a07587011218f1ccee2b2c52cf430a722983516251c",
+    "visual_inspection": {
+      "status": "passed",
+      "observation": "已逐图检查中文与箭头可读，概念图明确标注，非产品UI或内部trace"
+    },
+    "width": 1407,
+    "height": 1636
+  },
+  {
+    "path": "diagrams/03-write-boundaries.svg",
+    "kind": "researcher_conceptual_diagram",
+    "source": "diagrams/03-write-boundaries.dot",
+    "renderer": "Graphviz dot",
+    "rendered_at_utc": "2026-10-02T00:21:04.070576+00:00",
+    "bytes": 11677,
+    "sha256": "7e02397250659cc2d89f471a92a8f181bb87991067c614dab9bf364baa41d6a8",
+    "visual_inspection": {
+      "status": "passed",
+      "observation": "2026-10-02重新视检；配置Beta标签、中文及箭头可读，Command业务API边为条件路径；概念图非产品UI或内部trace"
+    }
+  },
+  {
+    "path": "diagrams/03-write-boundaries.png",
+    "kind": "researcher_conceptual_diagram",
+    "source": "diagrams/03-write-boundaries.dot",
+    "renderer": "Graphviz dot",
+    "rendered_at_utc": "2026-10-02T00:21:04.144764+00:00",
+    "bytes": 147979,
+    "sha256": "2374c4840a84d7d0a0292f655964849641b199e359e1ec7a87f0fdf73b006b86",
+    "visual_inspection": {
+      "status": "passed",
+      "observation": "2026-10-02重新视检；配置Beta标签、中文及箭头可读，Command业务API边为条件路径；概念图非产品UI或内部trace"
+    },
+    "width": 1903,
+    "height": 424
+  },
+  {
+    "path": "diagrams/04-release.svg",
+    "kind": "researcher_conceptual_diagram",
+    "source": "diagrams/04-release.dot",
+    "renderer": "Graphviz dot",
+    "rendered_at_utc": "2026-10-01T23:56:50.180468+00:00",
+    "bytes": 10613,
+    "sha256": "88b9d322ae598c058ae7f6fb53ea2175739ac4bc02ce0d0ecc88b6d206fa8797",
+    "visual_inspection": {
+      "status": "passed",
+      "observation": "已逐图检查中文与箭头可读，概念图明确标注，非产品UI或内部trace"
+    }
+  },
+  {
+    "path": "diagrams/04-release.png",
+    "kind": "researcher_conceptual_diagram",
+    "source": "diagrams/04-release.dot",
+    "renderer": "Graphviz dot",
+    "rendered_at_utc": "2026-10-01T23:56:50.245980+00:00",
+    "bytes": 144202,
+    "sha256": "0f39c6a607657bf16b4081e0fe541020b219a988ab70dbb9587db92f9ca2d934",
+    "visual_inspection": {
+      "status": "passed",
+      "observation": "已逐图检查中文与箭头可读，概念图明确标注，非产品UI或内部trace"
+    },
+    "width": 1391,
+    "height": 619
+  }
+]
