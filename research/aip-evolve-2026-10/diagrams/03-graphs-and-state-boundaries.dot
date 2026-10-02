@@ -1,0 +1,55 @@
+digraph boundaries {
+  graph [rankdir=TB, bgcolor="#FFFFFF", fontname="PingFang SC", fontsize=25,
+    label="AIP Evolve：两种图、两类状态边界\n公开资料概念归纳，非官方内部实现", labelloc=t,
+    pad=0.35, nodesep=0.48, ranksep=0.65, splines=polyline, dpi=160, newrank=true];
+  node [shape=box, style="rounded,filled", fontname="PingFang SC", fontsize=18,
+    color="#8DA2B5", fontcolor="#183147", fillcolor="#F4F7FA", margin="0.20,0.15", penwidth=1.3];
+  edge [fontname="PingFang SC", fontsize=14, fontcolor="#456174", color="#637E91", arrowsize=0.75, penwidth=1.4];
+
+  subgraph cluster_lineage {
+    label="Workflow lineage：被优化系统的依赖";
+    fontname="PingFang SC"; fontsize=20; fontcolor="#314C61";
+    style="rounded"; color="#B8CDDF"; margin=18;
+    data [label="输入数据", fillcolor="#EDF5FC", color="#709ABC"];
+    logic [label="函数 / AI 逻辑", fillcolor="#EDF5FC", color="#709ABC"];
+    output [label="工作流输出", fillcolor="#EDF5FC", color="#709ABC"];
+    { rank=same; data; logic; output; }
+    data -> logic -> output;
+    lineage_note [shape=plain, fontsize=15, fontcolor="#647789", label="说明哪些资源与数据共同构成目标链路。"];
+    logic -> lineage_note [style=invis];
+  }
+  subgraph cluster_agents {
+    label="Agent graph：优化活动的可观察视图";
+    fontname="PingFang SC"; fontsize=20; fontcolor="#314C61";
+    style="rounded"; color="#C9BADC"; margin=18;
+    activities [label="分析 · 用例构造 · 候选修改\n评估 · Proposal 写作", fillcolor="#EEEAF7", color="#9477BC"];
+    artifacts [label="查看 goals / insights / artifacts\n供审阅本次优化过程", fillcolor="#EEEAF7", color="#9477BC"];
+    activities -> artifacts [style=dashed, label="观测"];
+    agents_note [shape=plain, fontsize=15, fontcolor="#647789", label="这里列活动，不规定固定 agent DAG。"];
+    artifacts -> agents_note [style=invis];
+  }
+  { rank=same; data; activities; }
+  lineage_note -> agents_note [style=invis];
+
+  subgraph cluster_state {
+    label="定义状态与运行 / 交付状态：分别核验";
+    fontname="PingFang SC"; fontsize=20; fontcolor="#314C61";
+    style="rounded"; color="#CDD9E3"; margin=20;
+    branch [label="定义分支\n资源差异与检查", fillcolor="#E8F3F0", color="#529382"];
+    review [label="Proposal 审阅\n按资源审批策略", fillcolor="#FFF4DF", color="#BD9753"];
+    merge [label="定义合并\n逐资源核对合并结果", fillcolor="#E8F3F0", color="#529382"];
+    { rank=same; branch; review; merge; }
+    branch -> review -> merge;
+    effects [label="数据与运行副作用\n数据构建 / Action / 外部调用\n隔离与恢复依资源能力", fillcolor="#FFF8EA", color="#B7A070"];
+    publish [label="实际发布与运行验收\n资源自身的发布 / 部署步骤\n检查目标环境与运行结果", fillcolor="#F4F7FA", color="#8DA2B5"];
+    { rank=same; effects; publish; }
+    branch -> effects [style=dashed, label="执行前单独核验"];
+    merge -> publish [style=dashed, label="交付步骤单独核验"];
+  }
+  lineage_note -> branch [style=invis];
+  agents_note -> merge [style=invis];
+  boundary [shape=plain, fontsize=15, fontcolor="#647789",
+    label="分支标签、提案通过或定义合并，均不能单独证明副作用全隔离或应用已经发布。\n下半部分结合 Global Branching / AI FDE 边界归纳，并非 Evolve 新增治理机制。"];
+  effects -> boundary [style=invis];
+  publish -> boundary [style=invis];
+}

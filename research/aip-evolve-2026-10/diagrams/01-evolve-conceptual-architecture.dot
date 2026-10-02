@@ -1,0 +1,42 @@
+digraph architecture {
+  graph [rankdir=TB, bgcolor="#FFFFFF", fontname="PingFang SC", fontsize=25,
+    label="AIP Evolve：目标、验证与人工审阅\n公开资料概念归纳，非官方内部实现", labelloc=t,
+    pad=0.35, nodesep=0.42, ranksep=0.65, splines=polyline, dpi=160, compound=true];
+  node [shape=box, style="rounded,filled", fontname="PingFang SC", fontsize=19,
+    color="#8DA2B5", fontcolor="#183147", fillcolor="#F4F7FA", margin="0.20,0.15", penwidth=1.3];
+  edge [fontname="PingFang SC", fontsize=15, fontcolor="#456174", color="#637E91", arrowsize=0.75, penwidth=1.4];
+
+  input [label="用户定义\n目标资源 · 优化目标\n验证策略 · 变更/迭代限制", fillcolor="#E8F3F0", color="#529382"];
+  evolve [label="AIP Evolve\n组织 evolution\n生成请求并协调探索", fillcolor="#E8EEF9", color="#6887BD"];
+  fleet [label="AI FDE agent fleet\n检查 · 修改 · 验证\n可查看活动与工件", fillcolor="#EEEAF7", color="#9477BC"];
+  { rank=same; input; evolve; fleet; }
+  input -> evolve -> fleet;
+
+  subgraph cluster_foundry {
+    label="Foundry 中的目标与验证工件";
+    fontname="PingFang SC"; fontsize=19; fontcolor="#314C61";
+    style="rounded"; color="#CDD9E3"; margin=20;
+    target [label="目标资源\n函数 / AI 逻辑 / 工作流\n变更范围依目标与限制确定", fillcolor="#EDF5FC", color="#709ABC"];
+    validation [label="数据与评估\n测试用例 · 评估套件\n基线 / 候选输出与指标", fillcolor="#EDF5FC", color="#709ABC"];
+    { rank=same; target; validation; }
+    target -> validation [label="运行与对照"];
+  }
+  fleet -> target [label="候选修改", lhead=cluster_foundry];
+  fleet -> validation [label="验证", lhead=cluster_foundry];
+
+  proposal [label="Proposal 与证据\n推荐变更 · 验证结果\n置信评估与限制", fillcolor="#E8F3F0", color="#529382"];
+  review [label="人工审阅\n检查差异与业务验收\n适用时 Review in Branching", fillcolor="#FFF4DF", color="#BD9753"];
+  release [label="资源专属发布 / 部署\n核对资源权限与发布步骤\n运行验收与后续观察", fillcolor="#F4F7FA", color="#8DA2B5"];
+  { rank=same; proposal; review; release; }
+  validation -> proposal [label="结果与工件"];
+  proposal -> review;
+  review -> release [style=dashed, label="交付流程另行核验"];
+  input -> proposal [style=invis, weight=100];
+  evolve -> target [style=invis, weight=100];
+  target -> review [style=invis, weight=100];
+  fleet -> release [style=invis, weight=100];
+
+  boundary [shape=plain, fontsize=15, fontcolor="#647789",
+    label="范围提示：示例允许模型与 prompt 变更；AI FDE 支撑能力不等于 Evolve 全集。\nEvolve 自有服务架构、固定 agent DAG 与搜索算法未在所引公开资料中说明。"];
+  review -> boundary [style=invis, weight=100];
+}

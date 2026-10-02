@@ -11,4 +11,5 @@
 | [Workshop Runtime](workshop-runtime-2026-10/) | 2026-10 | Official Workshop runtime, variables/events, Ontology reads/actions and versioning documentation; authorized EOS static architecture comparison |
 | [Object Views / Object Explorer / Workshop](object-views-2026-10/) | 2026-10 | Official current and historical Object Views, Explorer, Workshop and Carbon documentation; public author/community evidence and attributable interface media |
 | [Carbon](carbon-2026-10/) | 2026-10 | Official Carbon, Workshop and Insight documentation; dated announcements, pinned source types, original community/author practice and attributable interface media |
+| [AIP Evolve](aip-evolve-2026-10/) | 2026-10 | Official Evolve/AI FDE/Evals/branch/MCP contracts, original community and case transcripts, inspected source screenshots and actual video frames |
 | [In-application AI assistants / AIP Chatbot Studio](aip-chatbot-studio-2026-10/) | 2026-10 | Official Chatbot/Workshop/Commands/API/security/Evals/Marketplace documentation; pinned SDK source/PRs, original developer practice and attributable interface/video evidence |

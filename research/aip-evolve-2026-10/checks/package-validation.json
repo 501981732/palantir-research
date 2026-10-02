@@ -1,0 +1,120 @@
+{
+  "check_date_utc": "2026-10-01",
+  "relative_links_checked": 101,
+  "cited_url_variants": 68,
+  "primary_urls_covered": 47,
+  "stored_media_and_diagram_sources": [
+    {
+      "file": "assets/01-review.png",
+      "bytes": 138497,
+      "sha256": "1e52423b4c7e5c21bb1bf81ed551748bf207d6f0b31eb04ccb978c58be5ad42f",
+      "dimensions": [
+        1440,
+        900
+      ]
+    },
+    {
+      "file": "assets/02-agent-graph.png",
+      "bytes": 178243,
+      "sha256": "27554622366859f630e5ceeb393f8e0dd49c629c1bd12fb4637b921b8bf17a80",
+      "dimensions": [
+        1440,
+        900
+      ]
+    },
+    {
+      "file": "assets/03-proposal.png",
+      "bytes": 126396,
+      "sha256": "04c7ccf7826e6b67539b0b255b5ed26574e7e035aa7edac5c9999db2cce26e63",
+      "dimensions": [
+        1440,
+        900
+      ]
+    },
+    {
+      "file": "assets/04-devcon-agent-graph-13m12s.jpg",
+      "bytes": 44364,
+      "sha256": "4ee5252c463ae6bcece9e501eedb83e7efc4057107465233fb0fad43ca9e76b1",
+      "dimensions": [
+        880,
+        587
+      ]
+    },
+    {
+      "file": "assets/05-devcon-constraints-12m11s.jpg",
+      "bytes": 57436,
+      "sha256": "a481abd06bb04c7d1903203a6c3bda457fe99fb2afb845106a26c50ae696e737",
+      "dimensions": [
+        880,
+        587
+      ]
+    },
+    {
+      "file": "assets/06-tgh-workflow-07m17s.jpg",
+      "bytes": 73734,
+      "sha256": "053591a36d9abe8772a54d4f3a80f32014c71cab9109d871e2d993485e1631e8",
+      "dimensions": [
+        880,
+        587
+      ]
+    },
+    {
+      "file": "diagrams/01-evolve-conceptual-architecture.dot",
+      "bytes": 2854,
+      "sha256": "e7be81bd3071c68cc9ab7ec89dd91d514c7ba5c0d42124afb38eddfc89f0631b"
+    },
+    {
+      "file": "diagrams/01-evolve-conceptual-architecture.png",
+      "bytes": 439394,
+      "sha256": "69ccaa1b3e6aed68047920eb5a5cf777fbdcc355b72d01138c326da28a6aab29",
+      "dimensions": [
+        2737,
+        1585
+      ]
+    },
+    {
+      "file": "diagrams/01-evolve-conceptual-architecture.svg",
+      "bytes": 14148,
+      "sha256": "c5f6d4e03d254510339be26704297c233a5757ae235d0c77a985c6e1de57a1e9"
+    },
+    {
+      "file": "diagrams/02-evolution-validation-flow.dot",
+      "bytes": 2323,
+      "sha256": "a0fa205e6f769da9a01142e9881c6e1999dbdb4812d25e6fa719ee6b928c8dff"
+    },
+    {
+      "file": "diagrams/02-evolution-validation-flow.png",
+      "bytes": 417033,
+      "sha256": "bc645a40ff72f32fa0381bbcd049225ba4d7fba2ec9aeab27123e400f3959b92",
+      "dimensions": [
+        1900,
+        2464
+      ]
+    },
+    {
+      "file": "diagrams/02-evolution-validation-flow.svg",
+      "bytes": 12849,
+      "sha256": "586b23e82ac390d6dfbd38f538559c83c4299cf5e013422c8aabc11c21cc694f"
+    },
+    {
+      "file": "diagrams/03-graphs-and-state-boundaries.dot",
+      "bytes": 3529,
+      "sha256": "bcdaba90318d9c10708bde0a340ad596029a416ed769f77aca75bb4785793dc2"
+    },
+    {
+      "file": "diagrams/03-graphs-and-state-boundaries.png",
+      "bytes": 420783,
+      "sha256": "f1c62da4db88f3f382f93a1c8a6dca4921e38deca537436ab48e558a2d3f6d21",
+      "dimensions": [
+        2165,
+        2027
+      ]
+    },
+    {
+      "file": "diagrams/03-graphs-and-state-boundaries.svg",
+      "bytes": 16029,
+      "sha256": "7abee3c654e6e9f3c113587377553dcf60933fc379125d9bdb6d6fceeaf73d40"
+    }
+  ],
+  "failures": []
+}

@@ -1,0 +1,68 @@
+{
+  "created": "2026-10-01",
+  "kind": "Original conceptual diagrams; not official internal architecture",
+  "renderer": "dot - graphviz version 14.0.4 (20251115.1723)",
+  "font": "PingFang SC",
+  "files": [
+    {
+      "file": "01-evolve-conceptual-architecture.dot",
+      "bytes": 2854,
+      "sha256": "e7be81bd3071c68cc9ab7ec89dd91d514c7ba5c0d42124afb38eddfc89f0631b"
+    },
+    {
+      "file": "01-evolve-conceptual-architecture.svg",
+      "bytes": 14148,
+      "sha256": "c5f6d4e03d254510339be26704297c233a5757ae235d0c77a985c6e1de57a1e9"
+    },
+    {
+      "file": "01-evolve-conceptual-architecture.png",
+      "bytes": 439394,
+      "sha256": "69ccaa1b3e6aed68047920eb5a5cf777fbdcc355b72d01138c326da28a6aab29",
+      "dimensions": [
+        2737,
+        1585
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "02-evolution-validation-flow.dot",
+      "bytes": 2323,
+      "sha256": "a0fa205e6f769da9a01142e9881c6e1999dbdb4812d25e6fa719ee6b928c8dff"
+    },
+    {
+      "file": "02-evolution-validation-flow.svg",
+      "bytes": 12849,
+      "sha256": "586b23e82ac390d6dfbd38f538559c83c4299cf5e013422c8aabc11c21cc694f"
+    },
+    {
+      "file": "02-evolution-validation-flow.png",
+      "bytes": 417033,
+      "sha256": "bc645a40ff72f32fa0381bbcd049225ba4d7fba2ec9aeab27123e400f3959b92",
+      "dimensions": [
+        1900,
+        2464
+      ],
+      "mode": "RGBA"
+    },
+    {
+      "file": "03-graphs-and-state-boundaries.dot",
+      "bytes": 3529,
+      "sha256": "bcdaba90318d9c10708bde0a340ad596029a416ed769f77aca75bb4785793dc2"
+    },
+    {
+      "file": "03-graphs-and-state-boundaries.svg",
+      "bytes": 16029,
+      "sha256": "7abee3c654e6e9f3c113587377553dcf60933fc379125d9bdb6d6fceeaf73d40"
+    },
+    {
+      "file": "03-graphs-and-state-boundaries.png",
+      "bytes": 420783,
+      "sha256": "f1c62da4db88f3f382f93a1c8a6dca4921e38deca537436ab48e558a2d3f6d21",
+      "dimensions": [
+        2165,
+        2027
+      ],
+      "mode": "RGB"
+    }
+  ]
+}
