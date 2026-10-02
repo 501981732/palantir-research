@@ -1,0 +1,20 @@
+digraph release {
+ graph [rankdir=TB,bgcolor="white",pad="0.35",nodesep="0.4",ranksep="0.5",fontname="PingFang SC",label="版本与分发：配置发布、会话固定、函数版本与产品安装",labelloc=t,fontsize=22];
+ node [shape=box,style="rounded,filled",fontname="PingFang SC",fontsize=14,margin="0.17,0.12",color="#7c93a8",fillcolor="#eef4fa"];
+ edge [fontname="PingFang SC",fontsize=12,color="#4e647a",arrowsize=0.7];
+ builder [label="Builder 保存 / 发布 Chatbot",fillcolor="#e8e2f7"];
+ published [label="已发布 agentVersion"];
+ create [label="Create Session\n显式版本或创建时 latest published"];
+ old [label="已有 Session\n响应记录自身 agentVersion",fillcolor="#e3eff9"];
+ fn [label="可选发布为 Function\n按保存或发布生成函数版本"];
+ eval [label="Evals / Automation / Code\n固定评测版本与 fresh session",fillcolor="#e5f3e3"];
+ package [label="Marketplace 产品\nChatbot + 资源依赖 + 安装参数"];
+ install [label="另一 Project / Enrollment 安装\n重新核权限、资源与模型可用性"];
+ builder -> published -> create;
+ published -> old [label="不据新发布推断自动升级",style=dashed];
+ builder -> fn [label="按配置的触发"];
+ fn -> eval;
+ builder -> package -> install;
+ note [shape=note,label="EOS 建议固定：助手 / 模型 / 工具 / 检索 / 应用 / 知识版本。\n这些依赖的整体原子发布与历史知识重放\n尚无本轮公开证据。",fillcolor="#fff0dc"];
+ eval -> note [style=dashed,arrowhead=none];install -> note [style=dashed,arrowhead=none];
+}

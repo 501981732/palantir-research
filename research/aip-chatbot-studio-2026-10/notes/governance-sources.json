@@ -1,0 +1,708 @@
+{
+  "topic": "AIP Chatbot Studio 治理、评估、发布与产品边界",
+  "research_date_utc": "2026-10-01",
+  "evidence_scope": "公开文档、API参考与具名社区历史讨论；无Foundry租户执行。未读EOS内部代码，未对用户记忆写入。",
+  "source_usage": "事实/分析/待验证分开；社区不作当前产品合同；未复制整页。官方文档未公布日期时publication_date为null，检索日期不代表更新日期。API标题为页面标题/资源名。",
+  "sources": [
+    {
+      "id": "GOV-01",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/overview",
+      "title": "AIP Chatbot Studio • Overview • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "原 Agent Studio / AIP Agents；交互助手可在 Foundry 内及自建应用经 OSDK / API 使用",
+        "LLM、Ontology、文档和工具配合，支持动态读写工作流并复用平台治理"
+      ],
+      "capability_status": "当前官方概览；本轮未做租户实测",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-02",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/core-concepts",
+      "title": "AIP Chatbot Studio • Core concepts • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "compiled prompt 与上下文窗口包括指令、历史、检索、application state、工具",
+        "参数旧称与 application state、Function 发布消费关系"
+      ],
+      "capability_status": "当前概念文档；超出上下文窗口会报错",
+      "cited_in_note": false
+    },
+    {
+      "id": "GOV-03",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/getting-started",
+      "title": "AIP Chatbot Studio • Getting started • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "Chatbot 为细粒度 ACL 文件系统资源；模型受 enrollment 启用及权限约束",
+        "Save 保存版本描述；View 选版本；Publish 生产消费；Monitoring / Usage 与反馈"
+      ],
+      "capability_status": "当前操作文档；UI 可能按 enrollment 改变",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-04",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/tools",
+      "title": "AIP Chatbot Studio • Tools • Overview • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "Action 自动或确认后执行；Function 可为已发布 Logic，默认 latest 或固定 published version",
+        "变量更新、Commands、clarification 等工具；prompted/native 工具调用范围不同",
+        "View reasoning 的宿主覆盖，不证明模型私有完整思维过程"
+      ],
+      "capability_status": "当前工具概览；不可泛化所有工具默认人工审批",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-05",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/chatbots-as-functions",
+      "title": "AIP Chatbot Studio • Chatbots as Functions • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "Publish 或每次 Save minor Function version；Evals、Automate、Code Repositories 可消费",
+        "userInput、sessionRid、新/续会话、application variables 与 updated outputs 契约",
+        "Evals suite 同 Project；sessionRid=null；ObjectSet null 或实际值而非空"
+      ],
+      "capability_status": "当前官方功能；不能据此推断客户端 Commands 在所有 headless 环境可执行",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-06",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/session-logging",
+      "title": "AIP Chatbot Studio • Session logging • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "每消息为一次 execution；traceId、session_rid、uid、owning_rid 归属",
+        "结构化事件含 compiled prompt、tool definitions、检索、变量、请求、结果与错误",
+        "导出 prerequisites 与可变化 schema"
+      ],
+      "capability_status": "当前官方日志 schema；uid 字段不等于导出默认解除身份隐藏",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-07",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/marketplace",
+      "title": "AIP Chatbot Studio • Distribute AIP Chatbots using Marketplace • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "Foundry DevOps 产品包；Chatbot 直接入包或随 Workshop module 的 widget 纳入",
+        "当前例外为 Assist agents；document context 自动打包整个 media set，包括未使用条目"
+      ],
+      "capability_status": "当前官方打包规则；未证明迁移会话、遥测或外部凭据",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-08",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/foundry-apis",
+      "title": "AIP Chatbot Studio • Use AIP Chatbots through Foundry APIs • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "会话 blocking / streaming 与参数输入/输出；OSDK 或平台 SDK 消费",
+        "客户端声明单 Ontology 类型、资源 Projects、AIP Chatbot write operations；依赖新增不会自动更新"
+      ],
+      "capability_status": "当前集成指南；未建立任意自建 React 的通用 Command dispatcher 契约",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-09",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/commands-as-tools",
+      "title": "AIP Chatbot Studio • Tools • Use commands as tools in AIP Chatbot Studio • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "Commands 在用户应用运行，读取当前应用状态/屏幕，要求应用声明并配对",
+        "含 Commands 的 Chatbot 自动采用 24 小时 inactivity retention；配置标 Beta",
+        "默认审批 payload，可关闭；Function 在不支持环境（如 Automate）忽略 Commands"
+      ],
+      "capability_status": "Commands 配置 Beta；24 小时不可泛化为所有 Chatbot 默认",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-10",
+      "url": "https://www.palantir.com/docs/foundry/aip/control-llm-data-access-with-markings",
+      "title": "Administration • Control LLM data access with Markings • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "模型 allowlist 检查请求 token 的全部 mandatory Markings，不只本次数据",
+        "scoped session 缩小 Markings；registered model override 完全替换默认，可更严或更宽"
+      ],
+      "capability_status": "当前模型治理；不赋予额外业务数据读取权",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-11",
+      "url": "https://www.palantir.com/docs/foundry/aip/aip-security",
+      "title": "AIP security and privacy • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "Palantir 声明 AIP 第三方托管模型 prompts / completions 零保留、无客户数据训练",
+        "技术与合同保证以及部署/地区说明"
+      ],
+      "capability_status": "供应商政策声明；不是 Foundry 自身存储零保留，也不自动证明任意自接外部模型",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-12",
+      "url": "https://www.palantir.com/docs/foundry/administration/configure-logging",
+      "title": "Organization settings • Configure logging [Beta] • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "log exporting 为 Beta / enrollment 可能未开启；Organization Administrator 配置 streaming dataset",
+        "导出配置从创建时写入；source executor / organization Markings / Action project-based permissions 约束；user ID 默认 redacted",
+        "Foundry logs 非 audit logs，无 100% 投递保证；日志查看与导出 dataset 权限独立",
+        "平台内他人日志 30 天；log access enablement、显式 Markings、roles 与 attributed Project"
+      ],
+      "capability_status": "日志导出 Beta；不把 log retention 或自查看窗口当 session retention",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-13",
+      "url": "https://www.palantir.com/docs/foundry/aip-observability/overview",
+      "title": "Ontology and AIP observability • Overview • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "跨 Function、Action、Automate、Logic 的 metrics、tracing、run history",
+        "可观察性是平台层能力，需具体资源/权限核验"
+      ],
+      "capability_status": "当前平台概览；没有据此断言特定 Chatbot 的每项 UI 可用",
+      "cited_in_note": false
+    },
+    {
+      "id": "GOV-14",
+      "url": "https://www.palantir.com/docs/foundry/aip-observability/service-logs-and-debugging",
+      "title": "Ontology and AIP observability • Logging and debugging • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "服务/trace 日志与本人最近 24 小时访问说明",
+        "调试内容与 log access 范围"
+      ],
+      "capability_status": "当前文档；权限细节优先以 Log permissions 专页校准",
+      "cited_in_note": false
+    },
+    {
+      "id": "GOV-15",
+      "url": "https://www.palantir.com/docs/foundry/aip-observability/log-permissioning",
+      "title": "Ontology and AIP observability • Log permissions • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "source executor 包括 AIP agent；跨用户 traces/service logs 需要 telemetry operation、enablement、全部显式 Markings",
+        "本人 24 小时仍需 view-execution-history operation，仅 enablement 豁免；CBAC 无该豁免",
+        "日志 Markings 不从源资源、输入或访问数据自动传播"
+      ],
+      "capability_status": "当前专门权限文档；日志权限不可由业务数据权限推断",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-16",
+      "url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/create-session",
+      "title": "Create Session • API Reference • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "为调用用户创建 session；api:aip-agents-write scope",
+        "agentVersion 可指定，省略则会话创建时绑定最新 published；metadata 包含版本关联"
+      ],
+      "capability_status": "API Preview；不是整个 Studio 成熟度标签",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-17",
+      "url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/blocking-continue-session",
+      "title": "Blocking Continue Session • API Reference • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "同 session 不支持并发请求；上次响应之后再继续",
+        "继续请求与 parameter inputs / response 契约"
+      ],
+      "capability_status": "API Preview；没有据此保证取消后的已提交副作用回滚",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-18",
+      "url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/get-session",
+      "title": "Get Session • API Reference • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "session metadata 的 agentVersion、estimatedExpiresTime 等字段",
+        "返回示例不足以推出通用固定保留时间"
+      ],
+      "capability_status": "API Preview；未把示例日期当保留 SLA",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-19",
+      "url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/delete-session",
+      "title": "Delete Session • API Reference • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "删除调用者 session 后不再可访问/列出"
+      ],
+      "capability_status": "API Preview；文档未将其定义为同步删除全部遥测/已导出数据",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-20",
+      "url": "https://www.palantir.com/docs/foundry/api/v2/general/overview/authentication",
+      "title": "Authentication • API Reference • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "OAuth Authorization Code 代表用户；Client Credentials 代表 service user",
+        "scope 与 principal 原有权限相交；开发 token 不宜作为生产认证"
+      ],
+      "capability_status": "通用 API 合同；具体 Chatbot 内层工具身份仍须按路径验证",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-21",
+      "url": "https://www.palantir.com/docs/foundry/aip-analyst/overview",
+      "title": "AIP Analyst • Overview • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "临时 Ontology 数据分析、对象集转换、汇总、图表",
+        "analysis 可保存 Compass、嵌入 Workshop / iframe"
+      ],
+      "capability_status": "当前成品分析入口；不能因此推断只读",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-22",
+      "url": "https://www.palantir.com/docs/foundry/aip-analyst/capabilities",
+      "title": "AIP Analyst • Capabilities • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "Function lookup / Execute function 与 Action lookup / Execute action",
+        "Actions 可创建/修改对象，通常需审批，配置自动提交例外",
+        "Ontology SQL、dataset SQL、Skills 等分析能力"
+      ],
+      "capability_status": "当前产品能力表；纠正 Analyst 不执行工具的旧边界",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-23",
+      "url": "https://www.palantir.com/docs/foundry/assist/overview",
+      "title": "AIP Assist • Overview • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "默认平台支持助手可对话、感知所在应用；默认不访问用户业务数据",
+        "AIP Control Panel enablement 与自定义来源扩展入口"
+      ],
+      "capability_status": "默认 Assist 合同；不类推 custom Chatbots",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-24",
+      "url": "https://www.palantir.com/docs/foundry/assist/agents-in-aip-assist",
+      "title": "AIP Assist • Power AIP Assist with custom content sources • Deploy custom source-backed AIP Chatbots • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "可把 Studio 自定义知识/Ontology/tools/Functions 的 Chatbots 部署 Assist",
+        "保存位置 ACL、custom content source、模型访问权分别要求",
+        "注册 source 不自动改变助手；发布版本和 Usage enablement"
+      ],
+      "capability_status": "当前支持文档夹有历史 UI 图标；按配置/enrollment 核验界面",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-25",
+      "url": "https://www.palantir.com/docs/foundry/assist/aip-assist-suggested-actions",
+      "title": "AIP Assist • Suggested actions in AIP Assist • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "建议导航和应用内 action，缺答案时引导社区帖子草稿",
+        "Community 建议提交仍由用户确认"
+      ],
+      "capability_status": "建议型平台操作；不是任意业务 Action 已授权",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-26",
+      "url": "https://www.palantir.com/docs/foundry/ai-fde/overview",
+      "title": "AI FDE • Overview • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "工程资源操作助手，可建设应用、Ontology、pipeline 与 repositories",
+        "与业务 Chatbot 运行时工作流不同"
+      ],
+      "capability_status": "当前工程产品；不能直接移植分支/审批默认到 Chatbot",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-27",
+      "url": "https://www.palantir.com/docs/foundry/ai-fde/security-and-governance",
+      "title": "AI FDE • Security and governance • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "AI FDE 明确使用用户现有 Foundry session，没有独立 service account / escalated privilege",
+        "mutating 工具按每次或 session 范围批准，分支感知策略",
+        "session 归创建用户与 Markings，audit attributed user"
+      ],
+      "capability_status": "AI FDE 专属产品合同；正文完整直接阅读，不仅搜索片段",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-28",
+      "url": "https://www.palantir.com/docs/foundry/pilot/overview",
+      "title": "Pilot • Overview • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "自然语言生成 Ontology、design spec、React / OSDK、seed data 与应用/widget 部署",
+        "builder 隔离 seed data 与应用开发/部署流程"
+      ],
+      "capability_status": "Pilot Beta；构建时隔离不保证 Chatbot 运行时不访问真实数据",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-29",
+      "url": "https://www.palantir.com/docs/foundry/aip-evolve/overview",
+      "title": "AIP Evolve • Overview • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "协调 AI FDE fleets，通过目标、验证、约束优化 AI 系统并生成 proposals",
+        "Marketplace 安装、Ontology/资源/数据/Evals 权限要求"
+      ],
+      "capability_status": "当前官方概览；例子成本和迭代数不作为一般性能或已运行结果",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-30",
+      "url": "https://www.palantir.com/docs/foundry/aip-evals/overview",
+      "title": "AIP Evals • Overview • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "Logic、Chatbot Function、代码 Function 的非确定性输出评估",
+        "cases、evaluators、metrics、版本与模型比较、多运行方差"
+      ],
+      "capability_status": "当前评估框架；不等于端到端宿主行为验收",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-31",
+      "url": "https://www.palantir.com/docs/foundry/aip-evals/create-suite",
+      "title": "AIP Evals • Create an evaluation suite • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "选择目标 Function；人工/对象集 test cases；多个目标函数与各自签名/evaluator"
+      ],
+      "capability_status": "当前 suite 创建合同；需实际目标 Function 权限",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-32",
+      "url": "https://www.palantir.com/docs/foundry/aip-evals/run-suite",
+      "title": "AIP Evals • Run an evaluation suite • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "默认 user-scoped 发起人权限，本人结果24小时删除、无dataset",
+        "project-scoped Beta：依赖同Project导入，项目可见结果indefinite并可写dataset",
+        "每 case 至少3次为官方建议；本文未执行该次数"
+      ],
+      "capability_status": "project-scoped Beta；保存条件不同于 Chatbot session 保留",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-33",
+      "url": "https://www.palantir.com/docs/foundry/aip-evals/ontology-edits",
+      "title": "AIP Evals • Evaluate Ontology edits • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "每测试 case 的 Logic Function 在 Ontology simulation 中执行，真实 Ontology 不变",
+        "自定义 evaluator 检查模拟对象创建/修改/删除"
+      ],
+      "capability_status": "明确 Logic Ontology edits 语境；不能推断所有 Chatbot /外部工具都自动模拟",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-34",
+      "url": "https://www.palantir.com/docs/foundry/aip-evals/results-dataset",
+      "title": "AIP Evals • Write run results to a dataset • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "results dataset 与 suite 同Project且只project-scoped可写",
+        "输出、evaluator结果、元数据和错误；metric objective passed/failed 当前不写出"
+      ],
+      "capability_status": "当前官方限制；不是永久固定的结果 schema",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-35",
+      "url": "https://www.palantir.com/docs/foundry/logic/execution-mode-settings",
+      "title": "AIP Logic • Execution mode settings • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "user-scoped 默认，以用户权限，日志仅本人24小时",
+        "project-scoped 使用Project权限，依赖资源导入该Project，用户仍需Markings；日志Project可见"
+      ],
+      "capability_status": "Logic 专属执行合同；不能泛化 Chatbot 全部工具",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-36",
+      "url": "https://www.palantir.com/docs/foundry/logic/staged-writes",
+      "title": "AIP Logic • Staged writes • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "嵌套 Function / Action Ontology edits 暂存，同次Logic执行读到，结束后应用",
+        "新函数未来默认启用措辞；Automate Logic effect 与staged Action消费路径不同"
+      ],
+      "capability_status": "staged writes Beta；不构成整段 Chatbot 会话或所有外部副作用的原子事务",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-37",
+      "url": "https://www.palantir.com/docs/foundry/action-types/permissions",
+      "title": "Action types • Permissions • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "Action 对编辑对象/关系类型、datasource、writeback/RV与submission criteria的要求",
+        "row/column读控制不自动延伸写入；要Markings / CBAC及读写authorizations",
+        "配置Action log后须相应对象类型权限"
+      ],
+      "capability_status": "平台Action规则；前端确认不能替代",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-38",
+      "url": "https://www.palantir.com/docs/foundry/action-types/submission-criteria",
+      "title": "Action types • Submission criteria • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "criteria与编辑Action type权限独立，用户、参数、对象、关系、执行上下文条件共同生效",
+        "attachment/ObjectSet参数不支持criteria",
+        "NOT group/Marking/org membership误配可受scoped token缺属性影响"
+      ],
+      "capability_status": "当前平台限制与误配提示；应测试正向授权和未知属性",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-39",
+      "url": "https://community.palantir.com/t/aip-agent-studio-does-not-support-compute-module-functions-as-tools/4448",
+      "title": "AIP Agent Studio does not support compute module functions as tools - Ask the Community - Palantir Developer Community",
+      "source_type": "historical_community_thread",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": "2025-07-10",
+      "supported_claims": [
+        "2025-07-10 CodeStrap报stateful Compute工具scope失败，讨论关联retention/scoped execution",
+        "最终提问者确认 retention UI设置纠正后resolved"
+      ],
+      "capability_status": "历史具名社区经验；不作为当前默认保留或Function完整支持矩阵；未认证回复者职务",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-40",
+      "url": "https://community.palantir.com/t/questions-regarding-aip-threads-and-aip-agent-studio/3816",
+      "title": "Questions regarding AIP Threads and AIP Agent Studio - Ask the Community - Palantir Developer Community",
+      "source_type": "historical_community_thread",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": "2025-05-08",
+      "supported_claims": [
+        "2025-05-08讨论Agent context、indefinite retention、Function/Marketplace等发布线索"
+      ],
+      "capability_status": "历史社区线索；未据此推导2026-10通用合同，详稿未引用",
+      "cited_in_note": false
+    },
+    {
+      "id": "GOV-41",
+      "url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/session-basics",
+      "title": "Session • API Reference • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "session 为用户与AIP Agent的对话资源概念"
+      ],
+      "capability_status": "API资源概念；详稿以具体端点为证据",
+      "cited_in_note": false
+    },
+    {
+      "id": "GOV-42",
+      "url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/agent-versions/agent-version-basics",
+      "title": "Agent Version • API Reference • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "Agent配置版本概念"
+      ],
+      "capability_status": "API资源概念；详稿以Create Session版本绑定为证据",
+      "cited_in_note": false
+    },
+    {
+      "id": "GOV-43",
+      "url": "https://www.palantir.com/docs/foundry/functions/permissions",
+      "title": "Functions • Function management • Permissions • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "一般已发布Function需要repository Viewer，Function-backed Action例外按Action权限",
+        "对象按执行用户读取；row/column控制不延伸到Function输出，需Markings/CBAC",
+        "extended Functions发布/运行/Marketplace安装需管理员allowlists"
+      ],
+      "capability_status": "当前平台Function治理；扩展Function可含Actions，不可称所有Function只读",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV-44",
+      "url": "https://www.palantir.com/docs/foundry/action-types/action-log",
+      "title": "Action types • Action log • Palantir",
+      "source_type": "official_documentation",
+      "retrieved_date_utc": "2026-10-01",
+      "retrieval_method": "web.run open/find；公开页面正文直接阅读",
+      "publication_date": null,
+      "supported_claims": [
+        "业务决策Action log只记录成功提交；失败由metrics记录",
+        "API/SDK应用Action同样生成log；直接datasource或legacy writeback不覆盖",
+        "完整对象edit history、metrics、monitoring、undo属不同机制"
+      ],
+      "capability_status": "当前Action log定义；与Chatbot遥测/平台audit互不替代",
+      "cited_in_note": true
+    },
+    {
+      "id": "GOV45",
+      "url": "https://www.palantir.com/docs/foundry/announcements/2025-05/",
+      "title": "May 2025 — Indefinite conversation retention in AIP Agent Studio and AIP Threads",
+      "source_type": "official_dated_announcement",
+      "retrieved_date_utc": "2026-10-02",
+      "publication_date": "2025-05-06",
+      "verification": "directly read current official page and indefinite section",
+      "supports": [
+        "Studio opt-in retention by assistant/version",
+        "not retroactive to old unconfigured versions",
+        "restricted-view exclusion as dated announcement",
+        "Threads model mode versus Chatbot mode",
+        "current annotation of rename week 2026-04-27"
+      ],
+      "limitations": [
+        "historical release/configuration evidence, not current tenant default or universal retention SLA"
+      ]
+    }
+  ],
+  "retrieval_notes": [
+    {
+      "url": "https://www.palantir.com/docs/foundry/aip-evals/run-evaluation/",
+      "result": "猜测路径无法读取；经官方导航找到run-suite，非权限拒绝；不作为来源证据"
+    },
+    {
+      "url": "https://www.palantir.com/docs/foundry/api/v2/connectivity-v2-resources/connections/connection-basics",
+      "result": "导航误点，与主题无关，不引用不作为能力证据"
+    }
+  ],
+  "media": "媒体来源、逐图观察与校验另见media-manifest.json，不将文档文字称为真实UI操作。"
+}

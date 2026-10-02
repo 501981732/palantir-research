@@ -1,0 +1,20 @@
+digraph writes {
+ graph [rankdir=LR,bgcolor="white",pad="0.35",nodesep="0.38",ranksep="0.55",fontname="PingFang SC",label="写入与确认：三种工具契约应分别验证",labelloc=t,fontsize=22];
+ node [shape=box,style="rounded,filled",fontname="PingFang SC",fontsize=14,margin="0.17,0.12",color="#7c93a8",fillcolor="#eef4fa"];
+ edge [fontname="PingFang SC",fontsize=12,color="#4e647a",arrowsize=0.7];
+ select [label="模型提出调用\n工具名 + 参数",fillcolor="#e5f3e3"];
+ action [label="Action 工具\n自动 / 用户确认（配置）"];
+ criteria [label="后端提交条件与数据权限\n确认不替代 submission criteria",fillcolor="#fff0dc"];
+ apply [label="Ontology 编辑\n结果核验与下游刷新"];
+ fn [label="Function / AIP Logic\n版本与 execution mode"];
+ behavior [label="函数实现的读写副作用\n独立核对 edits / 外部调用",fillcolor="#fff0dc"];
+ cmd [label="Command 工具配置（Beta）\n默认审批 payload"];
+ paired [label="配对应用客户端执行\n当前 UI / 应用状态"];
+ api [label="应用自身业务 API\n独立身份与后端授权",fillcolor="#fff0dc"];
+ select -> action -> criteria -> apply;
+ select -> fn -> behavior;
+ select -> cmd -> paired;
+paired -> api [label="若具体 Command 调用业务 API"];
+ summary [shape=note,label="没有公开证据证明三条链共享同一审批事务、\n幂等键、超时补偿或统一回滚。\n这些是 EOS 验证项目，不是已知平台保证。",fillcolor="#fff0dc"];
+ apply -> summary [style=dashed,arrowhead=none];behavior -> summary [style=dashed,arrowhead=none];api -> summary [style=dashed,arrowhead=none];
+}

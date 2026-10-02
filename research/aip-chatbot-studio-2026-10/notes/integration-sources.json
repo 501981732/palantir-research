@@ -1,0 +1,766 @@
+{
+  "retrieved_date_utc": "2026-10-01",
+  "completed_at_utc": "2026-10-01 23:53:14 UTC",
+  "method": "web.run primary documentation; shell read-only public Git clones after require_escalated authorization; fixed HEAD and source/type/test inspection",
+  "boundaries": [
+    "no authenticated Foundry tenant",
+    "no runtime/compile/test execution",
+    "no new EOS internal code/data read",
+    "no old topics/index edits",
+    "no commit/push"
+  ],
+  "sources": [
+    {
+      "id": "INT01",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/overview/",
+      "title": "AIP Chatbot Studio — Overview",
+      "retrieved_date_utc": "2026-10-01",
+      "publication_date": null,
+      "source_type": "official_documentation",
+      "supports": [
+        "Studio/Agent rename",
+        "application integration with read/write workflows"
+      ],
+      "limitations": [
+        "overview only, no tenant validation"
+      ]
+    },
+    {
+      "id": "INT02",
+      "url": "https://www.palantir.com/docs/foundry/workshop/widgets-aip-chatbot/",
+      "title": "Workshop — AIP Chatbot widget",
+      "retrieved_date_utc": "2026-10-01",
+      "publication_date": null,
+      "source_type": "official_documentation",
+      "supports": [
+        "modern Studio vs deprecated Legacy",
+        "published version selection",
+        "application state mapping",
+        "textbox external change auto-send"
+      ],
+      "limitations": [
+        "Prompt/Tools sections are Legacy; no session lifecycle experiment"
+      ]
+    },
+    {
+      "id": "INT03",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/application-state/",
+      "title": "AIP Chatbot Studio — Application state",
+      "retrieved_date_utc": "2026-10-01",
+      "publication_date": null,
+      "source_type": "official_documentation",
+      "supports": [
+        "string/ObjectSet mapping",
+        "visibility separate from input",
+        "deterministic stream-end outputs",
+        "loop-start pinned input",
+        "citation variable update"
+      ],
+      "limitations": [
+        "no whole-loop transaction or universal output scheduling promise"
+      ]
+    },
+    {
+      "id": "INT04",
+      "url": "https://www.palantir.com/docs/foundry/cross-app-interactivity/commands-overview/",
+      "title": "Cross-application interactivity — Commands",
+      "retrieved_date_utc": "2026-10-01",
+      "publication_date": null,
+      "source_type": "official_documentation",
+      "supports": [
+        "declared client-side operations",
+        "Workshop Button/Metric/AppPairing triggers",
+        "target selection and output mapping"
+      ],
+      "limitations": [
+        "no complete arbitrary React Command producer SDK contract"
+      ]
+    },
+    {
+      "id": "INT05",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/commands-as-tools/",
+      "title": "Use commands as tools in AIP Chatbot Studio",
+      "retrieved_date_utc": "2026-10-01",
+      "publication_date": null,
+      "source_type": "official_documentation",
+      "supports": [
+        "current app/state/screen execution",
+        "Beta config",
+        "default payload user approval",
+        "parameter overrides",
+        "pairing",
+        "headless function ignores unsupported commands",
+        "commands Chatbot inactivity24h retention"
+      ],
+      "limitations": [
+        "no server Action authorization bypass; retention not generalized to all chatbots"
+      ]
+    },
+    {
+      "id": "INT06",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/foundry-apis/",
+      "title": "Use AIP Chatbots through Foundry APIs",
+      "retrieved_date_utc": "2026-10-01",
+      "publication_date": null,
+      "source_type": "official_documentation",
+      "supports": [
+        "multi-turn session APIs",
+        "parameterInput/output handling",
+        "one Ontology requirement",
+        "Developer Console resource/project coverage",
+        "resource changes not auto updated",
+        "traceID use"
+      ],
+      "limitations": [
+        "API overview; interactive approval handshake absent"
+      ]
+    },
+    {
+      "id": "INT07",
+      "url": "https://www.palantir.com/docs/foundry/chatbot-studio/chatbots-as-functions/",
+      "title": "Chatbots as Functions",
+      "retrieved_date_utc": "2026-10-01",
+      "publication_date": null,
+      "source_type": "official_documentation",
+      "supports": [
+        "optional sessionRID",
+        "application input/output/default",
+        "publish vs saved Function versions",
+        "OSDK function consumption",
+        "Evals"
+      ],
+      "limitations": [
+        "generated Function signature must be inspected in actual SDK"
+      ]
+    },
+    {
+      "id": "INT08",
+      "url": "https://www.palantir.com/docs/foundry/api/aip-agents-v2-resources/sessions/create-session",
+      "title": "API v2 — Create Session",
+      "retrieved_date_utc": "2026-10-01",
+      "publication_date": null,
+      "source_type": "official_documentation",
+      "supports": [
+        "POST route",
+        "preview true",
+        "AIP write scope",
+        "version defaults latest published at session creation"
+      ],
+      "limitations": [
+        "preview may change/remove"
+      ]
+    },
+    {
+      "id": "INT09",
+      "url": "https://www.palantir.com/docs/foundry/api/aip-agents-v2-resources/sessions/blocking-continue-session",
+      "title": "API v2 — Blocking Continue Session",
+      "retrieved_date_utc": "2026-10-01",
+      "publication_date": null,
+      "source_type": "official_documentation",
+      "supports": [
+        "single-session no concurrency",
+        "request values",
+        "contextOverride replace retrieval",
+        "READ_WRITE output requirement",
+        "optional maps in REST"
+      ],
+      "limitations": [
+        "preview; no approval/resume protocol"
+      ]
+    },
+    {
+      "id": "INT10",
+      "url": "https://www.palantir.com/docs/foundry/api/aip-agents-v2-resources/sessions/streaming-continue-session",
+      "title": "API v2 — Streaming Continue Session",
+      "retrieved_date_utc": "2026-10-01",
+      "publication_date": null,
+      "source_type": "official_documentation",
+      "supports": [
+        "markdown response text stream",
+        "poststream getContent",
+        "messageId cancellation",
+        "single-session no concurrent continue"
+      ],
+      "limitations": [
+        "preview; not SSE event contract"
+      ]
+    },
+    {
+      "id": "INT11",
+      "url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/sessions/cancel-session/",
+      "title": "API v2 — Cancel Session",
+      "retrieved_date_utc": "2026-10-01",
+      "publication_date": null,
+      "source_type": "official_documentation",
+      "supports": [
+        "same messageId",
+        "response omission vs replacement exchange",
+        "cancel does not close stream"
+      ],
+      "limitations": [
+        "no Action/external side-effect rollback guarantee"
+      ]
+    },
+    {
+      "id": "INT12",
+      "url": "https://www.palantir.com/docs/foundry/api/aip-agents-v2-resources/sessions/get-session",
+      "title": "API v2 — Get Session",
+      "retrieved_date_utc": "2026-10-01",
+      "publication_date": null,
+      "source_type": "official_documentation",
+      "supports": [
+        "session metadata and fixed version"
+      ],
+      "limitations": [
+        "preview"
+      ]
+    },
+    {
+      "id": "INT13",
+      "url": "https://www.palantir.com/docs/foundry/api/aip-agents-v2-resources/contents/get-content",
+      "title": "API v2 — Get Content",
+      "retrieved_date_utc": "2026-10-01",
+      "publication_date": null,
+      "source_type": "official_documentation",
+      "supports": [
+        "exchange history / structured result"
+      ],
+      "limitations": [
+        "preview"
+      ]
+    },
+    {
+      "id": "INT14",
+      "url": "https://www.palantir.com/docs/foundry/api/v2/aip-agents-v2-resources/session-traces/get-session-trace",
+      "title": "API v2 — Get Session Trace",
+      "retrieved_date_utc": "2026-10-01",
+      "publication_date": null,
+      "source_type": "official_documentation",
+      "supports": [
+        "trace polling / context/tool-call sequence"
+      ],
+      "limitations": [
+        "preview; not a writable approval protocol"
+      ]
+    },
+    {
+      "id": "INT15",
+      "url": "https://www.palantir.com/docs/foundry/developer-console/permissions/",
+      "title": "Developer Console — Permissions",
+      "retrieved_date_utc": "2026-10-01",
+      "publication_date": null,
+      "source_type": "official_documentation",
+      "supports": [
+        "configuration vs linked OAuth access",
+        "frontend LMS-backed Action viewer requirement"
+      ],
+      "limitations": [
+        "enrollment-dependent Compass-managed roles"
+      ]
+    },
+    {
+      "id": "INT16",
+      "url": "https://www.palantir.com/docs/foundry/action-types/permissions/",
+      "title": "Action types — Permissions",
+      "retrieved_date_utc": "2026-10-01",
+      "publication_date": null,
+      "source_type": "official_documentation",
+      "supports": [
+        "back-end edit/data/submission/side-effect permissions"
+      ],
+      "limitations": [
+        "not a Command protocol"
+      ]
+    },
+    {
+      "id": "INT17",
+      "url": "https://www.palantir.com/docs/foundry/action-types/submission-criteria/",
+      "title": "Action types — Submission criteria",
+      "retrieved_date_utc": "2026-10-01",
+      "publication_date": null,
+      "source_type": "official_documentation",
+      "supports": [
+        "submission criteria separate from edit-type permissions"
+      ],
+      "limitations": [
+        "requires builder configuration"
+      ]
+    },
+    {
+      "id": "INT18",
+      "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/Session.ts",
+      "title": "Platform SDK — Session methods",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_source",
+      "commit": "4320149c31bcbcc2d176564d9259e343d9702d2b",
+      "supports": [
+        "exact signatures/routes/scopes",
+        "Response octet stream",
+        "list excludes other-client sessions",
+        "cancel",
+        "ragContext"
+      ],
+      "limitations": [
+        "generated public API client only; no tenant execution"
+      ]
+    },
+    {
+      "id": "INT19",
+      "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/_components.ts",
+      "title": "Platform SDK — AIP Agents v2 components",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_source",
+      "commit": "4320149c31bcbcc2d176564d9259e343d9702d2b",
+      "supports": [
+        "parameter discriminated unions",
+        "maps required in TS",
+        "session version/content/trace metadata",
+        "no confirmation/paused/resume in checked request/results"
+      ],
+      "limitations": [
+        "absence bounded to fixed public schema"
+      ]
+    },
+    {
+      "id": "INT20",
+      "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/_errors.ts",
+      "title": "Platform SDK — AIP Agents v2 errors",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_source",
+      "commit": "4320149c31bcbcc2d176564d9259e343d9702d2b",
+      "supports": [
+        "cancel race conditions",
+        "variable/version mismatch",
+        "context/token/iteration/rate/retry errors"
+      ],
+      "limitations": [
+        "error definitions are not observed incidents"
+      ]
+    },
+    {
+      "id": "INT21",
+      "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/Content.ts",
+      "title": "Platform SDK — Content.get",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_source",
+      "commit": "4320149c31bcbcc2d176564d9259e343d9702d2b",
+      "supports": [
+        "content signature/route/read scope"
+      ],
+      "limitations": [
+        "no session runtime test"
+      ]
+    },
+    {
+      "id": "INT22",
+      "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/Agent.ts",
+      "title": "Platform SDK — Agent.get",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_source",
+      "commit": "4320149c31bcbcc2d176564d9259e343d9702d2b",
+      "supports": [
+        "versioned configuration and parameters retrieval"
+      ],
+      "limitations": [
+        "preserved Agent resource name for Chatbot API"
+      ]
+    },
+    {
+      "id": "INT23",
+      "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/public/SessionTrace.ts",
+      "title": "Platform SDK — SessionTrace.get",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_source",
+      "commit": "4320149c31bcbcc2d176564d9259e343d9702d2b",
+      "supports": [
+        "trace polling signature/route/read scope"
+      ],
+      "limitations": [
+        "not approve/resume endpoint"
+      ]
+    },
+    {
+      "id": "INT24",
+      "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/package.json",
+      "title": "Platform SDK — @osdk/foundry.aipagents package",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_source",
+      "commit": "4320149c31bcbcc2d176564d9259e343d9702d2b",
+      "supports": [
+        "2.82.0",
+        "browser/v2 exports",
+        "API gateway generated baseline"
+      ],
+      "limitations": [
+        "no npm install verification"
+      ]
+    },
+    {
+      "id": "INT25",
+      "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.aipagents/src/v2/index.ts",
+      "title": "Platform SDK — aipagents v2 exports",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_source",
+      "commit": "4320149c31bcbcc2d176564d9259e343d9702d2b",
+      "supports": [
+        "Agents/Sessions/Contents/SessionTraces"
+      ],
+      "limitations": [
+        "no renaming to foundry.agents"
+      ]
+    },
+    {
+      "id": "INT26",
+      "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/foundry.ontologies/src/v2/_components.ts",
+      "title": "Platform SDK — Ontology ObjectSet wire types",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_source",
+      "commit": "4320149c31bcbcc2d176564d9259e343d9702d2b",
+      "supports": [
+        "ObjectSet definition union",
+        "reference vs base/static",
+        "ObjectSet RID distinct from client builder"
+      ],
+      "limitations": [
+        "not generated OSDK builder serialization promise"
+      ]
+    },
+    {
+      "id": "INT27",
+      "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/shared.net.platformapi/src/foundryPlatformFetch.ts",
+      "title": "Platform SDK — foundryPlatformFetch",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_source",
+      "commit": "4320149c31bcbcc2d176564d9259e343d9702d2b",
+      "supports": [
+        "shared context adapter",
+        "JSON/Response/SSE branches",
+        "accept media",
+        "no signal method input"
+      ],
+      "limitations": [
+        "network wrapper details only"
+      ]
+    },
+    {
+      "id": "INT28",
+      "url": "https://github.com/palantir/foundry-platform-typescript/blob/4320149c31bcbcc2d176564d9259e343d9702d2b/packages/shared.net.platformapi/src/foundryPlatformFetch.test.ts",
+      "title": "Platform SDK — URL parser tests",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_source",
+      "commit": "4320149c31bcbcc2d176564d9259e343d9702d2b",
+      "supports": [
+        "context path/trailing slash test cases"
+      ],
+      "limitations": [
+        "read only; not executed; not chatbot e2e"
+      ]
+    },
+    {
+      "id": "INT29",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/Client.ts",
+      "title": "OSDK — Client interface",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_source",
+      "commit": "dec2ee4b637a23e1b7e56fb0f50599386301c930",
+      "supports": [
+        "extends SharedClient new/old",
+        "generated Query executeFunction"
+      ],
+      "limitations": [
+        "not all versions compatibility"
+      ]
+    },
+    {
+      "id": "INT30",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/createClient.ts",
+      "title": "OSDK — createClient",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_source",
+      "commit": "dec2ee4b637a23e1b7e56fb0f50599386301c930",
+      "supports": [
+        "tokenProvider and signatures",
+        "SharedClient context wiring"
+      ],
+      "limitations": [
+        "no tenant run"
+      ]
+    },
+    {
+      "id": "INT31",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/package.json",
+      "title": "OSDK — @osdk/client package",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_source",
+      "commit": "dec2ee4b637a23e1b7e56fb0f50599386301c930",
+      "supports": [
+        "2.75.0 public source version"
+      ],
+      "limitations": [
+        "no npm install"
+      ]
+    },
+    {
+      "id": "INT32",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/oauth/src/createPublicOauthClient.ts",
+      "title": "OSDK — createPublicOauthClient",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_source",
+      "commit": "dec2ee4b637a23e1b7e56fb0f50599386301c930",
+      "supports": [
+        "options overload",
+        "default scopes omit aip-agents scopes",
+        "public client token provider"
+      ],
+      "limitations": [
+        "no credential read / auth execution"
+      ]
+    },
+    {
+      "id": "INT33",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/queries/types.ts",
+      "title": "OSDK — QuerySignatureFromDef",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_source",
+      "commit": "dec2ee4b637a23e1b7e56fb0f50599386301c930",
+      "supports": [
+        "generated executeFunction signatures"
+      ],
+      "limitations": [
+        "specific chatbot Function signature unavailable without generated tenant SDK"
+      ]
+    },
+    {
+      "id": "INT34",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/createClient.test.ts",
+      "title": "OSDK — createClient tests",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_source",
+      "commit": "dec2ee4b637a23e1b7e56fb0f50599386301c930",
+      "supports": [
+        "URL/client metadata test assets"
+      ],
+      "limitations": [
+        "read only not executed"
+      ]
+    },
+    {
+      "id": "INT35",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/queries/queries.test.ts",
+      "title": "OSDK — Query tests",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_source",
+      "commit": "dec2ee4b637a23e1b7e56fb0f50599386301c930",
+      "supports": [
+        "faux Foundry executeFunction coverage"
+      ],
+      "limitations": [
+        "not Chatbot or real permission tests; not run"
+      ]
+    },
+    {
+      "id": "INT36",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/client/src/createPlatformClient.ts",
+      "title": "OSDK — createPlatformClient",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_source",
+      "commit": "dec2ee4b637a23e1b7e56fb0f50599386301c930",
+      "supports": [
+        "standalone PlatformClient signature",
+        "reuse existing OSDK client"
+      ],
+      "limitations": [
+        "not an authorization bypass"
+      ]
+    },
+    {
+      "id": "INT37",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react-components/src/aip-agent-chat/AipAgentChat.tsx",
+      "title": "OSDK React — AipAgentChat",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_source",
+      "commit": "dec2ee4b637a23e1b7e56fb0f50599386301c930",
+      "supports": [
+        "foundryModel/useChat LMS transport",
+        "no Studio Sessions invocation"
+      ],
+      "limitations": [
+        "experimental component name does not imply Studio Chatbot"
+      ]
+    },
+    {
+      "id": "INT38",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react-components/src/aip-agent-chat/AipAgentChatApi.ts",
+      "title": "OSDK React — AipAgentChat props",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_source",
+      "commit": "dec2ee4b637a23e1b7e56fb0f50599386301c930",
+      "supports": [
+        "PlatformClient/model rather than Chatbot RID/session params"
+      ],
+      "limitations": [
+        "experimental"
+      ]
+    },
+    {
+      "id": "INT39",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react/src/aip/useChat.ts",
+      "title": "OSDK React — useChat",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_source",
+      "commit": "dec2ee4b637a23e1b7e56fb0f50599386301c930",
+      "supports": [
+        "text-only v0",
+        "no tools/multi-step loops/stream resume",
+        "custom transport"
+      ],
+      "limitations": [
+        "not out-of-box Studio Session adapter"
+      ]
+    },
+    {
+      "id": "INT40",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react/src/aip/chatStream.ts",
+      "title": "OSDK React — chatStream",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_source",
+      "commit": "dec2ee4b637a23e1b7e56fb0f50599386301c930",
+      "supports": [
+        "transport abortSignal handling"
+      ],
+      "limitations": [
+        "distinct from Studio Sessions.cancel"
+      ]
+    },
+    {
+      "id": "INT41",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react-components/src/aip-agent-chat/BaseAipAgentChat.tsx",
+      "title": "OSDK React — BaseAipAgentChat",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_source",
+      "commit": "dec2ee4b637a23e1b7e56fb0f50599386301c930",
+      "supports": [
+        "state and callback props can host custom adapter"
+      ],
+      "limitations": [
+        "adapter recommendation not implemented/tested"
+      ]
+    },
+    {
+      "id": "INT42",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react-components/src/aip-agent-chat/__tests__/AipAgentChat.test.tsx",
+      "title": "OSDK React — AipAgentChat wrapper tests",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_source",
+      "commit": "dec2ee4b637a23e1b7e56fb0f50599386301c930",
+      "supports": [
+        "wrapper behavior remains it.todo"
+      ],
+      "limitations": [
+        "not executed; not Chatbot test"
+      ]
+    },
+    {
+      "id": "INT43",
+      "url": "https://github.com/palantir/osdk-ts/blob/dec2ee4b637a23e1b7e56fb0f50599386301c930/packages/react/src/aip/useChat.test.tsx",
+      "title": "OSDK React — useChat tests",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_source",
+      "commit": "dec2ee4b637a23e1b7e56fb0f50599386301c930",
+      "supports": [
+        "mock transport stream/error/stop/resume test assets"
+      ],
+      "limitations": [
+        "not executed; not Studio tools/auth test"
+      ]
+    },
+    {
+      "id": "INT44",
+      "url": "https://github.com/palantir/osdk-ts/pull/320",
+      "title": "Foundry SDK Improvements",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_pr",
+      "merged_date": "2024-05-14",
+      "supports": [
+        "SharedClient compatibility",
+        "tokenProvider Promise contract"
+      ],
+      "limitations": [
+        "historical PR; current code authoritative"
+      ]
+    },
+    {
+      "id": "INT45",
+      "url": "https://github.com/palantir/osdk-ts/pull/380",
+      "title": "Introduce createPlatformClient",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_pr",
+      "merged_date": "2024-06-07",
+      "supports": [
+        "standalone platform client history"
+      ],
+      "limitations": [
+        "historical PR"
+      ]
+    },
+    {
+      "id": "INT46",
+      "url": "https://github.com/palantir/osdk-ts/pull/3932",
+      "title": "Bump @osdk/foundry.* to 2.75.0 + Add support for streaming queries w/ SSE",
+      "retrieved_date_utc": "2026-10-01",
+      "source_type": "official_public_pr",
+      "merged_date": "2026-08-24",
+      "supports": [
+        "SSE streaming Function queries history"
+      ],
+      "limitations": [
+        "not Chatbot streamingContinue; author tests not our tests"
+      ]
+    },
+    {
+      "id": "I-fixed-eos-baseline",
+      "title": "已公开 EOS 历史静态对照（固定048108bf提交）",
+      "url": "https://github.com/501981732/palantir-research/blob/048108bf2f01cacac40f6ef72bf96e37dca686f4/research/workshop-runtime-2026-10/eos-comparison/README.md",
+      "source_type": "public_historical_research",
+      "retrieved_date_utc": "2026-10-02",
+      "supports": [
+        "EOS历史静态基线与建议边界"
+      ],
+      "limitations": [
+        "非当前内部代码或部署实测"
+      ]
+    }
+  ],
+  "historical_baselines": [
+    {
+      "path": "research/workshop-runtime-2026-10/data-actions-versioning.md",
+      "supports": [
+        "published Workshop AIP/state/version comparison"
+      ],
+      "limitation": "historical public research, not a new runtime test"
+    },
+    {
+      "path": "research/workshop-runtime-2026-10/eos-comparison/README.md",
+      "supports": [
+        "published EOS historical comparison"
+      ],
+      "limitation": "not a current internal code audit"
+    },
+    {
+      "path": "research/osdk-react-components-2026-09/README.md",
+      "supports": [
+        "published LMS component vs agent runtime boundary"
+      ],
+      "limitation": "historical simulated chat image not used as Studio evidence"
+    }
+  ],
+  "failed_retrievals": [],
+  "local_checks": {
+    "method": "Local files and fixed public source line-anchor validation only; no remote HTTP link audit or runtime test",
+    "fixed_source_links_validated": 106,
+    "relative_file_links_validated": 6,
+    "json_sources": 46,
+    "problems": [],
+    "application_integration_sha256": "69d82e477f746ffe3038aabb02ed961cc11c699698fa47d9b8b6aaccb8a52838"
+  }
+}
