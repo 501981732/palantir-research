@@ -97,7 +97,7 @@ sequenceDiagram
     participant C as Published widget.client
     participant B as Injected API bridge
     participant H as Workshop host (closed source)
-    W->>C: subscribe(); ready()
+    W->>C: subscribe()、ready()
     C->>B: widget.ready {apiVersion: "1.0.0"}
     B-->>H: Runtime transport (not audited)
     H-->>B: Parameter state (host behavior not audited)
