@@ -192,30 +192,6 @@
       "bytes": 8153,
       "sha256": "2967d29c781442be3dd09ba855476902cecfd7486e626488e27123921653d407",
       "explanation": "BaseForm 必填 False 拒绝状态的局部；同页 optional False 正例由断言/DOM复核，无 Foundry/Action"
-    },
-    {
-      "file": "assets/ai-pilot-components.svg",
-      "kind": "本仓库研究概念图（Mermaid 源码离线渲染）",
-      "originalURL": "https://github.com/501981732/palantir-research/blob/main/research/osdk-react-components-2026-09/assets/ai-pilot-components.mmd",
-      "sourcePage": "https://github.com/501981732/palantir-research/blob/main/research/osdk-react-components-2026-09/origins-and-eos.md",
-      "retrievedUTC": "2026-10-08",
-      "width": 1708.484375,
-      "height": 177.77969360351562,
-      "bytes": 22972,
-      "sha256": "e166ecc886132f78fc858299c43e4211a0d17a72a731d80b945bf8aa7a5d7b14",
-      "explanation": "AI / Pilot 与领域组件的概念关系；沿用原图节点与连线，不新增研究结论"
-    },
-    {
-      "file": "assets/eos-component-assets.svg",
-      "kind": "本仓库研究概念图（Mermaid 源码离线渲染）",
-      "originalURL": "https://github.com/501981732/palantir-research/blob/main/research/osdk-react-components-2026-09/assets/eos-component-assets.mmd",
-      "sourcePage": "https://github.com/501981732/palantir-research/blob/main/research/osdk-react-components-2026-09/origins-and-eos.md",
-      "retrievedUTC": "2026-10-08",
-      "width": 1117.9765625,
-      "height": 557.3187255859375,
-      "bytes": 29056,
-      "sha256": "0e2bbe7982ccf018a44ea296ec20a50874817b311990967b3920db3927ddd88c",
-      "explanation": "EOS 组件资产与宿主的概念关系；沿用原图节点与连线，不新增研究结论"
     }
   ]
 }

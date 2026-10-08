@@ -1,6 +1,6 @@
 # 图片资产与逐图说明
 
-获取日：2026-10-01 UTC。所有本地图像为真实来源，不含 AI 合成图。官方公告原图、Storybook 实拍、本地 mock、本仓库研究概念图分别标记；不含生产 Ontology 数据。Storybook 是当日动态部署，不能把部署分支的 ref 当成 npm 0.61.0 build source。UI 行为另由发布源码核验。
+获取日：2026-10-01 UTC。所有本地图像为真实来源，不含 AI 合成图。官方公告原图、Storybook 实拍、本地 mock 分别标记；不含生产 Ontology 数据。Storybook 是当日动态部署，不能把部署分支的 ref 当成 npm 0.61.0 build source。UI 行为另由发布源码核验。
 
 图片用于解释组件研究，未声明图片/商标随源码 Apache-2.0 一并许可。公告/产品界面归 Palantir，mock fixture 归其来源作者；PDF截图含论文 *Trace-based Just-in-Time Type Specialization for Dynamic Languages*（Andreas Gal 等，PLDI 2009）首面局部，归原作者/出版方，不镜像论文。官方 [fixture](https://palantir.github.io/osdk-ts/storybook/compressed.tracemonkey-pldi-09.pdf) 和 [使用位置](https://github.com/palantir/osdk-ts/blob/37cfd38676bf04edaef5847e929d914ea214c149/packages/react-components-storybook/src/stories/DocumentViewer/DocumentViewer.stories.tsx#L26-L95) 可复核。代码许可不替代这些素材归属。
 
@@ -214,29 +214,3 @@ BaseForm 必填 False 拒绝状态的局部；同页 optional False 正例由断
 - 尺寸：418 × 235；大小：8,153 bytes
 - SHA-256：`2967d29c781442be3dd09ba855476902cecfd7486e626488e27123921653d407`
 
-
-## assets/ai-pilot-components.svg
-
-![AI / Pilot 与领域组件的概念关系](assets/ai-pilot-components.svg)
-
-- 类型：本仓库研究概念图，非产品截图；沿用原图节点与连线。
-- 原始 URL / 生成入口：[Mermaid 源码](assets/ai-pilot-components.mmd)
-- 来源页面：[组件来源与 EOS 研究](origins-and-eos.md)
-- 生成日期：2026-10-08 UTC
-- 工具：`@mermaid-js/mermaid-cli 11.12.0`；关闭 HTML 标签，使用原生 SVG 文本。
-- 重新生成：`mmdc -i assets/ai-pilot-components.mmd -o assets/ai-pilot-components.svg -b white`
-- 尺寸：1708.484375 × 177.77969360351562；大小：22,972 bytes
-- SHA-256：`e166ecc886132f78fc858299c43e4211a0d17a72a731d80b945bf8aa7a5d7b14`
-
-## assets/eos-component-assets.svg
-
-![EOS 组件资产与宿主的概念关系](assets/eos-component-assets.svg)
-
-- 类型：本仓库研究概念图，非产品截图；沿用原图节点与连线。
-- 原始 URL / 生成入口：[Mermaid 源码](assets/eos-component-assets.mmd)
-- 来源页面：[组件来源与 EOS 研究](origins-and-eos.md)
-- 生成日期：2026-10-08 UTC
-- 工具：`@mermaid-js/mermaid-cli 11.12.0`；关闭 HTML 标签，使用原生 SVG 文本。
-- 重新生成：`mmdc -i assets/eos-component-assets.mmd -o assets/eos-component-assets.svg -b white`
-- 尺寸：1117.9765625 × 557.3187255859375；大小：29,056 bytes
-- SHA-256：`0e2bbe7982ccf018a44ea296ec20a50874817b311990967b3920db3927ddd88c`
