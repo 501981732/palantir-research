@@ -56,17 +56,9 @@
 
 MCP 文档的 OsdkProvider2 等名称可能带历史 API 痕迹；这里只引用其工具能力与可选组件说明，实际代码仍按本次 2.75.0 公共入口核验。未合并 #3346 与上述已经公开的 MCP 工具不是同一份已发布实现，不能混为一谈。
 
-```mermaid
-flowchart LR
-  SPEC[组件 API / AGENTS / 示例] --> AI[Pilot / AI 开发辅助]
-  MCP[MCP 文档发现与可选迁移] --> AI
-  AI --> CODE[React props / hooks / 组合代码]
-  CODE --> UI[共同领域组件与主题]
-  TEST[Pilot 测试反馈 #2915] --> SPEC
-  UI --> APP[独立应用]
-  UI --> ADAPT[Custom Widget host adapter]
-  ADAPT --> WS[Workshop]
-```
+![AI / Pilot 与领域组件的概念关系](assets/ai-pilot-components.svg)
+
+[查看或编辑 Mermaid 源码](assets/ai-pilot-components.mmd)
 
 图是已核事实支持的概念关系，不是 Palantir 私有服务网络或每次生成调用时序。**工程推断：** 这样的循环有利于减少 AI 反复重写分页、facet、Action loading/errors、主题和对象类型接线，让“生成应用”更多变成受约束组合。这也解释为什么统一高码并不需要所有 UI 使用单一 DSL：公共语义和数据契约可以保留 React、各种渲染引擎与不同宿主。
 
@@ -74,19 +66,9 @@ flowchart LR
 
 以下为建议，未在 EOS 项目执行。
 
-```mermaid
-flowchart TD
-  CONTRACT[EOS 类型化领域契约: EntitySet / query / Action / media / capabilities] --> DATA[EOS React 数据层: cache / subscriptions / mutations]
-  COMMON[commonUI: tokens / 原语 / focus / portals] --> DOMAIN[领域组件: EntityTable / FilterList / ActionForm / Viewer]
-  DATA --> DOMAIN
-  SPEC[同一组件规范: props / config / defaults / events / limits / examples] --> DOMAIN
-  SPEC --> AI[AI 提示与生成 + type/runtime/交互验证]
-  SPEC --> EDITOR[低码属性面板与配置校验]
-  DOMAIN --> HIGH[高码 React 页面]
-  DOMAIN --> HOST[Workshop host adapter]
-  EDITOR --> HOST
-  HOST --> LOW[EOS Workshop runtime]
-```
+![EOS 组件资产与宿主的概念关系](assets/eos-component-assets.svg)
+
+[查看或编辑 Mermaid 源码](assets/eos-component-assets.mmd)
 
 1. **commonUI 保持自有通用边界。** 不让普通按钮或弹窗依赖 Foundry；可以与领域组件共享 tokens、focus、portal 策略，但以长期 API 和可访问性为目标。
 2. **领域和数据层有统一契约。** 自主后端需要明确 Entity identity / query AST / aggregate / Action validation / edits / media / capabilities。Zustand/Jotai 放本地 UI 状态，服务器实体缓存集中管理，避免三个宿主各自复制对象。

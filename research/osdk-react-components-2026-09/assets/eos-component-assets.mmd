@@ -1,0 +1,14 @@
+%%{init: {"htmlLabels": false, "flowchart": {"htmlLabels": false}, "fontFamily": "Arial, sans-serif"}}%%
+flowchart TD
+  accTitle: EOS 组件资产与宿主的概念关系
+  accDescr: 领域契约、React 数据层、commonUI 与组件规范支持领域组件，并用于高码 React 页面和低码 Workshop 宿主。
+  CONTRACT["EOS 类型化领域契约: EntitySet / query / Action / media / capabilities"] --> DATA["EOS React 数据层: cache / subscriptions / mutations"]
+  COMMON["commonUI: tokens / 原语 / focus / portals"] --> DOMAIN["领域组件: EntityTable / FilterList / ActionForm / Viewer"]
+  DATA --> DOMAIN
+  SPEC["同一组件规范: props / config / defaults / events / limits / examples"] --> DOMAIN
+  SPEC --> AI["AI 提示与生成 + type/runtime/交互验证"]
+  SPEC --> EDITOR["低码属性面板与配置校验"]
+  DOMAIN --> HIGH["高码 React 页面"]
+  DOMAIN --> HOST["Workshop host adapter"]
+  EDITOR --> HOST
+  HOST --> LOW["EOS Workshop runtime"]
